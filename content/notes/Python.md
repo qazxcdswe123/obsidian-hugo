@@ -1,6 +1,3 @@
----
-title: Python
----
 [[Python Module]]
 [[Python Anaconda]]
 [[Python Numpy Overview]]

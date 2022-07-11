@@ -1,6 +1,3 @@
----
-title: Amortized analysis
----
 [Wiki](https://en.wikipedia.org/wiki/Amortized_analysis)
 [Cornell University](http://www.cs.cornell.edu/courses/cs3110/2011sp/Lectures/lec20-amortized/amortized.htm)
 [[Hash Table]]

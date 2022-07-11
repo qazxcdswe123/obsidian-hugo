@@ -1,6 +1,3 @@
----
-title: Stack Data Structure
----
 #Data-structure 
 Similar with: [[Queue 队列]]
 LIFO

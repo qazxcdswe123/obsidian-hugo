@@ -1,6 +1,3 @@
----
-title: Linux Command Modern Alternative
----
 ## fd
 `fd --extension txt`
 

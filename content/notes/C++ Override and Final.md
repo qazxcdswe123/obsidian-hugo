@@ -1,6 +1,3 @@
----
-title: C++ Override and Final
----
 [Src](https://en.cppreference.com/w/cpp/language/override)
 [Stackoverflow]( https://stackoverflow.com/questions/29412412/does-final-imply-override)
 

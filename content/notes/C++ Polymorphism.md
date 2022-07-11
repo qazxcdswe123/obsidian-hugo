@@ -1,6 +1,3 @@
----
-title: C++ Polymorphism
----
 [[C++ Override and Final]]
 # Virtual
 ## Pure Virtual

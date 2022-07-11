@@ -1,6 +1,3 @@
----
-title: MineCraft
----
 # Download
 ## Client
 [Multimc](https://multimc.org/)

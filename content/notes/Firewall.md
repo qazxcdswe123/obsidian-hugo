@@ -1,6 +1,3 @@
----
-title: Firewall
----
 # nftables
 
 # ip

@@ -1,6 +1,3 @@
----
-title: C++
----
 #Programming/C 
 [[Object-oriented Programming (OOP) in C++]]
 

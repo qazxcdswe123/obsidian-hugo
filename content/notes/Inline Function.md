@@ -1,6 +1,3 @@
----
-title: Inline Function
----
 
 [IBM]()
 # General

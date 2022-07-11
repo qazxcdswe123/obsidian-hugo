@@ -1,6 +1,3 @@
----
-title: Left Leaning Red Black Tree 左倾红黑树
----
 [Jaca Code](https://algs4.cs.princeton.edu/33balanced/RedBlackBST.java.html)
 # Properties
 1. Represent [[2-3-4 Tree]] as a [[BST 二叉搜索树]].

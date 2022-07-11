@@ -1,6 +1,3 @@
----
-title: Python Namespace
----
 #Programming/Python
 # Example
 ```python

@@ -1,6 +1,3 @@
----
-title: systemd
----
 [ArchLinux Wiki](https://wiki.archlinux.org/title/Systemd)
 # Location
 `/etc/systemd/system`

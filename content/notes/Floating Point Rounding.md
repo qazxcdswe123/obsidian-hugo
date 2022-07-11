@@ -1,6 +1,3 @@
----
-title: Floating Point Rounding
----
 The IEEE floating-point format defines four different rounding modes.
 
 ## Round-to-even (round-to-nearest)

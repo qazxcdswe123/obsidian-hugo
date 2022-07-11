@@ -1,6 +1,3 @@
----
-title: Python Built-in Functions
----
 # print
 ```python
 for i in range(4):

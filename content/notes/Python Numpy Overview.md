@@ -1,6 +1,3 @@
----
-title: Python Numpy Overview
----
 [[Python Numpy ndarray]]
 # Visual Guide
 [Medium](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)

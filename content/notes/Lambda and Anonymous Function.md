@@ -1,6 +1,3 @@
----
-title: Lambda and Anonymous Function
----
 > In computer programming, an anonymous function (function literal, lambda abstraction, lambda function, lambda expression or block) is a function definition that is not bound to an identifier. [Wikipedia](https://en.wikipedia.org/wiki/Anonymous_function)
 > Use lambda functions when an anonymous function is required for a short period of time.
 > has no name but takes in some argument or arguments, and returns a value immediately.

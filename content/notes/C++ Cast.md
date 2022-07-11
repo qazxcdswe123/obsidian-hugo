@@ -1,6 +1,3 @@
----
-title: C++ Cast
----
 # static_cast
 Converts between types using a combination of implicit and user-defined conversions. 
 [cppref](https://en.cppreference.com/w/cpp/language/static_cast)

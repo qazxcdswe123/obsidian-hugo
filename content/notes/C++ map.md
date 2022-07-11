@@ -1,6 +1,3 @@
----
-title: C++ map
----
 [[C++ Iterator]]
 -   [begin()](https://www.geeksforgeeks.org/mapbegin-end-c-stl/) – Returns an iterator to the first element in the map.
 -   [end()](https://www.geeksforgeeks.org/mapbegin-end-c-stl/) – Returns an iterator to the theoretical element that follows the last element in the map.

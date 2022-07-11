@@ -1,6 +1,3 @@
----
-title: C++ this pointer
----
 - `this` 
 It's a pointer
 You can use keyword "`this`" to refer to _this_ instance inside a class definition.

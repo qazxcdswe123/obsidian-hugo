@@ -1,6 +1,3 @@
----
-title: C++ Deque
----
 - Deque
 ```cpp
 #include <deque>

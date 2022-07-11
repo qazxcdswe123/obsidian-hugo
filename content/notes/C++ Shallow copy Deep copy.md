@@ -1,6 +1,3 @@
----
-title: C++ Shallow copy Deep copy
----
 [Copy constructor](https://www.geeksforgeeks.org/shallow-copy-and-deep-copy-in-c/)
 Creating a copy of object by copying data of all member variables as it is, is called **shallow copy** 
 while creating an object by copying data of another object along with the values of memory resources resides outside the object but handled by that object, is called **deep copy**.

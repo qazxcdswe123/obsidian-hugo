@@ -1,6 +1,3 @@
----
-title: pointer 指针
----
 #Programming/C
 [[C语言重点——指针篇（一篇让你完全搞懂指针）]]
 # * 在 int 后还是数值前

@@ -1,6 +1,3 @@
----
-title: SCNU WIFI
----
 修改 [https://www.cnblogs.com/huxiaoan/p/14986211.html#3-passwordmac%E5%92%8Cencryptedpassword](https://www.cnblogs.com/huxiaoan/p/14986211.html#3-passwordmac%E5%92%8Cencryptedpassword)
 1. 从 123.123.123.123 获取querystr
 

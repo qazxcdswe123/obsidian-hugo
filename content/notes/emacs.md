@@ -1,6 +1,3 @@
----
-title: emacs
----
 [[Spacemacs]]
 ```
 C-f	Move forward a character

@@ -1,6 +1,3 @@
----
-title: IO
----
 #Programming/Misc 
 
 Every stream in C++ is tied to an output stream, which can be `null`.

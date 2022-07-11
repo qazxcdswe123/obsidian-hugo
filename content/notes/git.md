@@ -1,6 +1,3 @@
----
-title: git
----
 # git
 ## commit
 附加修改提交信息

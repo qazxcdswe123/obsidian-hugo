@@ -1,6 +1,3 @@
----
-title: Python Class OOP
----
 [Src](https://docs.python.org/3/tutorial/classes.html)
 [[Python Namespace]]
 

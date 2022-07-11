@@ -1,6 +1,3 @@
----
-title: Reading Alone
----
 [The guardian](https://www.theguardian.com/books/2015/jun/10/top-10-books-about-being-alone)
 [Reddit](https://www.reddit.com/r/books/comments/o0gad1/reading_is_lonely/)
 

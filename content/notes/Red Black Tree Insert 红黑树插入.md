@@ -1,6 +1,3 @@
----
-title: Red Black Tree Insert 红黑树插入
----
 # Implementation
 ## Rotation
 **Left rotate**: 2 nodes with 3 childrens, childrens have same relative postion, and move underneath nodes from right child to left child. Exchange the 2 nodes.

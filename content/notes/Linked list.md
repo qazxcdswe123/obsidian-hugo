@@ -1,6 +1,3 @@
----
-title: Linked list
----
 
 - -> 其实是 (\*pointer).value
 - C++ 中有 [[Vector]] ，效果几乎相同，效率和数组相似

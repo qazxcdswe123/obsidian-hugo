@@ -1,6 +1,3 @@
----
-title: Python Pandas
----
 [[Python Numpy Overview]]
 # Series
 [Docs](https://pandas.pydata.org/docs/reference/api/pandas.Series.html)

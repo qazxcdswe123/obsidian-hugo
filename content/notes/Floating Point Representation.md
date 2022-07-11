@@ -1,7 +1,4 @@
 ---
-title: Floating Point Representation
----
----
 aliases: [ieee]
 tags: [Programming/Misc, Public] 
 ---

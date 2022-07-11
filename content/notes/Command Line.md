@@ -1,6 +1,3 @@
----
-title: Command Line
----
 [[Linux Command Modern Alternative]]
 [[Manjaro]]
 [[Command-line Environment · the missing semester of your cs education]]

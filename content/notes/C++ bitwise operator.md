@@ -1,6 +1,3 @@
----
-title: C++ bitwise operator
----
 | Operator | Function    |
 | -------- | ----------- |
 | ~        | bitwise NOT |

@@ -1,6 +1,3 @@
----
-title: Front End
----
 [[Bootstrap]]
 [[Font Awesome]]
 

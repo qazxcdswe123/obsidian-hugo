@@ -1,7 +1,4 @@
----
-title: Manjaro
----
-Parents:: [[Linux]]
+[[Linux]]
 # System customization
 `echo 'blacklist pcspkr' | sudo tee --append /etc/modprobe.d/nobeep.conf` to get rid of the beep sound
 

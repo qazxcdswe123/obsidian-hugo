@@ -1,6 +1,3 @@
----
-title: Divide and Conquer 分治法
----
 - Definition
 Divide: subproblem that are smaller instances of the **same problem**
 Conquer: Solve subproblems **recursively**, "bottoms out" at the smallest subproblem 

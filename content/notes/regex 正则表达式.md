@@ -1,6 +1,3 @@
----
-title: regex 正则表达式
----
 - nfa dfa [[Todo]]
 - [nfa and dfa](https://www.geeksforgeeks.org/difference-between-dfa-and-nfa/)
 

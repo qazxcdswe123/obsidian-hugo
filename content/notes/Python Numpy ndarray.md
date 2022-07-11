@@ -1,6 +1,3 @@
----
-title: Python Numpy ndarray
----
 - ndarray.ndim
 	- The number of axes (dimensions) of the array.
 - ndarray.shape

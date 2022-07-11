@@ -1,6 +1,3 @@
----
-title: JavaScript Data
----
 # Data
 Let's start off by looking at the building blocks of any language: the types. JavaScript programs manipulate values, and those values all belong to a type. JavaScript's types are:
 -   [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)

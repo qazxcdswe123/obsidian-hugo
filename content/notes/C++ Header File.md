@@ -1,6 +1,3 @@
----
-title: C++ Header File
----
 [[C++ STL]]
 # iomanip
 `std::cout << std::setw(5) << std::setfill('0') << zipCode << std::endl`

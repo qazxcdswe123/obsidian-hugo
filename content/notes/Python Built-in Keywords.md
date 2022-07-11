@@ -1,6 +1,3 @@
----
-title: Python Built-in Keywords
----
 ![](https://s2.loli.net/2022/03/21/Lc4jV5OZUEBYaIk.png)
 # with
 We can use the `with` keyword, which will close the file for us after we’re finished:

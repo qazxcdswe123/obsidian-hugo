@@ -1,6 +1,3 @@
----
-title: BST 二叉搜索树
----
 #Data-structure 
 - Definition
 	- successor

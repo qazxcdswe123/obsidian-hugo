@@ -1,6 +1,3 @@
----
-title: Pager
----
 [3 pager](https://www.baeldung.com/linux/more-less-most-commands)
 
 - less  

@@ -1,6 +1,3 @@
----
-title: Master Theorem 主定理
----
 For $a,b \geq 1$ and equation $T(n) = aT(n/b) + f(n)$
 1. If $f(n) = O(n^ {\log_b {a} -\epsilon })$ , then $T(n) = \Theta(n^{\log_b a})$ for constant $\epsilon > 0$
 2. If $f(n) = \Theta(n^{log_b a})$ , then $T(n) = \Theta(n^{\log_b a} \lg n)$

@@ -1,6 +1,3 @@
----
-title: C++ Template
----
 [Src](https://www.geeksforgeeks.org/templates-cpp/)
 [ntu](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp8_Template.html)
 # Function Template

@@ -1,6 +1,3 @@
----
-title: Python Statement
----
 # Match
 ```python
 class Point:

@@ -1,6 +1,3 @@
----
-title: The_Lesson_Of_Unlearn
----
 听 3B1B Podcast 时，听到 Co-host 说他们的老师 "Would rather have someone have all the understanding and got C but not someone who grind hard to get an A"，我也有一些感想。
 也从数学说起，想起来一次课，来迟了，坐在最后一排，基本没听，因为发现自己只要记住这节课老师讲的那几个结论，能解题，似乎就够了，我是真觉得自己可悲。
 相对来说，我的老师还是非常值得尊敬的，

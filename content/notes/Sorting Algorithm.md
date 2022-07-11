@@ -1,6 +1,3 @@
----
-title: Sorting Algorithm
----
 [[Heap Sort]]
 [[Merge Sort]]
 [[Bucket sort]]

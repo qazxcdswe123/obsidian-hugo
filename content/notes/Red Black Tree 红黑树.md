@@ -1,6 +1,3 @@
----
-title: Red Black Tree 红黑树
----
 Simpler Version LLRBT [[Left Leaning Red Black Tree 左倾红黑树]]
 Evaluated from: [[B-Tree]] [[2-3-4 Tree]]
 

@@ -1,6 +1,3 @@
----
-title: bias
----
 [[Floating Point Representation]]
 [Exponent bias - Wikipedia](https://en.wikipedia.org/wiki/Exponent_bias)
 the value stored is offset from the actual value by the **exponent bias**, also called a **biased exponent**

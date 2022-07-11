@@ -1,6 +1,3 @@
----
-title: XPath
----
 [[CSS Selector]]
 In XPath, there are seven kinds of nodes: element, attribute, text, namespace, processing-instruction, comment, and document nodes.
 ## Relationship of Nodes

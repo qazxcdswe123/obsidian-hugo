@@ -1,6 +1,3 @@
----
-title: Python Special Variable
----
 Source: [https://stackoverflow.com/questions/419163/what-does-if-name-main-do](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
 ## Special Variables
 When the Python interpreter reads a source file, it first defines a few special variables. 

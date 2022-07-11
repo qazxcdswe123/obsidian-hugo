@@ -1,6 +1,3 @@
----
-title: SQL Command
----
 [https://sqlbolt.com/](https://sqlbolt.com/)
 # queries
 ## SELECT

@@ -1,6 +1,3 @@
----
-title: Database
----
 # Relational databases
 - In SQL, we choose the types of data that each column will store.
 - check the schema, or design, of our new table with `.schema`

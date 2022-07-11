@@ -1,6 +1,3 @@
----
-title: docker
----
 
 [ArchLinux Wiki](https://wiki.archlinux.org/title/docker#Installation)
 [[systemd]]

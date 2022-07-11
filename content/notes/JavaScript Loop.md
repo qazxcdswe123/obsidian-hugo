@@ -1,6 +1,3 @@
----
-title: JavaScript Loop
----
 JavaScript's [`for` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) is the same as that in C and Java: it lets you provide the control information for your loop on a single line.
 ```
 for (let i = 0; i < 5; i++) {

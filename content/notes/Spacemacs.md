@@ -1,6 +1,3 @@
----
-title: Spacemacs
----
 [From VIM](https://develop.spacemacs.org/doc/VIMUSERS.html)
 ## Mode and State
 In vim you have various editing modes like `insert mode` and `visual mode` to manipulate text. In Emacs, we have [states](https://develop.spacemacs.org/doc/DOCUMENTATION.html#states). These are equivalent to vim modes. For example, `evil-insert-state` is the same as `insert-mode` in vim.

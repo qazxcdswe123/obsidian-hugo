@@ -1,6 +1,3 @@
----
-title: Python Datatypes and Storage
----
 [https://www.w3schools.com/python/python_datatypes.asp](https://www.w3schools.com/python/python_datatypes.asp)
 - Text Type
 	- `str`

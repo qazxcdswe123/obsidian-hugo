@@ -1,6 +1,3 @@
----
-title: Color Scheme
----
 ## [[Vim]]
 `NLKNguyen/papercolor-theme`
 

@@ -1,6 +1,3 @@
----
-title: Python User-Defined Function
----
 [[Python Built-in Functions]]
 # parameters
 [Src](https://docs.python.org/3/tutorial/controlflow.html#special-parameters)

@@ -1,6 +1,3 @@
----
-title: Queue 队列
----
 #Data-structure 
 # Queue
 Similar with [[Stack Data Structure]]

@@ -1,6 +1,3 @@
----
-title: Gradient Vector 梯度向量
----
 
 Theorem: $\nabla w\perp$ level curve
 $\nabla w = <\frac {\partial w} {\partial x}, \frac {\partial w} {\partial y}>$

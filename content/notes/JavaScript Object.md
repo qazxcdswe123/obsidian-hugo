@@ -1,6 +1,3 @@
----
-title: JavaScript Object
----
 [[JavaScript Array]]
 [[JavaScript Map And Set]]
 [Src](https://zh.javascript.info/object)

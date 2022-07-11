@@ -1,6 +1,3 @@
----
-title: JavaScript Number Function
----
 - `parseInt`
 You can convert a string to an integer using the built-in [`parseInt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) function. This takes the base for the conversion as an optional second argument, which you should always provide:
 ```javascript

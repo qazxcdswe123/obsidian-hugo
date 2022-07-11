@@ -1,6 +1,3 @@
----
-title: Knight problem
----
 # DFS
 ```c++
 #include <bits/stdc++.h>

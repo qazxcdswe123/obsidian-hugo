@@ -1,6 +1,3 @@
----
-title: Python Error and Exceptions
----
 [Src](https://docs.python.org/3/tutorial/errors.html)
 [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
 # Exceptions Handling

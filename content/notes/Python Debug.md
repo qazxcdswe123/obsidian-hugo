@@ -1,6 +1,3 @@
----
-title: Python Debug
----
 [pdb docs](https://docs.python.org/3/library/pdb.html)
 assert 
 # Try-catch

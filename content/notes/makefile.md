@@ -1,6 +1,3 @@
----
-title: makefile
----
 [[C++ OOP 面向对象]]
 [Src](https://seisman.github.io/how-to-write-makefile/introduction.html)
 ## 关于程序的编译和链接

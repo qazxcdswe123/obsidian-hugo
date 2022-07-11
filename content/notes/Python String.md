@@ -1,6 +1,3 @@
----
-title: Python String
----
 [[Python File]]
 
 # String Datatype

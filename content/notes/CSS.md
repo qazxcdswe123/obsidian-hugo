@@ -1,6 +1,3 @@
----
-title: CSS
----
 [[HTML Tag]]
 # MDN
 between head include

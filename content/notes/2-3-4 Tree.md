@@ -1,6 +1,3 @@
----
-title: 2-3-4 Tree
----
 src: [https://sedgewick.io/talks/#ll-red-black-trees](https://sedgewick.io/talks/#ll-red-black-trees) 
 Used in:[[Red Black Tree 红黑树]] [[Left Leaning Red Black Tree 左倾红黑树]]
 ## Definition

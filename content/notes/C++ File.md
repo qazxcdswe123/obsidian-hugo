@@ -1,6 +1,3 @@
----
-title: C++ File
----
 
 [GFG](https://www.geeksforgeeks.org/file-handling-c-classes/)
 [[C++ Header File]]

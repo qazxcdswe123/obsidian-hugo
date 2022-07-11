@@ -1,6 +1,3 @@
----
-title: Python Anaconda
----
 [Docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
 # Commands
 - Create

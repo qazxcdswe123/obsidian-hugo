@@ -1,6 +1,3 @@
----
-title: C++ Time Measuring
----
 - header : `<ctime>` or `<time.h>`
 ## Usage
 `clock_t` : Arithmetic (until C11)Real (since C11) type capable of representing the processor time used by a process. It has implementation-defined range and precision.

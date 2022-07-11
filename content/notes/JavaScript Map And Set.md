@@ -1,6 +1,3 @@
----
-title: JavaScript Map And Set
----
 [Src](https://zh.javascript.info/map-set)
 ```js
 let recipeMap = new Map([

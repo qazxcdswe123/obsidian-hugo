@@ -1,6 +1,3 @@
----
-title: ranger
----
 Parents:: [[Vim]]
 
 `zh` = show hidden

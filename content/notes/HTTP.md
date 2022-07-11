@@ -1,6 +1,3 @@
----
-title: HTTP
----
 -   `200 OK`
 -   `301 Moved Permanently`
 -   `302 Found`

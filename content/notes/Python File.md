@@ -1,6 +1,3 @@
----
-title: Python File
----
 # open()
 [Src](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 [`open()`](https://docs.python.org/3/library/functions.html#open "open") returns a [file object](https://docs.python.org/3/glossary.html#term-file-object), and is most commonly used with two positional arguments and one keyword argument: `open(filename, mode, encoding=None)`

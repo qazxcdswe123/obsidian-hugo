@@ -1,6 +1,3 @@
----
-title: JavaScript Array
----
 -  Filter
 [Src](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 The **`filter()`** method **creates a new array** with all elements that pass the test implemented by the provided function.

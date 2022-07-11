@@ -1,6 +1,3 @@
----
-title: Python Flask
----
 [CS50](https://cs50.harvard.edu/college/2022/spring/notes/9/)
 The `@` symbol in Python is called a **decorator**, which modifies a function.
 [[Flask Template]]

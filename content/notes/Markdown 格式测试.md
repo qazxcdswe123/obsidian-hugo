@@ -1,6 +1,3 @@
----
-title: Markdown 格式测试
----
 格式测试
 
 # H1
@@ -136,11 +133,7 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 Like links, Images also have a footnote style syntax
 
-![Alt text][id]
-
 With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTYzODc2NzkxMiw1ODI4ODc2MDcsLTc3MD

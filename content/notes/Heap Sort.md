@@ -1,6 +1,3 @@
----
-title: Heap Sort
----
 Using [[Heap data structure]]
 ```cpp
 void maxHeapify(int heap[], int index)

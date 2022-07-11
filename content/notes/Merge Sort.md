@@ -1,6 +1,3 @@
----
-title: Merge Sort
----
 - 原理
   先 Divide 到最小再 Conquer，所以调用方式中的 Merge 在最后
   Divide 无脑二分，Conquer 合并

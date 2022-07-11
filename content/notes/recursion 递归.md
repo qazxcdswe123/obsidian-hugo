@@ -1,6 +1,3 @@
----
-title: recursion 递归
----
 原理为 [[Stack Data Structure]]，先进后出，学名 [Call Stack 调用栈](https://en.wikipedia.org/wiki/Call_stack)
 递归要有 Base Case，并且一般是写在函数的最前头来看递归的终止条件
 

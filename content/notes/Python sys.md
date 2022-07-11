@@ -1,6 +1,3 @@
----
-title: Python sys
----
 [Src](https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts)
 [Docs](https://docs.python.org/3/library/sys.html)
 

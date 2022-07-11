@@ -1,6 +1,3 @@
----
-title: C++ Operator Overload
----
 - `++`
 -   The prefix function increments the `count`, and returns this object by reference.
 -   The postfix function saves the old value (by constructing a new instance with this object via the copy constructor), increments the `count`, and return the saved object by value.

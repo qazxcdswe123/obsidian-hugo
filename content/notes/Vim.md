@@ -1,7 +1,4 @@
 ---
-title: Vim
----
----
 aliases: []
 tags: [] 
 ---

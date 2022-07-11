@@ -1,6 +1,3 @@
----
-title: significand
----
 [Significand - Wikipedia](https://en.wikipedia.org/wiki/Significand)
 The significand (also mantissa or coefficient, sometimes also argument, or ambiguously fraction or characteristic is part of a number in scientific notation or in floating-point representation, consisting of its significant digits. Depending on the interpretation of the exponent, the significand may represent an integer or a fraction. 
 

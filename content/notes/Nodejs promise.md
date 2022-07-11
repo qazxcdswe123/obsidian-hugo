@@ -1,4 +1,1 @@
----
-title: Nodejs promise
----
 A promise is commonly defined as **a proxy for a value that will eventually become available**.

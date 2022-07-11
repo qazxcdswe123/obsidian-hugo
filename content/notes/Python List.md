@@ -1,6 +1,3 @@
----
-title: Python List
----
 [[Python Datatypes and Storage]]
 # List Basis
 `*args`

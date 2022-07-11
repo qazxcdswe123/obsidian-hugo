@@ -1,6 +1,3 @@
----
-title: C++ enum
----
 [https://www.geeksforgeeks.org/enumeration-enum-c](https://www.geeksforgeeks.org/enumeration-enum-c/)
 [https://www.programiz.com/c-programming/c-enumeration](https://www.programiz.com/c-programming/c-enumeration)
 [https://en.cppreference.com/w/cpp/language/enum](https://en.cppreference.com/w/cpp/language/enum)

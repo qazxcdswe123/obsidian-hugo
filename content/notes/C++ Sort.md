@@ -1,6 +1,3 @@
----
-title: C++ Sort
----
 # STL Sort
 
 ## sort()

@@ -1,6 +1,3 @@
----
-title: C++ OOP Inheritance 继承
----
 - Base and Derived Classes
 `class derived-class: access-specifier base-class`
 

@@ -1,6 +1,3 @@
----
-title: SSH Port Forwarding
----
 - Port Forwarding
 ![](https://s2.loli.net/2022/02/26/aPhA3gmXjLsvydc.png)
 ![](https://s2.loli.net/2022/02/26/LoCRuIBzfP8ivHX.png)

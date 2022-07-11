@@ -1,6 +1,3 @@
----
-title: HTML Element
----
 -   Things in the head tag are things that shouldn't be rendered: information about the page and how to process it.
 -   Things in the body tag are the things that should be displayed: the actual content.
 -   JavaScript in the body is executed as it is read and as the page is rendered.

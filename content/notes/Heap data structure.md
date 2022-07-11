@@ -1,6 +1,3 @@
----
-title: Heap data structure
----
 CLRS Chapter 6
 #Data-structure
 
