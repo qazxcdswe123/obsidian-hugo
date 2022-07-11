@@ -14,7 +14,8 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: parse
-        run: bash content/parse.sh
+        run: cd content/notes
+        run: bash parse.sh
 
       
       - name: Build Link Index
