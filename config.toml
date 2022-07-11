@@ -1,4 +1,4 @@
-baseURL = "https://qazxcdswe123.github.io/"
+baseURL = "https://qazxcdswe123.github.io/obsidian-hugo"
 languageCode = "zh-CN"
 googleAnalytics = ""
 pygmentsUseClasses = true
