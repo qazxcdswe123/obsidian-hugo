@@ -1,4 +1,5 @@
 ---
+title: NodeJS Package
 aliases: [npm, yarn, pnpm]
 ---
 # Package Manager
