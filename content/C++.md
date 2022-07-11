@@ -1,7 +1,7 @@
 #Programming/C 
 [[Object-oriented Programming (OOP) in C++]]
 
-[[C++ implicit conversion]] 
+[[C++ implicit conversion]]    
 [[C++ OOP 面向对象]]
 [[C++ Iterator]]
 [[C++ enum]]
