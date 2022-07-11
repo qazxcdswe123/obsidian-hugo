@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: parse
-        run: cd content/notes; bash parse.sh
+        run: cd content; bash parse.sh
       
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.13
