@@ -13,6 +13,10 @@ jobs:
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: parse
+        run: bash 
+
+      
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.13
         with:
@@ -36,4 +40,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: quartz.jzhao.xyz
