@@ -1,4 +1,7 @@
 ---
+title: obsidian
+---
+---
 title: "Obsidian Vault Integration"
 tags:
 - setup

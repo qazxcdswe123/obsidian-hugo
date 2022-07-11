@@ -1,0 +1,4 @@
+---
+title: dfs
+---
+[[Knight problem]]

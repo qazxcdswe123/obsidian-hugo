@@ -1,4 +1,7 @@
 ---
+title: setup
+---
+---
 title: "Setup"
 tags:
 - setup

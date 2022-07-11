@@ -1,0 +1,4 @@
+---
+title: hexo
+---
+#Life/Blog
