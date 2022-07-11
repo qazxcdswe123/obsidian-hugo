@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 ---
-[[02.Vim]]
+[[02-Vim]]
 [[ranger]]
 # Vim
 ## Text

@@ -4,10 +4,8 @@
 [Source](http://www.paulgraham.com/lesson.html)
 December 2019  
   
->The most damaging thing you learned in school wasn't something you learned in any specific class. It was learning to get good grades.  
+The most damaging thing you learned in school wasn't something you learned in any specific class. It was learning to get good grades.  
 
-学校最“毁人不倦”的，不是你上的某一门课，而是你去学习怎么取得好的成绩
-  
 When I was in college, a particularly earnest philosophy grad student once told me that he never cared what grade he got in a class, only what he learned in it. This stuck in my mind because it was the only time I ever heard anyone say such a thing.  
   
 For me, as for most students, the measurement of what I was learning completely dominated actual learning in college. I was fairly earnest; I was genuinely interested in most of the classes I took, and I worked hard. And yet I worked by far the hardest when I was studying for a test.  
