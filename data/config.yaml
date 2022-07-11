@@ -1,6 +1,6 @@
-name: Jacky Zhao
+name: Neil Chen
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -10,14 +10,14 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: false
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/qazxcdswe123/obsidian-hugo/tree/hugo/content
 description:
   Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
   Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🪴 Quartz 3.2"
+  "Fish Touching🎣🐟"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/taocsapp
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/qazxcdswe123
