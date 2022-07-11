@@ -1,8 +1,9 @@
 # git
 ## commit
 附加修改提交信息
-`git commit --amend " "`
-## clear history
+`git commit --amend "foobar"`
+
+## clear git history
 1.  Checkout
     `git checkout --orphan latest_branch`
 2.  Add all the files
@@ -19,6 +20,7 @@
 ## options
 `-C` run in specific directory `git -C ~/.SpaceVim pull`
 
+- [[git submodule]]
 
 
 
