@@ -37,14 +37,12 @@ jobs:
         uses: cloudflare/wrangler-action@2.0.0
         with:
           command: pages publish ./public --project-name=hugo-obsidian
-          # apiKey: ${{ secrets.CF_API_KEY }}
-          # email: ${{ secrets.CF_EMAIL }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          # workingDirectory: './public'
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
-      #     publish_branch: master  # deploying branch
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: master  # deploying branch
