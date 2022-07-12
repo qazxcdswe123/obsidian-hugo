@@ -87,7 +87,7 @@ work out of the box
 	- [[Linux Command Modern Alternative]]
 	- It's kind of magic
 - ranger [[Vim]]
-- Vim [[Vim]]
+- [[Vim]]
 - [Flameshot](https://github.com/flameshot-org/flameshot)
 - [[VSCode]]
 - [[Color Scheme]]

@@ -2,7 +2,7 @@
 `fd --extension txt`
 
 ## fzf
-Add `fzf` to plugins
+Add `fzf` to zsh plugins
 `M-c` = cd
 `C-r` = search history(same as before)
 `C-t` = list current directory 

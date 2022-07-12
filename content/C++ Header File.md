@@ -1,11 +1,14 @@
 [[C++ STL]]
-# iomanip
+
+## iomanip
 `std::cout << std::setw(5) << std::setfill('0') << zipCode << std::endl`
 
-# String
+## String
 [ntu](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp9_String.html)
 
-# Files
+## 
+
+## Files
 In C++, files are mainly dealt by using three classes fstream, ifstream, ofstream available in `fstream` headerfile.   
 **ofstream:** Stream class to write on files   
 **ifstream:** Stream class to read from files   

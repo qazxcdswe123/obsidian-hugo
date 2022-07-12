@@ -1,3 +1,6 @@
 - `-r`  recursive
 - `-a` This option not only syncs recursively, but also preserves attributes such as symbolic links, file ownerships, permissions [[Linux User]], and modification times.
 - `-v` prints out the syncing process in verbose.
+
+- Example
+`rsync -vra SimpRead/Notes/*.md ~/code/hugo/content`

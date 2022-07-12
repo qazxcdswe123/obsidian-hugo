@@ -39,4 +39,5 @@ int main()
     std::cout << "sum = " << sum << '\n';
 }
 ```
+
 [[C++ Cast]]
