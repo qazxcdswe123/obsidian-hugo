@@ -39,6 +39,7 @@ jobs:
           command: pages publish ./public --project-name=hugo-obsidian
           # apiKey: ${{ secrets.CF_API_KEY }}
           # email: ${{ secrets.CF_EMAIL }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
           apiToken: ${{ secrets.CF_API_TOKEN }}
           # workingDirectory: './public'
       # - name: Deploy
