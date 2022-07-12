@@ -1,2 +1,3 @@
-[[Integer Representation]]
-[[Floating Point Representation]]
+- [[Integer Representation]]
+- [[Floating Point Representation]]
+- [[Assembly]]
