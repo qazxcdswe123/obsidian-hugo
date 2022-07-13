@@ -2,8 +2,7 @@
 1. 粒度足够小，每篇笔记只记录一个概念，最好给出例子
 2. 不要前后文，能拆分出来自己独立成篇，能够独立理解，和其他的笔记没有依赖关系
 3. 能够不加修改就能与原笔记相关联
-4. 出现灵感，或重要概念即开双链
-5. 随意删除不会影响内容
+4. 随意删除不会影响内容
 
 # Plugins
 - [[Excali Brain]]
@@ -13,5 +12,11 @@
 - [Index - Shell commands documentation - Obsidian Publish](https://publish.obsidian.md/shellcommands/Index)
 	- `rsync -Pravh --delete Notes/ ~/code/hugo/content; git add -A; git -C ~/code/hugo commit -am "{{date:YYYY-MM-DD}}"; git -C ~/code/hugo push`
 	- Custom Shortcut `C-S-G`
+	
+# ShortCut
+`Alt+W` Monthly Notes
+`Alt+Q` Open Link
+`Ctrl+G` Inline Code
+`Ctrl+L` Toggle List
 # Misc
 [[yaml]] as front-matter
