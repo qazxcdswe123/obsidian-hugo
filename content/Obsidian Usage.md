@@ -10,5 +10,8 @@
 	- Custom Shortcut `C-S-B`
 - [GitHub - zolrath/obsidian-auto-link-title: Automatically fetch the titles of pasted links](https://github.com/zolrath/obsidian-auto-link-title)
 	- Custom Shortcut `C-S-P`
+- [Index - Shell commands documentation - Obsidian Publish](https://publish.obsidian.md/shellcommands/Index)
+	- `rsync -Pravh --delete Notes/ ~/code/hugo/content; git add -A; git -C ~/code/hugo commit -am "{{date:YYYY-MM-DD}}"; git -C ~/code/hugo push`
+	- Custom Shortcut `C-S-G`
 # Misc
 [[yaml]] as front-matter
