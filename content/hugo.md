@@ -1,19 +1,15 @@
 ```bash
-# Add front-matter to every file that dont have front-matter
-for f in *.md; do
-topLine=$(sed -n 1p $f)
-if [ "$topLine" != "---" ]; then
-new=$(echo $f | cut -d '.' -f 1) ;sed -i "1s/^/---\ntitle: $new\n---\n/" $f
-fi
-done
-```
+#!/bin/bash
 
-```bash
-# check for no front-matter
-for f in *.md; do
-topLine=$(sed -n 1p $f)
-if [ "$topLine" != "---" ]; then
-echo "$f has no dash"
-fi
+for f in *.md;
+do
+  topLine=$(sed -n 1p "$f")
+  new=$(echo "$f" | cut -d '.' -f 1)
+  if [ "$topLine" != "---" ]
+  then
+    sed -i "1s/^/---\ntitle: $new\n---\n/" "$f"
+  else
+    sed -i "2s/^/title: $new\n/" "$f"
+  fi
 done
 ```
