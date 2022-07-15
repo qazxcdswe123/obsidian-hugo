@@ -15,6 +15,12 @@ jobs:
 
       - name: Parse
         run: mv parse.sh content; cd content; bash parse.sh
+
+      - name: Purge Cache
+        run: |
+          curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+            -H "Authorization: Bearer ${{ secrets.CF_PURGE_TOKEN }}" \
+            -H "Content-Type:application/json"
       
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.13
