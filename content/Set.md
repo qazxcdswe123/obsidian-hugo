@@ -1,0 +1,3 @@
+**- AND: Set Intersection
+- OR: Set Union
+- XOR: [Symmetric Difference](https://brilliant.org/wiki/sets-symmetric-difference/)
