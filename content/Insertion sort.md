@@ -1,8 +1,6 @@
 - 原理
-  1. 从左往右排序
-  2. 通过比较找位置，在比较途中向右平移较大的元素
-  3. 因为平移，会有两个相同元素，替换左边的元素
-  4. 如果是交换，本质上是冒泡？
+	- 从第 1 个开始
+	- 暂存第 j 个，i = j - 1, i 不停往上覆盖
 ```cpp
 void insertSort(int array[], int length)
 {
@@ -19,3 +17,4 @@ void insertSort(int array[], int length)
     }
 }
 ```
+![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
