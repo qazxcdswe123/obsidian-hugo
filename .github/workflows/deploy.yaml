@@ -21,6 +21,7 @@ jobs:
           curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
             -H "Authorization: Bearer ${{ secrets.CF_PURGE_TOKEN }}" \
             -H "Content-Type:application/json"
+            --data '{"files":["https://blog,ynchen.me"]}'
       
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.13
