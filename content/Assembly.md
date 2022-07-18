@@ -1,2 +1,5 @@
 - [[register]]
-[[mov]]
+- Instruction
+	- [[mov]]
+	- [[lea]]
+- [[Condition Code]]

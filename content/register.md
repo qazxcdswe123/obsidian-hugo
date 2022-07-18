@@ -1,3 +1,6 @@
+- Special
+	- `%rsp` : [[Memory|Stack]] Pointer (Location of runtime stack)
+	- `%rip` : Instruction Pointer (Location of current code control point)
 - 32-bit
 	- `%eax` through `%edx`
 	- `%esi`, `%edi`, `%ebp`, `%esp`
