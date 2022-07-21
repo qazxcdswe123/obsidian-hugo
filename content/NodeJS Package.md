@@ -2,6 +2,7 @@
 aliases: [npm, yarn, pnpm]
 ---
 # Package Manager
+
 ## npm
 `npm config set registry https://registry.npmmirror.com`
 ### parameters

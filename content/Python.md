@@ -1,3 +1,4 @@
+- [[Python pip]]
 - [[Python Module]]
 - [[Python Anaconda]]
 - [[Python Numpy Overview]]

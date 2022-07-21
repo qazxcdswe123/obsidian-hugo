@@ -18,7 +18,10 @@
     `git push -f origin main`
 
 ## options
-`-C` run in specific directory `git -C ~/.SpaceVim pull`
+- `-C` run in specific directory `git -C ~/.SpaceVim pull`
+- `git config --global credential.helper store`
+- `git config credential.helper store`
+
 
 - [[git submodule]]
 
