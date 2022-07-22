@@ -59,6 +59,12 @@
 
 ## Hack
 [macos - Using Caps Lock as Esc in Mac OS X - Stack Overflow](https://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x)
+```
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
+defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false    # For VS Codium
+defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 3 above)
+```
 
 ## System Preference
 - Automatically Hide Menu-bar and Dock
