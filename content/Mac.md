@@ -31,7 +31,7 @@
 	- raycast (launcher)
 	- dash (document viewer)
 	- keka (zip tool)
-	- 
+	- marginnote
 
 - Formula
 	- rust
@@ -75,6 +75,9 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 ## Shortcut
 - `Shift+CMD+5`: screenShot
 - `CMD+,`: Open Preference
+- `Command + Shift + Z`: look up word
+- press `Control` and click to act as right click
+- `CMD+Shift+R`: Enter reader mode
 
 ### Terminal
 [[Shell]]

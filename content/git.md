@@ -28,7 +28,7 @@
 
 ## Hack
 `git ls-tree --full-tree --name-only -r HEAD`
-
+`git log --all --decorate --oneline --graph`
 ___
 
 
