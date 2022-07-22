@@ -26,6 +26,8 @@
 - [[git submodule]]
 
 
+## Hack
+`git ls-tree --full-tree --name-only -r HEAD`
 
 ___
 
