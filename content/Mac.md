@@ -6,11 +6,9 @@
 - Excel
 
 ### App Store
-- iMessage
 - ScanScan
 - GoodNotes
 - Telegram
-- bitwarden
 - Tencent Meeting
 - feishu
 
@@ -19,10 +17,10 @@
 - Formula: 命令行软件
 - Cask: GUI软件
 - Bottle: 预编译软件
+
 [Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
 - Cask
 	- Obsidian (note)
-	- Dropbox (sync)
 	- iterm2 (terminal alternative)
 	- google-chrome
 	- visual-studio-code (ide)
@@ -31,6 +29,7 @@
 	- raycast (launcher)
 	- dash (document viewer)
 	- keka (zip tool)
+	- orion
 	- marginnote
 
 - Formula
@@ -58,7 +57,6 @@
 - [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/)
 
 ## Hack
-[macos - Using Caps Lock as Esc in Mac OS X - Stack Overflow](https://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x)
 ```
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
@@ -68,9 +66,13 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 
 ## System Preference
 - Automatically Hide Menu-bar and Dock
-- Smaller Size
+	- Smaller Size
 - Show battery percentage
-- Dictation
+- trackpad:
+	- fastest
+	- tap to click
+- [macos - Using Caps Lock as Esc in Mac OS X - Stack Overflow](https://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x)
+
 
 ## Shortcut
 - `Shift+CMD+5`: screenShot
@@ -81,3 +83,4 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 
 ### Terminal
 [[Shell]]
+Preferences > Profiles > Keys > Load Presets not Preferences > Keys > Load Preferences > Natrual

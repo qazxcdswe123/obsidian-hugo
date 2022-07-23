@@ -1,5 +1,5 @@
 ---
-aliases: [zsh]
+aliases: [zsh, iterm]
 tags: [] 
 ---
 [missing.csail.mit.edu](https://missing.csail.mit.edu/2020/shell-tools/)
@@ -24,4 +24,10 @@ tags: []
 `"terminal.integrated.fontFamily": "FiraCodeNerdFontCompleteM-Retina"`
 
 - configure HotKey Window
+keys->hotkeys->create
+Then add login items
 
+- add powerline
+search `powerline`, search `status bar`
+
+- 
