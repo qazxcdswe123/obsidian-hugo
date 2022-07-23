@@ -50,11 +50,12 @@
 	- bat
 	- go
 	- [[hugo]]
+	- firacode
 
 ### Manual Download
-- clashx-pro (proxy)
-- [Releases · Molunerfinn/PicGo · GitHub](https://github.com/Molunerfinn/PicGo/releases)
-- [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/)
+- [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) (proxy)
+- [Releases · Molunerfinn/PicGo · GitHub](https://github.com/Molunerfinn/PicGo/releases) (M1 Support)
+- [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/) (Control your input method)
 
 ## Hack
 ```
@@ -72,6 +73,7 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 	- fastest
 	- tap to click
 - [macos - Using Caps Lock as Esc in Mac OS X - Stack Overflow](https://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x)
+- Uncheck `play sound on startup` && `play UI sound effect`
 
 
 ## Shortcut
@@ -80,6 +82,12 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 - `Command + Shift + Z`: look up word
 - press `Control` and click to act as right click
 - `CMD+Shift+R`: Enter reader mode
+- Screenshot
+	- `Shift+CMD+3`: Fullscreen screenshot 
+	- `Shift+CMD+4`: Portion screenshot
+	- `Shift+CMD+4+SpaceBar`: Select window screenshot
+- ![](https://img.ynchen.me/2022/07/1ee4ed251c07ded5b5da043191d02497.png)
+
 
 ### Terminal
 [[Shell]]
