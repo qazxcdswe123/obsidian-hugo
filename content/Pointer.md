@@ -1,6 +1,10 @@
-#Programming/C
+---
+aliases: [指针]
+tags: Programming/C 
+date: Jul 24th, 2022
+---
 [[C语言重点——指针篇（一篇让你完全搞懂指针）]]
-# * 在 int 后还是数值前
+- `*` 在 int 后还是数值前
 > As far as C goes they both do the same thing. It is a matter of preference. `int* i` shows clearly that it is an int pointer type. `int *i` shows the fact that the asterisk only affects a single variable. So `int *i, j` and `int* i, j` would both create `i` as an int pointer and `j` as an int.
 
 `int* i` 强调 `i` 是一个指针变量

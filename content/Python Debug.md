@@ -1,5 +1,5 @@
 [pdb docs](https://docs.python.org/3/library/pdb.html)
-assert 
+- assert 
 # Try-catch
 ```python
 try:

@@ -20,6 +20,7 @@
 
 [Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
 - Cask
+	- Motrix (Aria2 GUI)
 	- Obsidian (note)
 	- iterm2 (terminal alternative)
 	- google-chrome

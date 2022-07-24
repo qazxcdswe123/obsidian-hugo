@@ -1,13 +1,12 @@
-[[Bootstrap]]
-[[Font Awesome]]
+- [[Bootstrap]]
+- [[Font Awesome]]
 
-[[Web request]]
-[[HTML Tag]]
-[[HTML Element]]
-[[HTML Table]]
-[[DOM]]
-[[XPath]]
+- [[Web request]]
+- [[HTML Tag]]
+- [[HTML Element]]
+- [[DOM]]
+- [[XPath]]
 
-[[CSS]]
+- [[CSS]]
 
-[[JavaScript]]
+- [[JavaScript]]

@@ -1,3 +1,3 @@
-[[Sorting Algorithm]]
-[[dfs]]
-[[Amortized analysis]]
+- [[Sorting Algorithm]]
+- [[DFS]]
+- [[Amortized analysis]]

@@ -1,6 +1,5 @@
-
 - -> 其实是 (\*pointer).value
-- C++ 中有 [[Vector]] ，效果几乎相同，效率和数组相似
+- [[C++]] 中有 [[Vector]] ，效果几乎相同，效率和数组相似
 - Error handling using new
 ```cpp
 char* c = new (std::nothrow) char[100];

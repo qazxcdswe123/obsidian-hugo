@@ -2,6 +2,7 @@
 It's a pointer
 You can use keyword "`this`" to refer to _this_ instance inside a class definition.
 One of the main usage of keyword `this` is to resolve ambiguity between the names of data member and function parameter. For example,
+
 ```cpp
 class Circle {
 private:
@@ -16,4 +17,5 @@ public:
    ......
 }
 ```
+
 Return the reference of the object (return this), 套娃

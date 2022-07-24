@@ -4,6 +4,7 @@ tags:
 date: Jul 24th, 2022
 ---
 
+bash script to add [[yaml]] frontmatter 
 ```bash
 #!/bin/bash
 

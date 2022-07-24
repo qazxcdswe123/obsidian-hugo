@@ -1,8 +1,9 @@
 [Src](https://docs.python.org/3/tutorial/errors.html)
-[Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
+
 # Exceptions Handling
+
 ## try clause
-[Src]([Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions))
+[Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
 ```python
 >>> while True:
 ...     try:
@@ -33,6 +34,7 @@ for arg in sys.argv[1:]:
         f.close()
 ```
 The use of the `else` clause is better than adding additional code to the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) clause because it avoids accidentally catching an exception that wasn’t raised by the code being protected by the `try` … `except` statement
+
 ### Example
 ```python
 >>> def this_fails():
@@ -45,6 +47,7 @@ The use of the `else` clause is better than adding additional code to the [`t
 ...
 Handling run-time error: division by zero
 ```
+
 ## Exception Chaining
 [Src](https://docs.python.org/3/tutorial/errors.html#exception-chaining)
 ```python
@@ -76,6 +79,7 @@ The `finally` clause will execute as the last task before the [`try`](https:/
 -   If the `finally` clause executes a [`break`](https://docs.python.org/3/reference/simple_stmts.html#break), [`continue`](https://docs.python.org/3/reference/simple_stmts.html#continue) or [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) statement, exceptions are not re-raised.
 -   If the `try` statement reaches a [`break`](https://docs.python.org/3/reference/simple_stmts.html#break), [`continue`](https://docs.python.org/3/reference/simple_stmts.html#continue) or [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) statement, the `finally` clause will execute just prior to the `break`, `continue` or `return` statement’s execution.
 -   If a `finally` clause includes a `return` statement, the returned value will be the one from the `finally` clause’s `return` statement, not the value from the `try` clause’s `return` statement.
+
 ```python
 >>> def bool_return():
 ...     try:

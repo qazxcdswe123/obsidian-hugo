@@ -1,4 +1,4 @@
-- `++`
+- `++` Operator
 -   The prefix function increments the `count`, and returns this object by reference.
 -   The postfix function saves the old value (by constructing a new instance with this object via the copy constructor), increments the `count`, and return the saved object by value.
 ```c++
@@ -16,11 +16,11 @@ const Counter Counter::operator++(int dummy) {
 ```
 [Why dummy](https://stackoverflow.com/questions/36816973/purpose-of-dummy-parameter-in-postfix-operator-overload-c)
 
-- `<<`
+- `<<` Operator
 `friend ostream& operator<<(ostream &out, const Fraction &rhs);`
 `ostream& operator<<(ostream &out, const Fraction &rhs)`
 
-- `=`
+- `=` Operator
 ```c++
 // Override the default assignment operator to handle dynamic memory
 const MyDynamicArray& MyDynamicArray::operator= (const MyDynamicArray & rhs) {
@@ -39,6 +39,7 @@ const MyDynamicArray& MyDynamicArray::operator= (const MyDynamicArray & rhs) {
    return *this;
 }
 ```
+
 
 ```c++
 String &String::operator=(const String &other)

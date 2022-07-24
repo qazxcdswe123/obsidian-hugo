@@ -1,0 +1,2 @@
+- [程序员的心理疾病](https://www.yinwang.org/blog-cn/2014/02/09/programmer-mental)
+	- 按照 Dijkstra 的说法，“软件工程”是穷途末路的领域，因为它的目标是：如果我不会写程序的话，怎么样才能写出程序？
