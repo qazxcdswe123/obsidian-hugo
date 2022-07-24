@@ -1,7 +1,8 @@
 ---
-aliases: [ieee]
+aliases: [ieee 754]
 tags: [Programming/Misc, Public] 
 ---
+Blog: [[浮点数的表示]]
 
 - *sign s*
 	- negative: s=1

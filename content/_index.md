@@ -1,6 +1,8 @@
 # A blog directly generated from Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux 和命令行]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown 格式测试]]
+## CS Related
+- 2022-07-24 [[浮点数的表示]]
 
 ## Linux Related
 - 2022-07-11: [[01-Linux 和命令行]]

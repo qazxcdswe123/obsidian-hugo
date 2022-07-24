@@ -82,6 +82,9 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 - `Command + Shift + Z`: look up word
 - press `Control` and click to act as right click
 - `CMD+Shift+R`: Enter reader mode
+- Dictionary
+	- `CMD+Control+D`: Lookup
+	- `CMD+Shift+X`: Open Dictionary
 - Screenshot
 	- `Shift+CMD+3`: Fullscreen screenshot 
 	- `Shift+CMD+4`: Portion screenshot

@@ -1,3 +1,9 @@
+---
+aliases: 
+tags: 
+date: Jul 24th, 2022
+---
+
 ```bash
 #!/bin/bash
 
