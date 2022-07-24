@@ -18,9 +18,10 @@ jobs:
 
       - name: Purge Cache
         run: |
-          curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+          curl -X GET "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE }}/purge_cache" \
             -H "Authorization: Bearer ${{ secrets.CF_PURGE_TOKEN }}" \
-            -H "Content-Type:application/json" 
+            -H "Content-Type:application/json" \
+            --data '{"purge_everything":true}'
       
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.13
