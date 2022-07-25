@@ -1,7 +1,6 @@
 #Data-structure 
-Similar with: [[Queue 队列]]
-LIFO
-和 [[Memory Allocation in C]] 区分
+Similar with: [[Queue 队列]], but `LIFO`
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;

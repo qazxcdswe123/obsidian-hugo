@@ -12,8 +12,7 @@
   3. 直到 Left > Right，交换 Pivot 和 Right（Right 的左边一定比 Pivot 小）
 
 - Dual pivot Quicksort
-[双主元排序 GFG](https://xlinux.nist.gov/dads/HTML/dualPivotQuicksort.html)
-[nist.gov introduction](https://xlinux.nist.gov/dads/HTML/dualPivotQuicksort.html)
+[dual-pivot quicksort](https://xlinux.nist.gov/dads/HTML/dualPivotQuicksort.html)
 
 **Definition:** Pick two elements from the [_array_](https://xlinux.nist.gov/dads/HTML/array.html) to be sorted (the pivots), partition the remaining elements into (i) those less than the lesser pivot, (ii) those between the pivots, and (iii) those greater than the greater pivot, and recursively sort these partitions.
 ![](https://s2.loli.net/2022/02/24/F7HtqrQAxLMal9I.png)
@@ -22,12 +21,12 @@
 
 ***
 
-  *Note: Dual-pivot quicksort is consistently faster than [*quicksort*](https://xlinux.nist.gov/dads/HTML/quicksort.html) in practice, although classical analysis suggests that it should be slower. *Why Is Dual-Pivot Quicksort Fast?_ , [arXiv:1511.01138](https://arxiv.org/pdf/1511.01138.pdf) v2 28 Sep 2016._
+  *Note: Dual-pivot quicksort is consistently faster than [quicksort*](https://xlinux.nist.gov/dads/HTML/quicksort.html) in practice, although classical analysis suggests that it should be slower. *Why Is Dual-Pivot Quicksort Fast? , [arXiv:1511.01138](https://arxiv.org/pdf/1511.01138.pdf) v2 28 Sep 2016.
 
-  - [ ] Read Why Dual-pivot quicksort is faster [[Todo]]
+  - [ ] Read Why Dual-pivot quicksort is faster [[todo]]
 
 - Quicksearch | Quickselect
   [快速选择](https://www.geeksforgeeks.org/quickselect-algorithm/)
 
 - Why Quicksort is consider faster than Mergesort
-  Its In place sort, no need to allocate additionnal memory to complete.
+  It's "in place sort", there's no need to allocate additional memory to complete the task.

@@ -1,3 +1,9 @@
+---
+aliases: []
+tags: []
+date created: Jan 28th, 2022
+date modified: Jul 25th, 2022
+---
 # 前言
 很早之前就知道有 Missing Semester 这门课程，但一直没花时间学，认为自己折腾的内容其实和所教授的内容差不多，以为自己已经学过了。
 但真正学了之后，才知道课程所涉及的广度和深度是自己捣鼓时很难学习到的，讲的很好很细，有基础的也可以看[文字版](https://missing.csail.mit.edu)学一下。
@@ -15,7 +21,7 @@ ___
 # 正题
 本文包含了以下章节内容
 - [Course overview + the shell](https://missing.csail.mit.edu/2020/course-shell/) 无笔记，十分基础，作为课程入门，吃饭时候看挺下饭的
-- [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/)  主要讲了 
+- [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/) 主要讲了 
 	- Shell Script 编程
 	- $hebang (shebang) 的使用
 	- 小技巧：通过 Shell 执行命令前，可以先用 `echo` 打出来检验命令正确性
@@ -41,17 +47,17 @@ CLI 好在哪里，我们为什么要学它
 ___
 ## Linux 文件权限
 一直觉得很奇怪，为什么有755 777 这样奇怪的数字？讨论会上提出来，才知道原来是掩码实现的。最大数字7即为111
--   **0 = ---**
--   **1 = --x**
--   **2 = -w-**
--   **3 = -wx**
--   **4 = r-**
--   **5 = r-x**
--   **6 = rw-**
--   **7 = rwx**
+- **0 = ---**
+- **1 = --x**
+- **2 = -w-**
+- **3 = -wx**
+- **4 = r-**
+- **5 = r-x**
+- **6 = rw-**
+- **7 = rwx**
 ___
 ## STDIO
-Shell 由 IO 组成，与 C 语言的 `stdio.h` 和 C++ 的 `iostream` 共用一个 IO（大概），分别是 `STDIN` `0` && `STDOUT` `1` && `STDERR`  `2`，Pipe 工作的原理也是如此，将上一个命令的 `STDOUT` 作为 `STDIN` 传入
+Shell 由 IO 组成，与 C 语言的 `stdio.h` 和 C++ 的 `iostream` 共用一个 IO（大概），分别是 `STDIN` `0` && `STDOUT` `1` && `STDERR` `2`，Pipe 工作的原理也是如此，将上一个命令的 `STDOUT` 作为 `STDIN` 传入
 ![](https://s2.loli.net/2022/01/22/lYD6QkncSuAbMZh.png)
 ## 软连接，硬链接
 默认 ln 命令是硬链接，可以用 `-s` 实现软连接，这两者有什么区别？
@@ -94,17 +100,17 @@ Pipe 用的好，对数据处理那是真的方便
 [Tmux 自定义配置](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
 ## 光标移动
 默认时基本和 Emacs 是类似的，但可以更改成为 vi 键位，不过命令行下的 vi 感觉用起来怪怪的
--   Ctrl+左右键 : 在单词之间跳转
--   Ctrl+a : 跳到本行的行首
--   Ctrl+e : 跳到页尾
--   Ctrl+u ：删除当前光标前面的文字 （还有剪切功能）
--   ctrl+k ：删除当前光标后面的文字(还有剪切功能)
--   Ctrl+L：进行清屏操作
--   Ctrl+y : 粘贴Ctrl+u或ctrl+k剪切的内容
--   Ctrl+w : 删除光标前面的单词的字符（以空格隔开的字符串）
--   Alt – d ：由光标位置开始，往右删除单词，往行尾删
--   Ctrl+r : 搜索执行过的命令
--   ! + 最近执行过的命令中的某个字符 ：可快速执行最近执行过的命令
+- Ctrl+左右键 : 在单词之间跳转
+- Ctrl+a : 跳到本行的行首
+- Ctrl+e : 跳到页尾
+- Ctrl+u ：删除当前光标前面的文字 （还有剪切功能）
+- ctrl+k ：删除当前光标后面的文字(还有剪切功能)
+- Ctrl+L：进行清屏操作
+- Ctrl+y : 粘贴Ctrl+u或ctrl+k剪切的内容
+- Ctrl+w : 删除光标前面的单词的字符（以空格隔开的字符串）
+- Alt – d ：由光标位置开始，往右删除单词，往行尾删
+- Ctrl+r : 搜索执行过的命令
+- ! + 最近执行过的命令中的某个字符 ：可快速执行最近执行过的命令
 ## 命令学习
 - [tldr](https://github.com/tldr-pages/tldr)
 - [cheat](https://cheat.sh/)

@@ -1,4 +1,4 @@
-- nfa dfa [[Todo]]
+- nfa dfa [[todo]]
 - [nfa and dfa](https://www.geeksforgeeks.org/difference-between-dfa-and-nfa/)
 
 | Character | Explain         |

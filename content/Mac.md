@@ -1,3 +1,9 @@
+---
+aliases: []
+tags: []
+date created: Jul 21st, 2022
+date modified: Jul 25th, 2022
+---
 ## Softwere
 ### Microsoft
 - Onedrive
