@@ -7,10 +7,10 @@ Blog: [[浮点数的表示]]
 - *sign s*
 	- negative: s=1
 	- positive: s=0
-- *[[significand]] M*
-	- fractional [[binary]] number ranges between 1 and $2 - \epsilon$ (Normalized) or between 0 and $1 - \epsilon$ (Denormalized)
 - *exponent E*
 	- weights the value by a (possibly negative) power of 2
+- *[[significand]] M*
+	- fractional [[binary]] number ranges between 1 and $2 - \epsilon$ (Normalized) or between 0 and $1 - \epsilon$ (Denormalized)
 - result *V*
 	- $2^E * M$
 	
