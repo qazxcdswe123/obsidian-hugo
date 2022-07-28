@@ -1,13 +1,13 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Jul 11th, 2022
 date modified: Jul 28th, 2022
 ---
 The IEEE floating-point format defines four different rounding modes.
 
 ## Round-to-even (round-to-nearest)
-It attempts to find a closest match. Thus, it rounds $1.40 to $1 and $1.60 to $2,  
+It attempts to find a closest match. Thus, it rounds 1.40 to 1 and 1.60 to 2,  
 it rounds the number either upward or downward such that the least significant digit of the result is **even**.
 - Why?
 	- It will round upward about 50% of the time and round downward about 50% of the time.
