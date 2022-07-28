@@ -4,7 +4,7 @@ tags:
 date: Jul 24th, 2022
 ---
 
-bash script to add [[yaml]] frontmatter 
+- bash script to add [[yaml]] frontmatter 
 ```bash
 #!/bin/bash
 
@@ -20,3 +20,5 @@ do
   fi
 done
 ```
+
+- add `hardWraps = true` in `config`
