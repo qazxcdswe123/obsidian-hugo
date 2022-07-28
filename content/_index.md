@@ -1,13 +1,17 @@
-# A blog directly generated from Obsidian
+---
+aliases: []
+tags: []
+date created: Jul 13th, 2022
+date modified: Jul 28th, 2022
+---
+# A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux 和命令行]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown 格式测试]]
 
 ## CS Related
+- 2022-07-28: [[Programming Language]]
 - 2022-07-28: [[编程语言随想]]
 - 2022-07-24: [[浮点数的表示]]
-- 2022-01-01: [[Front End]]
-- 2022-01-01: [[Python]]
-- 2022-01-01: [[C++]]
 - 2022-01-01: [[Algorithm]]
 
 ## Linux Related
