@@ -1,20 +1,27 @@
+---
+aliases: []
+tags: []
+date created: Jul 11th, 2022
+date modified: Jul 28th, 2022
+---
 The IEEE floating-point format defines four different rounding modes.
 
 ## Round-to-even (round-to-nearest)
-It attempts to find a closest match. Thus, it rounds $1.40 to $1 and $1.60 to $2,
+It attempts to find a closest match. Thus, it rounds $1.40 to $1 and $1.60 to $2,  
 it rounds the number either upward or downward such that the least significant digit of the result is **even**.
 - Why?
 	- It will round upward about 50% of the time and round downward about 50% of the time.
+	
 ## Round-toward-zero
-Round-toward-zero mode rounds positive numbers **downward** and negative numbers **upward**
+Round-toward-zero mode rounds positive numbers **downward** and negative numbers **upward**  
 giving $|\hat{x}| \leq |x|$
 
 ## Round-down
-Round-down mode rounds both positive and negative numbers **downward**
+Round-down mode rounds both positive and negative numbers **downward**  
 giving $x^- \leq x$
 
 ## Round-up
-Round-up mode rounds both positive and negative numbers **upward**
+Round-up mode rounds both positive and negative numbers **upward**  
 giving $x^+ \geq x$
 
 ## Example
