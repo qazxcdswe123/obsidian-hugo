@@ -1,16 +1,17 @@
 ---
 aliases: []
 tags: [] 
-date: Jul 24th, 2022
+date created: Jul 11th, 2022
+date modified: Jul 27th, 2022
 ---
-[[02-Vim]]
-[[ranger]]
-
+- [[02-Vim]]
+- [[ranger]]
+- [[Neovim]]
 # Vim
 ## Text
 - `daw` delete word under cursor
 - `d/cib` - delete a block surrounded by (
-- `d/ciB` - delete a block surrrouned by {
+- `d/ciB` - delete a block surrounded by {
 - `d/cas` - delete a sentence
 - `d/cap` - delete a paragraph
 
@@ -21,7 +22,7 @@ date: Jul 24th, 2022
 `:e` edit new file in current buffer
 `<C-^>` quickly switch buffer (this and before, only 2 buffers will be loaded)
 
-## dot `.`
+## Dot `.`
 Can be used only after text is changed
 
 ## Macros

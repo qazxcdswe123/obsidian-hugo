@@ -1,8 +1,8 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Jul 21st, 2022
-date modified: Jul 25th, 2022
+date modified: Jul 26th, 2022
 ---
 ## Softwere
 ### Microsoft
@@ -43,12 +43,13 @@ date modified: Jul 25th, 2022
 	- rust
 	- yadm
 	- neovim
-	- ripgrep
+	- [[ripgrep]]
 	- htop
 	- [[python]]
 	- pnpm (`pnpm setup`)
 	- [[NodeJS]]
 	- wget
+	- [[fd]]
 	- lazygit
 	- exa
 	- fzf
@@ -65,12 +66,17 @@ date modified: Jul 25th, 2022
 - [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/) (Control your input method)
 
 ## Hack
+
 ```
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
 defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false    # For VS Codium
 defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 3 above)
 ```
+
+- configure VSCode font
+`"terminal.integrated.fontFamily": "FiraCodeNerdFontCompleteM-Retina"`
+
 
 ## System Preference
 - Automatically Hide Menu-bar and Dock

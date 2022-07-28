@@ -5,6 +5,7 @@ ___
 >  21世纪的新生代们，则出生在互联网制造的“地球村”里，他们是网络原住民，是从小就会打开手机寻找动画片、解锁iPad玩游戏的一级“冲浪手”。
 > 电子阅读淹没印刷书籍、网络通讯替代现场交流，也变得司空见惯。他们把网络作为“常态化”生活方式，也不会乐意接受来自电视时代的“规训”。
 - [少数派 - 高效工作，品质生活](https://sspai.com/post/74716)
+好耶
 
 ___
 > 对爱情的渴望，对知识的追求，对人类苦难不可遏制的同情心，这三种纯洁而无比强烈的激情支配着我的一生。
@@ -45,3 +46,7 @@ ___
 ___
 > In theory, there is no difference between theory and practice. But in practice, there is.
 - Internet
+
+___
+> In the human world, I'm currently single, but in the music world, I'm in a open relationship with this beautiful guitar. Open relationship because I sometimes cheat on her with the acoustic.
+- [A day in my life | Lex Fridman - YouTube](https://youtu.be/0m3hGZvD-0s?t=546)
