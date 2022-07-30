@@ -28,7 +28,7 @@ def getSlug(name):
     return str
 
 
-def addFrontMatter(path, slug, title=''):
+def addFrontMatter(path, slug, title):
     with open(path, 'r+', encoding="utf-8") as f:
         # read first line to check if it is ---
         lines = f.readlines()
@@ -73,6 +73,11 @@ def main():
             with open(content_dir + '/' + file, 'r') as f:
                 addFrontMatter(content_dir + '/' + file,
                                getSlug(file), file[:-3])  # remove '.md'
+        else:
+            # no chinese in filename, then only replace space to dash
+            with open(content_dir + '/' + file, 'r') as f:
+                addFrontMatter(content_dir + '/' + file,
+                               file[:-3].replace(' ', '-'), file[:-3])
 
 
 if __name__ == "__main__":
