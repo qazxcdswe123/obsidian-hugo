@@ -12,9 +12,16 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.x"
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+        
 
       - name: Parse
-        run: mv parse.sh content; cd content; bash parse.sh
+        run: python parse.py
 
       - name: Purge Cache
         run: |
