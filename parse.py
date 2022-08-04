@@ -24,7 +24,7 @@ def getSlug(name):
             str += slug[i] + '-'
     str += slug[-1]
     str = str.replace(' ', '-')
-    print("INFO: " + str)
+    # print("INFO: " + str)
     return str
 
 
@@ -51,7 +51,7 @@ def addFrontMatter(path, slug, title):
             frontMatters.append('slug: ' + slug + '\n')
             frontMatters.append('---\n')
 
-        print("INFO: " + str(frontMatters) + "for file: " + path)
+        # print("INFO: " + str(frontMatters) + "for file: " + path)
 
         # write to file
         for line in frontMatters:
@@ -67,7 +67,13 @@ def main():
     content_dir = cwd + '/content'
     content_list = os.listdir(content_dir)
 
-    for file in content_list:
+    for i in range(0, len(content_list)):
+        file = content_list[i]
+    # for file in content_list:
+        print("INFO: Parsing " + file)
+        if i < len(content_list) - 1:
+            print("INFO: Next file is " + content_list[i + 1])
+
         # if filename contains chinese, then add slug to it
         if re.search(r'[\u4e00-\u9fa5]', file):
             with open(content_dir + '/' + file, 'r') as f:
