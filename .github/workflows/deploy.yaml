@@ -13,7 +13,6 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Try caching docker build
       - uses: satackey/action-docker-layer-caching@v0.0.11
 
       - uses: actions/setup-python@v3
