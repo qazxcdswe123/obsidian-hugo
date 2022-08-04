@@ -7,8 +7,11 @@
 - The second argument is another string containing a few characters describing the way in which the file will be used.
 	- _mode_ can be `'r'` when the file will only be read
 	- `'w'` for only writing (an existing file with the same name will be erased)
-	- `'a'` opens the file for appending; any data written to the file is automatically added to the end. 
+		- **It will delete the content first **
+	- `'a'` opens the file for appending; any data written to the file is automatically **added to the end** (even when the file pointer is moved). 
 	- `'r+'` opens the file for both reading and writing. The _mode_ argument is optional; `'r'` will be assumed if it’s omitted.
+	- `a+` will create a file if not exist
+- The file pointer is at the beginning of the file by default
 
 ## with
 It is good practice to use the [`with`](https://docs.python.org/3/reference/compound_stmts.html#with) keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using `with` is also much shorter than writing equivalent [`try`](https://docs.python.org/3/reference/compound_stmts.html#try)-[`finally`](https://docs.python.org/3/reference/compound_stmts.html#finally) blocks:

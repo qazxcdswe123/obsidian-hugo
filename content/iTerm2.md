@@ -16,9 +16,10 @@ Then add login items
 - add powerline
 search `powerline`, search `status bar`
 
-- Shell Integration
+## Shell Integration
 [Shell Integration - Documentation - iTerm2 - macOS Terminal Replacement](https://iterm2.com/documentation-shell-integration.html)
 
+- `CMD+Shift+/` : Directory history
 ```
 You will also have these commands:
 imgcat filename

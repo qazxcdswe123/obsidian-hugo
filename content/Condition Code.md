@@ -1,15 +1,22 @@
+---
+aliases: []
+tags: [] 
+date created: Jul 18th, 2022
+date modified: Jul 29th, 2022
+---
+[[Instruction]] for control
 # Condition Code (Implicit Setting)
 All 1-bit flags, not set directly
 
-## Single bit registers
+## Single Bit Registers
 - `CF`: Carry Flag (for unsigned)
 - `SF`: Sign Flag (for signed)
 - `ZF`: Zero Flag
 - `OF`: Overflow Flag (for signed)
 
 ## Condition Codes (Explicit Setting: Compare)
-Used for compare two values
-`cmpq SRC2, SRC1` : Reversed order
+Used for compare two values  
+`cmpq SRC2, SRC1` : Reversed order  
 `cmpq b,a` like computing `a-b` without setting destination
 
 - `CF` set if carry out from most significant bit (used for unsigned comparisons)
@@ -18,11 +25,13 @@ Used for compare two values
 - `OF` set if two’s-complement (signed) overflow (a>0 && b<0 && (a-b)<0) || (a<0 && b>0 && (a-b)>0)
 
 ## Condition Codes (Explicit Setting: Test)
-`testq Src2, Src1`
+`testq Src2, Src1`  
 `testq b,a` like computing `a&b` without setting destination
 
-Sets condition codes based on value of `Src1 & Src2`
+Sets condition codes based on value of `Src1 & Src2`  
 Useful to have one of the operands be a mask
 
 - `ZF` set when `a&b == 0`
 - `SF` set when `a&b < 0`
+
+Use `set` to access condition code

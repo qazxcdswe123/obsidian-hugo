@@ -40,3 +40,5 @@ Can be used only after text is changed
 ## Tricks
 - Write as sudo
 	- `:w !sudo tee%`
+- Set `-` as a word
+	- `set iskeyword+=-`

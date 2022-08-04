@@ -1,5 +1,5 @@
 - 原理
-	- 从第 1 个开始
+	- index 从 1 开始，`j = i - 1`
 	- 暂存第 j 个，i = j - 1, i 不停往上覆盖
 ```cpp
 void insertSort(int array[], int length)

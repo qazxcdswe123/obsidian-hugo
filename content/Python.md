@@ -1,11 +1,13 @@
 - [[Python pip]]
-- [[Python Module]]
 - [[Python Anaconda]]
-- [[Python Numpy Overview]]
-- [[Python Pandas]]
-- [[Python Matplotlib]]
-
-- [[Python Flask]]
+- [[Python Module]]
+	- [[Python Numpy Overview]]
+	- [[Python Pandas]]
+	- [[Python OS]]
+	- [[Python PinYin]]
+	- 
+	- [[Python Flask]]
+	- [[Python Matplotlib]]
 
 - [[Python Decorator]]
 - [[Python Class OOP]]

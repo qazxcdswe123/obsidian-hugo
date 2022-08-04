@@ -1,7 +1,33 @@
-- Special
-	- `%rsp` : [[Memory|Stack]] Pointer (Location of runtime stack)
-	- `%rip` : Instruction Pointer (Location of current code control point)
-	- `%rax` : Store return value
+---
+aliases: []
+tags: [] 
+date created: Jul 18th, 2022
+date modified: Jul 31st, 2022
+---
+## Special Register
+- `%rsp` : [[Memory|Stack]] Pointer (Location of runtime stack)
+- `%rbp` : Frame Pointer
+- `%rip` : [[Instruction]] Pointer (Location of current code control point)
+- `%rax` : Store return value
+
+- callee saved register
+	- `%rbx`
+	- `%rbp`
+	- `%r12-%r15`
+> When procedure  P  calls procedure  Q ,  Q  must preserve the values of these registers, *ensuring that they have the same values when  Q  returns to  P  as they did when  Q  was called.* (P call Q, Q preserve)
+
+> Procedure  Q can preserve a register value by either not changing it at all or by pushing the original value on the stack, altering it, and then popping the old value from the stack before returning.
+
+___
+- caller saved register
+	- All but `%rsp`
+	- they can be modified by any function.
+	- hold temporary quantities that need not be preserved across calls.-> caller's responsibility to save
+
+___
+- frame pointer
+	- points to the base of the current stack frame
+
 - 32-bit
 	- `%eax` through `%edx`
 	- `%esi`, `%edi`, `%ebp`, `%esp`

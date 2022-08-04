@@ -22,5 +22,6 @@ In [[Linux]], the topmost region of the address space is reserved for code and d
 [memory management - Stack and Heap locations in RAM - Stack Overflow](https://stackoverflow.com/questions/32418750/stack-and-heap-locations-in-ram)
 
 
-## Memory Access in [[Assembly]]
+## Memory Access Rules in [[Assembly]]
+Used by [[Instruction]] like `move` or `add`
 ![](https://img.ynchen.me/2022/07/98f1002e2a47f479253df114d3870376.png)
