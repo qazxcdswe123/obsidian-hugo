@@ -24,7 +24,7 @@ def getSlug(name):
             str += slug[i] + '-'
     str += slug[-1]
     str = str.replace(' ', '-')
-    print("Debug: " + str)
+    print("INFO: " + str)
     return str
 
 
@@ -51,7 +51,7 @@ def addFrontMatter(path, slug, title):
             frontMatters.append('slug: ' + slug + '\n')
             frontMatters.append('---\n')
 
-        print("Debug: " + str(frontMatters) + "for file: " + path)
+        print("INFO: " + str(frontMatters) + "for file: " + path)
 
         # write to file
         for line in frontMatters:
