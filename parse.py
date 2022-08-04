@@ -67,12 +67,10 @@ def main():
     content_dir = cwd + '/content'
     content_list = os.listdir(content_dir)
 
-    for i in range(0, len(content_list)):
-        file = content_list[i]
-    # for file in content_list:
-        print("INFO: Parsing " + file)
-        if i < len(content_list) - 1:
-            print("INFO: Next file is " + content_list[i + 1])
+    for file in content_list:
+        # if file is empty, skip it
+        if os.stat(content_dir + '/' + file).st_size == 0:
+            continue
 
         # if filename contains chinese, then add slug to it
         if re.search(r'[\u4e00-\u9fa5]', file):
