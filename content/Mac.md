@@ -26,6 +26,7 @@ date modified: Jul 26th, 2022
 
 [Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
 - Cask
+	- AlDente (Charge Limit)
 	- syntax-highlight  (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
 	- Obsidian (note)

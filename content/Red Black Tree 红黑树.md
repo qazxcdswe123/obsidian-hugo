@@ -17,7 +17,7 @@ Evaluated from: [[B-Tree]] [[2-3-4 Tree]]
 # Misc
 ## Lemma 13.1
 A red-black tree with $n$ internal nodes has height at most $2\lg(n+1)$
-***Proof***  [[Mathematical Induction 数学归纳法]]
+***Proof***  [[Mathematical Induction]]
 - Lemma 1: For subtree rooted at node *x*, internal nodes $\geq \space 2^{bh(x)} - 1$
 If height is 0, $2^{bh(x)} - 1 = 0$  OK
 Else: [[todo]]

@@ -1,3 +1,5 @@
+[[modular]]
+
 [Primality test - Wikipedia](https://en.wikipedia.org/wiki/Primality_test)
 ## Mod 6 Prime Test
 Observe that all primes greater than 3 are of the form $6k \pm 1$, where _k_ is any integer greater than 0. 
@@ -7,4 +9,4 @@ This is because all integers can be expressed as $6k + i$ where $i = -1, 0, 1, 2
 [Miller–Rabin primality test - Wikipedia](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)
 
 ## qsieve
-[Fetching Title#rkr1](https://en.wikipedia.org/wiki/Quadratic_sieve)
+[Quadratic sieve - Wikipedia](https://en.wikipedia.org/wiki/Quadratic_sieve)

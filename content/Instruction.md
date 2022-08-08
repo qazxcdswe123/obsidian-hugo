@@ -18,7 +18,7 @@ date modified: Jul 29th, 2022
 See also [[Condition Code]]
 - `cmp`
 	- `cmpq S1, S2`
-	- Based on `S2 - S1`
+	- Based on `S2 - S1`, so `jg` means `S2 > S1`
 - `test`
 	- The test instructions behave in the same manner as the and instructions, except that they set the condition codes without altering their destinations.
 - `set`
@@ -29,5 +29,7 @@ See also [[Condition Code]]
 		- `jmp *(%rax)` : indirect
 	- Use PC relative???? [Addressing mode - Wikipedia](https://en.wikipedia.org/wiki/Addressing_mode)
 		- they encode the difference between the address of the target instruction and the address of the instruction immediately following the jump.
+![](https://img.ynchen.me/2022/08/0159aef39b16bc65247d47273730d15d.png)
+
 
 ### Conditional Branches

@@ -1,6 +1,8 @@
 ---
 aliases: [ieee 754]
 tags: [Programming/Misc, Public] 
+date created: Jul 11th, 2022
+date modified: Aug 6th, 2022
 ---
 Blog: [[浮点数的表示]]
 
@@ -32,7 +34,7 @@ ___
 	- This representation is a trick for getting an additional bit of precision for free, since we can always adjust the exponent *E* so that [[significand]] *M* is in the range $1 \leq M < 2$ . We therefore do not need to explicitly represent the leading bit, since it always equals 1.
 
 ## Case 2: Denormalized Values
-When the *exponent field* is **all zeros**, the represented number is in *denormalized* form.
+When the *exponent field* is **all zeros**, the represented number is in *denormalized* form.  
 the exponent value is $E = 1 − Bias$, and the [[significand]] value is $M = f$ , that is, the value of the fraction field without an implied leading 1.
 - Why? 
 	- they provide a way to represent numeric value 0, since with a normalized number we must always have $M \geq 1$ , and hence we cannot represent 0. We even have +0.0 and -0.0

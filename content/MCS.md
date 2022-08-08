@@ -1,3 +1,3 @@
 [[Predicate]]
 [[Logical deduction 逻辑推理]]
-[[Proof 证明]]
+[[Proof]]

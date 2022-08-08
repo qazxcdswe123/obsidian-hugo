@@ -4,7 +4,7 @@ tags: []
 date created: Jul 9th, 2022
 date modified: Jul 25th, 2022
 ---
-
+[[gdb]]
 # 前言
 
 [gdb](https://www.sourceware.org/gdb/) 想必大家都听说过，作为最有名气的调试器之一，却由于其在命令行中运行的特点导致了周围用的人并不算多，加之现代编辑器中的调试功能已经成为标配，在很多时候用自带的调试器就能完成调试了。
