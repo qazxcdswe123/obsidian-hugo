@@ -61,6 +61,8 @@ date modified: Jul 26th, 2022
 	- go
 	- [[hugo]]
 	- firacode
+	- java
+		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 
 ### Manual Download
 - [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) (proxy)
