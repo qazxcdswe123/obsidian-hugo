@@ -27,6 +27,7 @@ date modified: Jul 28th, 2022
 - [[指数函数与欧拉公式]]
 
 ## MISC
+- 2022-08-12: [[Ergonomics]]
 - 2022-07-25: [[Random Thought]]
 - 2022-07-24: [[Quote]]
 - 2022-07-23: [[十万个为什么]]
