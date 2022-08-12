@@ -1,3 +1,4 @@
+- [[C++ Virtual Table]]
 - [[C++ explicit]]
 - [[C++ OOP Inheritance 继承]]
 - [[C++ Operator Overload]]
