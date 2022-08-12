@@ -6,6 +6,9 @@ date modified: Jul 28th, 2022
 ---
 - [[Object-oriented Programming (OOP) in C++]]
 
+- [[C Typedef]]
+- [[Pointer]]
+- [[C++ const]]
 - [[C++ implicit conversion]] 
 - [[C++ OOP 面向对象]]
 - [[C++ Iterator]]
