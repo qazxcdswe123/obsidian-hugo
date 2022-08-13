@@ -1,10 +1,14 @@
 ---
+aliases: []
+tags: []
 fileType: HypothesisAnnotations
 creationDate: 2022-08-12 
 annotationDate: 2022-08-12
 uri: https://www.learncpp.com/cpp-tutorial/the-virtual-table/?utm_source=pocket_mylist
+date created: Aug 12th, 2022
+date modified: Aug 12th, 2022
 ---
-# 12.5 — The virtual table
+# 12.5 — The Virtual Table
 URL: https://www.learncpp.com/cpp-tutorial/the-virtual-table/?utm_source=pocket_mylist
 
 To implement virtual functions, C++ uses a special form of late binding known as the virtual table. The virtual table is a lookup table of functions used to resolve function calls in a dynamic/late binding manner. The virtual table sometimes goes by other names, such as “vtable”, “virtual function table”, “virtual method table”, or “dispatch table”.

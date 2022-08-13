@@ -2,24 +2,28 @@
 aliases: []
 tags: []
 date created: Jul 26th, 2022
-date modified: Jul 26th, 2022
+date modified: Aug 13th, 2022
 ---
 # iTerm2
 ## Configuration
 - [[Mac]]
-- [iTerm2 + Oh My Zsh + Solarized color scheme + Source Code Pro Powerline + Font Awesome + [Powerlevel10k] - (macOS) · GitHub](https://gist.github.com/kevin-smets/8568070)
+- [iTerm2 + Oh My Zsh + Solarized color scheme + Source Code Pro Powerline + Font Awesome + Powerlevel10k - (macOS) · GitHub](https://gist.github.com/kevin-smets/8568070)
 
 - configure HotKey Window
-keys->hotkeys->create
-Then add login items
+	- keys->hotkeys->create
+	- Then add login items
 
 - add powerline
-search `powerline`, search `status bar`
+	- search `powerline`, search `status bar`
+
+- Add minimum contrast
+	- colors->`minimum contrast 30%`
 
 ## Shell Integration
 [Shell Integration - Documentation - iTerm2 - macOS Terminal Replacement](https://iterm2.com/documentation-shell-integration.html)
 
 - `CMD+Shift+/` : Directory history
+
 ```
 You will also have these commands:
 imgcat filename
@@ -55,3 +59,17 @@ it2profile
 	- `CMD+D` Vertically
 	- `CMD+Shift+D` Horizontally
 	- `CMD+Shift+Enter`	Focus on one panel
+
+- Move Between Panel
+	- `CMD+[` / `CMD+ArrowKey`
+
+- Resize Panel
+	- `CMD+Control+ArrowKey`
+	
+#### Keyboard
+-   Cmd+left arrow, Cmd+right arrow navigates among tabs. So does Cmd-{ and Cmd-}.
+-   Cmd+number navigates directly to a tab.
+-   Cmd+Option+Number navigates directly to a window.
+-   Cmd+Option+Arrow keys navigate among split panes.
+-   Cmd+\] and Cmd+\[ navigates among split panes in order of use.
+

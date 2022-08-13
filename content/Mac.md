@@ -42,6 +42,7 @@ date modified: Jul 26th, 2022
 	- marginnote
 
 - Formula
+	- bash
 	- rust
 	- yadm
 	- neovim
@@ -56,6 +57,7 @@ date modified: Jul 26th, 2022
 	- exa
 	- fzf
 	- [[ranger]]
+	- trash
 	- tldr
 	- bat
 	- go
@@ -80,6 +82,9 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 
 - configure VSCode font
 `"terminal.integrated.fontFamily": "FiraCodeNerdFontCompleteM-Retina"`
+
+- Edit `/etc/shells`
+`/opt/homebrew/bin/bash`
 
 
 ## System Preference

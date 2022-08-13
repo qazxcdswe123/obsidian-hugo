@@ -1,15 +1,27 @@
-Parents:: [[Vim]]
+---
+aliases: []
+tags: []
+date created: Jul 10th, 2022
+date modified: Aug 13th, 2022
+---
 
-`zh` = show hidden
-空格选中一个文件，对选中的文件再按空格取消选中
-`ranger --copy-config=all` copy config to 
-install `highlight` to preview code
+空格选中一个文件，对选中的文件再按空格取消选中  
+`ranger --copy-config=all` copy config to  `~/.config/ranger`  
+install `bat` to preview code, configure `scope.sh` to set syntax highlight
+## Plugins
+### Zoxide
+- Install:  
+`git clone https://github.com/jchook/ranger-zoxide ~/.config/ranger/plugins/zoxide`
+- Usage:
+`:z path` to jump
+`:zi` for interactive shell (config in zoxide)
 
 ## Bookmark
-`m` + key to save a bookmark
+`m` + key to save a bookmark  
 use `'` to navigate
 
-## Basic keybinding
+## Basic Keybinding
+`zh` = show hidden  
 `g` for navigation and tabs  
 `r` for :open_with command  
 `y` for yank(copy)  
@@ -22,8 +34,9 @@ use `'` to navigate
 `M` for line mode  
 `+`, `-`, `=` for setting access rights to files
 
-## config
+## Config
 ### rc.conf
+
 ```
 # Use yc to copy content to system clipboard 
 map yc shell cat %p | xclip -sel clip
