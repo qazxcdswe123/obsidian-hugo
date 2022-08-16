@@ -1,9 +1,16 @@
+---
+aliases: []
+tags: []
+date created: Jul 24th, 2022
+date modified: Aug 16th, 2022
+---
 [Src](https://docs.python.org/3/tutorial/errors.html)
 
 # Exceptions Handling
-
-## try clause
+An exception is thrown when a fundamental assumption of the current code block is found to be false.
+## Try Clause
 [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
+
 ```python
 >>> while True:
 ...     try:
@@ -18,11 +25,12 @@ The [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) state
 -   If no exception occurs, the _except clause_ is skipped and execution of the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement is finished.
 -   If an exception occurs during execution of the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) clause, the rest of the clause is skipped. Then, if its type matches the exception named after the [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) keyword, the _except clause_ is executed, and then execution continues after the try/except block.
 -   If an exception occurs which does not match the exception named in the _except clause_, it is passed on to outer [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statements; if no handler is found, it is an _unhandled exception_ and execution stops with a message as shown above.
--  An _except clause_ may name multiple exceptions as a parenthesized tuple, for example:
+-  An _except clause_ may name multiple exceptions as a parenthesized tuple, for example:  
 	`except (RuntimeError, TypeError, NameError):`
 
-The [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) … [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) statement has an optional _else clause_, which, when present, must follow all _except clauses_. 
+The [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) … [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) statement has an optional _else clause_, which, when present, must follow all _except clauses_.  
 It is useful for code that must be executed if the _try clause_ does not raise an exception. For example:
+
 ```python
 for arg in sys.argv[1:]:
     try:
@@ -33,9 +41,11 @@ for arg in sys.argv[1:]:
         print(arg, 'has', len(f.readlines()), 'lines')
         f.close()
 ```
+
 The use of the `else` clause is better than adding additional code to the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) clause because it avoids accidentally catching an exception that wasn’t raised by the code being protected by the `try` … `except` statement
 
 ### Example
+
 ```python
 >>> def this_fails():
 ...     x = 1/0
@@ -50,6 +60,7 @@ Handling run-time error: division by zero
 
 ## Exception Chaining
 [Src](https://docs.python.org/3/tutorial/errors.html#exception-chaining)
+
 ```python
 >>> def func():
 ...     raise ConnectionError
@@ -72,7 +83,7 @@ RuntimeError: Failed to open database
 ```
 
 ## Finally Clause
-[Src](https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions)
+[Src](https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions)  
 The `finally` clause will execute as the last task before the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement completes. The `finally` clause runs whether or not the `try` statement produces an exception.
 -   If an exception occurs during execution of the `try` clause, the exception may be handled by an [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) clause. If the exception is not handled by an `except` clause, the exception is re-raised after the `finally` clause has been executed.
 -   An exception could occur during execution of an `except` or `else` clause. Again, the exception is re-raised after the `finally` clause has been executed.
@@ -113,11 +124,12 @@ Traceback (most recent call last):
   File "<stdin>", line 3, in divide
 TypeError: unsupported operand type(s) for /: 'str' and 'str'
 ```
-As you can see, the [`finally`](https://docs.python.org/3/reference/compound_stmts.html#finally) clause is executed in any event. The [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError "TypeError") raised by dividing two strings is not handled by the [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) clause and therefore re-raised after the `finally` clause has been executed.
+
+As you can see, the [`finally`](https://docs.python.org/3/reference/compound_stmts.html#finally) clause is executed in any event. The [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError "TypeError") raised by dividing two strings is not handled by the [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) clause and therefore re-raised after the `finally` clause has been executed.  
 In real world applications, the [`finally`](https://docs.python.org/3/reference/compound_stmts.html#finally) clause is useful for releasing external resources (such as files or network connections), regardless of whether the use of the resource was successful.
 
 ## User-defined Exceptions
-[Src](https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions)
-Programs may name their own exceptions by creating a new exception class (see [Classes](https://docs.python.org/3/tutorial/classes.html#tut-classes) for more about Python classes).
-Exceptions should typically be derived from the [`Exception`](https://docs.python.org/3/library/exceptions.html#Exception "Exception") class, either directly or indirectly.
+[Src](https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions)  
+Programs may name their own exceptions by creating a new exception class (see [Classes](https://docs.python.org/3/tutorial/classes.html#tut-classes) for more about Python classes).  
+Exceptions should typically be derived from the [`Exception`](https://docs.python.org/3/library/exceptions.html#Exception "Exception") class, either directly or indirectly.  
 More on [[Python Class OOP]]

@@ -1,4 +1,4 @@
-# HW0
+# HW 0
 ```c
 #include <time.h>
 #include <stdio.h>
