@@ -1,15 +1,23 @@
+---
+aliases: []
+tags: []
+date created: Jul 24th, 2022
+date modified: Aug 15th, 2022
+---
 - -> 其实是 (\*pointer).value
-- [[C++]] 中有 [[Vector]] ，效果几乎相同，效率和数组相似
+- [[C]] 中有 [[C++ STL]] ，效果几乎相同，效率和数组相似
 - Error handling using new
+
 ```cpp
 char* c = new (std::nothrow) char[100];
 if (!c) {
 // Handle error
 }
 ```
+
 - Deque 效果和 Doubly Linked List 完全相同
 ---
-注意内存泄漏
+注意内存泄漏  
 全部用函数管理会好一些
 
 ```cpp

@@ -15,6 +15,9 @@ mystring s;    // is the same as      char *s;
 myfunc f;      // compile equally as  void (*f)();
 ```
 
+One common situation is to use typedef names for various integer quantities, then make an appropriate set of choices of short, int, and long for each host machine.Types like `size_t` and `ptrdiff_t` from the standard library are examples.
+
+The second purpose of typedefs is to provide better documentation for a program. A type called `Treeptr` may be easier to understand than one declared only as a pointer to a complicated structure.
 ## Typedef Function Pointer
 URL: [c++ - Typedef function pointer? - Stack Overflow](https://stackoverflow.com/questions/4295432/typedef-function-pointer)
 -   **Why is typedef used?** To ease the reading of the code - especially for pointers to functions, or structure names.

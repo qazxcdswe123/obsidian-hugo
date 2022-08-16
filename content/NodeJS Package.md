@@ -11,4 +11,5 @@ the `-g` flag is a shorthand for the `global` configuration which sets the packa
 This is useful when you need to run the package from the command line instead of using `require()` and import it to your code.
 
 ## pnpm
+`pnpm setup`
 `pnpm config set registry https://registry.npmmirror.com`

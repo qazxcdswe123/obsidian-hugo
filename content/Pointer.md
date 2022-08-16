@@ -8,7 +8,6 @@ date modified: Aug 12th, 2022
 其实要分辨指针，要（1）分清楚星号所在的地方，是个左值（left value），还是个右值（right value），（2）分清楚指针所指的类型，加上一些内存的通识就能理解了。
 
 ## General Pointer
-___
 - `*` 在 int 后还是数值前
 > As far as C goes they both do the same thing. It is a matter of preference. `int* i` shows clearly that it is an int pointer type. `int *i` shows the fact that the asterisk only affects a single variable. So `int *i, j` and `int* i, j` would both create `i` as an int pointer and `j` as an int.
 

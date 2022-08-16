@@ -4,5 +4,6 @@
 - [[Counting sort]]
 - [[Insertion sort]]
 - [[Quicksort]]
+- [[ShellSort]]
 
 - [[C++ Sort]]

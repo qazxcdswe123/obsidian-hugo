@@ -9,7 +9,7 @@ date modified: Jul 28th, 2022
 
 Languages I've learnt
 [[Python]]
-[[C++]]
+[[C]]
 [[JavaScript]]
 [[Lua]]
 [[Front End]]

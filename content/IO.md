@@ -8,9 +8,11 @@ date modified: Jul 28th, 2022
 
 ## Files
 A file is a sequence of bytes, nothing more and nothing less. Every I/O device, including disks, keyboards, displays, and even networks, is modeled as a file.
+[[C++ File]]
+[[Python File]]
 
 ## Stream
-Every stream in [[C++]] is tied to an output stream, which can be `null`.
+Every stream in [[C]] is tied to an output stream, which can be `null`.
 
 What does this mean? First of all, it's important to understand that when you write `std::cout << "asdf"`, it is not necessarily immediately printed on the screen. It turns out that it is much better (in terms of performance) to collect it into a _buffer_ and then, at some point, _flush_ the buffer — i.e. empty its contents to the screen (or file, or any other "device"), all at once.
 

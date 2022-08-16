@@ -1,3 +1,9 @@
+---
+aliases: []
+tags: []
+date created: Aug 12th, 2022
+date modified: Aug 15th, 2022
+---
 - [[C++ Virtual Table]]
 - [[C++ explicit]]
 - [[C++ OOP Inheritance 继承]]
@@ -8,7 +14,7 @@
 - [[C++ this pointer]]
 - [[C++ Static]]
 
-- `const` 
+- `const`  
 Won't modify members. As a protection
 
 

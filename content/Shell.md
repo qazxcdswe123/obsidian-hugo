@@ -7,6 +7,7 @@ tags: []
 [[Linux Command Modern Alternative]]
 
 # Shell
+[[IO]]
 - `2>&1`
 File descriptor 1 is the standard output (`stdout`).  
 File descriptor 2 is the standard error (`stderr`).

@@ -18,4 +18,4 @@ General form: creates *a* subproblems each of which is *1/b* the size of the ori
 [[Master Theorem 主定理]]
 
 Example: [[Merge Sort]] | [[Quicksort]]  
-Work with [[Dynamic Programming 动态规划]] (Find maximum subarray)
+Work with [[Dynamic Programming]] (Find maximum subarray)

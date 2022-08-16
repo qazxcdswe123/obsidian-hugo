@@ -1,20 +1,28 @@
-## fd
+---
+aliases: []
+tags: [] 
+date created: Aug 15th, 2022
+date modified: Aug 15th, 2022
+---
+## Fd
 `fd --extension txt`
 
-## fzf
-Add `fzf` to zsh plugins
-`M-c` = cd
-`C-r` = search history(same as before)
+## Fzf
+Add `fzf` to [[Shell|zsh]] plugins  
+`M-c` = cd  
+`C-r` = search history(same as before)  
 `C-t` = list current directory 
 
-## zsh
+## Zsh
 [[Shell]]
 
-## bat
+## Bat
 
-## exa
+## Ripgrep
 
-## ripgrep
-
-## zoxide
+## Zoxide
 [GitHub](https://github.com/ajeetdsouza/zoxide)
+
+## Dust
+du alternative  
+`du -d 1 -h | sort -h`

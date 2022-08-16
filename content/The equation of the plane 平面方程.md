@@ -1,3 +1,9 @@
+---
+aliases: []
+tags: []
+date created: Mar 16th, 2022
+date modified: Aug 15th, 2022
+---
 - 一般式
 	- $A_1x + B_1y + C_1z + D = 0$
 	- 法向量：$(A_1, B_1, C_1)$

@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 21st, 2022
-date modified: Jul 26th, 2022
+date modified: Aug 15th, 2022
 ---
 ## Softwere
 ### Microsoft
@@ -17,20 +17,22 @@ date modified: Jul 26th, 2022
 - Telegram
 - Tencent Meeting
 - feishu
+- [[marginnote]]
 
 
 ### Homebrew
 - Formula: 命令行软件
-- Cask: GUI软件
+- Cask: GUI 软件
 - Bottle: 预编译软件
 
+- `brew autoremove` to uninstall dependencies  
 [Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
 - Cask
 	- AlDente (Charge Limit)
 	- syntax-highlight  (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
 	- Obsidian (note)
-	- iterm2 (terminal alternative)
+	- [[iterm2]] (terminal alternative)
 	- google-chrome
 	- visual-studio-code (ide)
 	- discord
@@ -39,22 +41,21 @@ date modified: Jul 26th, 2022
 	- dash (document viewer)
 	- keka (zip tool)
 	- orion
-	- marginnote
 
 - Formula
 	- bash
 	- rust
 	- yadm
-	- neovim
+	- [[neovim]]
 	- [[ripgrep]]
 	- htop
 	- [[python]]
-	- pnpm (`pnpm setup`)
+	- [[NodeJS Package|pnpm]] 
 	- [[NodeJS]]
 	- wget
-	- [[fd]]
-	- lazygit
-	- exa
+	- fd
+	- lazygit + [[git]]
+	- dust
 	- fzf
 	- [[ranger]]
 	- trash
@@ -62,7 +63,7 @@ date modified: Jul 26th, 2022
 	- bat
 	- go
 	- [[hugo]]
-	- firacode
+	- firacode ([[Font]])
 	- java
 		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 
@@ -80,10 +81,10 @@ defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false   
 defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 3 above)
 ```
 
-- configure VSCode font
+- configure [[VSCode]] [[font]]  
 `"terminal.integrated.fontFamily": "FiraCodeNerdFontCompleteM-Retina"`
 
-- Edit `/etc/shells`
+- Edit `/etc/shells`  
 `/opt/homebrew/bin/bash`
 
 
@@ -115,5 +116,5 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 
 
 ### Terminal
-[[Shell]]
+[[Shell]]  
 Preferences > Profiles > Keys > Load Presets not Preferences > Keys > Load Preferences > Natrual

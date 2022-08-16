@@ -22,6 +22,6 @@
 - [[Python Built-in Functions]]
 - [[Python Built-in Keywords]]
 - [[Python Glossary]]
-- [[Python Statement]]
+- [[Python Match]]
 ![](https://s2.loli.net/2022/03/21/Lc4jV5OZUEBYaIk.png)
 
