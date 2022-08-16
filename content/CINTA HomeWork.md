@@ -127,4 +127,5 @@ int main(void)
     */
 }
 ```
-a^n + b^n \neq c^n
+
+$a^n + b^n \neq c^n$

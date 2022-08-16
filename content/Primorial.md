@@ -1,6 +1,6 @@
 ---
-aliases: []
-tags: []
+aliases: [素数阶乘]
+tags: [] 
 date created: Aug 8th, 2022
 date modified: Aug 8th, 2022
 ---

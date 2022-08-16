@@ -9,4 +9,3 @@ date modified: Aug 16th, 2022
 
 # Overview
 Linear algebra is essentially about solving systems of linear equations
-	
