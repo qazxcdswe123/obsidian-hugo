@@ -18,4 +18,4 @@ ___
 | --------------------------------- | --------------- |
 | frees memory dont call destructor | Call destructor | 
 
-[[C++ OOP 面向对象]]
+[[C++ OOP]]

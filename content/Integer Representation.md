@@ -1,3 +1,3 @@
 [[C++ bitwise operator]]
 [[Floating Point Representation]]
-[[浮点数的表示]]
+[[Introduction to Floating Point Number]]

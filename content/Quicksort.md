@@ -6,7 +6,7 @@
   5. Pivot 和 `i + 1` 调换，完成左右部分的归纳
   6. 归纳到最后的长度为 1
 
-- 双向版本 类似[[多进程]]
+- 双向版本 类似[[Multi Thread]]
   1. 取 0 为 Pivot；1 为 Left；n-1 为 Right
   2. Left Right 用于记录位置不正确的元素，Left 的值比 Pivot 大，Right 的值比 Pivot 小时，交换并相中靠一步
   3. 直到 Left > Right，交换 Pivot 和 Right（Right 的左边一定比 Pivot 小）

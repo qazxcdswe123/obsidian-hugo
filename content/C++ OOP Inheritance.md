@@ -1,10 +1,17 @@
-- Base and Derived Classes
+---
+aliases: []
+tags: []
+date created: Mar 17th, 2022
+date modified: Aug 19th, 2022
+---
+- Base and Derived Classes  
 `class derived-class: access-specifier base-class`
 
 # Inheritance
 -   **public inheritance** makes `public` members of the base class `public` in the derived class, and the `protected` members of the base class remain `protected` in the derived class.
 -   **protected inheritance** makes the `public` and `protected` members of the base class `protected` in the derived class.
 -   **private inheritance** makes the `public` and `protected` members of the base class `private` in the derived class.
+
 ```cpp
 class Base {
     public:

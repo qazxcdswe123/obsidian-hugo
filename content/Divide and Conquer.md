@@ -15,7 +15,7 @@ General form: creates *a* subproblems each of which is *1/b* the size of the ori
 有一个负责调用的函数和一个负责处理的函数  
 相信自己每一步都是对的来调用处理函数
 
-[[Master Theorem 主定理]]
+[[Master Theorem for Divide and Conquer]]
 
 Example: [[Merge Sort]] | [[Quicksort]]  
 Work with [[Dynamic Programming]] (Find maximum subarray)

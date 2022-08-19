@@ -1,8 +1,8 @@
 ---
-aliases: []
+aliases: [偏导数]
 tags: []
 date created: Mar 16th, 2022
-date modified: Aug 15th, 2022
+date modified: Aug 19th, 2022
 ---
 # Partial Function
 $w = f(x_0, y)$  the **partial function** for $x = x_0$.

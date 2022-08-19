@@ -6,7 +6,7 @@ date modified: Aug 15th, 2022
 ---
 - [[C++ Virtual Table]]
 - [[C++ explicit]]
-- [[C++ OOP Inheritance 继承]]
+- [[C++ OOP Inheritance]]
 - [[C++ Operator Overload]]
 - [[C++ Polymorphism]]
 - [[C++ Friend]]

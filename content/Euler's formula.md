@@ -1,8 +1,8 @@
 ---
-aliases: [Euler's formula]
+aliases: [指数函数与欧拉公式]
 tags: [Math/Calculus] 
 date created: Jul 15th, 2022
-date modified: Aug 16th, 2022
+date modified: Aug 19th, 2022
 ---
 
 [指数函数与欧拉公式 - 作业部落 Cmd Markdown 编辑阅读器](https://www.zybuluo.com/bintou/note/2309274)

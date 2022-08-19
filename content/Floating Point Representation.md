@@ -4,7 +4,7 @@ tags: [Programming/Misc, Public]
 date created: Jul 11th, 2022
 date modified: Aug 6th, 2022
 ---
-Blog: [[浮点数的表示]]
+Blog: [[Introduction to Floating Point Number]]
 
 - *sign s*
 	- negative: s=1

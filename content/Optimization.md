@@ -20,6 +20,7 @@ Low-level optimizations, Structure code to take advantage of the hardware capabi
 Unroll loops to reduce overhead and to enable further optimizations.
 Find ways to increase instruction-level parallelism by techniques such as multiple accumulators and reassociation.
 Rewrite conditional operations in a functional style to enable compilation via conditional data transfers.
+
 ## Memory Aliasing
 The case where two pointers may designate the same [[memory]] location is known as [[memory]] aliasing.  
 Two variable point to the same chunk of [[memory]].

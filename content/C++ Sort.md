@@ -20,7 +20,7 @@ int main()
 ### Reverse
 Use `<functional>` header and `std::greater` [Src](https://en.cppreference.com/w/cpp/utility/functional/greater)
 `sort( &arr[0], &arr[n], greater<int>() )`
-or any boolean return function [[Queue 队列]]
+or any boolean return function [[Queue]]
 
 ## qsort()
 `stdlib.h` header

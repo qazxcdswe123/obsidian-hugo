@@ -1,5 +1,5 @@
 src: [https://sedgewick.io/talks/#ll-red-black-trees](https://sedgewick.io/talks/#ll-red-black-trees) 
-Used in:[[Red Black Tree 红黑树]] [[Left Leaning Red Black Tree 左倾红黑树]]
+Used in:[[Red Black Tree]] [[Left Leaning Red Black Tree]]
 ## Definition
 - Node
 	- 2-node = 1 key 2 children
@@ -36,4 +36,4 @@ Used in:[[Red Black Tree 红黑树]] [[Left Leaning Red Black Tree 左倾红黑�
 		- ![](https://s2.loli.net/2022/03/04/Vg6PBYzwUQJukOG.png)
 ## Conclusion
 Too complex for implementation
-Enhancement: [[Left Leaning Red Black Tree 左倾红黑树]]
+Enhancement: [[Left Leaning Red Black Tree]]

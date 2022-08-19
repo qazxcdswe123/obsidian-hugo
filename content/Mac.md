@@ -43,6 +43,7 @@ date modified: Aug 15th, 2022
 	- orion
 
 - Formula
+	- jq
 	- bash
 	- rust
 	- yadm
@@ -86,6 +87,18 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 
 - Edit `/etc/shells`  
 `/opt/homebrew/bin/bash`
+
+- Edit `/etc/ssh/ssh_config`
+Add 
+```
+ServerAliveInterval 20
+ServerAliveCountMax 999
+
+# or
+echo "ServerAliveInterval 20
+ServerAliveCountMax 999
+" >> /etc/ssh/ssh_config
+```
 
 
 ## System Preference

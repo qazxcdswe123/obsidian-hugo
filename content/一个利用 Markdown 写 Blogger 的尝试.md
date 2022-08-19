@@ -7,8 +7,8 @@ Stackedit 还可以 update 文章，还是十分方便的
 
 目前唯一的缺点就是会略微拖慢页面加载速度，但也还好吧，加了几百 kb，用 jsdelivr 托管了一下 css 文件，影响应该不大。
 都翻墙了，网络多少都好一点吧
-[[建立国内可访问的 Blogger]]
-[[Markdown 格式测试]]
+[[Blogger in China Mainland]]
+[[Markdown Format Testing]]
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGFnczogJ0Jsb2dnZXIs5bel5L2c5r

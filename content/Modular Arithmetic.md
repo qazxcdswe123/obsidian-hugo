@@ -15,5 +15,5 @@ $A \equiv B \pmod{C}$
 3. when we have both of these, we call $\equiv$ **congruence modulo C**.
 
 ### From Set
-[[Set]]
+[[Set Theorem]]
 We say that r is congruent to s modulo n, or r is congruent to s mod n, if r − s is evenly divisible by n;

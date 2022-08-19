@@ -18,6 +18,10 @@ x,y -> y,x
 ### Transitive
 x,y y,z -> x,z
 
+## Notation
+We often use the tilde notation $a∼b$ to denote a relation.
+
+
 ## Equivalence Class
 Let ∼ be an equivalence relation on a set X and let x ∈ X. Then \[x\] = {y ∈ X : y ∼ x} is called the equivalence class of x  
 We will see that an equivalence relation gives rise to a partition via equivalence classes

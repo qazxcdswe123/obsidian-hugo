@@ -5,13 +5,13 @@ date created: Jul 13th, 2022
 date modified: Jul 28th, 2022
 ---
 # A Blog Directly Generated From Obsidian
-- How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux 和命令行]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
-- See also [[Markdown 格式测试]]
+- How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
+- See also [[Markdown Format Testing]]
 
 ## CS Related
 - 2022-07-28: [[Programming Language]]
 - 2022-07-28: [[编程语言随想]]
-- 2022-07-24: [[浮点数的表示]]
+- 2022-07-24: [[Introduction to Floating Point Number]]
 - 2022-01-01: [[Algorithm]]
 
 ## Linux Related
@@ -19,12 +19,12 @@ date modified: Jul 28th, 2022
 - 2022-07-11: [[Manjaro]]
 - 2022-07-11: [[Linux]]
 - 2022-07-11: [[git]]
-- 2022-02-28: [[01-Linux 和命令行]]
+- 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
-- 2022-01-05: [[gdb 简明使用教程]]
+- 2022-01-05: [[GDB Crash Course]]
 
 ## Math
-- [[指数函数与欧拉公式]]
+- [[Euler's formula]]
 
 ## MISC
 - 2022-08-12: [[Ergonomics]]
@@ -47,4 +47,4 @@ date modified: Jul 28th, 2022
 
 ## [[Book Review]]
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
-- 2022-07-11: [[Algorithm Unlock 书评]]
+- 2022-07-11: [[Algorithm Unlock Book Review]]

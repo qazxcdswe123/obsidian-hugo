@@ -4,7 +4,7 @@ tags: []
 date created: Aug 6th, 2022
 date modified: Aug 6th, 2022
 ---
-[[gdb 简明使用教程]]  
+[[GDB Crash Course]]  
 [[1. gdb 调试利器 — Linux Tools Quick Tutorial]]  
 [[CS107 GDB and Debugging]]
 

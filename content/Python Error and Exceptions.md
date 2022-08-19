@@ -1,13 +1,16 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Jul 24th, 2022
 date modified: Aug 16th, 2022
 ---
+[[C++ error handling]]
 [Src](https://docs.python.org/3/tutorial/errors.html)
 
 # Exceptions Handling
 An exception is thrown when a fundamental assumption of the current code block is found to be false.
+`Try, catch, and finally` statements enable the use of a resource, catching any possible exceptions and then releasing the resource in the final block, making sure that there are no memory leaks.
+
 ## Try Clause
 [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
 

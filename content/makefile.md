@@ -1,4 +1,4 @@
-[[C++ OOP 面向对象]]
+[[C++ OOP]]
 [Src](https://seisman.github.io/how-to-write-makefile/introduction.html)
 ## 关于程序的编译和链接
 无论是C还是C++，首先要把源文件编译成中间代码文件，在Windows下也就是 `.obj` 文件，UNIX下是 `.o` 文件，即Object File，这个动作叫做编译（compile）。然后再把大量的Object File合成执行文件，这个动作叫作链接（link）。

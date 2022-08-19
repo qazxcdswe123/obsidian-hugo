@@ -1,5 +1,5 @@
 #Data-structure 
-Similar with: [[Queue 队列]], but `LIFO`
+Similar with: [[Queue]], but `LIFO`
 
 ```cpp
 #include <bits/stdc++.h>
