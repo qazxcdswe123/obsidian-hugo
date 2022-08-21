@@ -6,8 +6,14 @@
     </div>
   </div>
 </div>
-<script crossorigin="anonymous"
+{{if $.Site.Data.config.enableSemanticSearch}}
+{{ $js := resources.Get "js/semantic-search.js" | resources.ExecuteAsTemplate "js/semantic-search.js" . | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{ $js.Permalink }}"></script>
+{{else}}
+<script defer crossorigin="anonymous"
   integrity="sha512-nFmzFs0vxLvw95r3kpEArM496n1udEDP2OJ+uoyv00RaP4B6NOHbciX0Gr2V9/DxeaHi3fKXLYty8YTLgVkquw=="
   src="https://lib.baomitu.com/FlexSearch/0.7.2/flexsearch.bundle.min.js"></script>
-{{ $js := resources.Get "js/search.js" | resources.Fingerprint "md5" | resources.Minify }}
+{{ $js := resources.Get "js/full-text-search.js" | resources.Fingerprint "md5" | resources.Minify }}
 <script defer src="{{ $js.Permalink }}"></script>
+{{end}}
+
