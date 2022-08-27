@@ -41,6 +41,7 @@ date modified: Aug 15th, 2022
 	- raycast (launcher)
 	- dash (document viewer)
 	- keka (zip tool)
+	
 	- orion
 
 - Formula
@@ -90,7 +91,6 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 `/opt/homebrew/bin/bash`
 
 - Edit `/etc/ssh/ssh_config`
-Add 
 ```
 ServerAliveInterval 20
 ServerAliveCountMax 999

@@ -71,10 +71,35 @@ new Promise((resolve, reject) => {
 
 1. A `finally` handler has no arguments. In `finally` we don’t know whether the promise is successful or not. That’s all right, as our task is usually to perform “general” finalizing procedures.
 2. A `finally` handler “passes through” the result or error to the next suitable handler.  
-3. A `finally` handler also shouldn’t return anything. If it does, the returned value is silently ignored.
+3. A `finally` handler also shouldn’t return anything. If it does, the returned value is silently ignored.  
 The only exception to this rule is when a `finally` handler throws an error. Then this error goes to the next handler, instead of any previous outcome.
 
 `finally` is not meant to process a promise result. As said, it’s a place to do generic cleanup, no matter what the outcome was.
+
+## Promises Chaining
+### Returning Promises
+```js
+new Promise(function (resolve, reject) {
+  setTimeout(() => resolve(1), 1000);
+})
+  .then(function (result) {
+    alert(result); // 1
+
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve(result * 2), 1000);
+    });
+  })
+  .then(function (result) {
+    alert(result); // 2
+
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve(result * 2), 1000);
+    });
+  })
+  .then(function (result) {
+    alert(result); // 4
+  });
+```
 
 ## Methods
 ### Promise.catch()
