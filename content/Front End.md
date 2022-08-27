@@ -2,8 +2,7 @@
 - [[Font Awesome]]
 
 - [[Web request]]
-- [[HTML Tag]]
-- [[HTML Element]]
+- [[HTML]]
 - [[DOM]]
 - [[XPath]]
 

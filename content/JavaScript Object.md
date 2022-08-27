@@ -1,4 +1,5 @@
 [[JavaScript Array]]
+[[JavaScript Date Object]]
 [[JavaScript Map And Set]]
 [Src](https://zh.javascript.info/object)
 JavaScript objects can be thought of as simple collections of name-value pairs. As such, they are similar to:

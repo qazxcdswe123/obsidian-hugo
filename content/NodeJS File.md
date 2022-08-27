@@ -4,6 +4,4 @@ tags: []
 date created: Aug 22nd, 2022
 date modified: Aug 22nd, 2022
 ---
-[[NodeJS Package Manager]]  
-[[Nodejs Module]]  
-[[NodeJS File]]
+[File system | Node.js v18.7.0 Documentation](https://nodejs.org/api/fs.html)

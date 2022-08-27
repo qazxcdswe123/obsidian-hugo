@@ -1,7 +1,3 @@
-# `<head>`
-- `<title>` = text in tab
-- `<meta name="viewport" content="initial-scale=1, width=device-width">` = responsive
-___
 # `<body>`
 - `<p>` = paragraph
 - `<h1>...<h6>` = heading

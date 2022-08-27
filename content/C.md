@@ -5,7 +5,7 @@ date created: Jul 13th, 2022
 date modified: Jul 28th, 2022
 ---
 
-- [[C Scope]]
+- [[Scope]]
 - [[C Typedef]]
 - [[C Macros]]
 

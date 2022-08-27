@@ -24,7 +24,7 @@ date modified: Jul 28th, 2022
 - 2022-01-05: [[GDB Crash Course]]
 
 ## Math
-- [[Euler's formula]]
+- [[Euler formula]]
 
 ## MISC
 - 2022-08-12: [[Ergonomics]]

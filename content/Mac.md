@@ -33,6 +33,7 @@ date modified: Aug 15th, 2022
 	- Motrix (Aria2 GUI)
 	- Obsidian (note)
 	- [[iterm2]] (terminal alternative)
+	- unnaturalscrollwheels
 	- google-chrome
 	- visual-studio-code (ide)
 	- discord
@@ -51,7 +52,7 @@ date modified: Aug 15th, 2022
 	- [[ripgrep]]
 	- htop
 	- [[python]]
-	- [[NodeJS Package|pnpm]] 
+	- [[NodeJS Package Manager|pnpm]] 
 	- [[NodeJS]]
 	- wget
 	- fd

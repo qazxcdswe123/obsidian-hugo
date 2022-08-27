@@ -4,6 +4,9 @@ tags: []
 date created: Aug 15th, 2022
 date modified: Aug 15th, 2022
 ---
+[performance - Why does C++ compilation take so long? - Stack Overflow](https://stackoverflow.com/questions/318398/why-does-c-compilation-take-so-long)
+[What techniques can be used to speed up C++ compilation times? - Stack Overflow](https://stackoverflow.com/questions/373142/what-techniques-can-be-used-to-speed-up-c-compilation-times)
+
 ## Normal Compiler
 - Preprocessing phase [C preprocessor - Wikipedia](https://en.wikipedia.org/wiki/C_preprocessor)
 	- A preprocessing step performs macro substitution on program text, inclusion of other source files, and conditional compilation.
