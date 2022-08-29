@@ -24,7 +24,7 @@ jobs:
             --data '{"purge_everything":true}'
       
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.17
+        uses: jackyzha0/hugo-obsidian@v2.18
         with:
           index: true
           input: content
