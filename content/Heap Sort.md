@@ -1,3 +1,4 @@
+[Optimized heap sort](https://stackoverflow.com/questions/35821661/finding-a-more-efficient-heap-sort)
 Using [[Heap data structure]]
 ```cpp
 void maxHeapify(int heap[], int index)
@@ -16,7 +17,7 @@ void maxHeapify(int heap[], int index)
 			largest = index;
 		}
 
-		if (right < heap[0] + 1 && heap[right] > heap[largest]) // heap[0]+1 -> <=
+		if (right <= heap[0] && heap[right] > heap[largest]) // heap[0]+1 -> <=
 		{
 			largest = right;
 		}

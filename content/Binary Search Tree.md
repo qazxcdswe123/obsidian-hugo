@@ -2,7 +2,7 @@
 aliases: [二叉搜索树]
 tags: []
 date created: Jun 26th, 2022
-date modified: Aug 19th, 2022
+date modified: Aug 27th, 2022
 ---
 #Data-structure 
 - Definition

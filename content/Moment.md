@@ -1,3 +1,6 @@
+2022-08-31
+> School hater
+
 2022-08-07
 > 数学学习中，最重要的是抵制住自己的“显然”, do not take it for granted
 

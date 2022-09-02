@@ -12,6 +12,7 @@ date modified: Aug 16th, 2022
 [[Mathematical Induction]]
 [[Equivalence relation]]
 [[Proof]]
+[[Divis]]
 
 
 [[CINTA HomeWork]]  

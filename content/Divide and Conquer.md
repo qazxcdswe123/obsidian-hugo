@@ -11,7 +11,7 @@ Combine the solution to the subproblems into the solution for the original probl
 
 General form: creates *a* subproblems each of which is *1/b* the size of the original problem
 
-一般在参数上做文章，用 [[recursion 递归]] 解决问题  
+一般在参数上做文章，用 [[Recursion]] 解决问题  
 有一个负责调用的函数和一个负责处理的函数  
 相信自己每一步都是对的来调用处理函数
 

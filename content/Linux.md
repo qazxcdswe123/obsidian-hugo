@@ -14,3 +14,5 @@ date modified: Aug 15th, 2022
 - [[01-Linux and Command Line]]
 - [[symbolic link]]
 - [[rysnc]]
+- [[inode]]
+- 

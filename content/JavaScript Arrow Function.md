@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Apr 19th, 2022
-date modified: Aug 23rd, 2022
+date modified: Aug 27th, 2022
 ---
 - Arrow functions don't have their own bindings to [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this), [`arguments`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) or [`super`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super), and should not be used as [`methods`](https://developer.mozilla.org/en-US/docs/Glossary/Method).
 - Arrow functions don't have access to the [`new.target`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target) keyword.
@@ -26,7 +26,6 @@ function (a){
 }
 
 // Arrow Function Break Down
-
 // 1. Remove the word "function" and place arrow between the argument and opening body bracket
 (a) => {
   return a + 100;
@@ -37,5 +36,4 @@ function (a){
 
 // 3. Remove the argument parentheses
 a => a + 100;
-
 ```

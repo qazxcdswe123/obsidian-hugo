@@ -1,6 +1,5 @@
 
-[GFG](https://www.geeksforgeeks.org/file-handling-c-classes/)
-[[C++ Header File]]
+[GFG](https://www.geeksforgeeks.org/file-handling-c-classes/
 
 > • istream (input stream) type, which provides input operations
 > • ostream (output stream) type, which provides output operations
