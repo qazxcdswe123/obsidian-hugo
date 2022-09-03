@@ -4,6 +4,8 @@ tags: []
 date created: Aug 29th, 2022
 date modified: Sep 3rd, 2022
 ---
+因为博客放的其实是笔记，太多太杂不好看，就不放留言了...
+
 第一章课后习题：1、3、4  
 选做：2、7
 
