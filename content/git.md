@@ -2,11 +2,11 @@
 aliases: []
 tags: [] 
 date created: Jul 13th, 2022
-date modified: Aug 27th, 2022
+date modified: Sep 2nd, 2022
 ---
 # Git
 ## Config
-[Telling Git about your signing key - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
+[Telling Git about your signing key - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)  
 [Generating a new SSH key and adding it to the ssh-agent - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ```bash
@@ -16,6 +16,10 @@ git config --global user.signingkey 'key'
 git config --global commit.gpgsign true
 git config --global tag.gpgsign true
 ```
+
+___
+[Creating a personal access token - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- `git config --global credential.helper store`
 
 ## Commit
 附加修改提交信息  
