@@ -5,7 +5,7 @@ date created: Aug 15th, 2022
 date modified: Aug 20th, 2022
 ---
 
-Similar With: [[Python Namespace]]
+Similar With: [[Python Namespace]], [[JavaScript Hoisting]]
 # General
 ## Variables
 Variables may be internal to a function, external but known only within a single source file, or visible to the entire program.

@@ -18,4 +18,4 @@ date modified: Aug 15th, 2022
 Won't modify members. As a protection
 
 
-- [[Python Class OOP]]
+- [[Python Class]]

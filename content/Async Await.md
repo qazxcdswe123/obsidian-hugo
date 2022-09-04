@@ -4,7 +4,7 @@ tags: []
 date created: Apr 3rd, 2022
 date modified: Aug 25th, 2022
 ---
-[[Asynchronous]]
+See also [[Asynchronous]] and [[JavaScript Event Loop]]
 # Javascript
 src: [Nodejs doc](https://nodejs.dev/learn/modern-asynchronous-javascript-with-async-and-await)  
 

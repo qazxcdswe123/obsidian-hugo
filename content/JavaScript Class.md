@@ -1,5 +1,13 @@
+---
+aliases: []
+tags: []
+date created: Apr 20th, 2022
+date modified: Sep 4th, 2022
+---
 Classes are in fact "special [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)", and just as you can define [function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) and [function declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function), the class syntax has two components: [class expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class) and [class declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class).
-# [Class declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#class_declarations "Permalink to Class declarations")
+
+## [Class declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#class_declarations "Permalink to Class declarations")
+
 ```javascript
 class Rectangle {
   constructor(height, width) {
@@ -7,6 +15,8 @@ class Rectangle {
     this.width = width;
   }
 }
+
+const R1 = new Rectangle();
 ```
 
 ```javascript
@@ -30,5 +40,13 @@ let Rectangle = class Rectangle2 {
 console.log(Rectangle.name);
 // output: "Rectangle2"
 ```
-## Hoisting
-An important difference between **function declarations** and **class declarations** is that while functions can be called in code that appears before they are defined, classes must be defined before they can be constructed. Code like the following will throw a [`ReferenceError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError):
+
+## Static Properties
+[_Static properties_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) are a group of class features that are defined on the class itself, rather than on individual instances of the class. These features include:
+- Static methods
+- Static fields
+- Static getters and setters
+
+
+
+[[JavaScript Hoisting]]

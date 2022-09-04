@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 13th, 2022
-date modified: Sep 2nd, 2022
+date modified: Sep 4th, 2022
 ---
 # Git
 ## Config
@@ -15,7 +15,16 @@ pbcopy < ~/.ssh/id_ed25519.pub
 git config --global user.signingkey 'key'
 git config --global commit.gpgsign true
 git config --global tag.gpgsign true
+git config --global color.ui auto
 ```
+
+To get particular config value, use `--get`  
+`git config --get --global color.ui`
+
+To get all config value, use `--list`  
+`git config --list`
+or look at your `~/.gitconfig` file. The local configuration will be in your repository's `.git/config` file.
+`git config --list --show-origin`
 
 ___
 [Creating a personal access token - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)

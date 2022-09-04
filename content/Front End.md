@@ -1,5 +1,4 @@
-- [[Bootstrap]]
-- [[Font Awesome]]
+- [[Tauri]]
 
 - [[Web request]]
 - [[HTML]]
@@ -9,3 +8,4 @@
 - [[CSS]]
 
 - [[JavaScript]]
+- [[TypeScript]]

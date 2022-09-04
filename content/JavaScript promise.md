@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Aug 21st, 2022
-date modified: Aug 27th, 2022
+date modified: Sep 3rd, 2022
 ---
 [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
 [How to escape Promise Hell. Unlike Callback Hell, Promise Hell is… | by Ronald Chen | Medium](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513)  
@@ -25,6 +25,7 @@ The `promise` object returned by the `new Promise` constructor has these int
 
 ## Promise Consumer
 The constructor function takes a function as an argument. This function is called the `executor/consumer function`.
+
 ### .then
 The first argument of `.then` is a function that runs when the promise is resolved and receives the result.  
 The second argument of `.then` is a function that runs when the promise is rejected and receives the error.  
@@ -78,6 +79,7 @@ The only exception to this rule is when a `finally` handler throws an error. T
 
 ## Promises Chaining
 ### Returning Promises
+
 ```js
 new Promise(function (resolve, reject) {
   setTimeout(() => resolve(1), 1000);
