@@ -12,6 +12,8 @@ date modified: Aug 16th, 2022
 [[Mathematical Induction]]
 [[Equivalence relation]]
 [[Proof]]
+[[Bezout's Identity]]
+[[Lame's Theorem]]
 [[Divis]]
 
 

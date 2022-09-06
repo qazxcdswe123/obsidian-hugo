@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 13th, 2022
-date modified: Sep 4th, 2022
+date modified: Sep 6th, 2022
 ---
 # Git
 ## Config
@@ -22,8 +22,8 @@ To get particular config value, use `--get`
 `git config --get --global color.ui`
 
 To get all config value, use `--list`  
-`git config --list`
-or look at your `~/.gitconfig` file. The local configuration will be in your repository's `.git/config` file.
+`git config --list`  
+or look at your `~/.gitconfig` file. The local configuration will be in your repository's `.git/config` file.  
 `git config --list --show-origin`
 
 ___
@@ -60,7 +60,12 @@ ___
 	- `git config --global credential.helper store`
 	- `git config credential.helper store`
 
+## Command
+- `hash-object` converts an existing file into a git object
+- `cat-file` prints an existing git object to the standard output.
 
+## Object
+Now, **what actually is a Git object?** At its core, Git is a “content-addressed filesystem”. That means that unlike regular filesystems, where the name of a file is arbitrary and unrelated to that file’s contents, the names of files as stored by Git are mathematically derived from their contents. This has a very important implication: if a single byte of, say, a text file, changes, its internal name will change, too. To put it simply: you don’t _modify_ a file, you create a new file in a different location. Objects are just that: files in the git repository, whose path is determined by their contents.
 - [[git submodule]]
 
 

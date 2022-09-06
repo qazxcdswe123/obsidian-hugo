@@ -11,7 +11,7 @@ date modified: Sep 4th, 2022
 	- [[Python Pandas]]
 	- [[Python OS]]
 	- [[Python PinYin]]
-	- [[Python Argparse]]
+	- [[Python argparse]]
 	- [[Python Flask]]
 	- [[Python Matplotlib]]
 

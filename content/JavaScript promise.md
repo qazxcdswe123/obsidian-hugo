@@ -13,9 +13,11 @@ A [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 Promises are about making asynchronous code retain most of the lost properties of synchronous code such as flat indentation and one exception channel.
 
 A promise is commonly defined as **a proxy for a value that will eventually become available**.
+![](https://img.ynchen.me/2022/09/45a744c38cf26022564ee5527535a188.png)
+
 
 ## Promise Executor
-A Promise executor should call only one `resolve` or one `reject`. Once one state is changed (pending => fulfilled or pending => rejected), that's all. Any further calls to `resolve` or `reject` will be ignored.
+A Promise executor should call only one `resolve` or one `reject`. Once one state is changed `(pending => fulfilled or pending => rejected)`, that's all. Any further calls to `resolve` or `reject` will be ignored.
 
 The executor runs automatically and attempts to perform a job. When it is finished with the attempt, it calls `resolve` if it was successful or `reject` if there was an error.
 
