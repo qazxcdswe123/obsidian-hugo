@@ -4,6 +4,8 @@ tags: []
 date created: Apr 9th, 2022
 date modified: Sep 1st, 2022
 ---
+[[IDEA]]
+
 # Settings
 ```json
 // Place your key bindings in this file to override the defaults

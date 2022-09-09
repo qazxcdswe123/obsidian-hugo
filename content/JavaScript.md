@@ -21,7 +21,7 @@ date modified: Jul 28th, 2022
 [[JavaScript Object]]  
 [[JavaScript Array]]  
 [[JavaScript Loop]]  
-[[JavaScript Map And Set]]
+[[JavaScript Map and Set]]
 [[JavaScript promise]]
 [[JavaScript Workers]]
 
