@@ -1,7 +1,18 @@
-[Src](https://www.geeksforgeeks.org/templates-cpp/)
+---
+aliases: []
+tags: []
+date created: Jun 19th, 2022
+date modified: Sep 7th, 2022
+---
+[Src](https://www.geeksforgeeks.org/templates-cpp/)  
 [ntu](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp8_Template.html)
+
+# How it Works
+Templates are expanded at compiler time. This is like macros. The difference is, that the compiler does type checking before template expansion. The idea is simple, source code contains only function/class, but compiled code may contain multiple copies of the same function/class.
+
 # Function Template
 A _function template_ is a generic function that is defined on a generic type for which a specific type can be substituted. Compiler will generate a function for each specific type used. Because types are used in the function parameters, they are also called _parameterized types_.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -23,8 +34,10 @@ int main()
   return 0;
 }
 ```
-##### More than one Type Parameters
+
+##### More Than One Type Parameters
 To use more than one type parameters in a template:
+
 ```cpp
 template <typename T1, typename T2, ....>
 class ClassName { ...... }
@@ -32,10 +45,12 @@ class ClassName { ...... }
 
 ##### Default Type
 You can also provide default type in template. For example,
+
 ```cpp
 template <typename T = int>
 class ClassName { ...... }
 ```
+
 To instantiate with the default type, use `ClassName<>`.
 
 ##### Specialization
@@ -55,6 +70,7 @@ class Complex<int> { ....... }
 ```
 
 # Class Template
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -91,5 +107,6 @@ int main() {
 	return 0;
 }
 ```
-**What is the difference between function overloading and templates?**   
+
+**What is the difference between function overloading and templates?**  
 Both function overloading and templates are examples of **polymorphism** feature of OOP. Function overloading is used when multiple functions do similar operations, templates are used when multiple functions do identical operations.

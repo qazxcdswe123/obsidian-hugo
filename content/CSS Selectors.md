@@ -62,3 +62,6 @@ Here are some of the more common types of selectors:
     </body>
 </html>
 ```
+
+### Multiple Attribute
+`document.querySelector('[name="single-5"][value="B"]')`

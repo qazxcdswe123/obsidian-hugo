@@ -1,6 +1,7 @@
 - [[Tauri]]
 
 - [[Web request]]
+- [[Web Security]]
 - [[HTML]]
 - [[DOM]]
 - [[XPath]]

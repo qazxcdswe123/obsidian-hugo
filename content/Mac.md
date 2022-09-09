@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 21st, 2022
-date modified: Aug 15th, 2022
+date modified: Sep 7th, 2022
 ---
 ## Softwere
 ### Microsoft
@@ -29,7 +29,7 @@ date modified: Aug 15th, 2022
 [Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
 - Cask
 	- AlDente (Charge Limit)
-	- syntax-highlight  (For Quick Preview via `Space`)
+	- syntax-highlight (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
 	- Obsidian (note)
 	- [[iterm2]] (terminal alternative)
@@ -82,6 +82,8 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false        
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
 defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false    # For VS Codium
 defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 3 above)
+
+defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
 - configure [[VSCode]] [[font]]  
@@ -91,6 +93,7 @@ defaults delete -g ApplePressAndHoldEnabled # restore to default (not including 
 `/opt/homebrew/bin/bash`
 
 - Edit `/etc/ssh/ssh_config`
+
 ```
 ServerAliveInterval 20
 ServerAliveCountMax 999
@@ -100,7 +103,6 @@ echo "ServerAliveInterval 20
 ServerAliveCountMax 999
 " >> /etc/ssh/ssh_config
 ```
-
 
 ## System Preference
 - Automatically Hide Menu-bar and Dock

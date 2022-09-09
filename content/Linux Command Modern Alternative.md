@@ -6,6 +6,7 @@ date modified: Aug 15th, 2022
 ---
 ## Fd
 `fd --extension txt`
+`fd -x `
 
 ## Fzf
 Add `fzf` to [[Shell|zsh]] plugins  

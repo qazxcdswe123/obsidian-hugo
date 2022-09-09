@@ -4,6 +4,10 @@ tags: []
 date created: Jul 24th, 2022
 date modified: Aug 28th, 2022
 ---
+> To appreciate this beauty, one has to be willing to expend a certain amount of mental energy. But the end result is well worth the effort. Our goal in this book is to understand and appreciate some truly beautiful mathematics, to learn how this mathematics was discovered and proved, and maybe even to make some original contributions of our own.
+- A friendly introduction to number theory (Silverman, Joseph H)
+
+___
 >  好资料，坏资料。好资料的特点：从问题出发；重点介绍方法背后的理念（ rationale ），注重直观解释，而不是方法的技术细节；按照方法被发明的时间流程来介绍（先是遇到了什么什么问题，然后怎样分析，推理，最后发现目前所使用的方法）。坏资料的特点是好资料的反面：上来就讲方法细节，仿佛某方法是从天上掉下来的，他们往往这样写“我们定义… 我们称… 我们进行以下几个步骤… ”。根本不讲为什么要用这个方法，人们最初是因为面对什么问题才想到这个方法的，其间又是怎样才想出了这么个方法的，方法背后的直观思想又是什么。实际上一个方法如果将其最终最简洁的形式直接表达出来往往丢失掉了绝大多数信息，这个丢掉的信息就是问题解决背后的思维过程。至于为什么大多数书做不到这一点，我在这里试着分析过。
 - [一直以来伴随我的一些学习习惯(三)：阅读方法 – 刘未鹏 | Mind Hacks](http://mindhacks.cn/2008/09/17/learning-habits-part3/)
 

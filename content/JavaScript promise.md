@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Aug 21st, 2022
-date modified: Sep 3rd, 2022
+date modified: Sep 6th, 2022
 ---
 [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
 [How to escape Promise Hell. Unlike Callback Hell, Promise Hell is… | by Ronald Chen | Medium](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513)  
@@ -12,11 +12,13 @@ A [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 Promises are about making asynchronous code retain most of the lost properties of synchronous code such as flat indentation and one exception channel.
 
-A promise is commonly defined as **a proxy for a value that will eventually become available**.
+A promise is commonly defined as **a proxy for a value that will eventually become available**.  
 ![](https://img.ynchen.me/2022/09/45a744c38cf26022564ee5527535a188.png)
 
 
 ## Promise Executor
+Set the state and return the value.
+
 A Promise executor should call only one `resolve` or one `reject`. Once one state is changed `(pending => fulfilled or pending => rejected)`, that's all. Any further calls to `resolve` or `reject` will be ignored.
 
 The executor runs automatically and attempts to perform a job. When it is finished with the attempt, it calls `resolve` if it was successful or `reject` if there was an error.
@@ -26,11 +28,13 @@ The `promise` object returned by the `new Promise` constructor has these int
 - `result` — initially `undefined`, then changes to `value` when `resolve(value)` is called or `error` when `reject(error)` is called.
 
 ## Promise Consumer
+Deal with the value or value.
+
 The constructor function takes a function as an argument. This function is called the `executor/consumer function`.
 
 ### .then
-The first argument of `.then` is a function that runs when the promise is resolved and receives the result.  
-The second argument of `.then` is a function that runs when the promise is rejected and receives the error.  
+The first argument of `.then` is a function that runs when the promise is **resolved** and receives the result.  
+The second argument of `.then` is a function that runs when the promise is **rejected** and receives the error.  
 If we’re interested only in successful completions, then we can provide only one function argument to `.then`:
 
 ```js
@@ -41,7 +45,7 @@ let promise = new Promise(function(resolve, reject) {
 // resolve runs the first function in .then
 promise.then(
   result => alert(result), // shows "done!" after 1 second
-  error => alert(error) // doesn't run
+  error => alert(error) // doesn't run because it was resolved
 );
 ```
 
@@ -108,7 +112,9 @@ new Promise(function (resolve, reject) {
 ## Methods
 ### Promise.catch()
 If we throw an Error like `new Error("Something wrong!")`  instead of calling the `reject` from the promise executor and handlers, it will still be treated as a rejection. It means that this will be caught by the `.catch` handler method.  
-The **`catch()`** method returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) and deals with rejected cases only. It behaves the same as calling [`Promise.prototype.then(undefined, onRejected)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) (in fact, calling `obj.catch(onRejected)` internally calls `obj.then(undefined, onRejected)`). This means that you have to provide an `onRejected` function even if you want to fall back to an `undefined` result value - for example `obj.catch(() => {})`.
+
+The **`catch()`** method returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) and deals with rejected cases only. It behaves the same as calling [`Promise.prototype.then(undefined, onRejected)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) (in fact, calling `obj.catch(onRejected)` internally calls `obj.then(undefined, onRejected)`). 
+This means that you have to provide an `onRejected` function even if you want to fall back to an `undefined` result value - for example `obj.catch(() => {})`.
 
 ### Promise.prototype.finally()
 The **`finally()`** method of a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) schedules a function, the _callback function_, to be called when the promise is settled. Like `then()` and `catch()`, it immediately returns an equivalent [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) object, allowing you to chain calls to another promise method, an operation called _composition_.

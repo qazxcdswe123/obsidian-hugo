@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Aug 12th, 2022
-date modified: Aug 15th, 2022
+date modified: Sep 7th, 2022
 ---
 - [[C++ Virtual Table]]
 - [[C++ explicit]]

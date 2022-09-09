@@ -2,26 +2,26 @@
 aliases: []
 tags: [] 
 date created: May 5th, 2022
-date modified: Aug 20th, 2022
+date modified: Sep 9th, 2022
 ---
 [[JavaScript Template Literal]]
 # Data
 Let's start off by looking at the building blocks of any language: the types. JavaScript programs manipulate values, and those values all belong to a type. JavaScript's types are:
--   [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
+- [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
 	- 64 bit double
--   [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#bigint_type)
--   [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type)
-	- [`length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
--   [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#boolean_type)
+- [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#bigint_type)
+- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type)
+	- [[JavaScript String]]
+- [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#boolean_type)
 	- `Boolean()`
--   [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#symbol_type) (new in ES2015)
--   [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects)
-    -   [`Function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
-    -   [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-    -   [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-    -   [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
--   [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#null_type)
--   [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#undefined_type)
+- [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#symbol_type) (new in ES2015)
+- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects)
+    - [`Function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
+    - [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+    - [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+    - [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#null_type)
+- [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#undefined_type)
 
 ## Variable
 New variables in JavaScript are declared using one of three keywords: [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let), [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const), or [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var).  

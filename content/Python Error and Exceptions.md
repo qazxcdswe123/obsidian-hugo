@@ -2,14 +2,15 @@
 aliases: []
 tags: [] 
 date created: Jul 24th, 2022
-date modified: Aug 16th, 2022
+date modified: Sep 7th, 2022
 ---
-[[C++ error handling]]
+[[C++ error handling]]  
+[[JavaScript Error Handling]]  
 [Src](https://docs.python.org/3/tutorial/errors.html)
 
 # Exceptions Handling
-An exception is thrown when a fundamental assumption of the current code block is found to be false.
-`Try, catch, and finally` statements enable the use of a resource, catching any possible exceptions and then releasing the resource in the final block, making sure that there are no memory leaks.
+An exception is thrown when a fundamental assumption of the current code block is found to be false.  
+`try, catch, and finally` statements enable the use of a resource, catching any possible exceptions and then releasing the resource in the final block, making sure that there are no memory leaks.
 
 ## Try Clause
 [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
@@ -24,10 +25,10 @@ An exception is thrown when a fundamental assumption of the current code block i
 ```
 
 The [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement works as follows.
--   First, the _try clause_ (the statement(s) between the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) and [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) keywords) is executed.
--   If no exception occurs, the _except clause_ is skipped and execution of the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement is finished.
--   If an exception occurs during execution of the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) clause, the rest of the clause is skipped. Then, if its type matches the exception named after the [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) keyword, the _except clause_ is executed, and then execution continues after the try/except block.
--   If an exception occurs which does not match the exception named in the _except clause_, it is passed on to outer [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statements; if no handler is found, it is an _unhandled exception_ and execution stops with a message as shown above.
+- First, the _try clause_ (the statement(s) between the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) and [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) keywords) is executed.
+- If no exception occurs, the _except clause_ is skipped and execution of the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement is finished.
+- If an exception occurs during execution of the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) clause, the rest of the clause is skipped. Then, if its type matches the exception named after the [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) keyword, the _except clause_ is executed, and then execution continues after the try/except block.
+- If an exception occurs which does not match the exception named in the _except clause_, it is passed on to outer [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statements; if no handler is found, it is an _unhandled exception_ and execution stops with a message as shown above.
 -  An _except clause_ may name multiple exceptions as a parenthesized tuple, for example:  
 	`except (RuntimeError, TypeError, NameError):`
 
@@ -88,11 +89,11 @@ RuntimeError: Failed to open database
 ## Finally Clause
 [Src](https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions)  
 The `finally` clause will execute as the last task before the [`try`](https://docs.python.org/3/reference/compound_stmts.html#try) statement completes. The `finally` clause runs whether or not the `try` statement produces an exception.
--   If an exception occurs during execution of the `try` clause, the exception may be handled by an [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) clause. If the exception is not handled by an `except` clause, the exception is re-raised after the `finally` clause has been executed.
--   An exception could occur during execution of an `except` or `else` clause. Again, the exception is re-raised after the `finally` clause has been executed.
--   If the `finally` clause executes a [`break`](https://docs.python.org/3/reference/simple_stmts.html#break), [`continue`](https://docs.python.org/3/reference/simple_stmts.html#continue) or [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) statement, exceptions are not re-raised.
--   If the `try` statement reaches a [`break`](https://docs.python.org/3/reference/simple_stmts.html#break), [`continue`](https://docs.python.org/3/reference/simple_stmts.html#continue) or [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) statement, the `finally` clause will execute just prior to the `break`, `continue` or `return` statement’s execution.
--   If a `finally` clause includes a `return` statement, the returned value will be the one from the `finally` clause’s `return` statement, not the value from the `try` clause’s `return` statement.
+- If an exception occurs during execution of the `try` clause, the exception may be handled by an [`except`](https://docs.python.org/3/reference/compound_stmts.html#except) clause. If the exception is not handled by an `except` clause, the exception is re-raised after the `finally` clause has been executed.
+- An exception could occur during execution of an `except` or `else` clause. Again, the exception is re-raised after the `finally` clause has been executed.
+- If the `finally` clause executes a [`break`](https://docs.python.org/3/reference/simple_stmts.html#break), [`continue`](https://docs.python.org/3/reference/simple_stmts.html#continue) or [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) statement, exceptions are not re-raised.
+- If the `try` statement reaches a [`break`](https://docs.python.org/3/reference/simple_stmts.html#break), [`continue`](https://docs.python.org/3/reference/simple_stmts.html#continue) or [`return`](https://docs.python.org/3/reference/simple_stmts.html#return) statement, the `finally` clause will execute just prior to the `break`, `continue` or `return` statement’s execution.
+- If a `finally` clause includes a `return` statement, the returned value will be the one from the `finally` clause’s `return` statement, not the value from the `try` clause’s `return` statement.
 
 ```python
 >>> def bool_return():

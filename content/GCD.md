@@ -2,7 +2,7 @@
 aliases: [LCF]
 tags: [] 
 date created: Jul 14th, 2022
-date modified: Sep 5th, 2022
+date modified: Sep 7th, 2022
 ---
 # Divisor
 A divisor of *n*, also called a factor of *n*, is an integer *m* that can be multiplied by some integer to produce *n*.  
@@ -42,13 +42,55 @@ int gcd(int a, int b)
 
 # BGCD
 
-```python
-# Input: positive integers a and b, with a > b.
-# Output: the greatest common divisor of a and b.
-def binary_gcd(a, b):
-	# Finding ’k’, which is the greatest power of 2, that divides both a and b
-	k = 0
-	while (((a | b) & 1) == 0)
+```rust
+pub fn gcd(mut u: u64, mut v: u64) -> u64 {
+    use std::cmp::min;
+    use std::mem::swap;
+
+    // Base cases: gcd(n, 0) = gcd(0, n) = n
+    if u == 0 {
+        return v;
+    } else if v == 0 {
+        return u;
+    }
+
+    // Using identities 2 and 3:
+    // gcd(2ⁱ u, 2ʲ v) = 2ᵏ gcd(u, v) with u, v odd and k = min(i, j)
+    // 2ᵏ is the greatest power of two that divides both u and v
+    let i = u.trailing_zeros();  u >>= i;
+    let j = v.trailing_zeros();  v >>= j;
+    let k = min(i, j);
+
+    loop {
+        /// u and v are odd at the start of the loop
+        debug_assert!(u % 2 == 1, "u = {} is even", u);
+        debug_assert!(v % 2 == 1, "v = {} is even", v);
+
+        // Swap if necessary so u <= v
+        if u > v {
+            swap(&mut u, &mut v);
+        }
+        /// u and v are still both odd after (potentially) swapping
+
+        // Using identity 4 (gcd(u, v) = gcd(|v-u|, min(u, v))
+        v -= u;
+        /// v is now even, but u is unchanged (and odd)
+
+        // Identity 1: gcd(u, 0) = u
+        // The shift by k is necessary to add back the 2ᵏ factor that was removed before the loop
+        if v == 0 {
+            return u << k;
+        }
+
+        // Identity 3: gcd(u, 2ʲ v) = gcd(u, v) (u is known to be odd)
+        v >>= v.trailing_zeros();
+        /// v is now odd again
+    }
+}
 ```
 
+1. gcd(0, _v_) = _v_, because everything divides zero, and _v_ is the largest number that divides _v_. Similarly, gcd(_u_, 0) = _u_.
+2. gcd(_2u_, _2v_) = 2 · gcd(_u_, _v_)
+3. gcd(_2u_, _v_) = gcd(_u_, _v_), if _v_ is odd (2 is not a common divisor). Similarly, gcd(_u_, _2v_) = gcd(_u_, _v_) if _u_ is odd.
+4. gcd(_u_, _v_) = gcd(|_u_ − _v_|, min(_u_, _v_)), if _u_ and _v_ are both odd.  
 [[Bezout's Identity]]
