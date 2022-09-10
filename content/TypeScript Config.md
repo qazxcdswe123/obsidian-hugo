@@ -12,3 +12,6 @@ However, using `any` often defeats the purpose of using TypeScript in the firs
 
 ### Source Map -`sourceMap`
 [TypeScript: TSConfig Reference - Docs on every TSConfig option](https://www.typescriptlang.org/tsconfig#sourceMap)
+
+### Strict Null Checks -`strictNullChecks`
+[TypeScript: TSConfig Reference - Docs on every TSConfig option](https://www.typescriptlang.org/tsconfig#strictNullChecks)

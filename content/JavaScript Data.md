@@ -15,6 +15,7 @@ Let's start off by looking at the building blocks of any language: the types. Ja
 - [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#boolean_type)
 	- `Boolean()`
 - [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#symbol_type) (new in ES2015)
+	- [[JavaScript Symbol]]
 - [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects)
     - [`Function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
     - [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
