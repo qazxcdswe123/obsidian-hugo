@@ -25,7 +25,7 @@ while (queue.waitForMessage()) {
 }
 ```
 
-This offers some nice properties when reasoning about your program, including the fact that whenever a function runs, it cannot be preempted and will run entirely before any other code runs (and can modify data the function manipulates). This differs from [[C]], for instance, where if a function runs in a [[thread]], it may be stopped at any point by the runtime system to run some other code in another [[thread]].
+This offers some nice properties when reasoning about your program, including the fact that whenever a function runs, it cannot be preempted and will run entirely before any other code runs (and can modify data the function manipulates). This differs from [[C++]], for instance, where if a function runs in a [[thread]], it may be stopped at any point by the runtime system to run some other code in another [[thread]].
 
 A good practice to follow is to make message processing short and if possible cut down one message into several messages.
 

@@ -5,7 +5,7 @@ date created: Jul 24th, 2022
 date modified: Aug 15th, 2022
 ---
 - -> 其实是 (\*pointer).value
-- [[C]] 中有 [[C++ STL]] ，效果几乎相同，效率和数组相似
+- [[C++]] 中有 [[C++ STL]] ，效果几乎相同，效率和数组相似
 - Error handling using new
 
 ```cpp
