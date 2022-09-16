@@ -9,6 +9,7 @@ date modified: Jul 28th, 2022
 - See also [[Markdown Format Testing]]
 
 ## CS Related
+- 2022-09-15: [[Errata for Teachers]]
 - 2022-07-28: [[Programming Language]]
 - 2022-07-28: [[编程语言随想]]
 - 2022-07-24: [[Introduction to Floating Point Number]]

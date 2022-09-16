@@ -12,3 +12,15 @@ date modified: Sep 9th, 2022
 	- `CMD+Shift+A` to find actions
 
 ### Easymotion
+```
+set easymotion
+map f <Nop>
+map F <Nop>
+nmap f <Plug>(easymotion-f)
+nmap F <Plug>(easymotion-F)
+```
+
+### NERDTree
+[NERDTree support · JetBrains/ideavim Wiki · GitHub](https://github.com/JetBrains/ideavim/wiki/NERDTree-support)
+
+[[Google Test]]

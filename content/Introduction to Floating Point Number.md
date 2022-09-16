@@ -70,6 +70,7 @@ date modified: Jul 28th, 2022
 - $E = e - Bias$
 - $M = 1 + f$
 - 最终结果 V： $V = (-1)^S \times 2^E \times M$  
+
 这下是不是就很 Normal 了？
 
 ## Case 3: Special Values

@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: May 29th, 2022
-date modified: Aug 17th, 2022
+date modified: Sep 11th, 2022
 ---
 [Src](https://docs.python.org/3/tutorial/classes.html)  
 [[Python Namespace]]
@@ -36,8 +36,8 @@ class Dog:
 ## Inheritance
 `class DerivedClassName(modname.BaseClassName):`  
 Python has two built-in functions that work with inheritance:
--   Use [`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance "isinstance") to check an instance’s type: `isinstance(obj, int)` will be `True` only if `obj.__class__` is [`int`](https://docs.python.org/3/library/functions.html#int "int") or some class derived from [`int`](https://docs.python.org/3/library/functions.html#int "int").
--   Use [`issubclass()`](https://docs.python.org/3/library/functions.html#issubclass "issubclass") to check class inheritance: `issubclass(bool, int)` is `True` since [`bool`](https://docs.python.org/3/library/functions.html#bool "bool") is a subclass of [`int`](https://docs.python.org/3/library/functions.html#int "int"). However, `issubclass(float, int)` is `False` since [`float`](https://docs.python.org/3/library/functions.html#float "float") is not a subclass of [`int`](https://docs.python.org/3/library/functions.html#int "int").
+- Use [`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance "isinstance") to check an instance’s type: `isinstance(obj, int)` will be `True` only if `obj.__class__` is [`int`](https://docs.python.org/3/library/functions.html#int "int") or some class derived from [`int`](https://docs.python.org/3/library/functions.html#int "int").
+- Use [`issubclass()`](https://docs.python.org/3/library/functions.html#issubclass "issubclass") to check class inheritance: `issubclass(bool, int)` is `True` since [`bool`](https://docs.python.org/3/library/functions.html#bool "bool") is a subclass of [`int`](https://docs.python.org/3/library/functions.html#int "int"). However, `issubclass(float, int)` is `False` since [`float`](https://docs.python.org/3/library/functions.html#float "float") is not a subclass of [`int`](https://docs.python.org/3/library/functions.html#int "int").
 
 ### Multiple Inheritance
 `class DerivedClassName(Base1, Base2, Base3):`  
