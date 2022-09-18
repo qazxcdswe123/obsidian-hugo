@@ -5,7 +5,7 @@ date created: Jul 13th, 2022
 date modified: Jul 28th, 2022
 ---
 # A Blog Directly Generated From Obsidian
-- How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
+- How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown Format Testing]]
 
 ## CS Related

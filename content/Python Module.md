@@ -20,4 +20,7 @@ It turns out that we need to write `cs50.get_int(...)` when we import the entire
 ```
 This imports all names except those beginning with an underscore (`_`). In most cases Python programmers do not use this facility since it introduces an unknown set of names into the interpreter, possibly hiding some things you have already defined.
 
+Adding an empty `__init__.py` file to the folder to indicate that the directory is importable.
+
+
 [[Python sys]]
