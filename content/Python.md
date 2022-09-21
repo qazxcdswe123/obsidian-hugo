@@ -13,6 +13,7 @@ date modified: Sep 4th, 2022
 	- [[Python PinYin]]
 	- [[Python argparse]]
 	- [[Python Flask]]
+	- [[Python collections]]
 	- [[Python Matplotlib]]
 
 - [[Python Decorator]]

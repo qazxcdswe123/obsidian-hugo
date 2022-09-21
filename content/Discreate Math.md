@@ -8,3 +8,4 @@ date modified: Aug 19th, 2022
 [[Proof]]  
 [[DNF and CNF]]  
 [[MCS]]  
+[[Discreate Math Homework 1]]

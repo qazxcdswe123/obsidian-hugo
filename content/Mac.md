@@ -49,7 +49,7 @@ date modified: Sep 7th, 2022
 	- bash
 	- rust
 	- yadm
-	- [[neovim]]
+	- neovim
 	- [[ripgrep]]
 	- htop
 	- [[python]]
@@ -57,7 +57,7 @@ date modified: Sep 7th, 2022
 	- [[NodeJS]]
 	- wget
 	- fd
-	- lazygit + [[git]]
+	- lazygit + [[Git]]
 	- dust
 	- fzf
 	- [[ranger]]

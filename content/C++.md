@@ -5,19 +5,18 @@ date created: Jul 13th, 2022
 date modified: Jul 28th, 2022
 ---
 [[Unit Testing]]
+[[Cmake]]
 
+- [[Pointer]]
 - [[Scope]]
 - [[C Typedef]]
 - [[C Macros]]
-
-
-- [[Pointer]]
 - [[C++ const]]
 - [[C++ implicit conversion]] 
 - [[C++ OOP]]
 - [[C++ Iterator]]
 - [[C++ Header File]]
-- [[Library]] 
+- [[C++ library]] 
 - [[C++ File]]
 - [[C++ New]]
 - [[C++ Shallow copy Deep copy]]

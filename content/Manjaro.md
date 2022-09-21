@@ -31,7 +31,7 @@ Use [[ranger]] `yc` copy content `yn` copy name
 12. wayland fucked up after random upgrade, uninstall nvidia driver to fix, but screenshot fucked up after using wayland.
 
 # 代理
-1. 安装 Clash via [[pacman]]
+1. 安装 Clash via pacman
 	2. Config in `~/.config/clash/config.yaml`
 3. create [[systemd]]
 ```

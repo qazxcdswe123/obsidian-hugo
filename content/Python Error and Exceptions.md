@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 24th, 2022
-date modified: Sep 7th, 2022
+date modified: Sep 20th, 2022
 ---
 [[C++ error handling]]  
 [[JavaScript Error Handling]]  
@@ -12,7 +12,7 @@ date modified: Sep 7th, 2022
 An exception is thrown when a fundamental assumption of the current code block is found to be false.  
 `try, catch, and finally` statements enable the use of a resource, catching any possible exceptions and then releasing the resource in the final block, making sure that there are no memory leaks.
 
-## Try Clause
+## Try-Except Clause
 [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
 
 ```python

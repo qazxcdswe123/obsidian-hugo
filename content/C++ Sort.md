@@ -1,9 +1,17 @@
+---
+aliases: []
+tags: []
+date created: Jul 10th, 2022
+date modified: Sep 21st, 2022
+---
 # STL Sort
 
 ## sort()
+
 `algorithm` header
 
 ### Usage
+
 ```cpp
 int main()
 {
@@ -18,14 +26,17 @@ int main()
 ```
 
 ### Reverse
-Use `<functional>` header and `std::greater` [Src](https://en.cppreference.com/w/cpp/utility/functional/greater)
-`sort( &arr[0], &arr[n], greater<int>() )`
+
+Use `<functional>` header and `std::greater` [Src](https://en.cppreference.com/w/cpp/utility/functional/greater)  
+`sort( &arr[0], &arr[n], greater<int>() )`  
 or any boolean return function [[Queue]]
 
 ## qsort()
+
 `stdlib.h` header
 
 ### Usage
+
 `void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))`
 -   **base** − This is the **pointer** to the **first** element of the array to be sorted.
 -   **nitems** − This is the **number of elements** in the array pointed by base.

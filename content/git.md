@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 13th, 2022
-date modified: Sep 6th, 2022
+date modified: Sep 19th, 2022
 ---
 # Git
 ## Config
@@ -33,6 +33,16 @@ ___
 ## Commit
 附加修改提交信息  
 `git commit --amend "foobar"`
+
+## Diff
+- Compare with previous commit: use `^!`
+	- `git diff 77e13ax^!`
+- Compare specific directory
+	- `git diff hash1 hash2 - path/to`
+- See the number of changes
+	- `git diff —stat hash1 hash2`
+- See what in staged area
+	- `git diff —staged`
 
 ## Hacks
 ### Clear Git History

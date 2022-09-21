@@ -19,7 +19,7 @@ date modified: Jul 28th, 2022
 - 2022-07-21: [[Mac]]
 - 2022-07-11: [[Manjaro]]
 - 2022-07-11: [[Linux]]
-- 2022-07-11: [[git]]
+- 2022-07-11: [[Git]]
 - 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
 - 2022-01-05: [[GDB Crash Course]]
@@ -49,3 +49,6 @@ date modified: Jul 28th, 2022
 ## [[Book Review]]
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
 - 2022-07-11: [[Algorithm Unlock Book Review]]
+
+
+$\neg (美丽 \wedge 温柔 \wedge 体贴 \wedge 女友力)$ 的 YY

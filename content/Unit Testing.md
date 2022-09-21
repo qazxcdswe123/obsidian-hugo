@@ -15,7 +15,7 @@ Good practices for unit testing include:
 - Organizing tests in a way that the order in which you run them doesn't affect the results.
 
 ## Language
-- [[C++ Catch2]]
+- [[C++ Testing]]
 	- [JetBrains Docs](https://www.jetbrains.com/help/clion/unit-testing-tutorial.html#basics)  
 - [[JavaScript JEST]]
 - [[Python Testing]]
