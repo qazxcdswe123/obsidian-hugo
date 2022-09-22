@@ -69,6 +69,8 @@ print(matrix_power(fibonacci_matrix, 10)[0][1]) # 55
 此时，因为 c 确定，由 mod 的定义得，s 确定。
 所以，在 mod m 的意义上存在唯一确定的整数值 $c^{-1}$ 使得 $cc^{-1} \equiv 1 \pmod{m}$
 
+怪怪的。。
+
 ## 11
 ```python
 def egcd(a, b):
