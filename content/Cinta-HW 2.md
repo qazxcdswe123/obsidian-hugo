@@ -70,10 +70,10 @@ print(matrix_power(fibonacci_matrix, 10)[0][1]) # 55
 即存在 $c^{-1} = s$
 
 - 唯一性
-假设存在 $c_2^{-1}$ , 并且 $c_2^{-1}c \equiv 1 \pmod{m}$, 可得 $c_2^{-1}$ 和 s 是等价类（？
-因为要求在 mod m 意义下，所以 $c^{-1} = c_2^{-1} = s$
-
-怪怪的。。
+假设存在 $c_2^{-1} \neq c^{-1}$ , 并且 $c_2^{-1}c \equiv 1 \pmod{m}$, $c^{-1}c \equiv 1 \pmod{m}$
+即 $c^{-1} \equiv c_2^{-1} \pmod{m}$
+即在 mod m 意义下， $c^{-1} = c_2^{-1} = s$
+唯一性得证
 
 ## 11
 ```python
