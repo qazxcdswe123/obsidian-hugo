@@ -51,4 +51,4 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - 2022-07-11: [[Algorithm Unlock Book Review]]
 
 
-$\neg (美丽 \wedge 温柔 \wedge 体贴 \wedge 女友力)$ 的 YY
+$\neg (美丽 \wedge 温柔 \wedge 体贴 \wedge 女友力)$ 的 BenBiYY

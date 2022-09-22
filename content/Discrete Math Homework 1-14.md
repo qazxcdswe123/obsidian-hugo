@@ -25,13 +25,9 @@ Combine them we get the answer.
 - 45
 1. 0, 2, 0 0
 2. 0, 0, 4, 0
-3. 
-5. 
-$$
-\begin{bmatrix}
-1	
-\end{bmatrix}
-$$
+3. 44
+4. 88
+5. 全为一的5x5方阵
 
 - 49
 1. r-1 种非同构圈

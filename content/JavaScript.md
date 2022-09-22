@@ -23,7 +23,6 @@ date modified: Jul 28th, 2022
 [[JavaScript Loop]]  
 [[JavaScript Map and Set]]
 [[JavaScript promise]]
-[[JavaScript Workers]]
 
 # Function
 [[JavaScript Function for Numbers]]  
