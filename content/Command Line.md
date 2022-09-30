@@ -1,7 +1,8 @@
-[[Linux Command Modern Alternative]]
-[[Manjaro]]
-[[Command-line Environment · the missing semester of your cs education]]
-[[01-Linux and Command Line]]
+- [[Linux Command Modern Alternative]]
+- [[Manjaro]]
+- [[Command-line Environment · the missing semester of your cs education]]
+- [[01-Linux and Command Line]]
+- [[Mac]]
 # Cursor moving
 [Src](https://stackoverflow.com/questions/81272/how-to-move-the-cursor-word-by-word-in-the-os-x-terminal)
 -   alt (⌥)+F to jump Forward by a word

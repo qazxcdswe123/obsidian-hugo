@@ -4,7 +4,6 @@ aliases: [heap]
 date created: Jul 17th, 2022
 date modified: Jul 28th, 2022
 ---
-
 [科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  
 [[Stack]]
 ## Segmentation
@@ -12,7 +11,6 @@ date modified: Jul 28th, 2022
 [Data segment - Wikipedia](https://en.wikipedia.org/wiki/Data_segment)
 [Code segment - Wikipedia](https://en.wikipedia.org/wiki/Code_segment)
 [.bss - Wikipedia](https://en.wikipedia.org/wiki/.bss)
-
 
 ## Virtual Memory
 Each [[process]] has the same uniform view of memory, which is known as its virtual address space.  

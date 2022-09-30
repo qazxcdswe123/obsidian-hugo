@@ -12,7 +12,7 @@ date modified: Jul 28th, 2022
 
 [[NodeJS]]  
 
-[[Async Await]]
+[[JavaScript Async Await]]
 [[JavaScript Event]]
 [[JavaScript Event Loop]]
 [[JavaScript Error Handling]]
@@ -22,7 +22,7 @@ date modified: Jul 28th, 2022
 [[JavaScript Array]]  
 [[JavaScript Loop]]  
 [[JavaScript Map and Set]]
-[[JavaScript promise]]
+[[JavaScript Promise]]
 
 # Function
 [[JavaScript Function for Numbers]]  

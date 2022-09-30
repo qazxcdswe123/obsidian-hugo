@@ -52,3 +52,4 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 
 
 $\neg (美丽 \wedge 温柔 \wedge 体贴 \wedge 女友力)$ 的 BenBiYY
+${r^{p-1} | r \in \mathbb{Z}_{p^2}^*}$

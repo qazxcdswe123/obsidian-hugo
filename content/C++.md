@@ -4,7 +4,7 @@ tags: [Programming/C, ]
 date created: Jul 13th, 2022
 date modified: Jul 28th, 2022
 ---
-[[Unit Testing]]
+[[Testing]]
 [[Cmake]]
 
 - [[Pointer]]

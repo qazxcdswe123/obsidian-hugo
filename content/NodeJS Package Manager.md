@@ -5,7 +5,6 @@ date created: Jul 9th, 2022
 date modified: Sep 4th, 2022
 ---
 # Package Manager
-
 ## Npm
 `npm config set registry https://registry.npmmirror.com`
 
@@ -16,7 +15,6 @@ date modified: Sep 4th, 2022
 ## Command
 [Understanding dependencies inside your Package.json - NodeSource](https://nodesource.com/blog/understanding-dependencies-inside-your-packagejson)
 - `npm init` to initialize a project
-- 
 
 ## Parameters
 - `-g`  

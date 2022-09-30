@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Sep 9th, 2022
-date modified: Sep 9th, 2022
+date modified: Sep 30th, 2022
 ---
 
 ## Keymap
@@ -12,6 +12,7 @@ date modified: Sep 9th, 2022
 	- `CMD+Shift+A` to find actions
 
 ### Easymotion
+
 ```
 set easymotion
 map f <Nop>

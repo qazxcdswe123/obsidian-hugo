@@ -4,6 +4,7 @@ tags: []
 date created: Sep 15th, 2022
 date modified: Sep 15th, 2022
 ---
+[[C++ Testing]]
 
 ```C++
 ASSERT_EQ(x.size(), y.size()) << "Vectors x and y are of unequal length";

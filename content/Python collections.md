@@ -15,3 +15,11 @@ date modified: Sep 20th, 2022
 
 ## Namedtuple
 Returns a new tuple subclass named _typename_. The new subclass is used to create tuple-like objects that have fields accessible by attribute lookup as well as being indexable and iterable.
+
+
+## OrderedDict
+[collections — Container datatypes — Python 3.10.7 documentation](https://docs.python.org/3.10/library/collections.html#collections.OrderedDict)
+A sorted dictionary. See also: [[Python Datatypes and Storage]]
+- `popitem`(_last=True_)
+- `move_to_end`(_key_, _last=True_)
+

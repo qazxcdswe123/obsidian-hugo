@@ -4,8 +4,8 @@ tags: []
 date created: Sep 3rd, 2022
 date modified: Sep 3rd, 2022
 ---
-[[Async Await]]
-[[JavaScript promise]]
+[[JavaScript Async Await]]
+[[JavaScript Promise]]
 [The event loop - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
 
 ## Runtime Concept

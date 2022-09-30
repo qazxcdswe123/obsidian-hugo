@@ -1,12 +1,10 @@
 ---
-aliases: [正则表达式]
-tags: []
+aliases: [正则表达式, regular expression]
+tags: [] 
 date created: Mar 28th, 2022
 date modified: Jul 31st, 2022
 ---
-- nfa dfa [[todo]]
-- [nfa and dfa](https://www.geeksforgeeks.org/difference-between-dfa-and-nfa/)
-
+[[Finite State Machine]]
 | Character | Explain                                                                  |
 | --------- | ------------------------------------------------------------------------ |
 | `.`       | any char                                                                 |

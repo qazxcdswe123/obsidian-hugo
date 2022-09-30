@@ -2,8 +2,22 @@
 aliases: []
 tags: [] 
 date created: Jul 24th, 2022
-date modified: Aug 28th, 2022
+date modified: Sep 29th, 2022
 ---
+> **the people in front of me only consumed content created within the last 24 hours.**
+> No exceptions.
+> I succumb to the same impulse. Chances are, so do you.
+- [The Never-Ending Now - David Perell](https://perell.com/essay/never-ending-now/)
+
+___
+> 传统社会里，私域和公域是有清楚界限的，一个人哪怕在私下里满口污言秽语，一旦要写文章、上电视，甚至只是面对面讨论，还是必须“夹起尾巴做人“，起码要装出一副体面的模样。也因为如此，许多公共领域相关的讨论和决策才有了理性的可能。这就是汉娜·阿伦特所说的，“私域和公域的划分，是民主存在的前提”。
+
+- 汉娜·阿伦特
+___
+> C++ implementations obey the zero-overhead principle: What you don't use, you don't pay for. And further: What you do use, you couldn't hand code any better.
+- Bjarne Stroustrup
+ 
+___
 > To appreciate this beauty, one has to be willing to expend a certain amount of mental energy. But the end result is well worth the effort. Our goal in this book is to understand and appreciate some truly beautiful mathematics, to learn how this mathematics was discovered and proved, and maybe even to make some original contributions of our own.
 - A friendly introduction to number theory (Silverman, Joseph H)
 

@@ -4,7 +4,7 @@ tags: []
 date created: Apr 9th, 2022
 date modified: Sep 1st, 2022
 ---
-[[IDEA]]
+[[IDEA IDE]]
 
 # Settings
 ```json

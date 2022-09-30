@@ -15,4 +15,4 @@ date modified: Aug 15th, 2022
 - [[symbolic link]]
 - [[rysnc]]
 - [[inode]]
-- 
+- [[File System Permission]]

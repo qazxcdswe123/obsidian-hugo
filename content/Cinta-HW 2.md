@@ -1,8 +1,19 @@
-![](https://img.ynchen.me/2022/09/ece0e99236b53cce4eafda40fb668bdd.webp)
-
-
-11. 编程题：编写一个 Python 程序计算乘法逆元，即输入互素的正整数 c 和 m，返回 c ，使得 $cc^{−1} \equiv 1 \pmod{m}$。要求:只返回为正整数的 $c^{-1}$。
-
+![](https://img.ynchen.me/2022/09/ece0e99236b53cce4eafda40fb668bdd.webp)11. 编程题：编写一个 Python 程序计算乘法逆元，即输入互素的正整数 c 和 m，返回 c ，使得 
+c
+c
+−
+1
+≡
+1
+(
+mod
+m
+)
+。要求:只返回为正整数的 
+c
+−
+1
+。
 ## 7
 a. -2
 b. 28
@@ -96,3 +107,4 @@ print(get_modular_inverse(5, 11))
 print(get_modular_inverse(13, 121))
 print(get_modular_inverse(131, 1021))
 ```
+[[Cinta-HW 2-1]]
