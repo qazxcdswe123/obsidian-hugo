@@ -26,6 +26,7 @@ date modified: Jul 28th, 2022
 
 ## Math
 - [[Euler formula]]
+- [[CINTA HomeWork]]
 
 ## MISC
 - 2022-08-12: [[Ergonomics]]
