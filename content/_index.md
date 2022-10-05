@@ -52,4 +52,4 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - 2022-07-11: [[Algorithm Unlock Book Review]]
 
 
-$\neg (不可爱 \vee 美丽 \vee 温柔 \vee 体贴 \vee 女友力)$ 的 BenBiYY
+$\neg (不可爱 \vee 不美丽 \vee 不温柔 \vee 不体贴 \vee 没有女友力)$ 的 BenBiYY
