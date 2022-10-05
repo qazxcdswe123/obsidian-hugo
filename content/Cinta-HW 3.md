@@ -50,7 +50,7 @@ def print_phi_table(n):
 
 10. $(p - 1)! \mod p = -1$  
 For $\forall x \in [1, p-1]$, since $gcd(x, p) = 1$ , there is always one and only one(proofed in [[Cinta-HW 2]]) $x^{-1}$ that satisfy $x * x^{-1} \equiv 1 \pmod p$
-- When p is 2, it is trivially true
-- When $p > 2$  
+- When p is 2 and 3, it is trivially true
+- When $p > 3$  
 We have $\prod_{i = 2}^{p - 2} i \equiv 1$, so  
 $1 * \prod_{i = 2}^{p - 2} i * (p-1) \equiv -1 \pmod p$
