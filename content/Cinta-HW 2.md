@@ -1,25 +1,17 @@
-![](https://img.ynchen.me/2022/09/ece0e99236b53cce4eafda40fb668bdd.webp)11. 编程题：编写一个 Python 程序计算乘法逆元，即输入互素的正整数 c 和 m，返回 c ，使得 
-c
-c
-−
-1
-≡
-1
-(
-mod
-m
-)
-。要求:只返回为正整数的 
-c
-−
-1
-。
+---
+aliases: []
+tags: []
+date created: Sep 20th, 2022
+date modified: Oct 5th, 2022
+---
+![](https://img.ynchen.me/2022/09/ece0e99236b53cce4eafda40fb668bdd.webp)  
 ## 7
-a. -2
-b. 28
+a. -2  
+b. 28  
 c. 265
 
 ## 8
+
 ```c++
 #include <iostream>
 
@@ -49,6 +41,7 @@ int main()
 ```
 
 ## 9
+
 ```python
 def matrix_multiply(A, B):
     C = [[0, 0], [0, 0]]
@@ -75,18 +68,19 @@ print(matrix_power(fibonacci_matrix, 10)[0][1]) # 55
 ```
 
 ## 10
-- 存在性
-因为互质，由 Bezout 定理得，一定存在 $cs + mt = 1$, 此时有无数多个 s
-两边取 mod m, 得 $cs \equiv 1 \pmod{m}$
+- 存在性  
+因为互质，由 Bezout 定理得，一定存在 $cs + mt = 1$, 此时有无数多个 s  
+两边取 mod m, 得 $cs \equiv 1 \pmod{m}$  
 即存在 $c^{-1} = s$
 
-- 唯一性
-假设存在 $c_2^{-1} \neq c^{-1}$ , 并且 $c_2^{-1}c \equiv 1 \pmod{m}$, $c^{-1}c \equiv 1 \pmod{m}$
-即 $c^{-1} \equiv c_2^{-1} \pmod{m}$
-即在 mod m 意义下， $c^{-1} = c_2^{-1} = s$
+- 唯一性  
+假设存在 $c_2^{-1} \neq c^{-1}$ , 并且 $c_2^{-1}c \equiv 1 \pmod{m}$, $c^{-1}c \equiv 1 \pmod{m}$  
+即 $c^{-1} \equiv c_2^{-1} \pmod{m}$  
+即在 mod m 意义下， $c^{-1} = c_2^{-1} = s$  
 唯一性得证
 
 ## 11
+
 ```python
 def egcd(a, b):
     if (a == 0):
@@ -107,4 +101,5 @@ print(get_modular_inverse(5, 11))
 print(get_modular_inverse(13, 121))
 print(get_modular_inverse(131, 1021))
 ```
+
 [[Cinta-HW 2-1]]

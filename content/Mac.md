@@ -41,7 +41,6 @@ date modified: Sep 7th, 2022
 	- raycast (launcher)
 	- dash (document viewer)
 	- keka (zip tool)
-	
 	- orion
 
 - Formula
@@ -67,6 +66,7 @@ date modified: Sep 7th, 2022
 	- go
 	- [[hugo]]
 	- firacode ([[Font]])
+	- [[rclone]]
 	- java
 		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 

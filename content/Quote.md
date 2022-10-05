@@ -4,6 +4,10 @@ tags: []
 date created: Jul 24th, 2022
 date modified: Sep 29th, 2022
 ---
+> Details may vary, but the concepts are the same.
+- [[CSAPP]]
+
+___
 > **the people in front of me only consumed content created within the last 24 hours.**
 > No exceptions.
 > I succumb to the same impulse. Chances are, so do you.
