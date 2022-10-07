@@ -52,5 +52,6 @@ def print_phi_table(n):
 For $\forall x \in [1, p-1]$, since $gcd(x, p) = 1$ , there is always one and only one(proofed in [[Cinta-HW 2]]) $x^{-1}$ that satisfy $x * x^{-1} \equiv 1 \pmod p$
 - When p is 2 and 3, it is trivially true
 - When $p > 3$  
+We can guarantee that $x^{-1}$ is not $x$ itself, or $x= \pm 1$, so we can find a match for every element from p-2 to 2.
 We have $\prod_{i = 2}^{p - 2} i \equiv 1$, so  
 $1 * \prod_{i = 2}^{p - 2} i * (p-1) \equiv -1 \pmod p$
