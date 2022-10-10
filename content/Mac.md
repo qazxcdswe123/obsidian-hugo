@@ -41,9 +41,9 @@ date modified: Sep 7th, 2022
 	- raycast (launcher)
 	- dash (document viewer)
 	- keka (zip tool)
-	- orion
 
 - Formula
+	- ffmpeg
 	- jq
 	- bash
 	- rust

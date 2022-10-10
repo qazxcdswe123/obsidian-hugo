@@ -1,8 +1,8 @@
 ---
-aliases: []
+aliases: [Neovim, nvim]
 tags: [] 
 date created: Jul 11th, 2022
-date modified: Sep 21st, 2022
+date modified: Oct 8th, 2022
 ---
 - [[02-Vim]]
 - [[ranger]]
@@ -41,3 +41,15 @@ Can be used only after text is changed
 	- `:w !sudo tee%`
 - Set `-` as a word
 	- `set iskeyword+=-`
+
+## Plugins
+### Nvim-surround
+[GitHub - kylechui/nvim-surround: Add/change/delete surrounding delimiter pairs with ease. Written with in Lua.](https://github.com/kylechui/nvim-surround)
+- ys
+- cs
+- ds
+
+- function:
+	- `ysiwffunc`
+	- `dsf`
+	- `csfnew_name`
