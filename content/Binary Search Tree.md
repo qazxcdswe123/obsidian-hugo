@@ -1,8 +1,8 @@
 ---
-aliases: [二叉搜索树]
+aliases: [二叉搜索树,BST]
 tags: []
 date created: Jun 26th, 2022
-date modified: Aug 27th, 2022
+date modified: Oct 12th, 2022
 ---
 #Data-structure 
 - Definition
@@ -38,22 +38,22 @@ date modified: Aug 27th, 2022
 		1. target 无 children: 直接删除
 		2. target 有一个 children: 更改 `children.parent = target.parent`
 		3. target 两个 children
-			- Pre-requirement: Transplant
-			
-			```
-			Transplant(T, u, v) // change u with v
-			{
-				if u.p == NIL;
-					T.root = v
-				elseif u == u.p.left // u is a left child
-					u.p.left = v
-				elseif u == u.p.right // u is a right child
-					u.p.right = v
+			- Pre-requirement: Transplant			
 
-				if v != NIL // questionable 
-					v.p = u.p // change parent
-			} // free memory if needed
-			```
-			
+```
+Transplant(T, u, v) // change u with v
+{
+	if u.p == NIL;
+		T.root = v
+	elseif u == u.p.left // u is a left child
+		u.p.left = v
+	elseif u == u.p.right // u is a right child
+		u.p.right = v
+
+	if v != NIL // questionable 
+		v.p = u.p // change parent
+} // free memory if needed
+```
+
 			2. 找到 successor (在 target 右子树)
 			3. 如果 `successor.parent` 就是 target, transplant 之后拼接即可

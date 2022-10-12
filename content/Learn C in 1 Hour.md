@@ -1,9 +1,10 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Oct 11th, 2022
 date modified: Oct 12th, 2022
 ---
+# Learn C in 1 Hour
 Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com/docs/c/) and [Learn C++ in Y Minutes](https://learnxinyminutes.com/docs/c++/)
 
 ## Introduction
@@ -25,7 +26,7 @@ Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com
 	- **Details** (Will be partially covered in this text)
 	- Compilation
 
-## How a Program is Constructed
+## Building Blocks
 - By multiple files
 - In files, we have multiple functions
 - In functions, we have multiple data
@@ -81,11 +82,13 @@ unsigned long long ux_long_long;
 unsigned char uc;
 ```
 
-You use this syntax to defined variables, so you can use it to build bigger program later on.
+You use this syntax to defined variables, then we can use these variables to build bigger program later on.
 
 ```c
 // \t for tab
 // \n for new line
+// include here so we can use printf
+// if you are usnig cpp, use <cstdio> or <iostream>
 #include <stdio.h>
 
 int main(){
@@ -103,11 +106,170 @@ int main(){
 }
 ```
 
-Why I emphasize so much on the size? Check @Bintou's [二进制入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Th41167mM) instead!
+Why I (and also @Tover) emphasize so much on the size? Check @Bintou's [二进制入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Th41167mM) instead!
+
+___
+
+And some basic operators:
+
+```c
+// Increment and decrement operators:
+int j = 0;
+int s = j++; // Return j THEN increase j. (s = 0, j = 1)
+s = ++j; // Increase j THEN return j. (s = 2, j = 2)
+// same with j-- and --j
+
+// Bitwise operators!
+~0x0F; // => 0xFFFFFFF0 (bitwise negation, "1's complement", example result for 32-bit int)
+0x0F & 0xF0; // => 0x00 (bitwise AND)
+0x0F | 0xF0; // => 0xFF (bitwise OR)
+0x04 ^ 0x0F; // => 0x0B (bitwise XOR)
+0x01 << 1; // => 0x02 (bitwise left shift (by 1))
+0x02 >> 1; // => 0x01 (bitwise right shift (by 1))
+```
+
+___
+
+A common pitfall for new C programmers is that variables may be casted implicitly, for example.
+
+```c
+float a = 1 / 10;
+// what will a be?
+
+printf("lf\n", 1.0 / 10);
+double one = 1;
+printf("%lf\n", ans);
+double ans = one / 10;
+// how about this one?
+
+int i1 = 1, i2 = 2;
+float f1 = 1.0, f2 = 2.0;
+// You need to cast at least one integer to float to get a floating-point result
+(float)i1 / i2; // => 0.5f
+i1 / (double)i2; // => 0.5 // Same with double
+f1 / f2; // => 0.5, plus or minus epsilon
+```
+
+### Conditions and Loops
+We need conditions and loops to things more than calculation.
+
+```c
+// Comparison operators are probably familiar
+// there is no Boolean type in C, but there is one in C++.
+// Here we use ints instead.
+// 0 is false, anything else is true. (The comparison
+// operators always yield 0 or 1.)
+3 == 2; // => 0 (false)
+3 != 2; // => 1 (true)
+3 > 2;  // => 1
+3 < 2;  // => 0
+2 <= 2; // => 1
+2 >= 2; // => 1
+
+// C is not Python - comparisons do NOT chain.
+// Warning: The line below will compile, but it means `(0 < a) < 2`.
+// This expression is always true, because (0 < a) could be either 1 or 0.
+// In this case it's 1, because (0 < 1).
+int between_0_and_2 = 0 < a < 2;
+// Instead use:
+int between_0_and_2 = 0 < a && a < 2;
+
+// Logic works on ints
+!3; // => 0 (Logical not)
+!0; // => 1
+1 && 1; // => 1 (Logical and)
+0 && 1; // => 0
+0 || 1; // => 1 (Logical or)
+0 || 0; // => 0
+
+// Conditional ternary expression ( ? : )
+int e = 5;
+int f = 10;
+int z;
+z = (e > f) ? e : f; // => 10 "if e > f return e, else return f."
+```
+
+Here comes the real-world conditions:
+
+```c
+// While loops exist
+int ii = 0;
+while (ii < 10) { //ANY value less than ten is true.
+  printf("%d, ", ii++); // ii++ increments ii AFTER using its current value.
+} // => prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "
+
+int kk = 0;
+do {
+  printf("%d, ", kk);
+} while (++kk < 10); // ++kk increments kk BEFORE using its current value.
+// => prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "
+
+// For loops too
+int jj;
+for (jj = 0; jj < 10; jj++) {
+  printf("%d, ", jj);
+} // => prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "
+// or equivalantly
+for (int jj = 0; jj < 10; jj++) {
+  printf("%d, ", jj);
+}
+
+// we can think of it
+for (initialization; condition; post) {
+	// for body here
+}
+// Most common condition using if
+if (0) {
+  printf("I am never run\n");
+} else if (0) {
+  printf("I am also never run\n");
+} else {
+  printf("I print\n");
+}
+
+// less common condition using switch
+// branching with multiple choices: switch()
+switch (a) {
+case 0: // labels need to be integral *constant* expressions (such as enums)
+  printf("Hey, 'a' equals 0!\n");
+  break; // if you don't break, control flow falls over labels
+case 1:
+  printf("Huh, 'a' equals 1!\n");
+  break;
+  // Be careful - without a "break", execution continues until the
+  // next "break" is reached.
+case 3:
+case 4:
+  printf("Look at that.. 'a' is either 3, or 4\n");
+  break;
+default:
+  // if `some_integral_expression` didn't match any of the labels,
+  // handle the error
+  cleanUp();
+  exit(-1);
+  break;
+}
+
+// Question: Is all these interchangeable?
+// This is left as an exercise(stupidly simple)
+
+---
+
+// *****NOTES*****:
+// Loops and Functions MUST have a body. If no body is needed:
+int i;
+for (i = 0; i <= 5; i++) {
+  ; // use semicolon to act as the body (null statement)
+}
+// Or
+for (i = 0; i <= 5; i++);
+```
+
+![](https://img.ynchen.me/2022/10/74217e52affe01cd790e077dbc232cf4.webp)
 
 ### Basic Functions
-What are functions?
-**Something in, something out!** (Garbage in, garbage out, see also [垃圾进，垃圾出 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E8%BF%9B%EF%BC%8C%E5%9E%83%E5%9C%BE%E5%87%BA))
+What are functions?  
+**Something in, something out!** (Garbage in, garbage out, see also [垃圾进，垃圾出 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E8%BF%9B%EF%BC%8C%E5%9E%83%E5%9C%BE%E5%87%BA))  
 So what is the **in** part, and what is the **out** part
 
 ```c
@@ -139,7 +301,8 @@ doSomethingWithInts(20);    // a = 20, b = 4
 doSomethingWithInts(20, 5); // a = 20, b = 5
 ```
 
- Let's see some example
+ Let's see some examples
+ 
  ```c 
 #include <stdio.h>
 
@@ -194,8 +357,8 @@ int main()
     return 0;
 }
 ```
-
-Let's see one more example.
+ 
+Let's see one more example of recursion.
 
 ```c
 int fibo(int n)
@@ -215,4 +378,11 @@ int fibo(int n)
 }
 ```
 
-See also: [[Recursion]]
+See also: [[Recursion]] [[todo]]
+
+##
+
+
+___
+
+See also: [[Programming Language]]
