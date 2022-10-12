@@ -8,7 +8,7 @@ date modified: Oct 11th, 2022
 [[编程语言随想]]
 
 Languages I've learnt  
-[[C Speedrun]]
+[[C Tutorial in 1H Speedrun Any]]
 [[Python]]  
 [[C++]]  
 [[JavaScript]]  
