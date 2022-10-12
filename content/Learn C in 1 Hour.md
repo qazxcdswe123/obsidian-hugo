@@ -106,7 +106,7 @@ int main(){
 }
 ```
 
-Why I (and also @Tover) emphasize so much on the size? Check @Bintou's [二进制入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Th41167mM) instead!
+Why I (and also @Tover) emphasize so much on the size? Check @Bintou's [二进制入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Th41167mM) to see why!
 
 ___
 
@@ -383,8 +383,9 @@ See also: [[Recursion]] [[todo]]
 
 ## Memory
 ### Data Revisited
-One variable at a time is not enough, we need something to store lots of variable, we leads to a chunk of memory
-Here 
+One variable at a time is not enough, we need something to store lots of variable(which leads to a chunk of memory).
+
+Here `array` comes in handy
 
 ### Function Revisited
 
