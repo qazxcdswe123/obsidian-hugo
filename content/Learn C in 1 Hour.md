@@ -218,7 +218,8 @@ for (int jj = 0; jj < 10; jj++) {
 for (initialization; condition; post) {
 	// for body here
 }
-// Most common condition using if
+
+// Most common condition: if
 if (0) {
   printf("I am never run\n");
 } else if (0) {
@@ -227,7 +228,7 @@ if (0) {
   printf("I print\n");
 }
 
-// less common condition using switch
+// less common condition: switch
 // branching with multiple choices: switch()
 switch (a) {
 case 0: // labels need to be integral *constant* expressions (such as enums)
@@ -380,7 +381,10 @@ int fibo(int n)
 
 See also: [[Recursion]] [[todo]]
 
-##
+## Memory
+### Data Revisited
+
+### Function Revisited
 
 
 ___
