@@ -4,7 +4,7 @@ tags: []
 fileType: HypothesisAnnotations
 uri: https://www.instapaper.com/read/1528762483
 date created: Aug 12th, 2022
-date modified: Aug 12th, 2022
+date modified: Oct 12th, 2022
 ---
 # Computer Ergonomics: How to Protect Yourself From Strain and Pain | University Health Service
 URL: https://www.instapaper.com/read/1528762483
