@@ -82,7 +82,7 @@ unsigned long long ux_long_long;
 unsigned char uc;
 ```
 
-You use this syntax to defined variables, then we can use these variables to build bigger program later on.
+Use this syntax to defined variables, then we can use these variables to build bigger program later on.
 
 ```c
 // \t for tab
@@ -383,6 +383,8 @@ See also: [[Recursion]] [[todo]]
 
 ## Memory
 ### Data Revisited
+One variable at a time is not enough, we need something to store lots of variable, we leads to a chunk of memory
+Here 
 
 ### Function Revisited
 
