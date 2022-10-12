@@ -11,3 +11,8 @@
 	- `conda remove scipy`
 - Delete env
 	- `conda env remove -n my_env`
+
+
+```bash
+conda config --set auto_activate_base false
+```

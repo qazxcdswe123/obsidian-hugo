@@ -107,8 +107,112 @@ Why I emphasize so much on the size? Check @Bintou's [二进制入门_哔哩哔�
 
 ### Basic Functions
 What are functions?
-**Something in, something out!** ~~(Garbage in, garbage out, see also [垃圾进，垃圾出 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E8%BF%9B%EF%BC%8C%E5%9E%83%E5%9C%BE%E5%87%BA))~~
+**Something in, something out!** (Garbage in, garbage out, see also [垃圾进，垃圾出 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E8%BF%9B%EF%BC%8C%E5%9E%83%E5%9C%BE%E5%87%BA))
 So what is the **in** part, and what is the **out** part
 
+```c
+return_type function_name (argument_type argument_name) {
+	function body
+	return return_value;
+}
+// what is in, what is out?
+
+// for example
+int main(int argc, char** argv) {
+	return 0; // what is the return value here?
+}
+
+// You can provide default arguments for a function
+// if they are not provided by the caller.
+
+void doSomethingWithInts(int a = 1, int b = 4)
+{
+	int tmp = a;
+	a = b;
+	b = tmp;	
+	// will this work?
+}
+// void function return nothing
+
+doSomethingWithInts();      // a = 1,  b = 4
+doSomethingWithInts(20);    // a = 20, b = 4
+doSomethingWithInts(20, 5); // a = 20, b = 5
+```
+
+ Let's see some example
+ ```c 
+#include <stdio.h>
+
+// calculate n!
+void factorial(int n)
+{ 
+    int result = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        result *= i;
+    }
+    printf("%i! = %i\n", n, result);
+}
+// What's the problem here?
 
 
+int factorial_iterative(int n)
+{
+    int result = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        result *= i;
+    }
+    return result;
+}
+
+int factorial_bad(int n)
+{
+    return n * factorial_bad(n - 1);
+}
+
+int factorial_recursize(int n)
+{
+	// base case
+    if (n == 1) // what about n = 0
+    {
+        return 1;
+    }
+    else
+    {
+        return n * factorial_recursize(n - 1);
+    }
+}
+
+int main()
+{
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    printf("Recursion: Factorial of %d is %d\n", n, factorial_recursize(n));
+    printf("Iteration: Factorial of %d is %d\n", n, factorial_iterative(n));
+    return 0;
+}
+```
+
+Let's see one more example.
+
+```c
+int fibo(int n)
+{
+    if (n == 0)
+    {
+        return 0;
+    }
+    else if (n == 1)
+    {
+        return 1;
+    }
+    else
+    {
+        return fibo(n - 1) + fibo(n - 2);
+    }
+}
+```
+
+See also: [[Recursion]]
