@@ -2,19 +2,22 @@
 aliases: []
 tags: []
 date created: Jul 28th, 2022
-date modified: Sep 27th, 2022
+date modified: Oct 11th, 2022
 ---
 
 [[编程语言随想]]
 
 Languages I've learnt  
+[[C Speedrun]]
 [[Python]]  
 [[C++]]  
 [[JavaScript]]  
 [[Lua]]  
-[[Go]]
+[[Go]]  
+[[Rust]]  
 [[Front End]]
 
+## What to Explore When Learning New Languages
 - Read/write to a file
 - Turn a structured object into JSON
 - Parse JSON into an object

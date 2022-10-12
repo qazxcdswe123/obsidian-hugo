@@ -14,6 +14,13 @@ The zero value is:
 - `""` (the empty string) for strings.
 - `nil` for slice
 
+```go
+s := "" 
+var s string 
+var s = "" 
+var s string = ""
+```
+
 
 ## All Types
 

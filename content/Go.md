@@ -1,5 +1,5 @@
 [[Go Command]]
-[[Go Data]]
+[[Go Data and Variable]]
 [[Go Loop and Conditions]]
 [[Go Testing]]
 [[Go Package]]

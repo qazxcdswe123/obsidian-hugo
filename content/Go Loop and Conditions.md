@@ -4,7 +4,8 @@ tags: []
 date created: Sep 27th, 2022
 date modified: Sep 28th, 2022
 ---
-# For
+# Loop
+## For
 The basic `for` loop has three components separated by semicolons:
 
 - the init statement: executed before the first iteration
@@ -14,6 +15,11 @@ The basic `for` loop has three components separated by semicolons:
 **Note:** Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the `for` statement and the braces `{ }` are always required.
 
 ```go
+// for loop
+for initialization; condition; post {
+	// zero or more statements 
+}
+
 // while loop
 for sum < 1000 {
 		sum += sum
@@ -21,9 +27,10 @@ for sum < 1000 {
 ```
 
 ## Range
-`range` returns two values: the index of the current item in the loop and a copy of the item's value.
+`range` returns two values: the index of the current item in the loop, and a copy of the item's value.
 
-# If
+# Condition
+## If
 `If` statement with a short condition
 
 ```go

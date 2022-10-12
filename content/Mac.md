@@ -133,4 +133,4 @@ ServerAliveCountMax 999
 
 ### Terminal
 [[Shell]]  
-Preferences > Profiles > Keys > Load Presets not Preferences > Keys > Load Preferences > Natrual
+Preferences > Profiles > Keys > Load Presets not Preferences > Keys > Load Preferences > Natural

@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Jul 13th, 2022
-date modified: Jul 28th, 2022
+date modified: Oct 12th, 2022
 ---
 # A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
@@ -29,9 +29,9 @@ date modified: Jul 28th, 2022
 - [[CINTA HomeWork]]
 
 ## MISC
+- [[Moment]]
+- [[Quote]]
 - 2022-08-12: [[Ergonomics]]
-- 2022-07-25: [[Moment]]
-- 2022-07-24: [[Quote]]
 - 2022-07-23: [[十万个为什么]]
 - 2022-07-12: [[论闲书]]
 - 2022-07-11: [[论审核]]

@@ -14,7 +14,7 @@ date modified: Aug 16th, 2022
 [[Proof]]
 [[Bezout's Identity]]
 [[Lame's Theorem]]
-[[Divis]]
+
 
 
 [[CINTA HomeWork]]  

@@ -2,11 +2,11 @@
 aliases: []
 tags: [] 
 date created: Aug 19th, 2022
-date modified: Aug 19th, 2022
+date modified: Oct 10th, 2022
 ---
 # Groups
 ## Definition
-[Group theory - Wikiwand](https://www.wikiwand.com/en/Group_theory)
+[Group theory - Wikiwand](https://www.wikiwand.com/en/Group_theory)  
 In mathematics, a group is a set and an operation that combines any two elements of the set to produce a third element of the set, in such a way that the operation is associative, an identity element exists and every element has an inverse.
 
 - associative  
@@ -41,14 +41,14 @@ The order of a finite group is the number of elements that it contains.
 If the group is $\mathbb{Z}$ or $\mathbb{Z}_n$ , we write the group operation additively and the exponential operation multiplicatively; that is, we write $ng$ instead of $g^n$.
 
 # Subgroups
-## Definition
+s## Definition
 - A subgroup H of a group G  
 We define a subgroup H of a group G to be a subset H of G such that when the group operation of G is restricted to H, H is a group in its own right.
 
-- The trivial subgroup
+- The trivial subgroup  
 The subgroup H = {e} of a group G is called the trivial subgroup.
 
-- Proper subgroup
+- Proper subgroup  
 A subgroup that is a proper subset of G is called a proper subgroup
 
 ## Properties
