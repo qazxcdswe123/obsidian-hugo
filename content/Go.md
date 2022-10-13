@@ -1,3 +1,4 @@
+[[Go Struct]]
 [[Go Command]]
 [[Go Data and Variable]]
 [[Go Loop and Conditions]]

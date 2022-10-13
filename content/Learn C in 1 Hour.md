@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Oct 11th, 2022
-date modified: Oct 12th, 2022
+date modified: Oct 13th, 2022
 ---
 # Learn C in 1 Hour
 Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com/docs/c/) and [Learn C++ in Y Minutes](https://learnxinyminutes.com/docs/c++/)
@@ -17,7 +17,7 @@ Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com
 	- Memory([[Pointer]], Struct etc.)
 	- Your questions
 - What will **not be** covered?
-	- Grammar
+	- Syntsax
 		- It is what it is!
 	- Everything that I consider 谭浩强 related
 		- Don't learn from it, get a new book instead! See [The Definitive C Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list) and [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
@@ -27,6 +27,7 @@ Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com
 	- Compilation
 
 ## Building Blocks
+How a program was constructed?
 - By multiple files
 - In files, we have multiple functions
 - In functions, we have multiple data
@@ -387,9 +388,99 @@ One variable at a time is not enough, we need something to store lots of variabl
 
 Here `array` comes in handy
 
+```c
+type array_name[size] = {initial_value};
+
+// Arrays must be initialized with a concrete size.
+char my_char_array[20]; // This array occupies 1 * 20 = 20 bytes
+int my_int_array[20]; // This array occupies 4 * 20 = 80 bytes
+
+// You can initialize an array of twenty ints that all equal 0 thusly:
+int my_array[20] = {0};
+// where the "{0}" part is called an "array initializer".
+// All elements (if any) past the ones in the initializer are initialized to 0:
+int my_array[5] = {1, 2};
+// So my_array now has five elements, all but the first two of which are 0: 
+// [1, 2, 0, 0, 0]
+// NOTE that you get away without explicitly declaring the size 
+// of the array IF you initialize the array on the same line:
+int my_array[] = {0};
+// NOTE that, when not declaring the size, the size of the array is the number 
+// of elements in the initializer. With "{0}", my_array is now of size one: [0]
+// To evaluate the size of the array at run-time, divide its byte size by the
+// byte size of its element type:
+int my_array_size = sizeof(my_array) / sizeof(my_array[0]);
+// WARNING You should evaluate the size *before* you begin passing the array 
+// to functions (see later discussion) because arrays get "downgraded" to 
+// raw pointers when they are passed to functions (so the statement above 
+// will produce the wrong result inside the function).
+
+// Indexing an array is like other languages -- or,
+// rather, other languages are like C
+my_array[0]; // => 0
+
+// Arrays are mutable; it's just memory!
+my_array[1] = 2;
+printf("%d\n", my_array[1]); // => 2
+
+// Strings are just arrays of chars terminated by a NULL (0x00) byte,
+// represented in strings as the special character '\0'.
+// (We don't have to include the NULL byte in string literals; the compiler
+//  inserts it at the end of the array for us.)
+char a_string[20] = "This is a string";
+
+// Question1: What is a_string[19]?
+// Question2: char b_string[5] = "abcde"; What's wrong here?
+
+printf("%s\n", a_string); // %s formats a string
+
+printf("%d\n", a_string[16]); // => 0
+// i.e., byte #17 is 0 (as are 18, 19, and 20)
+
+// Multi-dimensional arrays:
+int multi_array[2][5] = {
+  {1, 2, 3, 4, 5},
+  {6, 7, 8, 9, 0}
+};
+// access elements:
+int array_int = multi_array[0][2]; // => 3
+```
+
+Question: If I told you `array` is just chunk of memory, how would you design an `array`, or more specifically, a `2d array`?
+
+[[Pointer]]
 ### Function Revisited
 
 
 ___
+
+## Aside
+### Typecasting
+
+```c
+// Every value in C has a type, but you can cast one value into another type
+// if you want (with some constraints).
+
+int x_hex = 0x01; // You can assign vars with hex literals
+                  // binary is not in the standard, but allowed by some
+                  // compilers (x_bin = 0b0010010110) 
+
+// Casting between types will attempt to preserve their numeric values
+printf("%d\n", x_hex); // => Prints 1
+printf("%d\n", (short) x_hex); // => Prints 1
+printf("%d\n", (char) x_hex); // => Prints 1
+
+// If you assign a value greater than a types max val, it will rollover
+// without warning.
+printf("%d\n", (unsigned char) 257); // => 1 (Max char = 255 if char is 8 bits long)
+
+// For determining the max value of a `char`, a `signed char` and an `unsigned char`,
+// respectively, use the CHAR_MAX, SCHAR_MAX and UCHAR_MAX macros from <limits.h>
+
+// Integral types can be cast to floating-point types, and vice-versa.
+printf("%f\n", (double) 100); // %f always formats a double...
+printf("%f\n", (float)  100); // ...even with a float.
+printf("%d\n", (char)100.0);
+```  
 
 See also: [[Programming Language]]

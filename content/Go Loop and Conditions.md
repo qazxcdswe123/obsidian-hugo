@@ -27,7 +27,9 @@ for sum < 1000 {
 ```
 
 ## Range
-`range` returns two values: the index of the current item in the loop, and a copy of the item's value.
+`range` returns two values: 
+1. the index of the current item in the loop
+2. a copy of the item's value.
 
 # Condition
 ## If

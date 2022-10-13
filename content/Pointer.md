@@ -2,8 +2,16 @@
 aliases: [指针]
 tags: Programming/C 
 date created: Feb 13th, 2022
-date modified: Oct 12th, 2022
+date modified: Oct 13th, 2022
 ---
+## Pointer Introduction
+A pointer is a variable declared to store a memory address. Its declaration will also tell you the type of data it points to. You can retrieve the memory address of your variables, then mess with them.
+
+To declare a pointer you can use `int *pt` or `int* pt`, note that these two syntax
+
+
+___
+
 2022-07-28 Update  
 其实要分辨指针，要（1）分清楚星号所在的地方，是个左值（left value），还是个右值（right value），（2）分清楚指针所指的类型，加上一些内存的通识就能理解了。
 
