@@ -17,7 +17,7 @@ Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com
 	- Memory([[Pointer]], Struct etc.)
 	- Your questions
 - What will **not be** covered?
-	- Syntsax
+	- Syntax
 		- It is what it is!
 	- Everything that I consider 谭浩强 related
 		- Don't learn from it, get a new book instead! See [The Definitive C Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list) and [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
@@ -449,6 +449,7 @@ int array_int = multi_array[0][2]; // => 3
 Question: If I told you `array` is just chunk of memory, how would you design an `array`, or more specifically, a `2d array`?
 
 [[Pointer]]
+
 ### Function Revisited
 
 
