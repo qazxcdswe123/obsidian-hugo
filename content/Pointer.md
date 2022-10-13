@@ -9,7 +9,7 @@ A pointer is a variable declared to store a memory address. Its declaration will
 
 To declare a pointer you can use `int *pt` or `int* pt`, note that these two syntax will do the same thing -- make a pointer pointing to type `int`. However, I personally prefer the first one since it indicates that **pt is a pointer, pointing to `int`**, the second one indicates that **pt is a int pointer**, which is certainly not the case.
 
-The type `int` just tell the compiler how to read the data, for example, if you declare a variable with type `short` (which is 2 bytes), they just store binary data into memory and read exactly 2 bytes, we can typecast it to `int` can read 4 bytes next time(may lead to memory corruption though).
+The type `int` just tell the compiler how to read the data, for example, if you declare a variable with type `short` (which is 2 bytes), they just store binary data into memory and read exactly 2 bytes, we can typecast it to `int`, then we read 4 bytes next time(may lead to memory corruption though). Type is just ways to read data!
 
 As a result, every pointer is 8 bytes(in 64 bits) since they refer to memory location, can read it with the type you specify. For example, `int *pt` means that `pt` is a location, read that location as `int`.
 
