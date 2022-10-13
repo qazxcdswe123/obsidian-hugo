@@ -7,6 +7,8 @@ date modified: Oct 13th, 2022
 # Learn C in 1 Hour
 Greatly inspired(copied) by: [Learn C in Y Minutes](https://learnxinyminutes.com/docs/c/) and [Learn C++ in Y Minutes](https://learnxinyminutes.com/docs/c++/)
 
+See my other `C++` notes: [[C++]]
+
 ## Introduction
 - What will be covered in this tutorial?
 	- Things that every [[Programming Language]] have in common!
@@ -484,11 +486,11 @@ int main(int argc, char *argv[]) {
 
 What's the difference?
 
-It turns out that function argument are passed by value, we simply copy them(make a copy) to the function, so when inside `badSwap` we are only manipulating the copy not the real value! (Why we do that? Think about it!)
+It turns out that function argument are passed by value, we simply copy them(make a copy) to the function, so inside `badSwap` we are only manipulating the copy, not the real value! (Why would we do that? Think about it!)
 
 The correct way is to pass a pointer to the variable to be change! This is time we are changing the value of the address(address get copied but the address don't get changed), so we are fine.
 
-Note that there is also a `C++` version of swap(won't work on `C`)! For more details, see 
+Note that there is also a `C++` version of swap(see below, won't work on `C`)! For more details, see 
 [pointers - Pass by reference in C for swapping function - Stack Overflow](https://stackoverflow.com/a/73925857/12614515)
 [pointers - Passing by reference in C - Stack Overflow](https://stackoverflow.com/questions/2229498/passing-by-reference-in-c)
 
@@ -501,7 +503,7 @@ void swap(int &a, int &b){
 }
 ```
 
-In `C`, pass by reference is only a illusion!
+In `C`, pass by reference is only a illusion! But it is common in other languages.
 - Question: How to return an array?
 
 ___

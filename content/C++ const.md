@@ -5,8 +5,10 @@ date created: Aug 12th, 2022
 date modified: Aug 12th, 2022
 ---
 ## Const
+![](https://img.ynchen.me/2022/10/92123767a39e7835cf57a84e836730c9.webp)
+
 [`const` is a contract – Arthur O'Dwyer – Stuff mostly about C++](https://quuxplusone.github.io/blog/2019/01/03/const-is-a-contract/)
-Will not be modified
+Should not be modified
 
 ## Constexpr
 URL: [constexpr (C++) | Microsoft Docs](https://docs.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170)

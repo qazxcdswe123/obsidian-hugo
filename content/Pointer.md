@@ -58,6 +58,7 @@ In the example above, we use `&` to get the address of a variable, this is calle
 - `malloc` and `free`, `new` and `delete`, `new []` and `delete[]` (Best and basic practice)
 - Memory is the key!
 - `const` pointer
+- Complex declaration: [cdecl: C gibberish ↔ English](https://cdecl.org/)
 
 ___
 
