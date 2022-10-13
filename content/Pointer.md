@@ -13,7 +13,7 @@ The type `int` just tell the compiler how to read the data, for example, if you 
 
 As a result, every pointer is 8 bytes(in 64 bits) since they refer to memory location, can read it with the type you specify. For example, `int *pt` means that `pt` is a location, read that location as `int`.
 
-Also, `int *px, not_a_pointer;` is a common pitfall.
+Also, `int *px, not_a_pointer;` is a common pitfall. Then you can see why I prefer the first declaration!
 
 Now we know that pointer is nothing special but a memory location, location itself is not enough, to get the value inside the location, we need `*` again, however, this time we are not declaring pointers, we **dereference** it (memory is called reference), this means, we **set/get** value of it.
 
