@@ -491,7 +491,6 @@ The correct way is to pass a pointer to the variable to be change! This is time 
 Note that there is also a `C++` version of swap(won't work on `C`)! For more details, see 
 [pointers - Pass by reference in C for swapping function - Stack Overflow](https://stackoverflow.com/a/73925857/12614515)
 [pointers - Passing by reference in C - Stack Overflow](https://stackoverflow.com/questions/2229498/passing-by-reference-in-c)
-In `C`, pass by reference is only a illusion!
 
 ```cpp
 void swap(int &a, int &b){
@@ -502,7 +501,8 @@ void swap(int &a, int &b){
 }
 ```
 
-- Quesion: How to return an array?
+In `C`, pass by reference is only a illusion!
+- Question: How to return an array?
 
 ___
 
