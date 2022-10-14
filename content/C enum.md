@@ -19,4 +19,4 @@ use_var = var0;
 ```
 
 An enum variable can take only one value. The size of enum variable is a int.  
-Can only output a int, use if || case to output
+Can only output a int, use `if` or `case` to print the value.

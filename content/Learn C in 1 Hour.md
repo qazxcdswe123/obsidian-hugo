@@ -24,15 +24,15 @@ See my other `C++` notes: [[C++]]
 	- Everything that I consider 谭浩强 related
 		- Don't learn from it, get a new book instead! See [The Definitive C Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list) and [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 		- i++++i
-		- etc. (Just too many...)
+		- etc. (Just too many…)
 	- **Details** (Will be partially covered in this text)
-	- Compilation
+	- Compilation.
 
 ## Building Blocks
 How a program was constructed?
 - By multiple files
 - In files, we have multiple functions
-- In functions, we have multiple data
+- In functions, we have multiple data.
 
 Let's start with primitive data type in C
 
@@ -133,7 +133,7 @@ s = ++j; // Increase j THEN return j. (s = 2, j = 2)
 
 ___
 
-A common pitfall for new C programmers is that variables may be casted implicitly, for example.
+A common pitfall for new C programmers is that variables may be cast implicitly, for example.
 
 ```c
 float a = 1 / 10;
@@ -389,9 +389,10 @@ See also: [[Recursion]] [[todo]]
 
 ## Memory
 ### Data Revisited
-One variable at a time is not enough, we need something to store lots of variable(which leads to a chunk of memory).
+One variable at a time is not enough, we need something to store lots of variable (which leads to a chunk of memory).
 
 Here `array` comes in handy
+Note that `array` start its index at 0! In computer worlds, it makes more sense!
 
 ```c
 type array_name[size] = {initial_value};
@@ -430,6 +431,7 @@ printf("%d\n", my_array[1]); // => 2
 
 // Strings are just arrays of chars terminated by a NULL (0x00) byte,
 // represented in strings as the special character '\0'.
+// Question: Why would we do this?
 // (We don't have to include the NULL byte in string literals; the compiler
 //  inserts it at the end of the array for us.)
 char a_string[20] = "This is a string";
@@ -451,9 +453,80 @@ int multi_array[2][5] = {
 int array_int = multi_array[0][2]; // => 3
 ```
 
-Question: If I told you `array` is just chunk of memory, how would you design an `array`, or more specifically, a `2d array`?
+Question: If I told you `array` is just a chunk of memory, how would you design an `array`, or more specifically, a `2d array`?
 
 [[Pointer]]
+
+___
+
+`struct` is easy, you just define a new data type that contain more than one element.
+`typedef` can also be help in some cases.
+
+```c
+///////////////////////////////////////
+// User-defined types and structs
+///////////////////////////////////////
+
+// Typedefs can be used to create type aliases
+typedef int my_type;
+my_type my_type_var = 0;
+
+// Structs are just collections of data, the members are allocated sequentially,
+// in the order they are written: IMPORTANAT!
+struct rectangle {
+  int width;
+  int height;
+};
+// It's not generally true that
+// sizeof(struct rectangle) == sizeof(int) + sizeof(int)
+// due to potential padding between the structure members (this is for alignment
+// reasons). [1]
+
+void function_1()
+{
+  struct rectangle my_rec = { 1, 2 }; // Fields can be initialized immediately
+
+  // Access struct members with .
+  my_rec.width = 10;
+  my_rec.height = 20;
+
+  // You can declare pointers to structs
+  struct rectangle *my_rec_ptr = &my_rec;
+
+  // Use dereferencing to set struct pointer members...
+  (*my_rec_ptr).width = 30;
+
+  // ... or even better: prefer the -> shorthand for the sake of readability
+  my_rec_ptr->height = 10; // Same as (*my_rec_ptr).height = 10;
+}
+
+// You can apply a typedef to a struct for convenience
+typedef struct rectangle rect;
+
+int area(rect r)
+{
+  return r.width * r.height;
+}
+
+// Typedefs can also be defined right during struct definition
+typedef struct {
+  int width;
+  int height;
+} rect;
+// Like before, doing this means one can type
+rect r;
+// instead of having to type
+struct rectangle r;
+
+// if you have large structs, you can pass them "by pointer" to avoid copying
+// the whole struct:
+int areaptr(const rect *r)
+{
+  return r->width * r->height;
+}
+```
+
+[c++ - Why isn't sizeof for a struct equal to the sum of sizeof of each member? - Stack Overflow](https://stackoverflow.com/questions/119123/why-isnt-sizeof-for-a-struct-equal-to-the-sum-of-sizeof-of-each-member)
 
 ### Function Revisited
 - Pass by reference/value
@@ -486,9 +559,9 @@ int main(int argc, char *argv[]) {
 
 What's the difference?
 
-It turns out that function argument are passed by value, we simply copy them(make a copy) to the function, so inside `badSwap` we are only manipulating the copy, not the real value! (Why would we do that? Think about it!)
+It turns out that function argument are passed by value, we simply copy them (make a copy) to the function, so inside `badSwap` we are only manipulating the copy, not the real value! (Why would we do that? Think about it!)
 
-The correct way is to pass a pointer to the variable to be change! This is time we are changing the value of the address(address get copied but the address don't get changed), so we are fine.
+The correct way is to pass a pointer to the variable to be change! This time we are changing the value of the address(address get copied, but the address don't get changed), so we are fine.
 
 Note that there is also a `C++` version of swap(see below, won't work on `C`)! For more details, see 
 [pointers - Pass by reference in C for swapping function - Stack Overflow](https://stackoverflow.com/a/73925857/12614515)
@@ -536,5 +609,7 @@ printf("%f\n", (double) 100); // %f always formats a double...
 printf("%f\n", (float)  100); // ...even with a float.
 printf("%d\n", (char)100.0);
 ```  
+
+[[C enum]]
 
 See also: [[Programming Language]]
