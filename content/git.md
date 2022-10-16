@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 13th, 2022
-date modified: Sep 19th, 2022
+date modified: Oct 14th, 2022
 ---
 # Git
 ## Config
@@ -43,6 +43,14 @@ ___
 	- `git diff —stat hash1 hash2`
 - See what in staged area
 	- `git diff —staged`
+
+## Reset
+[version control - What's the difference between git reset --mixed, --soft, and --hard? - Stack Overflow](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard)
+
+## Squash
+[git - How do I squash my last N commits together? - Stack Overflow](https://stackoverflow.com/questions/5189560/how-do-i-squash-my-last-n-commits-together)
+
+
 
 ## Hacks
 ### Clear Git History

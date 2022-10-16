@@ -4,6 +4,7 @@ tags: []
 date created: Aug 15th, 2022
 date modified: Aug 20th, 2022
 ---
+> [Don’t confuse scop e with lifet ime. The scope of a declarat ion is a reg ion of the program text; it is a compi le-t ime pro per ty. The lifet ime of a var iable is the range of time dur ing exe cut ion when the var iable can be refer red to by other par ts of the program; it is a run-t ime pro per ty.](marginnote3app://note/096C2F2A-E997-4B88-8299-956AB56902E8)
 
 Similar With: [[Python Namespace]], [[JavaScript Hoisting]]
 # General

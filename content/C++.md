@@ -25,4 +25,3 @@ date modified: Jul 28th, 2022
 - [[C++ error handling]]
 - [[C++ Template]]
 - [[Inline Function]]
-- [[C++ bitwise operator]]

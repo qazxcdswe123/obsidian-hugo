@@ -44,3 +44,8 @@ and relogin
 
 ## Mirror
 `"registry-mirrors": ["https://b9b9x0p9.mirror.aliyuncs.com"]`
+
+## Project
+```
+
+```

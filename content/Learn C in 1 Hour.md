@@ -37,6 +37,10 @@ How a program was constructed?
 Let's start with primitive data type in C
 
 ### Primitive Data Types in C
+> one builds large programs fro m a small set of basic constructs. Variables store values. Simple expressions are com bine d into larger ones with operations like addition and subtraction. Basic types are collected int o aggregates like arrays and structs. Expressions are used in statements whose execution order is deter mined by control-flow statements like if and for. Statements are grouped into functions for isolation and reuse. Functions are gathered int o source files and packages
+
+> Variables are sometimes described as addressable values
+
 [Data Types in C - GeeksforGeeks](https://www.geeksforgeeks.org/data-types-in-c/)
 
 | Type    | Size (in 64bit machine) | Comment                       |
@@ -245,6 +249,7 @@ case 1:
   break;
   // Be careful - without a "break", execution continues until the
   // next "break" is reached.
+  // forget to break is a common pitfall
 case 3:
 case 4:
   printf("Look at that.. 'a' is either 3, or 4\n");
@@ -385,6 +390,8 @@ int fibo(int n)
 }
 ```
 
+- Exercise1: With `isDir()` and `listFiles()`, list all files under nested directories
+- Exercise2: Tower of Hanoi recursive solution
 See also: [[Recursion]] [[todo]]
 
 ## Memory
@@ -453,14 +460,14 @@ int multi_array[2][5] = {
 int array_int = multi_array[0][2]; // => 3
 ```
 
-Question: If I told you `array` is just a chunk of memory, how would you design an `array`, or more specifically, a `2d array`?
+- Question: If I told you `array` is just a chunk of memory, how would you design an `array`, or more specifically, a `2d array`?
 
 [[Pointer]]
 
 ___
-
+- **Struct**
 `struct` is easy, you just define a new data type that contain more than one element.
-`typedef` can also be help in some cases.
+`typedef` can also be helpful in some cases.
 
 ```c
 ///////////////////////////////////////
@@ -566,11 +573,11 @@ The correct way is to pass a pointer to the variable to be change! This time we 
 Note that there is also a `C++` version of swap(see below, won't work on `C`)! For more details, see 
 [pointers - Pass by reference in C for swapping function - Stack Overflow](https://stackoverflow.com/a/73925857/12614515)
 [pointers - Passing by reference in C - Stack Overflow](https://stackoverflow.com/questions/2229498/passing-by-reference-in-c)
+[IBM Documentation pass-by-reference](https://www.ibm.com/docs/en/zos/2.4.0?topic=calls-pass-by-reference-c-only)
 
 ```cpp
 void swap(int &a, int &b){
-    int temp;
-    temp = a;
+    int temp = a;
     a = b;
     b = temp;
 }
@@ -611,5 +618,6 @@ printf("%d\n", (char)100.0);
 ```  
 
 [[C enum]]
+[[Scope]]
 
 See also: [[Programming Language]]

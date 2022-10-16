@@ -4,6 +4,10 @@ tags: []
 date created: Jul 24th, 2022
 date modified: Sep 29th, 2022
 ---
+> If I ever get to redesign keyboards I will put U and I together
+- [The Mens Guide To Dating Geek Girls V 1.0 | Science 2.0](https://www.science20.com/science_amp_supermodels/mens_guide_dating_geek_girls_v_10)
+
+___
 > Details may vary, but the concepts are the same.
 - [[CSAPP]]
 
