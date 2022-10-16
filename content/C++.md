@@ -8,7 +8,7 @@ date modified: Jul 28th, 2022
 [[Cmake]]
 
 - [[Pointer]]
-- [[Scope]]
+- [[Variable Scope]]
 - [[C Typedef]]
 - [[C Macros]]
 - [[C++ Const]]

@@ -618,6 +618,6 @@ printf("%d\n", (char)100.0);
 ```  
 
 [[C enum]]
-[[Scope]]
+[[Variable Scope]]
 
 See also: [[Programming Language]]

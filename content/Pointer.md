@@ -105,3 +105,5 @@ myFuncDef functionFactory(int n) {
     return functionPtr;
 }
 ```
+
+[[C++ this pointer]]
