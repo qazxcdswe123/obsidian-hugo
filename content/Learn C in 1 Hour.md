@@ -114,6 +114,7 @@ int main(){
 ```
 
 Why I (and also @Tover) emphasize so much on the size? Check @Bintou's [二进制入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Th41167mM) to see why!
+See also: [[Binary]]
 
 ___
 

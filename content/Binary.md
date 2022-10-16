@@ -29,4 +29,3 @@ date modified: Jul 28th, 2022
 - **Logical shift** : Shift in 0
 
 [[Set Theorem]]  
-[[C++ bitwise operator]]
