@@ -200,7 +200,7 @@ int z;
 z = (e > f) ? e : f; // => 10 "if e > f return e, else return f."
 ```
 
-Here comes the real-world conditions:
+Here comes the "real" conditions:
 
 ```c
 // While loops exist

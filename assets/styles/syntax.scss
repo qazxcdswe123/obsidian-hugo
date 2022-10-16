@@ -1,7 +1,7 @@
 // Overrides
 /* Background */
 .chroma {
-  overflow: hidden !important;
+  overflow: scroll !important;
   background-color: var(--lightgray) !important;
 }
 
@@ -40,7 +40,7 @@
   font-weight: bold !important;
 }
 
-.lntd:first-of-type > .chroma {
+.lntd:first-of-type>.chroma {
   padding-right: 0 !important;
 }
 
