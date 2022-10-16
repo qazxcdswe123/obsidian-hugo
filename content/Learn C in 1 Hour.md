@@ -37,7 +37,7 @@ How a program was constructed?
 Let's start with primitive data type in C
 
 ### Primitive Data Types in C
-> one builds large programs fro m a small set of basic constructs. Variables store values. Simple expressions are com bine d into larger ones with operations like addition and subtraction. Basic types are collected int o aggregates like arrays and structs. Expressions are used in statements whose execution order is deter mined by control-flow statements like if and for. Statements are grouped into functions for isolation and reuse. Functions are gathered int o source files and packages
+> one builds large programs from a small set of basic constructs. Variables store values. Simple expressions are combined into larger ones with operations like addition and subtraction. Basic types are collected int o aggregates like arrays and structs. Expressions are used in statements whose execution order is determined by control-flow statements like if and for. Statements are grouped into functions for isolation and reuse. Functions are gathered int o source files and packages.
 
 > Variables are sometimes described as addressable values
 
@@ -390,7 +390,7 @@ int fibo(int n)
 }
 ```
 
-- Exercise1: With `isDir()` and `listFiles()`, list all files under nested directories
+- Exercise1: With `isDir()` and `listFilesInDir()`, list all files under nested directories
 - Exercise2: Tower of Hanoi recursive solution
 See also: [[Recursion]] [[todo]]
 
@@ -398,7 +398,7 @@ See also: [[Recursion]] [[todo]]
 ### Data Revisited
 One variable at a time is not enough, we need something to store lots of variable (which leads to a chunk of memory).
 
-Here `array` comes in handy
+Here, `array` comes in handy.
 Note that `array` start its index at 0! In computer worlds, it makes more sense!
 
 ```c
