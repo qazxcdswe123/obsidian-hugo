@@ -13,7 +13,7 @@ Languages I've learnt
 [[C++]]  
 [[JavaScript]]  
 [[Lua]]  
-[[Go]]  
+[[Golang]]  
 [[Rust]]  
 [[Front End]]
 

@@ -21,6 +21,7 @@ date modified: Sep 7th, 2022
 - Tencent Meeting
 - feishu
 - [[marginnote]]
+- Dropover
 
 
 ### Homebrew
@@ -40,10 +41,11 @@ date modified: Sep 7th, 2022
 	- google-chrome
 	- visual-studio-code (ide)
 	- discord
-	- calibre (book manager)
+	- calibre (e-book manager)
 	- raycast (launcher)
 	- dash (document viewer)
 	- keka (zip tool)
+	- Maccy (Clipboard Manager)
 
 - Formula
 	- ffmpeg
@@ -67,7 +69,6 @@ date modified: Sep 7th, 2022
 	- tldr
 	- bat
 	- go
-	- [[hugo]]
 	- firacode ([[Font]])
 	- [[rclone]]
 	- java

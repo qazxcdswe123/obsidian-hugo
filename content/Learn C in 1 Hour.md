@@ -23,7 +23,7 @@ See my other `C++` notes: [[C++]]
 		- It is what it is!
 	- Everything that I consider 谭浩强 related
 		- Don't learn from it, get a new book instead! See [The Definitive C Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list) and [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
-		- i++++i
+		- `i++++i`
 		- etc. (Just too many…)
 	- **Details** (Will be partially covered in this text)
 	- Compilation.
@@ -200,7 +200,7 @@ int z;
 z = (e > f) ? e : f; // => 10 "if e > f return e, else return f."
 ```
 
-Here comes the "real" conditions:
+Here comes the loops:
 
 ```c
 // While loops exist
@@ -216,7 +216,7 @@ do {
 // => prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "
 
 // For loops too
-int jj;
+int jj = 20;
 for (jj = 0; jj < 10; jj++) {
   printf("%d, ", jj);
 } // => prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "
@@ -224,6 +224,7 @@ for (jj = 0; jj < 10; jj++) {
 for (int jj = 0; jj < 10; jj++) {
   printf("%d, ", jj);
 }
+// do thing with jj
 
 // we can think of it
 for (initialization; condition; post) {
@@ -300,7 +301,7 @@ int main(int argc, char** argv) {
 // You can provide default arguments for a function
 // if they are not provided by the caller.
 
-void doSomethingWithInts(int a = 1, int b = 4)
+void changeTwoInts(int a = 1, int b = 4)
 {
 	int tmp = a;
 	a = b;
@@ -342,15 +343,10 @@ int factorial_iterative(int n)
     return result;
 }
 
-int factorial_bad(int n)
-{
-    return n * factorial_bad(n - 1);
-}
-
 int factorial_recursize(int n)
 {
 	// base case
-    if (n == 1) // what about n = 0
+    if (n == 1) // Question: what about n = 0
     {
         return 1;
     }
@@ -358,6 +354,11 @@ int factorial_recursize(int n)
     {
         return n * factorial_recursize(n - 1);
     }
+}
+
+int factorial_bad(int n)
+{
+    return n * factorial_bad(n - 1);
 }
 
 int main()
@@ -378,7 +379,7 @@ int fibo(int n)
 {
     if (n == 0)
     {
-        return 0;
+        return 1;
     }
     else if (n == 1)
     {
@@ -558,7 +559,7 @@ void swapTwoNumbers(int *a, int *b) {
 int main(int argc, char *argv[]) {
   int a = 1, b = 2;
   badSwap(a, b);
-  printf("a = %d, b = %d\n", a, b);
+  printf("a = %d, b = %d\n", a, b); // 1 2
   swapTwoNumbers(&a, &b);
   printf("a = %d, b = %d\n", a, b);
   return 0;
@@ -582,6 +583,7 @@ void swap(int &a, int &b){
     a = b;
     b = temp;
 }
+swap(a, b);
 ```
 
 In `C`, pass by reference is only a illusion! But it is common in other languages.

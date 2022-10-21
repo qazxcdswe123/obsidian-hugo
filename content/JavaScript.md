@@ -8,7 +8,7 @@ date modified: Jul 28th, 2022
 
 [[Vuejs]]  
 
-[[React JS]]
+[[ReactJS]]
 
 [[NodeJS]]  
 
@@ -23,6 +23,8 @@ date modified: Jul 28th, 2022
 - [[JavaScript Loop]]  
 - [[JavaScript Map and Set]]
 - [[JavaScript Promise]]
+- [[JavaScript Export]]
+
 
 # Function
 [[JavaScript Function for Numbers]]  

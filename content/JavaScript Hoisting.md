@@ -18,5 +18,16 @@ The result of the code above is: "My cat's name is Tiger"
 */
 ```
 
-
+## Exceptions
 [Function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) and [class expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#class_expressions) are not hoisted.
+
+```js
+notHoisted(); // TypeError: notHoisted is not a function
+
+let notHoisted = function () {
+  console.log('bar');
+};
+
+const p = new Rectangle(); // ReferenceError
+class Rectangle {}
+```

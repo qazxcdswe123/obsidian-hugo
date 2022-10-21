@@ -5,8 +5,9 @@
 - `<ol>` = ordered list / number
 - `<table>`
 	- `<thead>` = header in table
-		- `<tr>` = tags as row (add a row)
-			- `<td>` = tags for individual cells
+		- `<tr>` = stands for table row.
+			- `<th>` = stands for table header.
+			- `<td>` = stands for table data.
 - `<img alt="alternative text for accessibility" src="PATH">`
 - `<video autoplay loop muted width="1280">`
 	- `<source> src="PATH" type="video/mp4"`

@@ -47,6 +47,9 @@ console.log(Rectangle.name);
 - Static fields
 - Static getters and setters
 
+## Super
+In JavaScript, `super` refers to the parent class constructor. (In our example, it points to the `React.Component` implementation.)
+Importantly, you can’t use `this` in a constructor until _after_ you’ve called the parent constructor. JavaScript won’t let you:
 
 
 [[JavaScript Hoisting]]

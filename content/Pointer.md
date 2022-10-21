@@ -13,7 +13,7 @@ The type `int` just tell the compiler how to read the data, for example, if you 
 
 As a result, every pointer is 8 bytes(in 64 bits) since they refer to memory location, can read it with the type you specify. For example, `int *pt` means that `pt` is a location, read that location as `int`.
 
-Also, `int *px, not_a_pointer;` is a common pitfall. Then you can see why I prefer the first declaration!
+Also, `int* pt, not_a_pointer;` is a common pitfall. Then you can see why I prefer the first declaration!
 
 Now we know that a pointer is nothing special but a memory location, but the location itself is not enough.  
 To get the value inside the location, we need `*` again, however, this time we are not declaring pointers, we **dereference** it. This means, we **set/get** value of it.
@@ -32,6 +32,7 @@ int var = 1;
 int *pt = NULL; 
 // initialize it with NULL so it won't mess useful address up
 // The default value of a pointer is undefined
+// or use nullptr in C++
 
 pt = &var;
 // here we point pt to address of var
@@ -52,11 +53,11 @@ printf("%p\n", &var); // get address
 
 In the example above, we use `&` to get the address of a variable, this is called **reference** a variable.  
 
-`NULL` (in C) or `nullptr` (in C++) is a safe way to initialize a pointer, the former is a `int`, with value set to 0, the second is a pointer points to nothing
+`NULL` (in C) or `nullptr` (in C++) is a safe way to initialize a pointer, the former is a `int`, with value set to 0, the second is a `pointer` points to nothing
 
 ## More Than Basic
 - Pointer arithmetic (If you were to design this, what would you do? Think about it!)
-	- `p++` vs `*p++`
+	- `pt++` vs `*pt++`
 - Arrays are just pointer (since they are memory)
 - Pointer to pointer (And more, aka 2d-array)
 - `malloc` and `free`, `new` and `delete`, `new []` and `delete[]` (Best and basic practice)
