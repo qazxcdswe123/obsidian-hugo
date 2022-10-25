@@ -86,7 +86,7 @@ date modified: Jul 28th, 2022
 -  浮点数之间的比较
 	- 由于这种特殊的表示方法，我们有了一个非常便捷比较两个浮点数的方法，直接先比较 sign bits，再看 exponent bits，最后才比较具体的 significant bits。
 - 类似的，64 bits ，128 bits 的浮点数，可以举一反三
-- 还有个麻烦的地方是浮点数的 [[Floating Point Rounding|Rounding]]，有机会再写 [[todo]]
+- 还有个麻烦的地方是浮点数的 [[Floating Point Rounding|Rounding]]
 - 注意：Operations on denormalized floating-point can be **_tens to hundreds of times slower_** than on normalized floating-point. This is because many processors can't handle them directly and must trap and resolve them using microcode. 
 	- 来源：[c++ - Why does changing 0.1f to 0 slow down performance by 10x? - Stack Overflow](https://stackoverflow.com/questions/9314534/why-does-changing-0-1f-to-0-slow-down-performance-by-10x)
 

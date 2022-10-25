@@ -1,4 +1,3 @@
-[Optimized heap sort](https://stackoverflow.com/questions/35821661/finding-a-more-efficient-heap-sort)
 Using [[Heap data structure]]
 ```cpp
 void maxHeapify(int heap[], int index)

@@ -394,7 +394,7 @@ int fibo(int n)
 
 - Exercise1: With `isDir()` and `listFilesInDir()`, list all files under nested directories
 - Exercise2: Tower of Hanoi recursive solution
-See also: [[Recursion]] [[todo]]
+See also: [[Recursion]] 
 
 ## Memory
 ### Data Revisited

@@ -23,7 +23,6 @@ date modified: Jul 28th, 2022
 - [[JavaScript Loop]]  
 - [[JavaScript Map and Set]]
 - [[JavaScript Promise]]
-- [[JavaScript Export]]
 
 
 # Function

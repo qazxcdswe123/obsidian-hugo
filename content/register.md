@@ -7,7 +7,7 @@ date modified: Jul 31st, 2022
 ## Special Register
 - `%rsp` : [[Stack]] [[Pointer]] (Location of runtime [[stack]])
 - `%rbp` : Frame [[Pointer]]
-- `%rip` : [[Instruction]] [[Pointer]] (Location of current code control point, or PC)
+- `%rip` : [[CPU Instruction]] [[Pointer]] (Location of current code control point, or PC)
 - `%rax` : Store return value
 
 - callee saved register

@@ -14,5 +14,5 @@ To understand:
 
 ## Details
 - [[register]]
-- [[Instruction]]
+- [[CPU Instruction]]
 - [[Condition Code]]

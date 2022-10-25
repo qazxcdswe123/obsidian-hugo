@@ -22,5 +22,5 @@ In [[Linux]], the topmost region of the address space is reserved for code and d
 
 
 ## Memory Access Rules in [[Assembly]]
-Used by [[Instruction]] like `move` or `add`
+Used by [[CPU Instruction]] like `move` or `add`
 ![](https://img.ynchen.me/2022/07/98f1002e2a47f479253df114d3870376.png)

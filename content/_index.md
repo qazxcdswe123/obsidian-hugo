@@ -9,7 +9,7 @@ date modified: Oct 12th, 2022
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown Format Testing]]
 
-- [[Now]]
+- [[Now Page]]
 
 ## CS Related
 - 2022-10-16: [[Learn C in 1 Hour]]

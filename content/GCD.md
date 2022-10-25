@@ -14,16 +14,17 @@ Greatest common divisor. It is also termed as the highest common factor (HCF) or
 [Euclidean algorithm - Wikipedia](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 
 ## Properties
-- relatively [[prime]]
+- If `gdc(a, b) = 1` then a and b are relatively [[prime]]
 	- We say that two integers a and b are relatively [[prime]] if gcd(a, b) = 1.
 - Let `a` and `b` be two integers that are relatively [[prime]]. Then there exist integers `r` and `s` such that $ar + bs = 1$ (since 1 is always a common factor for two numbers).
-- $gcd(a, b) = ar + bs$
+- $gcd(a, b) = ar + bs$ [[Bezout's Identity]]
 
-## Method 1: [[Prime]] Factorizations
+## Calculate GCD
+### Method 1: Prime Factorizations
 to compute $gcd(48, 180)$, we find the [[prime]] factorizations $48 = 2^4 \cdot 3^1$ and $180 = 2^2 \cdot 3^2 \cdot 5^1$; the GCD is then $2^{min(4,2)} · 3^{min(1,2)} · 5^{min(0,1)} = 2^2 · 3^1 · 5^0 = 12$  
 [I Do Maths · Prime Numbers and Prime Factorization](https://www.idomaths.com/primefactors.php)
 
-## Method 2: Euclidean [[Algorithm]]
+### Method 2: Euclidean Algorithm
 The Euclidean [[algorithm]] is based on the principle that the greatest common divisor of two numbers does not change if the larger number is replaced by its difference with the smaller number.
 
 ![](https://img.ynchen.me/2022/07/d10227041ae56557de562a6ac57a315d.jpg)
@@ -37,55 +38,6 @@ int gcd(int a, int b)
 		return a;
 	else
 		return gcd(b, a % b);
-}
-```
-
-# BGCD
-
-```rust
-pub fn gcd(mut u: u64, mut v: u64) -> u64 {
-    use std::cmp::min;
-    use std::mem::swap;
-
-    // Base cases: gcd(n, 0) = gcd(0, n) = n
-    if u == 0 {
-        return v;
-    } else if v == 0 {
-        return u;
-    }
-
-    // Using identities 2 and 3:
-    // gcd(2ⁱ u, 2ʲ v) = 2ᵏ gcd(u, v) with u, v odd and k = min(i, j)
-    // 2ᵏ is the greatest power of two that divides both u and v
-    let i = u.trailing_zeros();  u >>= i;
-    let j = v.trailing_zeros();  v >>= j;
-    let k = min(i, j);
-
-    loop {
-        /// u and v are odd at the start of the loop
-        debug_assert!(u % 2 == 1, "u = {} is even", u);
-        debug_assert!(v % 2 == 1, "v = {} is even", v);
-
-        // Swap if necessary so u <= v
-        if u > v {
-            swap(&mut u, &mut v);
-        }
-        /// u and v are still both odd after (potentially) swapping
-
-        // Using identity 4 (gcd(u, v) = gcd(|v-u|, min(u, v))
-        v -= u;
-        /// v is now even, but u is unchanged (and odd)
-
-        // Identity 1: gcd(u, 0) = u
-        // The shift by k is necessary to add back the 2ᵏ factor that was removed before the loop
-        if v == 0 {
-            return u << k;
-        }
-
-        // Identity 3: gcd(u, 2ʲ v) = gcd(u, v) (u is known to be odd)
-        v >>= v.trailing_zeros();
-        /// v is now odd again
-    }
 }
 ```
 

@@ -14,7 +14,9 @@ date modified: Aug 16th, 2022
 [[Proof]]
 [[Bezout's Identity]]
 [[Lame's Theorem]]
-
+[[Group Theory]]
+[[欧拉定理]]
+[[费尔马小定理]]
 
 
 [[CINTA HomeWork]]  

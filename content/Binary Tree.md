@@ -1,17 +1,24 @@
 ---
-aliases: [二叉搜索树,BST]
+aliases: [二叉树]
 tags: []
 date created: Jun 26th, 2022
-date modified: Oct 17th, 2022
+date modified: Oct 24th, 2022
 ---
 #Data-structure 
 
 ## Operation
 [Tree traversal - Wikipedia](https://en.wikipedia.org/wiki/Tree_traversal)
+
 ### Inorder Tree Walk
 从左到右扫描  
 从大到小输出  
 递归到最左边 - 输出 - 递归到右边
+
+- Use recursion:
+	- If empty: do nothing
+	- Always down left:
+	- Go root if no left (count itself as a root)
+	- Down right
 
 ### Preorder Tree Walk
 从根节点开始输出 - 递归到左边 - 递归到右边

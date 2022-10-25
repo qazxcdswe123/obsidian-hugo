@@ -6,7 +6,7 @@ date modified: Aug 19th, 2022
 ---
 [Jaca Code](https://algs4.cs.princeton.edu/33balanced/RedBlackBST.java.html)
 # Properties
-1. Represent [[2-3-4 Tree]] as a [[Binary Search Tree]].
+1. Represent [[2-3-4 Tree]] as a [[Binary Tree]].
 2. Use "internal" red edges for 3- and 4- nodes.
 3. **Require that 3-nodes be left-leaning.**  
 ![](https://s2.loli.net/2022/03/04/SMK1gojCGIHEF3w.png)

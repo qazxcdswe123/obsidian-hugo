@@ -80,4 +80,5 @@ TypeScript also has a special syntax for removing `null` and `undefined` fro
 [[TypeScript Functions]]
 
 ___
+
 [[TypeScript Config]]
