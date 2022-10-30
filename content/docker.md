@@ -9,6 +9,7 @@ date modified: Oct 13th, 2022
 [[systemd]]
 
 [[docker volume]]  
+[[docker command]]
 
 - Install 
 	- `curl -fsSL https://get.docker.com | sh`

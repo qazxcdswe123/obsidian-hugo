@@ -25,7 +25,7 @@ $A \backslash B = A \cap B ^ { \prime } = \{ x : x \in A \text{ and } x \notin  
 
 ### Relations
 Subsets of $A × B$ are called relations
-#### Well-defined Relation
+
 A relation is well-defined if each element in the domain is assigned to a unique element in the range.
 
 ### Surjective or onto
@@ -34,7 +34,7 @@ each element in B has an A
 
 ### Injective or One-to-one
 单射
-$a_1 \neq a_2 \to f(a_1) \neq f(a_2)$
+$a_1 \neq a_2 \Leftrightarrow f(a_1) \neq f(a_2)$
 
 ### Bijective
 双射

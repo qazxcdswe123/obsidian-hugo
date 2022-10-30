@@ -2,7 +2,7 @@
 aliases: [LCF]
 tags: [] 
 date created: Jul 14th, 2022
-date modified: Sep 7th, 2022
+date modified: Oct 30th, 2022
 ---
 # Divisor
 A divisor of *n*, also called a factor of *n*, is an integer *m* that can be multiplied by some integer to produce *n*.  
@@ -14,10 +14,8 @@ Greatest common divisor. It is also termed as the highest common factor (HCF) or
 [Euclidean algorithm - Wikipedia](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 
 ## Properties
-- If `gdc(a, b) = 1` then a and b are relatively [[prime]]
-	- We say that two integers a and b are relatively [[prime]] if gcd(a, b) = 1.
-- Let `a` and `b` be two integers that are relatively [[prime]]. Then there exist integers `r` and `s` such that $ar + bs = 1$ (since 1 is always a common factor for two numbers).
 - $gcd(a, b) = ar + bs$ [[Bezout's Identity]]
+- If $gcd(a, n) = 1$ and $gcd(a, m) = 1$ then $gcd(a, mn) = 1$
 
 ## Calculate GCD
 ### Method 1: Prime Factorizations
@@ -29,7 +27,7 @@ The Euclidean [[algorithm]] is based on the principle that the greatest common d
 
 ![](https://img.ynchen.me/2022/07/d10227041ae56557de562a6ac57a315d.jpg)
 
-## Code
+## Code for GCD
 
 ```c
 int gcd(int a, int b)
@@ -45,4 +43,5 @@ int gcd(int a, int b)
 2. gcd(_2u_, _2v_) = 2 · gcd(_u_, _v_)
 3. gcd(_2u_, _v_) = gcd(_u_, _v_), if _v_ is odd (2 is not a common divisor). Similarly, gcd(_u_, _2v_) = gcd(_u_, _v_) if _u_ is odd.
 4. gcd(_u_, _v_) = gcd(|_u_ − _v_|, min(_u_, _v_)), if _u_ and _v_ are both odd.  
+
 [[Bezout's Identity]]

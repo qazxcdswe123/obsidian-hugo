@@ -14,6 +14,11 @@ $A \equiv B \pmod{C}$
 2. (mod C) tells us what operation we applied to **A** and **B**.
 3. when we have both of these, we call $\equiv$ **congruence modulo C**.
 
+We say that r is congruent to s modulo n, or r is congruent to s mod n, if r − s is evenly divisible by n;
+
 ### From Set
 [[Set Theorem]]
-We say that r is congruent to s modulo n, or r is congruent to s mod n, if r − s is evenly divisible by n;
+
+## Modular Power
+[[Complexity]]: $O(log(y))$ for $x^y$
+Use [[Divide and Conquer]] Algorithm, $x^{y}=(x^{\lfloor{y/2}\rfloor})^{2}$, like fast multiply algorithm.

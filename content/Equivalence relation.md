@@ -8,15 +8,14 @@ date modified: Aug 16th, 2022
 [Why do we care about equivalence relations? - Mathematics Stack Exchange](https://math.stackexchange.com/questions/2525064/why-do-we-care-about-equivalence-relations#:~:text=Equivalence%20relations%20are%20important%20because,the%20set%20and%20vice%20versa.)
 
 ## Properties
-Both satisfy
 ### Reflexive
-x,x
+`x,x`
 
 ### Symmetric
-x,y -> y,x
+`x,y -> y,x`
 
 ### Transitive
-x,y y,z -> x,z
+`x,y y,z -> x,z`
 
 ## Notation
 We often use the tilde notation $a∼b$ to denote a relation.
