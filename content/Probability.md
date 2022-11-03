@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [概率论]
 tags: []
 date created: Sep 1st, 2022
 date modified: Oct 24th, 2022
@@ -11,9 +11,6 @@ $B_{1}\cup \ldots \cup B_{n}$   为划分
 =>
 $P\left( A\right) =P\left( AS\right) =P\left( A\cap \left( B_{1}\cup \ldots \cup B_{n}\right) \right)$
 
-## Independent
-独立与互斥无关
-条件：$P\left( AB\right) =P\left( A\right) P\left( B\right)$ or $P\left( \overline{A}\overline{B}\right) =P\left( \overline{A}\right) P\left( \overline{B}\right)$
 
 ## 概率密度
 ![](https://img.ynchen.me/2022/10/3b3fdcccba4b038c99056c908130e7dc.webp)
@@ -22,3 +19,10 @@ ___
 [[N 维随机变量概率]]
 
 [[Bayes Theorem]]
+
+[[Series]]
+
+[[Expectation]]
+方差
+协方差
+相关系数

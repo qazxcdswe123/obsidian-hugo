@@ -7,3 +7,5 @@ date modified: Oct 24th, 2022
 - [[Groups]]
 - [[Subgroups]]
 - [[Cyclic Groups]]
+- [[Coset]]
+- [[Isomorphism]]

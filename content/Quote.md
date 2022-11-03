@@ -2,8 +2,27 @@
 aliases: []
 tags: [] 
 date created: Jul 24th, 2022
-date modified: Sep 29th, 2022
+date modified: Nov 2nd, 2022
 ---
+
+___
+> Veni, vidi, vici
+-  [Julius Caesar](https://en.wikipedia.org/wiki/Julius_Caesar "Julius Caesar")
+
+___
+> 互联网最大的问题之一大概是，懂得说「我没有足够的信息使得我可以拥有一个观点」的人实在是太少了。
+- Twitter
+
+___
+> 我摆脱了我不需要的东西/工作/人际关系... 等等，那么，我应该用什么来代替它呢？用什么来填补它留下的空白呢？  
+> 事实上，什么都不需要，余白又有何不可呢？
+- 瞬间记忆
+
+___
+> 启蒙运动就是人类脱离自己所加之于自己的不成熟状态。不成熟状态就是不经别人的引导，就对运用自己的理智无能为力。当其原因不在于缺乏理智，而在于不经别人的引导就缺乏勇气与决心去加以运用时，那么这种不成熟就是自己所加之于自己的了。Sapereaude!要有勇气运用你自己的理智！这就是启蒙运动的口号。
+- 康德
+
+___
 > If I ever get to redesign keyboards I will put U and I together
 - [The Mens Guide To Dating Geek Girls V 1.0 | Science 2.0](https://www.science20.com/science_amp_supermodels/mens_guide_dating_geek_girls_v_10)
 
@@ -12,8 +31,8 @@ ___
 - [[CSAPP]]
 
 ___
-> **the people in front of me only consumed content created within the last 24 hours.**
-> No exceptions.
+> **the people in front of me only consumed content created within the last 24 hours.**  
+> No exceptions.  
 > I succumb to the same impulse. Chances are, so do you.
 - [The Never-Ending Now - David Perell](https://perell.com/essay/never-ending-now/)
 

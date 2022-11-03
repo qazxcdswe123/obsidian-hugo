@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jun 28th, 2022
-date modified: Sep 4th, 2022
+date modified: Nov 1st, 2022
 ---
 [[Python File]]
 
@@ -83,7 +83,7 @@ The value of x is 32.5, and y is 40000...
 ```
 
 ## Format String
-- fstring
+- [[Python F-string]]
 
 ```python
 >>> year = 2016
@@ -122,15 +122,4 @@ print(x)
 banana
 ```
 
-# F-string
-Formatted string literals (also called _f_-_strings_ for short)
-
-## Alignment
-**Approach :** The syntax of the alignment of the output string is defined by `<`, `>`, `^` and followed by the width number  
-**Example 1 :** For Left Alignment output string syntax define ‘<‘ followed by the width number.  
-`print(f"{'Left Aligned Text' : <20}")`  
-**Example 2 :** For Right Alignment output string syntax define ‘>’ followed by the width number.  
-`print(f"{'Right Aligned Text' : >20}")`  
-**Example 3 :** For Center Alignment output string syntax define ‘^’ followed by the width number.  
-`print(f"{'Centered' : ^10}")`
-
+[[Python F-string]]

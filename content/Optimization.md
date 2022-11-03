@@ -2,23 +2,24 @@
 aliases: [Pipeline]
 tags: [CSAPP, ] 
 date created: Jul 31st, 2022
-date modified: Aug 16th, 2022
+date modified: Oct 30th, 2022
 ---
-[[CSAPP]]
+- [[False Sharing]]
+
 # Life in the Real World: Performance Improvement Techniques
-- High-level design
+- High-level design  
 High-level design, Choose appropriate algorithms and data structures for the problem at hand. Be especially vigilant to avoid algorithms or coding techniques that yield asymptotically poor performance.
 
-- Eliminate excessive function calls
+- Eliminate excessive function calls  
 Eliminate excessive function calls, Move computations out of loops when possible. Consider selective compromises of program modularity to gain greater efficiency.
 
-- Eliminate unnecessary memory references
+- Eliminate unnecessary memory references  
 Eliminate unnecessary memory references, Introduce temporary variables to hold intermediate results. Store a result in an array or global variable only when the final value has been computed.
 
-- Low-level optimizations
-Low-level optimizations, Structure code to take advantage of the hardware capabilities.
-Unroll loops to reduce overhead and to enable further optimizations.
-Find ways to increase instruction-level parallelism by techniques such as multiple accumulators and reassociation.
+- Low-level optimizations  
+Low-level optimizations, Structure code to take advantage of the hardware capabilities.  
+Unroll loops to reduce overhead and to enable further optimizations.  
+Find ways to increase instruction-level parallelism by techniques such as multiple accumulators and reassociation.  
 Rewrite conditional operations in a functional style to enable compilation via conditional data transfers.
 
 ## Memory Aliasing
@@ -33,6 +34,7 @@ With speculative execution, the operations are evaluated, but the final results 
 
 ## Eliminate write/read Dependency
 the outcome of a memory read depends on a recent [[memory]] write.
+[[Cache]]
 
 ### Loop Unrolling
 
@@ -54,3 +56,10 @@ In general, we have found that unrolling a loop and accumulating multiple values
 In [computer science](https://en.wikipedia.org/wiki/Computer_science "Computer science"), **[[CPU Instruction]] pipelining** is a technique for implementing [instruction-level parallelism](https://en.wikipedia.org/wiki/Instruction-level_parallelism "Instruction-level parallelism") within a single processor. Pipelining attempts to keep every part of the processor busy with some [[CPU Instruction]] by dividing incoming [instructions](https://en.wikipedia.org/wiki/Machine_code "Machine code") into a series of sequential steps (the eponymous "[pipeline](https://en.wikipedia.org/wiki/Pipeline_(computing) "Pipeline (computing)")") performed by different [processor units](https://en.wikipedia.org/wiki/Central_processing_unit#Structure_and_implementation "Central processing unit") with different parts of instructions processed in parallel.
 
 A key feature of pipelining is that it increases the throughput of the system (i.e., the number of customers served per unit time), but it may also slightly increase the latency
+
+
+## Resources
+- [Software optimization resources. C++ and assembly. Windows, Linux, BSD, Mac OS X](https://www.agner.org/optimize/)
+- [Herb Sutter @ NWCPP: Machine Architecture: Things Your Programming Language Neve - YouTube](https://www.youtube.com/watch?v=L7zSU9HI-6I)
+- [Slides about memory optimization by Christer Ericson](https://web.archive.org/web/20160422113037/http://www.research.scea.com/research/pdfs/GDC2003_Memory_Optimization_18Mar03.pdf) 
+- LWN.net's article ["_What every programmer should know about memory_"](http://lwn.net/Articles/250967/)

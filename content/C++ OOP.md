@@ -11,7 +11,6 @@ date modified: Sep 7th, 2022
 - [[C++ Override and Final]]
 - [[C++ Polymorphism]]
 - [[C++ Friend]]
-- [[C++ OOP Constructor Destructor]]
 - [[C++ this pointer]]
 - [[C++ Static]]
 

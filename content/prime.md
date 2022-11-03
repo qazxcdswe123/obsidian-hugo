@@ -6,10 +6,6 @@ date modified: Aug 16th, 2022
 ---
 [[Modular Arithmetic]]
 
-## Term
-### Composite
-An integer n > 1 that is not prime is said to be composite
-
 ## Properties
 ### Lemma 2.13 Euclid
 Let a and b be integers and p be a prime number. If p | ab, then either p | a or p | b.

@@ -1,4 +1,4 @@
-内存由两部分构成 [[Memory]]，和数据结构中的 [[Heap data structure]], [[Stack Data Structure]] 区分
+内存由两部分构成 [[Memory]]，和数据结构中的 [[Heap Data Structure]], [[Stack Data Structure]] 区分
 # C/C++
 ## Malloc and Calloc
 | Malloc                | Calloc                       |

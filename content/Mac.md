@@ -21,7 +21,6 @@ date modified: Sep 7th, 2022
 - Tencent Meeting
 - feishu
 - [[marginnote]]
-- Dropover
 
 
 ### Homebrew
@@ -44,7 +43,6 @@ date modified: Sep 7th, 2022
 	- calibre (e-book manager)
 	- raycast (launcher)
 	- dash (document viewer)
-	- keka (zip tool)
 	- Maccy (Clipboard Manager)
 
 - Formula
@@ -71,6 +69,7 @@ date modified: Sep 7th, 2022
 	- go
 	- firacode ([[Font]])
 	- [[rclone]]
+	- pandoc
 	- java
 		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 

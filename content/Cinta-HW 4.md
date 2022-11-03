@@ -30,8 +30,6 @@
  \item 设$\mathbb{G}$是阶为$pq$的群，其中$p$和$q$是素数。请证明$\mathbb{G}$的任意真子群是循环群。  
     
  \item 如果群$\mathbb{H}$是有限群$\mathbb{G}$的真子群，即存在$g\in \mathbb{G}$但是$g \not \in \mathbb{H}$。请证明$\vert \mathbb{H} \vert  \leq \vert \mathbb{G} \vert \ /2$。
-
-![](http://assets.ketangpai.com//Public/Common/img/40/27.png)
 ```
 
 ## 6
@@ -43,7 +41,17 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 得证
 
 - 8
-
+设子集为 $G_{1}, G_{2}$
+易得 e 在交集中
+任取 $a \in G_{1}$, if $a \in G_{2}$, then $a^{-1}$  必然在交集中, else a and $a^{-1}$ 不在交集中
+由于交集的元素均为子群的元素，所以满足结合律和封闭性
+得证
 
 - 10
+易得 $e \in H$ and $e \in K$ => $e \in HK$
+
+
 - 11
+
+
+## 7

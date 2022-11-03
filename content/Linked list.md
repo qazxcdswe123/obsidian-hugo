@@ -70,5 +70,5 @@ void insert_After(struct Node* prev_node, int new_data)
 }
 ```
 
-可用于实现大部分 #Data-structure , 如 [[Binary Tree]] [[Queue]] [[Stack Data Structure]] [[Heap data structure]]
+可用于实现大部分 #Data-structure , 如 [[Tree]] [[Queue]] [[Stack Data Structure]] [[Heap Data Structure]]
 

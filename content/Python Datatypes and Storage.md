@@ -30,10 +30,11 @@ A set is a collection which is _unordered_, __unchangeable__, and _unindexed_
 [[Python List]]
 
 # Tuple
-`len`
-`max`
-`min`
-`tuple(seq)`
+Elements can't be changed
+- `len`
+- `max`
+- `min`
+- `tuple(seq)`
 
 # Dictionary
 `**args`
@@ -63,5 +64,4 @@ print(my_dict)
 # Float
 `print(f"{z:.50f}")`
 # String
-[[Python f-string]]
 [[Python String]]
