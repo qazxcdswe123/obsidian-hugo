@@ -9,7 +9,7 @@ date modified: Oct 12th, 2022
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown Format Testing]]
 
-- [[Now Page]]
+- [[Now Page]]: What am I doing?
 
 ## CS Related
 - 2022-10-16: [[Learn C in 1 Hour]]
@@ -27,10 +27,6 @@ date modified: Oct 12th, 2022
 - 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
 - 2022-01-05: [[GDB Crash Course]]
-
-## Math
-- [[Euler formula]]
-- [[CINTA HomeWork]]
 
 ## MISC
 - [[Moment]]
@@ -53,5 +49,18 @@ date modified: Oct 12th, 2022
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
 - 2022-07-11: [[Algorithm Unlock Book Review]]
 
+# Notes
+## Math
+- [[Euler formula]]
+- [[CINTA HomeWork]]
+- [[Graph Theory]]
+- [[Discrete Math]]
+- [[Abstract Algebra]]
+- [[Calculus]]
+
+## CS
+- [[Cache]]
+- [[CSAPP]]
+- [[docker]]
 
 $\neg (不可爱 \vee 美丽 \vee 温柔 \vee 体贴 \vee 女友力)$ 的 BenBiYY
