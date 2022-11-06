@@ -20,7 +20,7 @@ We define a subgroup H of a group G to be a subset H of G such that when the gro
 The subgroup H = {e} of a group G is called the trivial subgroup.
 
 - Proper subgroup  
-A subgroup that is a proper subset of G is called a proper subgroup
+H is a subgroup of G and $H \neq G$ ($H \subset G$)
 
 ## Properties
 A subset H of G is a subgroup if and only if it satisfies the following conditions

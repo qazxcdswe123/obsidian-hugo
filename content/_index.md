@@ -52,7 +52,6 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 # Notes
 ## Math
 - [[Euler formula]]
-- [[CINTA HomeWork]]
 - [[Graph Theory]]
 - [[Discrete Math]]
 - [[Abstract Algebra]]

@@ -56,11 +56,9 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 
 - 11
 由定义得，$G^{m}$一定存在单位元 e
-对群中任意元素 $a=g^{a}$，$b = g^{b}$ ，它们运算后是 $c = g^{a+b}$ 在群中，满足封闭性，由定义，$g^{-a}$ and $g^{-b}$ 也在群中，存在逆元
+对群中任意元素 $g^{a}$，$g^{b}$ ，它们运算后是 $c = g^{a+b}$ 在群中，满足封闭性，由定义，$g^{-a}$ and $g^{-b}$ 也在群中，存在逆元
 因为元素都在G中，所以也满足结合律
 所以 $G^{m}$ 是群
-
-PS：我怎么感觉就是 G 本身
 
 
 ## 7
@@ -79,11 +77,39 @@ PS：我怎么感觉就是 G 本身
 - 8
 
 ```python
-def primitive_root_for_multiplicative_prime_group(prime):
-	return 2
+def prod(F, E):
+    """Check that the factorization of P-1 is correct. F is the list of
+       factors of P-1, E lists the number of occurrences of each factor."""
+    x = 1
+    for y, z in zip(F, E):
+        x *= y**z
+    return x
+
+def is_primitive_root(r, p, factors, exponents):
+    """Check if r is a primitive root of F(p)."""
+    if p != prod(factors, exponents) + 1:
+        return False
+    for f in factors:
+        q, control = divmod(p-1, f)
+        if control != 0:
+            return False
+        if pow(r, q, p) == 1:
+            return False
+    return True
 ```
 
 ## 8
 - 3
+由于 index 为2，G 被分成了两个部分，由于 Hg 不在 gH内，所以两部分为 gH 和 Hg
+gH 会被射到 gH 之外，即 Hg
+即 gH = Hg
+
 - 4
+对任意G的真子群 H，有 $|G|/|H| = [G : H]$
+由于 G 的阶为pq，所以 |H| = p or q
+由7-6得，素数阶群是循环群
+
 - 5
+By definition, index >= 2
+$\frac{|G|}{|H|} = [G : H] \geq 2$
+$|H| \leq \frac{|G|}{2}$
