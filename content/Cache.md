@@ -24,8 +24,7 @@ We have `t`, `s` and `b`
 	- tc表示命中Cache时的访问时间  
 	- tm表示命中主存时的访问时间  
 	- $t_{a} = \frac{t_{c}}{e}$
-- Cache 访问效率：$e = \frac{1}{r+(1-r)h}$ ($r = \frac{t_{m}}{t_{c}}$ 表示主存慢于cache的倍率)
-	- 1 / 慢的倍数 + 快的倍数 x 快的几率
+- Cache 访问效率：$e = \frac{t_{c}}{t_{a}}$
 
 ## Details
 ![](https://img.ynchen.me/2022/11/587cadee5cf122a2f27db692a8d69cc9.webp)

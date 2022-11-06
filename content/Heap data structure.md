@@ -18,31 +18,41 @@ Index 为从上到下，从左到右
 和 [[Memory]] 中的 heap 区分
 - 维护 Heap 由两部分组成
 	 - `maxHeapify`
-		 - 
 		 - recursively find largest among the three and move the largest up, then do the same thing to make sure it fit in the right position
+		 - Top down 
 	 - `buildMaxHeap`
 		- bottom up iteration to up, starting from the leaf's parent.
+		- Bottom up
 - Used in heap [[Sorting Algorithm|sort]]
 
+
 ```cpp
-// heap[0] is the size of heap
-void maxHeapify(int heap[], int index)
+void heapify(int arr[], int N, int i)
 {
-    int left = index * 2;
-    int right = index * 2 + 1;
-    int largest = index;
-    if (left <= heap[0] && heap[left] > heap[index])
-    {
-        largest = left;
-    }
-    if (right <= heap[0] && heap[right] > heap[largest])
-    {
-        largest = right;
-    }
-    if (largest != index)
-    {
-        swapElement(&heap[index], &heap[largest]);
-        maxHeapify(heap, largest);
+    // Initialize largest as root
+    int largest = i;
+ 
+    // left = 2*i + 1
+    int l = 2 * i + 1;
+ 
+    // right = 2*i + 2
+    int r = 2 * i + 2;
+ 
+    // If left child is larger than root
+    if (l < N && arr[l] > arr[largest])
+        largest = l;
+ 
+    // If right child is larger than largest
+    // so far
+    if (r < N && arr[r] > arr[largest])
+        largest = r;
+ 
+    // If largest is not root
+    if (largest != i) {
+        swap(arr[i], arr[largest]);
+ 
+        // Recursively heapify the affected sub-tree
+        heapify(arr, N, largest);
     }
 }
 
