@@ -75,25 +75,41 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 或由[[Lagrange's theorem]]易得
 
 - 8
+这个有些奇怪
 
 ```python
-def prod(F, E):
-    """Check that the factorization of P-1 is correct. F is the list of
-       factors of P-1, E lists the number of occurrences of each factor."""
-    x = 1
-    for y, z in zip(F, E):
-        x *= y**z
-    return x
+def prime_factors_list(number):
+    """Returns a list of prime factors of a number"""
+    prime_factors = []
+    for i in range(2, number + 1):
+        while number % i == 0:
+            prime_factors.append(i)
+            number /= i
+    return prime_factors
 
-def is_primitive_root(r, p, factors, exponents):
-    """Check if r is a primitive root of F(p)."""
-    if p != prod(factors, exponents) + 1:
+
+def gcd(a, b):
+    """Returns the greatest common divisor of a and b"""
+    while b:
+        a, b = b, a % b
+    return a
+
+
+def is_prime(number):
+    """Returns True if number is a prime number"""
+    if number < 2:
         return False
-    for f in factors:
-        q, control = divmod(p-1, f)
-        if control != 0:
+    for i in range(2, int(math.sqrt(number)) + 1):
+        if number % i == 0:
             return False
-        if pow(r, q, p) == 1:
+    return True
+
+
+def is_primitive_root(number, prime):
+    """Returns True if number is a primitive root of the prime factors"""
+    prime_factors = prime_factors_list(prime - 1)
+    for factor in prime_factors:
+        if pow(number, (prime - 1) // factor, prime) == 1:
             return False
     return True
 ```
