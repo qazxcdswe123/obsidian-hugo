@@ -121,7 +121,7 @@ def is_primitive_root(number, prime):
 - 3
 由于 index 为2，G 被分成了两个部分，H 和 G-H
 1. When $g \in H$: 由群的性质得，gH = Hg = H
-2. When $g \in (G-H)$: gH = Hg = (G-H)
+2. When $g \in (G-H)$: gH = Hg = (G-H) 因为被划分成两个部分，gH 不在 G 中就会在 G-H 中
 得证
 
 - 4
