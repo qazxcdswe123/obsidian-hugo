@@ -76,6 +76,10 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 
 - 8
 这个有些奇怪。。
+最小生成元最大是31
+- 2161 [23]
+- 8761 [23]
+- 5881 [31]
 
 ```python
 def prime_factors_list(number):
