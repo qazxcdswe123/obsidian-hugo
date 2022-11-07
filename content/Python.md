@@ -10,7 +10,6 @@ date modified: Sep 4th, 2022
 	- [[Python Numpy Overview]]
 	- [[Python Pandas]]
 	- [[Python OS]]
-	- [[Python PinYin]]
 	- [[Python argparse]]
 	- [[Python Flask]]
 	- [[Python collections]]

@@ -1,9 +1,16 @@
+---
+aliases: []
+tags: []
+date created: Jun 28th, 2022
+date modified: Nov 7th, 2022
+---
 [https://www.w3schools.com/python/python_datatypes.asp](https://www.w3schools.com/python/python_datatypes.asp)
 - Text Type
 	- `str`
 - Numeric Types
 	- `int`, `float`, `complex`
 	- complex 复数
+
 	```python
 	a = complex(1) # Passing single parameter 
 	b = complex(1,2) # Passing both parameters
@@ -19,11 +26,11 @@
 - Slice: 左闭右开
 
 # Set
-`myset = {"apple", "banana", "cherry"}`
-`myset.add(word)`
-All elements are unique
-A set is a collection which is _unordered_, __unchangeable__, and _unindexed_.
-**Note:** Set _items_ are unchangeable, but you can remove items and add new items.
+`myset = {"apple", "banana", "cherry"}`  
+`myset.add(word)`  
+All elements are unique  
+A set is a collection which is _unordered_, __unchangeable__, and _unindexed_.  
+**Note:** Set _items_ are unchangeable, but you can remove items and add new items.  
 `newtup = tuple(set(tup)–{'PYTHON'}) # 去重同时删除数据项`
 
 # List
@@ -38,6 +45,7 @@ Elements can't be changed
 
 # Dictionary
 `**args`
+
 ```python
 people = {
     "Carter": "+1-617-495-1000",
@@ -58,10 +66,9 @@ print(my_dict)
 {'Name': ['Guru'], 'Address': ['Mumbai'], 'Age': [30]}
 
 ```
+
 ![](https://s2.loli.net/2022/06/28/t9zS8buQBcHmpyv.png)
 
 
-# Float
-`print(f"{z:.50f}")`
 # String
 [[Python String]]

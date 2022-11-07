@@ -75,7 +75,7 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 或由[[Lagrange's theorem]]易得
 
 - 8
-这个有些奇怪
+这个有些奇怪。。
 
 ```python
 def prime_factors_list(number):
