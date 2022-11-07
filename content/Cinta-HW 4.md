@@ -75,8 +75,7 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 或由[[Lagrange's theorem]]易得
 
 - 8
-这个有些奇怪。。
-最小生成元最大是31
+最小生成元最大是31，是5881
 - 2161 [23]
 - 8761 [23]
 - 5881 [31]
@@ -120,9 +119,10 @@ def is_primitive_root(number, prime):
 
 ## 8
 - 3
-由于 index 为2，G 被分成了两个部分，由于 Hg 不在 gH内，所以两部分为 gH 和 Hg
-gH 会被射到 gH 之外，即 Hg
-即 gH = Hg
+由于 index 为2，G 被分成了两个部分，H 和 G-H
+1. When $g \in H$: 由群的性质得，gH = Hg = H
+2. When $g \in (G-H)$: gH = Hg = (G-H)
+得证
 
 - 4
 对任意G的真子群 H，有 $|G|/|H| = [G : H]$
