@@ -2,14 +2,14 @@
 aliases: []
 tags: []
 date created: Jul 13th, 2022
-date modified: Oct 12th, 2022
+date modified: Nov 7th, 2022
 ---
+- [[Now Page]]: What am I doing?
 
-# A Blog Directly Generated From Obsidian
+# Blog
+A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown Format Testing]]
-
-- [[Now Page]]: What am I doing?
 
 ## CS Related
 - 2022-10-16: [[Learn C in 1 Hour]]
@@ -17,13 +17,8 @@ date modified: Oct 12th, 2022
 - 2022-07-28: [[Programming Language]]
 - 2022-07-28: [[编程语言随想]]
 - 2022-07-24: [[Introduction to Floating Point Number]]
-- 2022-01-01: [[Algorithm]]
 
 ## Linux Related
-- 2022-07-21: [[Mac]]
-- 2022-07-11: [[Manjaro]]
-- 2022-07-11: [[Linux]]
-- 2022-07-11: [[Git]]
 - 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
 - 2022-01-05: [[GDB Crash Course]]
@@ -58,8 +53,20 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Calculus]]
 
 ## CS
+- [[Algorithm]]
 - [[Cache]]
 - [[CSAPP]]
 - [[docker]]
+- [[Git]]
+- [[Mac]]
+- [[Manjaro]]
+- [[Linux]]
+- [[Testing]]
+
+## Languages
+- [[C++]]
+- [[Python]]
+- [[Golang]]
+- [[JavaScript]]
 
 $\neg (不可爱 \vee 美丽 \vee 温柔 \vee 体贴 \vee 女友力)$ 的 BenBiYY
