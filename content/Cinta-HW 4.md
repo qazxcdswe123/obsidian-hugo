@@ -91,13 +91,6 @@ def prime_factors_list(number):
     return prime_factors
 
 
-def gcd(a, b):
-    """Returns the greatest common divisor of a and b"""
-    while b:
-        a, b = b, a % b
-    return a
-
-
 def is_prime(number):
     """Returns True if number is a prime number"""
     if number < 2:
@@ -107,7 +100,7 @@ def is_prime(number):
             return False
     return True
 
-
+# 理论上shi
 def is_primitive_root(number, prime):
     """Returns True if number is a primitive root of the prime factors"""
     prime_factors = prime_factors_list(prime - 1)
