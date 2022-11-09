@@ -100,7 +100,7 @@ def is_prime(number):
             return False
     return True
 
-# 理论上shi
+# 理论上是错的
 def is_primitive_root(number, prime):
     """Returns True if number is a primitive root of the prime factors"""
     prime_factors = prime_factors_list(prime - 1)

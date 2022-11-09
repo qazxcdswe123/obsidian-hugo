@@ -69,4 +69,4 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Golang]]
 - [[JavaScript]]
 
-$\neg (不可爱 \vee 美丽 \vee 温柔 \vee 体贴 \vee 女友力)$ 的 BenBiYY
+$\neg (不可爱 \vee 美丽 \vee 温柔 \vee 体贴 \vee 女友力)$ 的 YY
