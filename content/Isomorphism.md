@@ -11,3 +11,10 @@ date modified: Oct 31st, 2022
 
 # Graphs
 - 同构图：看度数列
+
+
+# Discrete Math
+- 单同态
+- 自同态
+- 满同态
+- 同构

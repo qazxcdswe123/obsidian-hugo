@@ -54,6 +54,7 @@ date modified: Sep 7th, 2022
 	- neovim
 	- [[ripgrep]]
 	- htop
+	- pipx
 	- [[python]]
 	- [[NodeJS Package Manager|pnpm]] 
 	- [[NodeJS]]
