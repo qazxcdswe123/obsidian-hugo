@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: May 29th, 2022
-date modified: Sep 11th, 2022
+date modified: Nov 16th, 2022
 ---
 [Src](https://docs.python.org/3/tutorial/classes.html)  
 [[Python Namespace]]
@@ -12,7 +12,6 @@ date modified: Sep 11th, 2022
 creates a new _instance_ of the class and assigns this object to the local variable `x`.
 
 ### Init
-
 ```python
 class Dog:
 

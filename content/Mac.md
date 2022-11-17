@@ -120,6 +120,7 @@ ServerAliveCountMax 999
 
 
 ## Shortcut
+- `Shift+F6`: DND
 - `Shift+CMD+5`: screenShot
 - `CMD+,`: Open Preference
 - `Command + Shift + Z`: look up word

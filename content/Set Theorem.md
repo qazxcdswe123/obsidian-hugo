@@ -3,10 +3,11 @@ aliases: 集合论
 tags: [Books/aata] 
 date: Jul 24th, 2022
 date created: Jul 15th, 2022
-date modified: Nov 1st, 2022
+date modified: Nov 16th, 2022
 ---
 [[Series]]  
 [[Abstract Algebra]]
+
 ## Basic Sets
 N := Natural Number  
 Z := Integer  
@@ -15,6 +16,7 @@ R := Real Number
 C := Complex Number
 
 ## Term
+
 ### Disjoint
 When two sets have no elements in common, they are said to be disjoint
 

@@ -2,8 +2,9 @@
 aliases: []
 tags: []
 date created: Sep 5th, 2022
-date modified: Sep 5th, 2022
+date modified: Nov 16th, 2022
 ---
+
 # Bezout's Identity
 [Bézout's identity - Wikipedia](https://en.wikipedia.org/wiki/B%C3%A9zout's_identity?utm_source=pocket_mylist#Proof)  
 [ramanujan.math.trinity.edu/rdaileda/teach/s20/m3326/lectures/bezout_handout.pdf](http://ramanujan.math.trinity.edu/rdaileda/teach/s20/m3326/lectures/bezout_handout.pdf)
@@ -14,5 +15,3 @@ Here the greatest common divisor of 0 and 0 is taken to be 0. The integers�
 Let d = gcd(a, b). We will show that: 
 1. $d|m$; 
 2. m is a common divisor of a and b.
-
-[[LCM]]

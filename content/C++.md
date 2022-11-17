@@ -2,10 +2,9 @@
 aliases: []
 tags: [Programming/C, ] 
 date created: Jul 13th, 2022
-date modified: Jul 28th, 2022
+date modified: Nov 16th, 2022
 ---
-[[Testing]]
-[[Cmake]]
+[[Testing]]  
 
 - [[Pointer]]
 - [[Variable Scope]]

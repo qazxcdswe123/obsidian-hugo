@@ -1,3 +1,3 @@
-- [[C++ map]]
+- [[C++ Map]]
 - [[C++ Deque]]
 - [[C++ Sort]]

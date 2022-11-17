@@ -2,13 +2,15 @@
 aliases: []
 tags: []
 date created: Nov 3rd, 2022
-date modified: Nov 3rd, 2022
+date modified: Nov 16th, 2022
 ---
 A Balanced [[Binary Search Tree]]
+
 ## Properties
 the difference between heights of left and right subtrees cannot be more than one for all nodes
 
 ## Insertion
+
 ### Rotation
 For the unbalanced subtree, we need rotation to make them balanced
 
@@ -39,6 +41,7 @@ Now the 4 cases are
 - y is the right child of z and x is the left child of y (Right Left Case)
 
 1. **Left Left Case**
+
 ```
 T1, T2, T3 and T4 are subtrees.
          z                                      y 
@@ -49,6 +52,7 @@ T1, T2, T3 and T4 are subtrees.
     / \
   T1   T2
 ```
+
 3. **Left Right Case**
 4. **Right Right Case**
 5. **Right Left Case**

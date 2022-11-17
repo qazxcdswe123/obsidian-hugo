@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Aug 16th, 2022
-date modified: Oct 31st, 2022
+date modified: Nov 16th, 2022
 ---
 - [[Set Theorem]]
 - [[Prime]]

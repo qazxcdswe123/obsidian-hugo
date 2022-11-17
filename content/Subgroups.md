@@ -2,13 +2,15 @@
 aliases: []
 tags: []
 date created: Oct 24th, 2022
-date modified: Oct 30th, 2022
+date modified: Nov 16th, 2022
 ---
+
 # Subgroups
+
 ## 判定子群
 群 G 的非空子集 H 是 G 的子群,当且仅当 H 同时满足以下条件:
 - 若 a, b ∈ H,则 ab ∈ H;
-- 若 a ∈ H,则 $a^{−1}$∈ H。
+- 若 a ∈ H,则 $a^{−1}$∈ H。  
 or
 - 对任意 a, b ∈ H, $ab^{−1}$∈ H
 

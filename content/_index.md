@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Jul 13th, 2022
-date modified: Nov 7th, 2022
+date modified: Nov 16th, 2022
 ---
 - [[Now Page]]: What am I doing?
 
@@ -45,6 +45,7 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - 2022-07-11: [[Algorithm Unlock Book Review]]
 
 # Notes
+
 ## Math
 - [[Euler formula]]
 - [[Graph Theory]]

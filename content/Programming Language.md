@@ -2,20 +2,18 @@
 aliases: []
 tags: []
 date created: Jul 28th, 2022
-date modified: Oct 11th, 2022
+date modified: Nov 16th, 2022
 ---
-
-[[编程语言随想]]
-
+[[编程语言随想]]  
 Languages I've learnt  
-[[Learn C in 1 Hour]]
-[[Python]]  
-[[C++]]  
-[[JavaScript]]  
-[[Lua]]  
-[[Golang]]  
-[[Rust]]  
-[[Front End]]
+- [[Learn C in 1 Hour]]  
+- [[Python]]  
+- [[C++]]  
+- [[JavaScript]]  
+- [[Lua]]  
+- [[Golang]]  
+- [[Rust]]  
+- [[Front End]]
 
 ## What to Explore When Learning New Languages
 - Read/write to a file

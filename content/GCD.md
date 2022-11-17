@@ -2,8 +2,9 @@
 aliases: [LCF]
 tags: [] 
 date created: Jul 14th, 2022
-date modified: Oct 30th, 2022
+date modified: Nov 16th, 2022
 ---
+
 # Divisor
 A divisor of *n*, also called a factor of *n*, is an integer *m* that can be multiplied by some integer to produce *n*.  
 and *n* is a multiple of *m*.  
@@ -18,6 +19,7 @@ Greatest common divisor. It is also termed as the highest common factor (HCF) or
 - If $gcd(a, n) = 1$ and $gcd(a, m) = 1$ then $gcd(a, mn) = 1$
 
 ## Calculate GCD
+
 ### Method 1: Prime Factorizations
 to compute $gcd(48, 180)$, we find the [[prime]] factorizations $48 = 2^4 \cdot 3^1$ and $180 = 2^2 \cdot 3^2 \cdot 5^1$; the GCD is then $2^{min(4,2)} · 3^{min(1,2)} · 5^{min(0,1)} = 2^2 · 3^1 · 5^0 = 12$  
 [I Do Maths · Prime Numbers and Prime Factorization](https://www.idomaths.com/primefactors.php)
@@ -28,7 +30,6 @@ The Euclidean [[algorithm]] is based on the principle that the greatest common d
 ![](https://img.ynchen.me/2022/07/d10227041ae56557de562a6ac57a315d.jpg)
 
 ## Code for GCD
-
 ```c
 int gcd(int a, int b)
 {

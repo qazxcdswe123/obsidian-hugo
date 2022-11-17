@@ -2,8 +2,9 @@
 aliases: []
 tags: [] 
 date created: Jul 18th, 2022
-date modified: Jul 31st, 2022
+date modified: Nov 17th, 2022
 ---
+
 ## Special Register
 - `%rsp` : [[Stack]] [[Pointer]] (Location of runtime [[stack]])
 - `%rbp` : Frame [[Pointer]]
@@ -14,9 +15,9 @@ date modified: Jul 31st, 2022
 	- `%rbx`
 	- `%rbp`
 	- `%r12-%r15`
-> When procedure  P  calls procedure  Q ,  Q  must preserve the values of these registers, *ensuring that they have the same values when  Q  returns to  P  as they did when  Q  was called.* (P call Q, Q preserve)
+> When procedure P  calls procedure Q , Q  must preserve the values of these registers, *ensuring that they have the same values when Q  returns to P  as they did when Q  was called.* (P call Q, Q preserve)
 
-> Procedure  Q can preserve a register value by either not changing it at all or by pushing the original value on the [[stack]], altering it, and then popping the old value from the [[stack]] before returning.
+> Procedure Q can preserve a register value by either not changing it at all or by pushing the original value on the [[stack]], altering it, and then popping the old value from the [[stack]] before returning.
 
 ___
 - caller saved register
@@ -30,7 +31,7 @@ ___
 
 ___
 - argument [X86-64 Architecture Guide](http://6.s081.scripts.mit.edu/sp18/x86-64-architecture-guide.html)
-	- `%rdi`  used to pass 1st argument
+	- `%rdi` used to pass 1st argument
 	- `%rsi`
 	- `%rdx`
 	- `%rcx`
@@ -47,3 +48,19 @@ ___
 	- `%r8` through `%r15`
 	
 ![](https://img.ynchen.me/2022/07/51fbf373929ab0213c03db80b4b72a65.png)
+
+
+
+___
+- 数据缓冲寄存器（DR）
+	- 暂时存放由内存读出或写入的指令或数据字
+- 指令寄存器（IR）
+	- 保存当前正在执行的一条指令
+- 程序计数器（PC）
+	- 确定下一条指令的地址
+- 地址寄存器（AR）
+	- 保存当前CPU所访问的内存单元的地址
+- 累加寄存器（AC）
+	- 最常使用的一个通用寄存器
+- 状态条件寄存器（PSW）
+	- 保存由算术和逻辑指令的结果建立的各种条件码

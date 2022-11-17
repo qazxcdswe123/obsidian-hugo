@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Oct 21st, 2022
-date modified: Oct 22nd, 2022
+date modified: Nov 16th, 2022
 ---
 - **Don’t call Hooks inside loops, conditions, or nested functions**
 - **Only Call Hooks from React Functions**

@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jun 2nd, 2022
-date modified: Oct 13th, 2022
+date modified: Nov 16th, 2022
 ---
 [ArchLinux Wiki](https://wiki.archlinux.org/title/docker#Installation)  
 
@@ -11,8 +11,9 @@ date modified: Oct 13th, 2022
 [[docker volume]]  
 [[docker command]]
 
-- Install 
+- Install Docker
 	- `curl -fsSL https://get.docker.com | sh`
+
 ## Docker Run Flag
 ```
 docker run -d --rm \
@@ -21,10 +22,10 @@ docker run -d --rm \
 	containrrr/watchtower \
 	alist
 ```
+
 - `-d` flag to run the container in detached mode. 
 - `--name` specify a name to the container
--  `--rm` to automatically delete it when it exits
-``
+- `--rm` to automatically delete it when it exits  
 
 ## Trouble Shooting
 - `docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.`
@@ -45,8 +46,3 @@ and relogin
 
 ## Mirror
 `"registry-mirrors": ["https://b9b9x0p9.mirror.aliyuncs.com"]`
-
-## Project
-```
-
-```

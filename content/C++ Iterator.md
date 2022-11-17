@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Apr 9th, 2022
-date modified: Sep 21st, 2022
+date modified: Nov 16th, 2022
 ---
 Used in [[C++ STL]]  
 [Source](https://docs.microsoft.com/en-us/cpp/standard-library/iterators?view=msvc-170)
