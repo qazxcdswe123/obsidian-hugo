@@ -40,3 +40,4 @@ Groups are essentially a [[Set Theorem|Set]]
 ___
 
 [[Discrete Math]]
+- 设 V = ⟨S, ◦⟩ 是代数系统，◦ 为二元运算，如果 ◦ 是可 结合的，则称 V 为半群;
