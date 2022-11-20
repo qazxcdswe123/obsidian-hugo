@@ -11,3 +11,14 @@ date modified: Aug 15th, 2022
 - [[Complexity]]
 - [[Graph Theory]]
 - [[String Algorithm]]
+- [[Huffman Tree]]
+- [[Floyd Algorithm]]
+- [[Compression]]
+
+___
+
+- [[Algorithm Unlock Book Review]]
+
+___
+
+- [[NP and P Problem]]

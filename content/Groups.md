@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Oct 24th, 2022
-date modified: Nov 16th, 2022
+date modified: Nov 17th, 2022
 ---
 
 ## 判定
@@ -39,5 +39,10 @@ Groups are essentially a [[Set Theorem|Set]]
 
 ___
 
-[[Discrete Math]]
-- 设 V = ⟨S, ◦⟩ 是代数系统，◦ 为二元运算，如果 ◦ 是可 结合的，则称 V 为半群;
+[[Discrete Math]]-[[Algebra]]
+- 半群：符合二元运算且可结合
+	- 设 V = ⟨S, ◦⟩ 是代数系统，◦ 为二元运算，如果 ◦ 是可结合的，则称 V 为半群;
+- 幺半群或独异点：有单位元的半群
+	- 设 V = ⟨S,◦⟩是半群，如果 e ∈ S 是关于◦运算的单位元，则称 V 是幺半群或独异点。有时也将独异点记 为 V = ⟨S,◦,e⟩;
+- 群：有单位元，可结合，有逆元
+- 

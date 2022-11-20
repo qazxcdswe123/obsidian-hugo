@@ -2,9 +2,11 @@
 aliases: []
 tags: [] 
 date created: Jul 21st, 2022
-date modified: Sep 7th, 2022
+date modified: Nov 17th, 2022
 ---
+
 ## Softwere
+
 ### Todo
 [GitHub - objective-see/LuLu: LuLu is the free macOS firewall](https://github.com/objective-see/LuLu)
 
@@ -21,7 +23,6 @@ date modified: Sep 7th, 2022
 - Tencent Meeting
 - feishu
 - [[marginnote]]
-
 
 ### Homebrew
 - Formula: 命令行软件
@@ -80,7 +81,6 @@ date modified: Sep 7th, 2022
 - [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/) (Control your input method)
 
 ## Hack
-
 ```
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
@@ -118,7 +118,6 @@ ServerAliveCountMax 999
 - [macos - Using Caps Lock as Esc in Mac OS X - Stack Overflow](https://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x)
 - Uncheck `play sound on startup` && `play UI sound effect`
 
-
 ## Shortcut
 - `Shift+F6`: DND
 - `Shift+CMD+5`: screenShot
@@ -134,7 +133,6 @@ ServerAliveCountMax 999
 	- `Shift+CMD+4`: Portion screenshot
 	- `Shift+CMD+4+SpaceBar`: Select window screenshot
 - ![](https://img.ynchen.me/2022/07/1ee4ed251c07ded5b5da043191d02497.png)
-
 
 ### Terminal
 [[Shell]]  

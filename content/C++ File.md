@@ -1,5 +1,5 @@
 
-[GFG](https://www.geeksforgeeks.org/file-handling-c-classes/
+[GFG](https://www.geeksforgeeks.org/file-handling-c-classes/)
 
 > • istream (input stream) type, which provides input operations
 > • ostream (output stream) type, which provides output operations
@@ -9,7 +9,7 @@
 > • The >> operator, which is used to read input from an istream object
 > • The << operator, which is used to write output to an ostream object
 > • The getline function (§ 3.2.2, p. 87), which reads a line of input from a given istream into a given string
-> C++ Primer 310
+> C++ Primer P310
 
 | Mode Flag     | Description                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------- |

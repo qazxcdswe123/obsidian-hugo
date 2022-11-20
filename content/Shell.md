@@ -1,15 +1,18 @@
 ---
 aliases: [zsh]
 tags: [] 
+date created: Jul 8th, 2022
+date modified: Nov 17th, 2022
 ---
-[missing.csail.mit.edu](https://missing.csail.mit.edu/2020/shell-tools/)
-[[Shell Tools and Scripting · the missing semester of your cs education]]
+[missing.csail.mit.edu](https://missing.csail.mit.edu/2020/shell-tools/)  
+[[Shell Tools and Scripting · the missing semester of your cs education]]  
 [[Linux Command Modern Alternative]]
 
 # Shell
 [[IO]]
 
 # ZSH
+
 ## Oh-My-Zsh
 `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 

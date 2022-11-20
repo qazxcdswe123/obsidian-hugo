@@ -1,4 +1,4 @@
-[[Python Numpy Overview]]
+[[Python Numpy]]
 # Series
 [Docs](https://pandas.pydata.org/docs/reference/api/pandas.Series.html)
 - Parameters

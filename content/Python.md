@@ -7,7 +7,7 @@ date modified: Sep 4th, 2022
 - [[Python pip]]
 - [[Python Anaconda]]
 - [[Python Module]]
-	- [[Python Numpy Overview]]
+	- [[Python Numpy]]
 	- [[Python Pandas]]
 	- [[Python OS]]
 	- [[Python argparse]]

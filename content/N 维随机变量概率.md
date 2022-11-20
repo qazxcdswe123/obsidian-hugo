@@ -15,5 +15,7 @@ $P\{x_{1} < X \leq x_{2}, y_{1} < Y \leq y_{2}\} = F(x2,y2)-F(x2,y1)-F(x1,y2)+F(
 ## 边缘密度函数
 - $f_X(x)$
 z = g(x, y)
+![](https://img.ynchen.me/2022/11/4712d896cc05d0d62bba9737fe94d0c1.webp)
+
 
 [[Independent]]

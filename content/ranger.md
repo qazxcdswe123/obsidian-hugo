@@ -2,18 +2,20 @@
 aliases: []
 tags: []
 date created: Jul 10th, 2022
-date modified: Aug 13th, 2022
+date modified: Nov 17th, 2022
 ---
 
 空格选中一个文件，对选中的文件再按空格取消选中  
-`ranger --copy-config=all` copy config to  `~/.config/ranger`  
+`ranger --copy-config=all` copy config to `~/.config/ranger`  
 install `bat` to preview code, configure `scope.sh` to set syntax highlight
+
 ## Plugins
+
 ### Zoxide
 - Install:  
 `git clone https://github.com/jchook/ranger-zoxide ~/.config/ranger/plugins/zoxide`
-- Usage:
-`:z path` to jump
+- Usage:  
+`:z path` to jump  
 `:zi` for interactive shell (config in zoxide)
 
 ## Bookmark
@@ -33,10 +35,11 @@ use `'` to navigate
 `u` for "undo"  
 `M` for line mode  
 `+`, `-`, `=` for setting access rights to files
+`F7`: mkdir
 
 ## Config
-### rc.conf
 
+### rc.conf
 ```
 # Use yc to copy content to system clipboard 
 map yc shell cat %p | xclip -sel clip
