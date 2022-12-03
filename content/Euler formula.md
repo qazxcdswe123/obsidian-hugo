@@ -2,10 +2,11 @@
 aliases: [指数函数与欧拉公式]
 tags: [Math/Calculus] 
 date created: Jul 15th, 2022
-date modified: Sep 24th, 2022
+date modified: Dec 3rd, 2022
 ---
 
 [指数函数与欧拉公式 - 作业部落 Cmd Markdown 编辑阅读器](https://www.zybuluo.com/bintou/note/2309274)
+
 ## E 的起源
 指数函数是指 $e^x$。到底这个函数是怎么想出来的？为什么会等于那么一大堆无穷的级数和？是偶然还是必然？是发明还是发现？
 
@@ -22,7 +23,7 @@ $f_1(x) = 1 + x + 1/2* x^2 + 1/3! * x^3 + ... + 1/n!*x^n + ...$
 
 $f_2(x) = a_0 + a_1*x + a_2*x^2 + a_3*x^3 + ... + a_n*x^n + ...$
 
-找到这个有什么用呢？如果有这个函数，并且它的 n 阶导数
+找到这个有什么用呢？如果有这个函数，并且它的 n 阶导数  
 我们要找的是
 
 - [[Integer Polynomial]]

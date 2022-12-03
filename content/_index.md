@@ -2,10 +2,8 @@
 aliases: []
 tags: []
 date created: Jul 13th, 2022
-date modified: Nov 16th, 2022
+date modified: Dec 3rd, 2022
 ---
-- [[Now Page]]: What am I doing?
-
 # Blog
 A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
