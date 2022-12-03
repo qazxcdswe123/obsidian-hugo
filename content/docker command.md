@@ -1,2 +1,22 @@
-## Attach to container
+---
+aliases: []
+tags: []
+date created: Oct 29th, 2022
+date modified: Nov 24th, 2022
+---
+
+## Docker Exec
 `docker exec -it <container name> /bin/bash`
+
+## Docker Run
+```
+docker run -d --rm \
+	--name watchtower
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	containrrr/watchtower \
+	alist
+```
+
+- `-d` flag to run the container in detached mode. 
+- `--name` specify a name to the container
+- `--rm` to automatically delete it when it exits  

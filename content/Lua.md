@@ -1,4 +1,4 @@
-- Used in Neovim
+- Used in [[Vim|Neovim]]
 - [Learn Lua in Y Minutes](https://learnxinyminutes.com/docs/lua/)
 
 ## General

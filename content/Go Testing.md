@@ -20,3 +20,4 @@ type T struct {
 ```
 
 T is a type passed to Test functions to manage test state and support formatted test logs.
+

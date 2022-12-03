@@ -34,5 +34,6 @@ date modified: Sep 6th, 2022
 | `\vee`                  | $\vee$                          | [[Discrete Math]]                         |
 | `\wedge`                | $\wedge$                        | [[Discrete Math]]                         |
 | `\int`                  | $\int^{\infty}_{\infty}xf(x)dx$ | [[Expectation]]                           |
-| `\subset`               | $\subset$                       | [[Subgroups]]                                          |
+| `\subset`               | $\subset$                       | [[Subgroups]]                             |
+| `\cong`                 | $\cong$                         | [[Chinese Remainder Theorem]]                                          |
 

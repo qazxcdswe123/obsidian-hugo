@@ -4,7 +4,7 @@ tags: []
 date created: Oct 26th, 2022
 date modified: Oct 26th, 2022
 ---
-Tags: [[贪心算法|Greedy]]  
+Tags: [[Greedy]]  
 The code for A is 0, and no other code starts with 0; the code for T is 11, and no other code starts with 11; and so on. We call such a code a **prefix-free code**.  
 Use Priority [[Queue]] to determine which (node or subtree) is the next one to insert.
 

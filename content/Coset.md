@@ -5,6 +5,7 @@ date created: Oct 31st, 2022
 date modified: Nov 16th, 2022
 ---
 - Define a left coset of H with representative g ∈ G to be the set $gH = \{gh: h \in H\}$
+群的所有划分
 
 ## Properties
 - 设 G 是群,H 是 G 的子群。任取 g1, g2∈ G,则 g1H = g2H 当且仅当 g2∈ g1H

@@ -9,11 +9,10 @@ date modified: Aug 15th, 2022
 - [[Amortized analysis]]
 - [[Dynamic Programming]]
 - [[Complexity]]
-- [[Graph Theory]]
-- [[String Algorithm]]
 - [[Huffman Tree]]
-- [[Floyd Algorithm]]
 - [[Compression]]
+- [[KMP Algorithm]]
+- [[Graph Algorithm]]
 
 ___
 
@@ -22,3 +21,4 @@ ___
 ___
 
 - [[NP and P Problem]]
+- [[RSA]]

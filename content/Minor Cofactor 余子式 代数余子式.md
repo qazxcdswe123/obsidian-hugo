@@ -6,7 +6,7 @@
 	
 - Application: 
 	- 余子式和代数余子式最常在[拉普拉斯展开](https://zh.wikipedia.org/wiki/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%B1%95%E5%BC%80 "拉普拉斯展开")中出现，用于将矩阵的行列式展成若干个小一阶的行列式之和。(计算行列式)
-	- 计算 [[Inverse Matrix 逆矩阵]]
+	- 计算 [[Inverse Matrix]]
 	$$\mathbf{M}^{-1} = \frac{1}{\det(M)}\begin{bmatrix}
     A_{11}  & A_{21} & \cdots &   A_{n1}   \\
     A_{12}  & A_{22} & \cdots &   A_{n2}   \\

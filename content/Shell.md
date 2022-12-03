@@ -7,21 +7,12 @@ date modified: Nov 17th, 2022
 [missing.csail.mit.edu](https://missing.csail.mit.edu/2020/shell-tools/)  
 [[Shell Tools and Scripting · the missing semester of your cs education]]  
 [[Linux Command Modern Alternative]]
+[[SSH]]
 
 # Shell
 [[IO]]
 
 # ZSH
-
-## Oh-My-Zsh
-`sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
-
-`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
-
-`git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-
-`git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-
-`git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_CUSTOM/plugins/zsh-vi-mode`
+[Home | Zim: Modular, customizable, and blazing fast Zsh framework](https://zimfw.sh/)
 
 [[iTerm2]]

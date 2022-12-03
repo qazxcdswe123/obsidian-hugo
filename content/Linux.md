@@ -16,3 +16,4 @@ date modified: Aug 15th, 2022
 - [[rysnc]]
 - [[inode]]
 - [[File System Permission]]
+- [[Linux Permission]]

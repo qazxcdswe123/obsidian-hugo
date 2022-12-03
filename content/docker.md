@@ -2,30 +2,18 @@
 aliases: []
 tags: [] 
 date created: Jun 2nd, 2022
-date modified: Nov 16th, 2022
+date modified: Nov 24th, 2022
 ---
-[ArchLinux Wiki](https://wiki.archlinux.org/title/docker#Installation)  
-
-[[systemd]]
-
-[[docker volume]]  
-[[docker command]]
+- [[systemd]]
+- [[Docker Volume]]  
+- [[Docker command]]
+- [[Docker Compose]]
 
 - Install Docker
-	- `curl -fsSL https://get.docker.com | sh`
 
-## Docker Run Flag
 ```
-docker run -d --rm \
-	--name watchtower
-	-v /var/run/docker.sock:/var/run/docker.sock \
-	containrrr/watchtower \
-	alist
+curl -fsSL https://get.docker.com | sh
 ```
-
-- `-d` flag to run the container in detached mode. 
-- `--name` specify a name to the container
-- `--rm` to automatically delete it when it exits  
 
 ## Trouble Shooting
 - `docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.`
@@ -42,7 +30,10 @@ sudo usermod -a -G docker $USER
 newgrp docker
 ```
 
-and relogin
+logout to take effect.
 
 ## Mirror
 `"registry-mirrors": ["https://b9b9x0p9.mirror.aliyuncs.com"]`
+
+## Links
+[ArchLinux Wiki](https://wiki.archlinux.org/title/docker#Installation)  

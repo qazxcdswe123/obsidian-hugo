@@ -6,7 +6,7 @@ date modified: Oct 23rd, 2022
 ---
 # From CSAPP The Book
 - [[Floating Point Representation]]
-- [[Assembly]]
+- [[Assembly Code]]
 - [[CPU Instruction]]
 - [[Cache]]
 - [[Storage]]

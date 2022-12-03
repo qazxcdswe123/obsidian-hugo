@@ -1,3 +1,4 @@
+> Can a knight go to a specific place
 # DFS
 ```c++
 #include <bits/stdc++.h>
@@ -56,7 +57,6 @@ void dfs(int x, int y, int moves)
 }
 ```
 每个位置都存放一个步数，当来到该位置时，就可以分析是否为更少的步数
-![Uploading file...ngta5]()
 
 # BFS
 ```c++
