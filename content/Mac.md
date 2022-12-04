@@ -79,6 +79,7 @@ date modified: Nov 17th, 2022
 - [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) (proxy)
 - [Releases · Molunerfinn/PicGo · GitHub](https://github.com/Molunerfinn/PicGo/releases) (M1 Support)
 - [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/) (Control your input method)
+- [Get started with vcpkg](https://vcpkg.io/en/getting-started.html?platform=mac) (C++ Package Manager)
 
 ## Hack
 ```
