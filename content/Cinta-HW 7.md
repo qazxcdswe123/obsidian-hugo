@@ -22,7 +22,7 @@ $2000 \leftrightarrow (11, 11)^{2019} = ([11^{2019} \pmod{13}], [11^{2019} \pmod
 $K = ker\phi = \{0\}$
 定义 $\psi$ : $Z_{n} \to Z_{n}/K$ ，显然为标准同态，由第一同构定理，存在唯一同构映射 $\upeta$ : $Z_{n}/k \to \phi(Z_n)$, 且 $\phi = \upeta\psi$
 因为后两个均为单射，所以$\phi$ 也为单射
-de zheng
+得证
 
 - 10
 即证明双射和群操作

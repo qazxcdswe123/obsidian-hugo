@@ -18,6 +18,7 @@ date modified: Nov 16th, 2022
 - [[费尔马小定理]]
 - [[Chinese Remainder Theorem]]
 - [[二次剩余定理]]
+- [[Ring]]
 
 - [[CINTA HomeWork]]  
 

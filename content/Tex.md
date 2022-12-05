@@ -35,5 +35,6 @@ date modified: Sep 6th, 2022
 | `\wedge`                | $\wedge$                        | [[Discrete Math]]                         |
 | `\int`                  | $\int^{\infty}_{\infty}xf(x)dx$ | [[Expectation]]                           |
 | `\subset`               | $\subset$                       | [[Subgroups]]                             |
-| `\cong`                 | $\cong$                         | [[Chinese Remainder Theorem]]                                          |
+| `\cong`                 | $\cong$                         | [[Chinese Remainder Theorem]]             |
+| `\infty`                | $\infty$                        | [[参数估计]]                                          |
 

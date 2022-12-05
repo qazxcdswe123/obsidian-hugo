@@ -10,6 +10,7 @@ A Blog Directly Generated From Obsidian
 - See also [[Markdown Format Testing]]
 
 ## CS Related
+- 2022-12-05: [[我的大学(3)]]
 - 2022-10-16: [[Learn C in 1 Hour]]
 - 2022-09-15: [[我的大学(2)]]
 - 2022-07-28: [[Programming Language]]
