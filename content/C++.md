@@ -5,7 +5,7 @@ date created: Jul 13th, 2022
 date modified: Nov 16th, 2022
 ---
 - [[Testing]]  
-- [[CMake]]
+- [[CMake Notes]]
 
 - [[Pointer]]
 - [[Variable Scope]]
@@ -24,4 +24,5 @@ date modified: Nov 16th, 2022
 - [[C++ Time Measuring]]
 - [[C++ error handling]]
 - [[C++ Template]]
+- [[C++ Time]]
 - [[Inline Function]]

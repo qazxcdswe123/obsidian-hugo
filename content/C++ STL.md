@@ -2,3 +2,6 @@
 - [[C++ Deque]]
 - [[C++ Sort]]
 - [[C++ unordered_set]]
+- [[C++ Tuple]]
+- [[C++ Pair]]
+- [[C++ Queue]]

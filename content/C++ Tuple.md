@@ -1,0 +1,1 @@
+tuple is a class that is designed to store a fixed-size collection of items. It is part of the C++ Standard Library and is defined in the `<tuple>` header. Tuples can be used to store a variety of types of data, and they support efficient, type-safe access to their elements.

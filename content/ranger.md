@@ -2,9 +2,8 @@
 aliases: []
 tags: []
 date created: Jul 10th, 2022
-date modified: Nov 17th, 2022
+date modified: Dec 9th, 2022
 ---
-
 空格选中一个文件，对选中的文件再按空格取消选中  
 `ranger --copy-config=all` copy config to `~/.config/ranger`  
 install `bat` to preview code, configure `scope.sh` to set syntax highlight
@@ -34,7 +33,7 @@ use `'` to navigate
 `z` for changing settings  
 `u` for "undo"  
 `M` for line mode  
-`+`, `-`, `=` for setting access rights to files
+`+`, `-`, `=` for setting access rights to files  
 `F7`: mkdir
 
 ## Config

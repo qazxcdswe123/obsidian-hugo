@@ -27,3 +27,25 @@
 | fstream  | ios::in \| ios::out                       |
 
 # Example
+```cpp
+// Open the file in read mode
+ifstream myFile("myfile.txt");
+
+// Check if the file was opened successfully
+if (myFile.is_open()) {
+  // Declare a string to hold each line of the file
+  string line;
+
+  // Read each line of the file until we reach the end
+  while (getline(myFile, line)) {
+    // Print the line to the console
+    cout << line << endl;
+  }
+
+  // Close the file
+  myFile.close();
+} else {
+  // Print an error message if the file could not be opened
+  cout << "Error opening file!" << endl;
+}
+```

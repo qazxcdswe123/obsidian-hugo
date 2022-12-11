@@ -12,9 +12,6 @@ The header `<stddef.h>` defines a type `ptrdiff_t` that is large enough to hold 
 ## \<iomanip\>
 `std::cout << std::setw(5) << std::setfill('0') << zipCode << std::endl`
 
-## String
-[ntu](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp9_String.html)
-
 ## Files
 [[C++ File]]  
 In C++, files are mainly dealt by using three classes fstream, ifstream, ofstream available in `fstream` headerfile.  

@@ -87,8 +87,6 @@ $\therefore c|(ma+nb)$
 ___
 
 ## 7
-- Any better solution?
-
 Suppose $a^2 = 111 \cdots 111$ , clearly it must be a power of odd number, so $a$ is odd.  
 Let $a = 2b + 1$, $a^2 = 4b^2 + 4b + 1$  
 $4b^2 + 4b + 1 = 1 \pmod 4$  

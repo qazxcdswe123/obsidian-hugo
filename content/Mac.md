@@ -17,6 +17,7 @@ date modified: Nov 17th, 2022
 - Excel
 
 ### App Store
+- Things3
 - ScanScan
 - GoodNotes
 - Telegram
@@ -28,14 +29,14 @@ date modified: Nov 17th, 2022
 - Formula: 命令行软件
 - Cask: GUI 软件
 - Bottle: 预编译软件
-
 - `brew autoremove` to uninstall dependencies  
-[Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
+- [Homebrew 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/brew.git.html)
+
 - Cask
 	- AlDente (Charge Limit)
 	- syntax-highlight (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
-	- Obsidian (note)
+	- Obsidian (note taking)
 	- [[iterm2]] (terminal alternative)
 	- unnaturalscrollwheels
 	- google-chrome
@@ -45,6 +46,7 @@ date modified: Nov 17th, 2022
 	- raycast (launcher)
 	- dash (document viewer)
 	- Maccy (Clipboard Manager)
+	- Alt-Tab (Tab management)
 
 - Formula
 	- ffmpeg
@@ -81,7 +83,7 @@ date modified: Nov 17th, 2022
 - [KeyboardHolder](https://keyboardholder.leavesc.com/en-us/) (Control your input method)
 - [Get started with vcpkg](https://vcpkg.io/en/getting-started.html?platform=mac) (C++ Package Manager)
 
-## Hack
+## Hacks
 ```
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider

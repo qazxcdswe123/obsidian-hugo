@@ -5,7 +5,7 @@
 When you run a Python module with
 `python fibo.py <arguments>`
 the code in the module will be executed, just as if you imported it, but with the `__name__` set to `"__main__"`. That means that by adding this code at the end of your module:
-```
+```python
 if __name__ == "__main__":
     import sys
     fib(int(sys.argv[1]))

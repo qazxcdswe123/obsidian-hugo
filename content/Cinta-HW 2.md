@@ -13,8 +13,6 @@ c. 265
 ## 8
 
 ```c++
-#include <iostream>
-
 // calculate x^y mod m
 int rec_mod_exp(int x, int y, int m)
 {
@@ -31,12 +29,6 @@ int rec_mod_exp(int x, int y, int m)
     {
         return x * z * z % m;
     }
-}
-
-int main()
-{
-    int res = rec_mod_exp(7, 10, 11);
-    std::cout << res << std::endl;
 }
 ```
 
