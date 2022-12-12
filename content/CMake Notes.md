@@ -18,3 +18,24 @@ cmake /path/to/CMakeLists.txt
 # Compile/link
 cmake --build .
 ```
+
+## CMake Configuration
+```
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+project(Tutorial VERSION 1.0)
+configure_file(TutorialConfig.h.in TutorialConfig.h)
+```
+
+## Linking
+```
+add_executable(cmake_testapp main.cpp)
+add_library(test_library STATIC calc.cpp)
+
+include_directories(includes/math) include_directories(includes/general)
+
+find_library(TEST_LIBRARY test_library lib) target_link_libraries(cmake_testapp LINK_PUBLIC &{TEST_LIBRARY}) # after add_executable
+```
+
+## Links
+[Quick CMake tutorial | CLion Documentation](https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html#profiles)
