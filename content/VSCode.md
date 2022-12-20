@@ -2,11 +2,15 @@
 aliases: []
 tags: []
 date created: Apr 9th, 2022
-date modified: Sep 1st, 2022
+date modified: Dec 13th, 2022
 ---
 [[IDEA IDE]]
+## [[Vim|Neovim]] Keymap
+- `C-w s` Split editor horizontally.
+- `C-w v` Split editor vertically.
+- `C-w =` Align all editors to have the same width.
 
-# Settings
+## Settings
 ```json
 // Place your key bindings in this file to override the defaults
 [
@@ -33,7 +37,10 @@ date modified: Sep 1st, 2022
 ]
 ```
 
+- Disable Minmap by right click scroll bar.
+
 # Language
+
 ## C++
 [C++ build before debug](https://stackoverflow.com/questions/57891050/how-run-build-task-automatically-before-debugging-in-visual-studio-code)
 

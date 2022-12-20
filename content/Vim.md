@@ -43,14 +43,4 @@ Can be used only after text is changed
 - Set `-` as a word
 	- `set iskeyword+=-`
 
-## Plugins
-### Nvim-surround
-[GitHub - kylechui/nvim-surround: Add/change/delete surrounding delimiter pairs with ease. Written with in Lua.](https://github.com/kylechui/nvim-surround)
-- ys
-- cs
-- ds
-
-- **function manipulation**:
-	- `ysiwffunc`
-	- `dsf`
-	- `csfnew_name`
+[[Neovim Plugins]]

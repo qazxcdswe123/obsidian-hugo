@@ -5,3 +5,4 @@
 - [[C++ Tuple]]
 - [[C++ Pair]]
 - [[C++ Queue]]
+- [[C++ Smart Pointer]]

@@ -74,6 +74,8 @@ date modified: Nov 17th, 2022
 	- firacode ([[Font]])
 	- [[rclone]]
 	- pandoc
+	- flyctl
+	- wrangler
 	- java
 		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 
@@ -128,6 +130,7 @@ ServerAliveCountMax 999
 - `Command + Shift + Z`: look up word
 - press `Control` and click to act as right click
 - `CMD+Shift+R`: Enter reader mode
+- `CMD+Option+V`: Move file
 - Dictionary
 	- `CMD+Control+D`: Lookup
 	- `CMD+Shift+X`: Open Dictionary

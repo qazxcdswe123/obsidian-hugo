@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [同态]
 tags: []
 date created: Oct 31st, 2022
 date modified: Nov 16th, 2022
@@ -22,6 +22,9 @@ Cayley 定理:任何有限群 G 都同构于 G 的一个置换群。
 
 ### 第一同构定理
 如果 ψ : G ?→ H 是一种群同态映射,且 K = Ker ψ,则 K 是 G 的正规子群。设φ : G ?→ G/K 是标准同态,则存在唯一同构映射 η : G/K ?→ ψ(G) 使得 ψ = ηφ, 即 ψ 是 η 和 φ 的复合映射。
+
+# [[Ring]]
+
 
 # [[Graph Theory|Graph]]
 - 同构图：看度数列

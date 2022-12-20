@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Sep 14th, 2022
-date modified: Nov 16th, 2022
+date modified: Dec 20th, 2022
 ---
 - [[Test Mocking]]  
 - [Software testing - Wikipedia](https://en.wikipedia.org/wiki/Software_testing)
@@ -25,11 +25,14 @@ Good practices for unit testing include:
 - [[Python Testing]]
 - [[Go Testing]]
 
-## Soak Test
+## Terminology
+
+
+## Practices
+- [[BDD]]  
+- [[TDD]]
+
+### Soak Test
 [Soak testing - Wikipedia](https://en.wikipedia.org/wiki/Soak_testing)  
 Running for a long time under average load.  
 This falls under [load testing](https://en.wikipedia.org/wiki/Load_testing "Load testing").
-
-## Practices
-[[BDD]]  
-[[TDD]]

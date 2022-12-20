@@ -10,4 +10,3 @@
 	-   `MIN`
 	-   `UPPER`
 - Since each show may have more than one genre, we can have more than one row per show in our genres table, known as a **one-to-many** relationship.
-- 

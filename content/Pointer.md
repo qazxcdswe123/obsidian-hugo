@@ -65,6 +65,7 @@ In the example above, we use `&` to get the address of a variable, this is calle
 - Stack and heap. See also [[Memory]] and [[Memory Allocation in C]]
 - `const` pointer. See also: [[C++ Const]]
 - Complex declaration: [cdecl: C gibberish ↔ English](https://cdecl.org/)
+- [[C++ Smart Pointer]]
 
 ___
 

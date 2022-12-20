@@ -5,11 +5,8 @@ date created: Jul 2nd, 2022
 date modified: Jul 28th, 2022
 ---
 [[TypeScript]]
-
 [[Vuejs]]  
-
 [[ReactJS]]
-
 [[NodeJS]]  
 
 - [[JavaScript Async Await]]
@@ -23,11 +20,11 @@ date modified: Jul 28th, 2022
 - [[JavaScript Loop]]  
 - [[JavaScript Map and Set]]
 - [[JavaScript Promise]]
+- [[JavaScript Module]]
 
 
 # Function
-[[JavaScript Function for Numbers]]  
+[[JavaScript API for Numbers]]  
 [[JavaScript Arrow Function]]  
 [[JavaScript Class]]
 [[JavaScript Callback]]
-

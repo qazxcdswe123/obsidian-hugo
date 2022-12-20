@@ -19,3 +19,4 @@ Use **Separate Chaining** or [[Open Addressing]] to deal with it.
 ## Links
 [Wiki](https://en.wikipedia.org/wiki/Hash_table)  
 [Algorithm 4E](https://algs4.cs.princeton.edu/34hash/)
+[[SwissTable]]

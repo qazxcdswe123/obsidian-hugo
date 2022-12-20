@@ -2,9 +2,11 @@
 aliases: []
 tags: []
 date created: Sep 29th, 2022
-date modified: Sep 29th, 2022
+date modified: Dec 16th, 2022
 ---
+
 # Slice
+
 ## Slices Are Like References to Arrays
 A slice does not store any data, it just describes a section of an underlying array.
 
@@ -21,7 +23,7 @@ The capacity of a slice is the number of elements in the underlying array, count
 
 The length and capacity of a slice `s` can be obtained using the expressions `len(s)` and `cap(s)`.
 
-You can extend a slice's length by re-slicing it, provided it has sufficient capacity. Try changing one of the slice operations in the example program to extend it beyond its capacity and see what happens.
+You can extend a slice's length by re-slicing it, provided it has sufficient capacity. 
 
 ## Creating a Slice with Make
 Slices can be created with the built-in `make` function; this is how you create dynamically-sized arrays.
@@ -29,7 +31,8 @@ Slices can be created with the built-in `make` function; this is how you creat
 The `make` function allocates a zeroed array and returns a slice that refers to that array:
 
 ```go
-a := make([]int, 5)  // len(a)=5
+sz := 5
+a := make([]int, sz)  // len(a)=5
 ```
 
 To specify a capacity, pass a third argument to `make`:

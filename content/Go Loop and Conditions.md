@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Sep 27th, 2022
 date modified: Sep 28th, 2022
 ---
@@ -12,7 +12,7 @@ The basic `for` loop has three components separated by semicolons:
 - the condition expression: evaluated before every iteration
 - the post statement: executed at the end of every iteration
 
-**Note:** Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the `for` statement and the braces `{ }` are always required.
+**Note:** Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the `for` statement and the braces `{ }` are **always required.**
 
 ```go
 // for loop
@@ -22,8 +22,16 @@ for initialization; condition; post {
 
 // while loop
 for sum < 1000 {
-		sum += sum
-	}
+	sum += sum
+}
+
+// Skip even numberG
+for n := 0; n <= 5; n++ {
+    if n%2 == 0 {
+        continue
+    }
+    fmt.Println(n)
+}
 ```
 
 ## Range

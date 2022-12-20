@@ -42,5 +42,6 @@ Using these clauses, the database can then execute queries faster and more effic
 
 # Misc
 - `.schema`
+- `.tables`
 
 [[Database]]

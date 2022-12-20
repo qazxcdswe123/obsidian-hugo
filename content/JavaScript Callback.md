@@ -2,8 +2,9 @@
 aliases: []
 tags: []
 date created: Aug 21st, 2022
-date modified: Sep 8th, 2022
+date modified: Dec 17th, 2022
 ---
+
 ## Error-First Callback
 [Error-First Callback in Node.js - GeeksforGeeks](https://www.geeksforgeeks.org/error-first-callback-in-node-js)  
 
@@ -18,7 +19,6 @@ date modified: Sep 8th, 2022
 The second argument is a function (usually anonymous) that runs when the action is completed.
 
 ## Example
-
 ```js
 function myDisplayer(some) {
   document.getElementById("demo").innerHTML = some;

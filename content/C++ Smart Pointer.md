@@ -1,2 +1,3 @@
 [[Pointer]]
-There are four smart pointers in C++11: std::auto_ptr, std::unique_ptr, std::shared_ptr, and std::weak_ptr. All are designed to help manage the life‐times of dynamically allocated objects, i.e., to avoid resource leaks by ensuring that such objects are destroyed in the appropriate manner at the appropriate time (including in the event of exceptions).
+## Difference Between `unique_ptr` and `shared_ptr`
+We can only have 1 `unique_ptr` but we can have multiple `shared_ptr`. However, `shared_ptr` may introduce some small overhead.

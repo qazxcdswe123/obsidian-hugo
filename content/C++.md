@@ -11,6 +11,7 @@ date modified: Nov 16th, 2022
 - [[Variable Scope]]
 - [[C Typedef]]
 - [[C Macros]]
+- [[C++ Smart Pointer]]
 - [[C++ Const]]
 - [[C++ Cast]]
 - [[C++ OOP]]

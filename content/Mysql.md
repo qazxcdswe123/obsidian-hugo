@@ -1,3 +1,3 @@
 ```console
-docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+docker run --name mysql -v ~/docker/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mysqlqweasd -d mysql
 ```

@@ -1,12 +1,15 @@
 ---
 aliases: []
-tags: []
+tags: [Storage, Cache, Optimization] 
 date created: Oct 9th, 2022
-date modified: Nov 3rd, 2022
+date modified: Dec 19th, 2022
 ---
+
 [[Storage]]
+
 # Cache
 [What is a "cache-friendly" code? - Stack Overflow](https://stackoverflow.com/questions/16699247/what-is-a-cache-friendly-code)
+
 ## Overview
 We have `t`, `s` and `b`
 - A cache is a set of `2^s` cache sets
@@ -18,11 +21,11 @@ We have `t`, `s` and `b`
 
 ## Efficiency
 - Cache hit: $h = N_{c} / (N_{c} + N_{m})$
-	- Nc表示Cache完成存取访问的总次数  
-	- Nm表示主存完成存取访问的总次数  
+	- Nc 表示 Cache 完成存取访问的总次数  
+	- Nm 表示主存完成存取访问的总次数  
 - 平均访问时间: $t_{a} = ht_{c} + (1-h)t_{m}$
-	- tc表示命中Cache时的访问时间  
-	- tm表示命中主存时的访问时间  
+	- tc 表示命中 Cache 时的访问时间  
+	- tm 表示命中主存时的访问时间  
 	- $t_{a} = \frac{t_{c}}{e}$
 - Cache 访问效率：$e = \frac{t_{c}}{t_{a}}$
 
@@ -42,12 +45,12 @@ We have `t`, `s` and `b`
 [Cache placement policies - Wikipedia](https://en.wikipedia.org/wiki/Cache_placement_policies)
 
 字储存 data，需要 Cache 和 主存大小相同
+
 ## Direct-Mapped
 直接映射  
 Only 1 choice of where to place a block.  
 Single cache line pre set (n x 1 column matrix)  
 ![](https://img.ynchen.me/2022/11/3b09bc2f92b493b01f43ce14e1d1836b.webp)
-
 
 ## Fully Associative
 全相联

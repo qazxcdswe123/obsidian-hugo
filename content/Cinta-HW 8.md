@@ -11,7 +11,7 @@ date modified: Dec 11th, 2022
 - 7 使用抽象代数的语言重新证明欧拉准则。  
 定义 $\phi$ : $\phi(a) = a^{\frac{p-1}{2}}$ , $a \in Z_{p}^{*}$ , $gcd(a, p) = 1$  
 For $a,b \in Z_{p}^{*}$ ， $\phi(ab) = a^{\frac{p-1}{2}}b^{\frac{p-1}{2}} = \phi(a)\phi(b)$ , 所以是群同态  
-$\because a^{\frac{p-1}{2}} \pmod{p} = \pm1$ , a 取值范围含 1 和 -1, 所以是满同态  
+$\because a^{\frac{p-1}{2}} \pmod{p} = \pm1$ , a 取值范围含 1 和 -1, 所以 $\phi$ 是满同态  
 因为勒让德符号 $\psi$ 也是满同态，所以若 $Ker \phi = Ker \psi$ 即得证
 1. $Ker \phi \subset Ker \psi$  
 对 $\psi(a) = 1$, $a^{\frac{p-1}{2}} = x^{p-1}= 1 \pmod{p}$ ,  

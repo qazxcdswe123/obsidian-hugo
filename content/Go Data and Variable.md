@@ -16,6 +16,7 @@ The zero value is:
 
 ```go
 s := "" 
+s := make([]string, 3) //[   ]
 var s string 
 var s = "" 
 var s string = ""
