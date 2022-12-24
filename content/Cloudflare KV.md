@@ -1,0 +1,1 @@
+[How KV works · Cloudflare Workers docs](https://developers.cloudflare.com/workers/learning/how-kv-works/)

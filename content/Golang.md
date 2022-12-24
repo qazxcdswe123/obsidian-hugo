@@ -1,9 +1,13 @@
-[[Go Struct]]
-[[Go Command]]
-[[Go Data and Variable]]
-[[Go Loop and Conditions]]
-[[Go Testing]]
-[[Go Package]]
-[[Go Async]]
-[[Go Function]]
-[[Go Error Handling]]
+- [[Go Struct]]
+- [[Go Command]]
+- [[Go Data and Variable]]
+- [[Go Loop and Conditions]]
+- [[Go Testing]]
+- [[Go Package]]
+- [[Go Async]]
+- [[Go Function]]
+- [[Go Error Handling]]
+
+___
+
+- [[Cloud]]

@@ -1,6 +1,7 @@
-[[SQL Command]]
-[[Mysql]]
-[[Word Segmentation]]
+- [[SQL Command]]
+- [[Database]]
+- [[Mysql]]
+- [[Word Segmentation]]
 
 # NewSQL
 [[NoSQL]]

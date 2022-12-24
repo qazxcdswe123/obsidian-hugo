@@ -1,14 +1,21 @@
-- [https://sqlbolt.com/](https://sqlbolt.com/)
-# queries
+---
+aliases: []
+tags: []
+date created: Mar 28th, 2022
+date modified: Dec 22nd, 2022
+---
+
+# Queries
 
 ## SELECT
-Declare what data we are looking for
-Given a table of data. we need to **SELECT** columns to read
-`SELECT column1, column2, FROM mytable;`  `SELECT * FROM mytable;`
+Declare what data we are looking for  
+Given a table of data. we need to **SELECT** columns to read  
+`SELECT column1, column2, FROM mytable;` `SELECT * FROM mytable;`
 
 ## WHERE
-Add condition to **SELECT**
-`SELECT * FROM mytable WHERE condition AND/OR condition;`
+Add condition to **SELECT**  
+`SELECT * FROM mytable WHERE condition AND/OR condition;`  
+
 | Operator                        | SQL Example                                  |
 | ------------------------------- | -------------------------------------------- |
 | NOT IN (…)                      | col_name NOT IN (1, 3, 5)                    |
@@ -24,24 +31,26 @@ Add condition to **SELECT**
 ## DISTINCT
 get distinct result
 
-## Ordering results
-sort your results by a given column in ascending or descending order using the `ORDER BY` clause.
-`ORDER BY column ASC/DESC;`
+## Ordering Results
+sort your results by a given column in ascending or descending order using the `ORDER BY` clause.  
+`ORDER BY column ASC/DESC;`  
 alpha-numerically based on the specified column's value.
 
 ### LIMIT and OFFSET
-The `LIMIT` will reduce the number of rows to return, and the optional `OFFSET` will specify where to begin counting the number rows from.
+The `LIMIT` will reduce the number of rows to return, and the optional `OFFSET` will specify where to begin counting the number rows from.  
 Using these clauses, the database can then execute queries faster and more efficiently by processing and returning only the requested content.
 
 # Create
 
-## datatype
+## Datatype
 - INTERGER
 - TEXT NOT NULL
+
 ## Grammar
 
 # Misc
 - `.schema`
 - `.tables`
 
-[[Database]]
+- [[Database]]
+- [https://sqlbolt.com/](https://sqlbolt.com/)

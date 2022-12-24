@@ -1,3 +1,4 @@
+- [[SQL]]
 # Relational databases
 - In SQL, we choose the types of data that each column will store.
 - check the schema, or design, of our new table with `.schema`
@@ -10,3 +11,9 @@
 	-   `MIN`
 	-   `UPPER`
 - Since each show may have more than one genre, we can have more than one row per show in our genres table, known as a **one-to-many** relationship.
+
+- [[Mysql]]
+- [[Sqlite]]
+
+# Non-Relational
+[[Mongo DB]]

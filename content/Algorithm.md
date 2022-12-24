@@ -13,6 +13,8 @@ date modified: Aug 15th, 2022
 - [[Compression]]
 - [[KMP Algorithm]]
 - [[Graph Algorithm]]
+- [[Randomized Algorithm]]
+- [[Bloom Fliter]]
 
 ___
 

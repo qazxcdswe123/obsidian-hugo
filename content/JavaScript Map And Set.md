@@ -2,11 +2,11 @@
 aliases: []
 tags: []
 date created: May 7th, 2022
-date modified: Sep 9th, 2022
+date modified: Dec 20th, 2022
 ---
 [Src](https://zh.javascript.info/map-set)
-## Map
 
+## Map
 ```js
 let recipeMap = new Map([
   ['cucumber', 500],
@@ -33,7 +33,6 @@ for (let entry of recipeMap) { // 与 recipeMap.entries() 相同
 [[JavaScript Object]]
 
 ## [Object.entries：从对象创建 Map](https://zh.javascript.info/map-set#objectentries-cong-dui-xiang-chuang-jian-map)
-
 ```js
 // 键值对 [key, value] 数组
 let map = new Map([
@@ -57,7 +56,6 @@ alert( map.get('name') ); // John
 ```
 
 ## [Object.fromEntries：从 Map 创建对象](https://zh.javascript.info/map-set#objectfromentries-cong-map-chuang-jian-dui-xiang)
-
 ```js
 let prices = Object.fromEntries([
   ['banana', 1],

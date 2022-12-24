@@ -25,9 +25,6 @@ Good practices for unit testing include:
 - [[Python Testing]]
 - [[Go Testing]]
 
-## Terminology
-
-
 ## Practices
 - [[BDD]]  
 - [[TDD]]
