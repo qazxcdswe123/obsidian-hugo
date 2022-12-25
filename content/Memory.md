@@ -2,10 +2,11 @@
 tags: [] 
 aliases: [heap]
 date created: Jul 17th, 2022
-date modified: Nov 23rd, 2022
+date modified: Dec 24th, 2022
 ---
-[科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  
-[[Stack]]
+- [科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  
+- [[Stack]]
+- [[Virtual Memory]]
 
 ## Segmentation
 [Memory segmentation - Wikipedia](https://en.wikipedia.org/wiki/Memory_segmentation)  
@@ -13,13 +14,11 @@ date modified: Nov 23rd, 2022
 [Code segment - Wikipedia](https://en.wikipedia.org/wiki/Code_segment)  
 [.bss - Wikipedia](https://en.wikipedia.org/wiki/.bss)
 
-## Virtual Memory
-Each [[process]] has the same uniform view of memory, which is known as its virtual address space.  
-In [[Linux]], the topmost region of the address space is reserved for code and data in the [[operating system]] that is common to all processes. The lower region of the address space holds the code and data defined by the user's [[process]].
-
-![](https://i.stack.imgur.com/HOY4C.png)  
-[memory management - Stack and Heap locations in RAM - Stack Overflow](https://stackoverflow.com/questions/32418750/stack-and-heap-locations-in-ram)
-
 ## Memory Access Rules in [[Assembly Code]]
 Used by [[CPU Instruction]] like `move` or `add`  
 ![](https://img.ynchen.me/2022/07/98f1002e2a47f479253df114d3870376.png)
+
+## Copy on Write
+>  If a resource is duplicated but not modified, it is not necessary to create a new resource; the resource can be shared between the copy and the original. Modifications must still create a copy, hence the technique: the copy operation is deferred until the first write. By sharing resources in this way, it is possible to significantly reduce the resource consumption of unmodified copies, while adding a small overhead to resource-modifying operations. —Wikipedia
+
+[Copy-on-write - Wikipedia](https://en.wikipedia.org/wiki/Copy-on-write)

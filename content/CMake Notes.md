@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Dec 3rd, 2022
-date modified: Dec 12th, 2022
+date modified: Dec 25th, 2022
 ---
 **Note:** Although upper, lower and mixed case commands are supported by CMake, lower case commands are preferred and will be used throughout the tutorial.
 
@@ -30,7 +30,7 @@ cmake_minimum_required(VERSION 3.14.0 FATAL_ERROR)
 
 ## Target
 ```
-add_executable(myExecutable main.cpp ) 
+add_executable(myExecutable main.cpp) 
 add_library(libA sourceA.cpp ) 
 add_library(libB sourceB.cpp sourceB_impl.cpp ) 
 add_library(libC sourceC.cpp ) 
@@ -67,8 +67,8 @@ if(USE_MYMATH)
 endif()
 ```
 
-3. Change the library name `target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})`.
-4. 
+1. Change the library name `target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})`.
+2. 
 
 ### Linking
 ```
@@ -102,4 +102,3 @@ target_link_libraries(main PRIVATE GTest::gmock GTest::gtest GTest::gmock_main G
 find_package(Catch2 CONFIG REQUIRED)
 target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
 ```
-

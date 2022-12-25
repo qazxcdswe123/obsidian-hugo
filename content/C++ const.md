@@ -1,14 +1,16 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Aug 12th, 2022
-date modified: Aug 12th, 2022
+date modified: Dec 24th, 2022
 ---
+
 ## Const
 ![](https://img.ynchen.me/2022/10/92123767a39e7835cf57a84e836730c9.webp)
 
-[`const` is a contract – Arthur O'Dwyer – Stuff mostly about C++](https://quuxplusone.github.io/blog/2019/01/03/const-is-a-contract/)
+[`const` is a contract – Arthur O'Dwyer – Stuff mostly about C++](https://quuxplusone.github.io/blog/2019/01/03/const-is-a-contract/)  
 Should not be modified
+- `const` at the end of the function makes the class function unable to change a member variable of the class.
 
 ## Constexpr
 URL: [constexpr (C++) | Microsoft Docs](https://docs.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170)
@@ -17,10 +19,10 @@ Like const, it can be applied to variables: A compiler error is raised when any 
 
 It means constant expression. Like const, it can be applied to variables: A compiler error is raised when any code attempts to modify the value.
 
- Unlike const, constexpr can also be applied to functions and class constructors. constexpr indicates that the value, or return value, is constant and, where possible, is computed at compile time.
+Unlike const, constexpr can also be applied to functions and class constructors. constexpr indicates that the value, or return value, is constant and, where possible, is computed at compile time.
 > function and constructor, compute at compile time
 
-The primary difference between const and constexpr variables is that the initialization of a const variable can be deferred until run time. A constexpr variable must be initialized at compile time.  All constexpr variables are const.
+The primary difference between const and constexpr variables is that the initialization of a const variable can be deferred until run time. A constexpr variable must be initialized at compile time. All constexpr variables are const.
 
 A constexpr variable or function must return a literal type.
 

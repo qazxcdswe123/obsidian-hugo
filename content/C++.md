@@ -7,6 +7,8 @@ date modified: Nov 16th, 2022
 - [[Testing]]  
 - [[CMake Notes]]
 
+___
+
 - [[Pointer]]
 - [[Variable Scope]]
 - [[C Typedef]]
@@ -26,4 +28,9 @@ date modified: Nov 16th, 2022
 - [[C++ error handling]]
 - [[C++ Template]]
 - [[C++ Time]]
+- [[C++ Rules]]
+
+___
+
 - [[Inline Function]]
+- [[C++ Move Semantics]]

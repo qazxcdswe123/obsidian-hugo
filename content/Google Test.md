@@ -38,7 +38,7 @@ TEST(FactorialTest, HandlesPositiveInput) {
 
 When using a fixture, use `TEST_F()` instead of `TEST()` as it allows you to access objects and subroutines in the test fixture:
 
-```
+```c++
 TEST_F(TestFixtureName, TestName) {
   ... test body ...
 }
