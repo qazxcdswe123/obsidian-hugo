@@ -4,7 +4,7 @@ tags: []
 date created: Aug 29th, 2022
 date modified: Sep 3rd, 2022
 ---
-因为博客放的其实是笔记，太多太杂bu，就不放留言了...
+因为博客放的其实是笔记，太多太杂，就不放留言了...
 
 第一章课后习题：1、3、4  
 选做：2、7
@@ -90,5 +90,5 @@ ___
 Suppose $a^2 = 111 \cdots 111$ , clearly it must be a power of odd number, so $a$ is odd.  
 Let $a = 2b + 1$, $a^2 = 4b^2 + 4b + 1$  
 $4b^2 + 4b + 1 = 1 \pmod 4$  
-$111 \cdots 111 = -1 \pmod 4$ (where the number of 1 > 2, aka n > 2)  
+$111 \cdots 111 = -1 \pmod 4$ (when the number of 1 > 2, aka n > 2)  
 QED.

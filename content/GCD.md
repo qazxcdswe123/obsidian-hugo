@@ -2,7 +2,7 @@
 aliases: [LCF]
 tags: [] 
 date created: Jul 14th, 2022
-date modified: Nov 16th, 2022
+date modified: Dec 29th, 2022
 ---
 
 # Divisor

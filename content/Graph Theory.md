@@ -2,7 +2,7 @@
 aliases: [Graph]
 tags: []
 date created: Sep 7th, 2022
-date modified: Nov 23rd, 2022
+date modified: Dec 28th, 2022
 ---
 - [[Floyd Algorithm]]
 - 简单图：不含平行边、环（自环）的图。
@@ -14,7 +14,7 @@ date modified: Nov 23rd, 2022
 - 强连通图：在有向图中, 若对于每一对顶点 v1 和 v2, 都存在一条从 v1 到 v2 和从 v2 到 v1 的路径
 
 ## Chap14 图的基本概念
-[[握手定理]]
+- ![[握手定理]]
 - 度数列：顶点度数的排列
 - 零图：只有结点没有边的图
 - [[Isomorphism]]
@@ -45,14 +45,14 @@ date modified: Nov 23rd, 2022
 	- 有向图：![](https://img.ynchen.me/2022/11/6b7dd98e19f0164706d4d1c13b212bcf.webp)
 
 ## Chap15 欧拉图与哈密顿图
-[[欧拉图]]
+![[欧拉图]]
 
 ___
 
 - 二部图：把 V 分成 V1， V2， 使得 G 中每条边两个端点一个属于 V1，一个属于 V2，记作 <V1, V2, E>，无向图是二部图当且仅当它没奇圈
 - 完全二部图：G 是简单图，V1 中顶点和 V2 **所有** 顶点相邻，记作 $K_{r, s}$ r = |V1| s = |V2|
 
-[[哈密顿图]]
+- ![[哈密顿图]]
 
 ## Chap16 树
 - 森林：每个连通分支都是树的无向图

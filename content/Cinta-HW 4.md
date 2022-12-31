@@ -41,7 +41,7 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 得证
 
 - 8
-设子集为 $G_{1}, G_{2}$
+设子群为 $G_{1}, G_{2}$
 易得 e 在交集中
 任取 $a \in G_{1}$, if $a \in G_{2}$, then $a^{-1}$  必然在交集中, else a and $a^{-1}$ 不在交集中
 由于交集的元素均为子群的元素，所以满足结合律和封闭性
@@ -76,9 +76,9 @@ $\therefore$ $g_n^{-1} \cdots g_1^{-1} g_0^{-1}$ x $g_0 g_1 \cdots g_n$ = e
 
 - 8
 最小生成元最大是31，是5881
-- 2161 [23]
-- 8761 [23]
-- 5881 [31]
+`- 2161 [23]
+`- 8761 [23]`
+`- 5881 [31]`
 
 ```python
 import math
@@ -154,7 +154,7 @@ for key, value in dict_of_primitive_roots.items():
 - 3
 由于 index 为2，G 被分成了两个部分，H 和 G-H
 1. When $g \in H$: 由群的性质得，gH = Hg = H
-2. When $g \in (G-H)$: gH = Hg = (G-H) 因为被划分成两个部分，gH 不在 G 中就会在 G-H 中
+2. When $g \in (G-H)$: gH = Hg = (G-H) 因为被划分成两个部分，gH 会落在同一个集合
 得证
 
 - 4

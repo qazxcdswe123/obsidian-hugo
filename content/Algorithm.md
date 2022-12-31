@@ -14,7 +14,7 @@ date modified: Aug 15th, 2022
 - [[KMP Algorithm]]
 - [[Graph Algorithm]]
 - [[Randomized Algorithm]]
-- [[Bloom Fliter]]
+- [[Bloom Filter]]
 
 ___
 

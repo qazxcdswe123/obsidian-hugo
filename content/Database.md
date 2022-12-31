@@ -1,3 +1,12 @@
+## Types
+- Relational
+- Key/Value 
+- NoSQL
+	- Graph
+	- Document/Object
+	- Wide-Column/Column-family 
+	- Array/Matrix/Vectors
+
 - [[SQL]]
 # Relational databases
 - In SQL, we choose the types of data that each column will store.

@@ -48,10 +48,10 @@ def print_phi_table(n):
         print(i, euler_phi(i))
 ```
 
-10. $(p - 1)! \mod p = -1$  
+10. $(p - 1)! \pmod p = -1$  
 For $\forall x \in [1, p-1]$, since $gcd(x, p) = 1$ , there is always one and only one(proofed in [[Cinta-HW 2]]) $x^{-1}$ that satisfy $x * x^{-1} \equiv 1 \pmod p$
 - When p is 2 and 3, it is trivially true
 - When $p > 3$  
-We can guarantee $x^{-1} = x$ iff $x = 1$ or $x = -1$, so we can find a match for every element from p-2 to 2.
+We can guarantee $x^{2} = 1$ iff $x = \pm1$, so we can find a match for every element from p-2 to 2.
 Now we have $\prod_{i = 2}^{p - 2} i \equiv 1$, as a result,
 $1 * \prod_{i = 2}^{p - 2} i * (p-1) \equiv -1 \pmod p$

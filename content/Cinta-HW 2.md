@@ -12,7 +12,7 @@ c. 265
 
 ## 8
 
-```c++
+```c
 // calculate x^y mod m
 int rec_mod_exp(int x, int y, int m)
 {
@@ -93,5 +93,3 @@ print(get_modular_inverse(5, 11))
 print(get_modular_inverse(13, 121))
 print(get_modular_inverse(131, 1021))
 ```
-
-[[Cinta-HW 2-1]]

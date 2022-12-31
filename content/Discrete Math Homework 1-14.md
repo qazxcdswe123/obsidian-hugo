@@ -39,3 +39,9 @@ Combine them we get the answer.
 假设 $m < n - 1$
 由于 G 是无向联通图，当边数最小时，两个点之间仅由一条边相连，此时边数为 n - 1，与假设矛盾
 故 $m \geq n - 1$
+
+![[Discrete Math Homework 2-15]]
+
+![[Discrete Math Homework 3-16]]
+
+![[Discrete Math Homework 4-17]]

@@ -12,7 +12,6 @@ date modified: Nov 16th, 2022
 - [[Equivalence relation]]
 - [[Proof]]
 - [[Bezout's Identity]]
-- [[Lame's Theorem]]
 - [[Group Theory]]
 - [[欧拉定理]]
 - [[费尔马小定理]]
@@ -21,5 +20,4 @@ date modified: Nov 16th, 2022
 - [[Ring]]
 
 - [[CINTA HomeWork]]  
-
 - [[RSA]]

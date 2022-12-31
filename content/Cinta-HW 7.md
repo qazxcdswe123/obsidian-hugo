@@ -18,6 +18,7 @@ x = 1x693x416 + 2x495x283 + 3x385x214 + 4x315x88 mod 3465 = 1731
 221 = 13x17
 $Z_{221}^{*} \cong Z_{13}^{*} \times Z_{17}^{*}$
 $2000 \leftrightarrow (11, 11)^{2019} = ([11^{2019} \pmod{13}], [11^{2019} \pmod{17}]) = (5, 5) = 5$
+
 - 9
 $K = ker\phi = \{0\}$
 定义 $\psi$ : $Z_{n} \to Z_{n}/K$ ，显然为标准同态，由第一同构定理，存在唯一同构映射 $\upeta$ : $Z_{n}/k \to \phi(Z_n)$, 且 $\phi = \upeta\psi$
@@ -29,7 +30,7 @@ $K = ker\phi = \{0\}$
 定义 $Z^{*}_{n} \to Z^{*}_{p} \times Z^{*}_{q}$ 为 $\phi$
 $$\phi(x) = ([x \pmod{p}], [x \pmod{q}])$$
 证明映射 φ 是一种双射,即证明 φ 是满射且单射。
-满射：根据中国剩余定理，任意序对中的两个同余式在模 n 下有k唯一解。
-单射：任取正整数a , b < n ，设$\phi(a) = \phi(b)$ ，由 CRT :a = b，为单射
+满射：根据中国剩余定理，任意序对中的两个同余式在模 n 下有唯一解。
+单射：任取正整数a , b < n ，设$\phi(a) = \phi(b)$ ，由 [[Chinese Remainder Theorem]] :a = b，为单射
 群操作：![](https://img.ynchen.me/2022/12/eeaf911de2e8cd9bc04396bd65d8e73c.webp)
 得证
