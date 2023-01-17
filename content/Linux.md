@@ -13,7 +13,10 @@ date modified: Aug 15th, 2022
 - [[Firewall]]
 - [[01-Linux and Command Line]]
 - [[symbolic link]]
-- [[rysnc]]
+- [[rsync]]
 - [[inode]]
 - [[File System Permission]]
 - [[Linux Permission]]
+- [[ebpf]]
+
+- [[Operating System|OS]]

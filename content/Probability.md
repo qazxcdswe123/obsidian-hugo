@@ -2,7 +2,7 @@
 aliases: [概率论]
 tags: [Probability, Statistics, Mathematical-Theory]
 date created: Sep 1st, 2022
-date modified: Dec 19th, 2022
+date modified: Jan 17th, 2023
 ---
 
 ## Total Probability
@@ -23,10 +23,11 @@ ___
 - [[Series]]
 - [[Expectation]]  
 - [[Normal Distribution]]
+- [[Poisson distribution]]
 - [[参数估计]]
 - 方差：D(X) = Var(X) = $E{[X - E(x)]^{2}}$ = $E(X^{2})- E^{2}(X)$ 
 - 协方差/标准差：$\sqrt{D(X)}$  
 - 相关系数：正态分布，泊松分布
 
 ___
-[[Python Numpy Random]]
+- [[Python Numpy Random]]

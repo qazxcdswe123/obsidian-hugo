@@ -20,3 +20,9 @@ docker run -d --rm \
 - `-d` flag to run the container in detached mode. 
 - `--name` specify a name to the container
 - `--rm` to automatically delete it when it exits  
+
+## Docker Build
+- `docker build -t <name>:<tag> .`
+
+### Multi Stage Build
+- [Multi-stage builds | Docker Documentation](https://docs.docker.com/build/building/multi-stage/)

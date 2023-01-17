@@ -108,4 +108,4 @@ myFuncDef functionFactory(int n) {
 }
 ```
 
-[[C++ this pointer]]
+- [[C++ this pointer]]

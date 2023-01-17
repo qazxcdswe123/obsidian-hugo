@@ -32,3 +32,6 @@ At first, `2>1` may look like a good way to redirect `stderr` to `stdout`. 
 `&` indicates that what follows and precedes is a _file descriptor_, and not a filename. Thus, we use `2>&1`. Consider `>&` to be a redirect merger operator.
 
 `&` is only interpreted to mean "file descriptor" in the context of redirections. Writing `command &2>&` is parsed as `command &` and `2>&1`, i.e. "run `command` in the background, then run the command `2` and redirect its stdout into its stdout".
+
+## Links
+- [[Operating System|OS]]

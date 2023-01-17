@@ -6,7 +6,6 @@ date modified: Aug 6th, 2022
 ---
 [[GDB Crash Course]]  
 [[1. gdb 调试利器 — Linux Tools Quick Tutorial]]  
-[[CS107 GDB and Debugging]]
 
 ## Commands
 - `disas` disassemble (default is current function)
@@ -20,4 +19,5 @@ date modified: Aug 6th, 2022
 Examine memory: x/FMT ADDRESS.
 Format letters are o(octal), x(hex), d(decimal), u(unsigned decimal),  t(binary), f(float), a(address), i(instruction), c(char), s(string)  
 
-
+## Misc
+`<C-x> + <C-a>`: Code view

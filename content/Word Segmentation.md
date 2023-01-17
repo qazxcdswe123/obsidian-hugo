@@ -1,2 +1,0 @@
-- [Text segmentation - Wikipedia](https://en.wikipedia.org/wiki/Text_segmentation#Word_segmentation)
-- [GitHub - messense/jieba-rs: The Jieba Chinese Word Segmentation Implemented in Rust](https://github.com/messense/jieba-rs)

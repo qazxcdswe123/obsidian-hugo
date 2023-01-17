@@ -2,14 +2,9 @@
 aliases: []
 tags: [Storage, Cache, Optimization] 
 date created: Oct 9th, 2022
-date modified: Dec 19th, 2022
+date modified: Jan 11th, 2023
 ---
-
-[[Storage]]
-
-# Cache
-[What is a "cache-friendly" code? - Stack Overflow](https://stackoverflow.com/questions/16699247/what-is-a-cache-friendly-code)
-
+- [What is a "cache-friendly" code? - Stack Overflow](https://stackoverflow.com/questions/16699247/what-is-a-cache-friendly-code)
 ## Overview
 We have `t`, `s` and `b`
 - A cache is a set of `2^s` cache sets
@@ -42,24 +37,22 @@ We have `t`, `s` and `b`
 - valid bit: A bit of information that indicates whether the data in a block is valid (1) or not (0).
 - index: the index of the position in cache block
 
-[Cache placement policies - Wikipedia](https://en.wikipedia.org/wiki/Cache_placement_policies)
+- [Cache placement policies - Wikipedia](https://en.wikipedia.org/wiki/Cache_placement_policies)
 
-字储存 data，需要 Cache 和 主存大小相同
+## Look Aside Cache
+_Look-Aside Caching_ is a pattern of caching where the input of a cacheable operation is used as the key for looking up any cached results from a prior invocation of the operation when given the same input.
 
 ## Direct-Mapped
-直接映射  
 Only 1 choice of where to place a block.  
 Single cache line pre set (n x 1 column matrix)  
 ![](https://img.ynchen.me/2022/11/3b09bc2f92b493b01f43ce14e1d1836b.webp)
 
 ## Fully Associative
-全相联
 - 主存总容量：$2^{S}$ （块）x $2^{W}$ （字）
 - Cache 总容量：$2^{r}$ x $2^{W}$
 - CAM $2^{r}$ 行，每行 S 位 Tag（选主存），需遍历  
 随便放，用 Tag 区分， Tag 是内存地址
 
 ## Set-Associative
-组相联
 - The cache is divided into groups of blocks, called sets.
 - Each memory address maps to exactly one set in the cache, but data may be placed in any block within that set.

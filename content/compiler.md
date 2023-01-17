@@ -25,3 +25,4 @@ This is in contrast to a traditional compiler that compiles **all** the code t
 - [performance - Why does C++ compilation take so long? - Stack Overflow](https://stackoverflow.com/questions/318398/why-does-c-compilation-take-so-long)  
 - [What techniques can be used to speed up C++ compilation times? - Stack Overflow](https://stackoverflow.com/questions/373142/what-techniques-can-be-used-to-speed-up-c-compilation-times)
 - [Executable and Linkable Format - Wikipedia](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
+- [compiler construction - How does compiling circular dependencies work? - Stack Overflow](https://stackoverflow.com/questions/3032874/how-does-compiling-circular-dependencies-work)

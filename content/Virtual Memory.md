@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Dec 24th, 2022
-date modified: Dec 24th, 2022
+date modified: Jan 11th, 2023
 ---
 
 ## Virtual Memory
@@ -13,3 +13,4 @@ In [[Linux]], the topmost region of the address space is reserved for code and d
 - [memory management - Stack and Heap locations in RAM - Stack Overflow](https://stackoverflow.com/questions/32418750/stack-and-heap-locations-in-ram)
 - [[Memory]]
 - [TLB-Translation lookaside buffer - Wikipedia](https://en.wikipedia.org/wiki/Translation_lookaside_buffer)
+- [[Page Table]]

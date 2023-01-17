@@ -1,10 +1,11 @@
+
 - [[SQL Command]]
 - [[Database]]
 - [[Mysql]]
-- [[Word Segmentation]]
 
 # NewSQL
-[[NoSQL]]
+- [[NoSQL]]
 
 ## Links
-[NewSQL - Wikipedia](https://en.wikipedia.org/wiki/NewSQL)
+- [NewSQL - Wikipedia](https://en.wikipedia.org/wiki/NewSQL)
+- [Litestream SQLite Replication](https://litestream.io/how-it-works/)

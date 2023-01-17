@@ -1,8 +1,13 @@
+---
+aliases: [Archlinux]
+tags: [] 
+date created: Jul 11th, 2022
+date modified: Jan 7th, 2023
+---
 [[Linux]]
-# System customization
+
+# System Customization
 `echo 'blacklist pcspkr' | sudo tee --append /etc/modprobe.d/nobeep.conf` to get rid of the beep sound
-
-
 
 # Custom Shortcut
 1. `Super+W` = open browser
@@ -10,7 +15,7 @@
 3. `Super+Shift+S` = screenshot
 
 # 优点
-`./program | xclip -selection c` copy output to clipboard
+`./program | xclip -selection c` copy output to clipboard  
 Use [[ranger]] `yc` copy content `yn` copy name
 
 # 问题
@@ -22,7 +27,7 @@ Use [[ranger]] `yc` copy content `yn` copy name
 	3. [依云blog](https://blog.lilydjwg.me/2022/2/2/wayfire-migration-4-not-so-high-dpi.216078.html)
 4. Matlab mupad 无法输入中文
 5. 鼠标滚轮速度调节 imwheel，但是触摸板就有问题了
-6. Bluetooth 连接极慢  `sudo -e /etc/bluetooth/main.conf ` change setting
+6. Bluetooth 连接极慢 `sudo -e /etc/bluetooth/main.conf ` change setting
 7. 鼠标速度有问题
 8. 鼠标在 GTK 应用里会变大
 9. White Color scheme with white text can't see
@@ -32,8 +37,9 @@ Use [[ranger]] `yc` copy content `yn` copy name
 
 # 代理
 1. 安装 Clash via pacman
-	2. Config in `~/.config/clash/config.yaml`
-3. create [[systemd]]
+	1. Config in `~/.config/clash/config.yaml`
+2. create [[systemd]]
+
 ```
 [Unit]
 Description=Clash daemon
@@ -48,13 +54,14 @@ ExecStart=/usr/bin/clash -d /home/cyn/.config/clash
 [Install]
 WantedBy=multi-user.target
 ```
-4. Set up proxy in network
-5. Use [yacd](http://yacd.haishan.me/) to control clash
-6. hope the program will use your proxy setting
-7. [dns-over-https](https://blog.inetech.fun/Tutorial/dns-over-https-on-arch.html)
+
+3. Set up proxy in network
+4. Use [yacd](http://yacd.haishan.me/) to control clash
+5. hope the program will use your proxy setting
+6. [dns-over-https](https://blog.inetech.fun/Tutorial/dns-over-https-on-arch.html)
 
 # 中文输入法
-[方法](https://manateelazycat.github.io/linux/2020/06/19/fcitx5-is-awesome.html)
+[方法](https://manateelazycat.github.io/linux/2020/06/19/fcitx5-is-awesome.html)  
 完成后 logout
 
 # Gnome
@@ -66,11 +73,11 @@ WantedBy=multi-user.target
 ## Gnome Box
 work out of the box
 
-## Gnome terminal
+## Gnome Terminal
 `gnome-terminal --window --maximize` add to custom shortcut with `Super+R`
 
-## Add desktop icon
-[Unix Exchange](https://unix.stackexchange.com/questions/103213/how-can-i-add-an-application-to-the-gnome-application-menu)
+## Add Desktop Icon
+[Unix Exchange](https://unix.stackexchange.com/questions/103213/how-can-i-add-an-application-to-the-gnome-application-menu)  
 `~/.local/share/applications/`
 
 # 软件
@@ -94,5 +101,5 @@ work out of the box
 - [[Command Line]]
 
 # 总结
-上了 Linux 就知道 Windows 下的字体渲染和编程体验是多么的屎
+上了 Linux 就知道 Windows 下的字体渲染和编程体验是多么的屎  
 同时也知道 Linux 是有多折腾，Out of box experience? tan90

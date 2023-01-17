@@ -73,6 +73,7 @@ date modified: Nov 17th, 2022
 	- go
 	- firacode ([[Font]])
 	- [[rclone]]
+	 - minimal-racket ([[SICP]])
 	- pandoc
 	- flyctl
 	- wrangler
@@ -124,6 +125,7 @@ ServerAliveCountMax 999
 - Uncheck `play sound on startup` && `play UI sound effect`
 
 ## Shortcut
+- `Option+Command+V`: Move
 - `Shift+F6`: DND
 - `Shift+CMD+5`: screenShot
 - `CMD+,`: Open Preference
