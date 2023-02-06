@@ -2,17 +2,21 @@
 aliases: []
 tags: []
 date created: May 3rd, 2022
-date modified: Aug 5th, 2022
+date modified: Jan 26th, 2023
 ---
+
 # Download
+
 ## Client
 [Multimc](https://multimc.org/)  
 `yay -S multimc-bin`
+
 ## Texture Pack
 https://xekr.lanzoui.com/b01bn74zc  
 d6dn
 
 ## Mods
+
 ### Maps
 https://www.curseforge.com/minecraft/mc-mods/journeymap forge  
 https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap fabric
@@ -24,11 +28,10 @@ https://www.curseforge.com/minecraft/mc-mods/malilib
 	https://www.curseforge.com/minecraft/mc-mods/minihud
 
 ### Optimize
-- for client
+- for client  
 https://www.curseforge.com/minecraft/mc-mods/sodium  
 	https://modrinth.com/mod/indium
 - for server
-
 
 ### Map
 https://www.curseforge.com/minecraft/mc-mods/fabric-api  
@@ -43,12 +46,18 @@ https://www.curseforge.com/minecraft/mc-mods/fabric-api
 		https://www.curseforge.com/minecraft/mc-mods/textile-backup
 
 # Mods
+
 ## Tweakeroo
+
 ### Tweaks
 - explosion
 - fastBlockPlacement **`p`** (Unbound keybinding first)
 - freeCamera **`c`** 
 - fakeSneaking **`,`**
 - fastLeftClick **`[`**
+
 ### Yeets
 - blockBreakingParticals 
+
+# Modpacks
+- [[Nomifactory]]

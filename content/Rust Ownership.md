@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Dec 13th, 2022
 date modified: Dec 16th, 2022
 ---
@@ -28,6 +28,7 @@ A _data race_ is similar to a race condition and happens when these three beha
 Note that a reference’s scope starts from where it is introduced and continues through the last time that reference is used.
 
 ## Lifetime
+We must annotate lifetimes when the lifetimes of references could be related in a few different ways. Rust requires us to annotate the relationships using generic lifetime parameters to ensure the actual references used at runtime will definitely be valid.
 *Lifetimes* ensure that references are valid as long as we need them to be. Every reference in Rust has a _lifetime_, which is the scope for which that reference is valid.
 
 ```rust

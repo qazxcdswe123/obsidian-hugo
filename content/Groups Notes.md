@@ -33,7 +33,7 @@ The set of invertible matrices forms a group called the general linear group.
 ## Notation
 If the group is $\mathbb{Z}$ or $\mathbb{Z}_n$ , we write the group operation additively and the exponential operation multiplicatively; that is, we write $ng$ instead of $g^n$.
 
-Groups are essentially a [[Set Theorem|Set]]
+Groups are essentially a [[Set Theory|Set]]
 
 [[Subgroups]]
 

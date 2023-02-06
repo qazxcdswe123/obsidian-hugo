@@ -1,11 +1,11 @@
-
-- [[SQL Command]]
+Based on bag algebra (allow duplicates)
+- [[Relational Algebra]]
+- [[SQL Query]]
 - [[Database]]
-- [[Mysql]]
+	- [[Relational Databases]]
+	- [[Mysql]]
 
 # NewSQL
-- [[NoSQL]]
 
 ## Links
 - [NewSQL - Wikipedia](https://en.wikipedia.org/wiki/NewSQL)
-- [Litestream SQLite Replication](https://litestream.io/how-it-works/)

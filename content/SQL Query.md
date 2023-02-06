@@ -2,15 +2,24 @@
 aliases: []
 tags: []
 date created: Mar 28th, 2022
-date modified: Dec 22nd, 2022
+date modified: Feb 5th, 2023
 ---
+- Related: [[Relational Algebra]]
 
 # Queries
 
 ## SELECT
 Declare what data we are looking for  
 Given a table of data. we need to **SELECT** columns to read  
-`SELECT column1, column2, FROM mytable;` `SELECT * FROM mytable;`
+- `SELECT column1, column2, FROM mytable;` `SELECT * FROM mytable;`
+- `SELECT b_id-100, a_id FROM R WHERE a_id = 'a2';`
+- `SELECT * FROM R JOIN S USING (a_id, b_id);`
+
+### DISTINCT
+Get distinct result
+
+### JOIN
+![image.png](https://img.ynchen.me/2023/01/50c81f83b5e2b89556a392c7e342f476.webp)
 
 ## WHERE
 Add condition to **SELECT**  
@@ -27,9 +36,6 @@ Add condition to **SELECT**
 | NOT LIKE (Case Sensetive Exact) | col_name **NOT LIKE** "ABCD"                 |
 | % (With LIKE or NOT LIKE)       | col_name **LIKE** "%AT%"("ATTIC", "CAT", "BATS") |
 | _ (With LIKE or NOT LIKE)       | col_name **LIKE** "AN_"("AND", but not "AN")     |
-
-## DISTINCT
-get distinct result
 
 ## Ordering Results
 sort your results by a given column in ascending or descending order using the `ORDER BY` clause.  

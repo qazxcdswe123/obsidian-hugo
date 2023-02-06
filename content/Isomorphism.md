@@ -4,7 +4,7 @@ tags: []
 date created: Oct 31st, 2022
 date modified: Nov 16th, 2022
 ---
-[[Set Theorem]]
+[[Set Theory]]
 
 # [[Group Theory]]
 群操作得以保存

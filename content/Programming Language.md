@@ -17,6 +17,7 @@ Languages I've learnt
 - [[Rust]]  
 - [[Frontend]]
 - [[CMake Notes]]
+- [[Java]]
 
 ## What to Explore When Learning New Languages
 - Read/write to a file

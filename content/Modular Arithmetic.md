@@ -16,7 +16,7 @@ $A \equiv B \pmod{C}$
 We say that r is congruent to s modulo n, or r is congruent to s mod n, if r − s is evenly divisible by n;
 
 ### From Set
-[[Set Theorem]]
+[[Set Theory]]
 
 ## Modular Power
 [[Complexity]]: $O(log(y))$ for $x^y$  

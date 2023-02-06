@@ -2,9 +2,11 @@
 aliases: []
 tags: [] 
 date created: Sep 27th, 2022
-date modified: Sep 28th, 2022
+date modified: Jan 20th, 2023
 ---
+
 # Loop
+
 ## For
 The basic `for` loop has three components separated by semicolons:
 
@@ -39,13 +41,18 @@ for n := 0; n <= 5; n++ {
 1. the index of the current item in the loop
 2. a copy of the item's value.
 
+```go
+for i := range pow
+```
+
 # Condition
+
 ## If
 `If` statement with a short condition
 
 ```go
 if v := math.Pow(x, n); v < lim {
-		return v
+	return v
 }
 ```
 

@@ -7,7 +7,7 @@ date modified: Nov 16th, 2022
 
 # Cyclic Groups
 $S=\{g, g^ {2} ,\cdots ,  g^ {i} ,  \cdots \}$  
-[[Set Theorem|Set]] $<g> = \{g^{k}: k\in Z\}$ is a subgroup of G, `<g>` is a subgroup, `g` is the generator（生成元）.
+[[Set Theory|Set]] $<g> = \{g^{k}: k\in Z\}$ is a subgroup of G, `<g>` is a subgroup, `g` is the generator（生成元）.
 
 ## Properties
 - 任取正整数 n, 设 `G = <g>` 是阶为 n 的循环群,则 $g^k= e$ 当且仅当 n 整除 k。a|n

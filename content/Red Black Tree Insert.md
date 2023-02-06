@@ -2,9 +2,11 @@
 aliases: [红黑树插入]
 tags: []
 date created: Mar 23rd, 2022
-date modified: Aug 19th, 2022
+date modified: Feb 2nd, 2023
 ---
+
 # Implementation
+
 ## Rotation
 **Left rotate**: 2 nodes with 3 childrens, childrens have same relative postion, and move underneath nodes from right child to left child. Exchange the 2 nodes.  
 ![](https://s2.loli.net/2022/03/17/eUDub1xCtgEa4Nl.png)

@@ -2,32 +2,25 @@
 aliases: []
 tags: []
 date created: Sep 29th, 2022
-date modified: Dec 16th, 2022
+date modified: Jan 20th, 2023
 ---
 
 # Slice
 
 ## Slices Are Like References to Arrays
-A slice does not store any data, it just describes a section of an underlying array.
-
-Changing the elements of a slice modifies the corresponding elements of its underlying array.
-
+A slice does not store any data, it just describes a section of an underlying array.  
+Changing the elements of a slice modifies the corresponding elements of its underlying array.  
 Other slices that share the same underlying array will see those changes.
 
 ## `len()` And `cap()`
-A slice has both a _length_ and a _capacity_.
-
-The length of a slice is the number of elements it contains.
-
-The capacity of a slice is the number of elements in the underlying array, counting from the first element in the slice.
-
-The length and capacity of a slice `s` can be obtained using the expressions `len(s)` and `cap(s)`.
-
+A slice has both a _length_ and a _capacity_.  
+The length of a slice is the number of elements it contains.  
+The capacity of a slice is the number of elements in the underlying array, counting from the first element in the slice.  
+The length and capacity of a slice `s` can be obtained using the expressions `len(s)` and `cap(s)`.  
 You can extend a slice's length by re-slicing it, provided it has sufficient capacity. 
 
 ## Creating a Slice with Make
-Slices can be created with the built-in `make` function; this is how you create dynamically-sized arrays.
-
+Slices can be created with the built-in `make` function; this is how you create dynamically-sized arrays.  
 The `make` function allocates a zeroed array and returns a slice that refers to that array:
 
 ```go
@@ -46,8 +39,24 @@ b = b[1:]      // len(b)=4, cap(b)=4
 
 # Map
 - Map  
-`map[key-type]value-type`  
-`messages := make(map[string]string)`
+
+```go
+// map[key-type]value-type  
+messages := make(map[string]string)
+
+// Literal
+var m = map[string]Vertex{
+	"Bell Labs": Vertex{
+		40.68433, -74.39967,
+	},
+	"Google": Vertex{
+		37.42202, -122.08408,
+	},
+}
+
+// insert or update
+m[key] = elem
+```
 
 - Delete an element:  
 `delete(m, key)`
@@ -56,10 +65,8 @@ b = b[1:]      // len(b)=4, cap(b)=4
 `elem, ok = m[key]`
 
 # Interfaces
-An _interface type_ is defined as a set of method signatures.
-
-A value of interface type can hold any value that implements those methods.
-
+An _interface type_ is defined as a set of method signatures.  
+A value of interface type can hold any value that implements those methods.  
 Under the hood, interface values can be thought of as a tuple of a value and a concrete type:
 
 ```
