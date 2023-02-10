@@ -27,24 +27,4 @@ A _data race_ is similar to a race condition and happens when these three beha
 
 Note that a reference’s scope starts from where it is introduced and continues through the last time that reference is used.
 
-## Lifetime
-We must annotate lifetimes when the lifetimes of references could be related in a few different ways. Rust requires us to annotate the relationships using generic lifetime parameters to ensure the actual references used at runtime will definitely be valid.
-*Lifetimes* ensure that references are valid as long as we need them to be. Every reference in Rust has a _lifetime_, which is the scope for which that reference is valid.
-
-```rust
-fn main() {
-    let string1 = String::from("abcd");
-    let string2 = "xyz";
-
-    let result = longest(string1.as_str(), string2);
-    println!("The longest string is {}", result);
-}
-
-fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    if x.len() > y.len() {
-        x
-    } else {
-        y
-    }
-}
-```
+- [[Rust Lifetime]]

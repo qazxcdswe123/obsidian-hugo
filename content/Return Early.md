@@ -1,7 +1,7 @@
 ## Return Early
-[Return Early Pattern. A rule that will make your code more… | by Leonel Menaia | The Startup | Medium](https://medium.com/swlh/return-early-pattern-3d18a41bba8)
-[Structured programming - Wikipedia](https://en.wikipedia.org/wiki/Structured_programming#Early_exit)
-- Example
+- [Return Early Pattern. A rule that will make your code more… | by Leonel Menaia | The Startup | Medium](https://medium.com/swlh/return-early-pattern-3d18a41bba8)
+- [Structured programming - Wikipedia](https://en.wikipedia.org/wiki/Structured_programming#Early_exit)
+- [[Rust Error Handling]]
 
 ```java
 public String returnStuff(SomeObject argument1, SomeObject argument2){

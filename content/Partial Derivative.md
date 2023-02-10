@@ -18,4 +18,3 @@ $$w - w_0 = (\frac{\partial w}{\partial x})(x - x_0) + (\frac{\partial w}{\parti
 ## Approximation 全微分
 $$\Delta w \approx (\frac{\partial w}{\partial x})\Delta x + (\frac{\partial w}{\partial y}) \Delta y $$
 
-[[Tex]]

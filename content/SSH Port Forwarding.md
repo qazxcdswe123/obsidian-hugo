@@ -4,6 +4,7 @@ tags: []
 date created: Feb 26th, 2022
 date modified: Sep 30th, 2022
 ---
+- [[Linux]]
 - Port Forwarding  
 - Local port forwarding  
 	- `ssh -L sourcePort:forwardToHost:onPort connectToHost`

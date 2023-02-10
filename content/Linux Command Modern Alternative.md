@@ -18,6 +18,7 @@ Add `fzf` to [[Shell|zsh]] plugins
 [[Shell]]
 
 ## Bat
+[[Pager]]
 
 ## Ripgrep
 

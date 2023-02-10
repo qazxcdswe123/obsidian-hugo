@@ -5,7 +5,7 @@
 4. 随意删除不会影响内容
 
 # Plugins
-- [[Excali Brain]]
+- ExcaliBrain
 	- Custom Shortcut `C-S-B`
 - [GitHub - zolrath/obsidian-auto-link-title: Automatically fetch the titles of pasted links](https://github.com/zolrath/obsidian-auto-link-title)
 	- Custom Shortcut `C-S-P`
@@ -17,7 +17,6 @@
 	- `rsync -Pravh --delete Notes/ ~/code/hugo/content; git add -A; git -C ~/code/hugo commit -am "{{date:YYYY-MM-DD}}"; git -C ~/code/hugo push`
 	- Custom Shortcut `C-S-G`
 - [GitHub - yuanotes/obsidian-vim-im-switch-plugin](https://github.com/yuanotes/obsidian-vim-im-switch-plugin)
-	- 
 
 # Custom ShortCut
 `Alt+W` Monthly Notes
@@ -25,5 +24,9 @@
 `Ctrl+G` Inline Code
 `Ctrl+L` Toggle List
 
+# Callout Block
+- [Use callouts - Obsidian Help](https://help.obsidian.md/How+to/Use+callouts)
+Additionally, you can create a folding callout by adding `+` (default expanded) or `-` (default collapsed) after the block.
+
 # Misc
-[[yaml]] as front-matter
+- [[yaml]] as front-matter

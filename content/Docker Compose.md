@@ -8,5 +8,4 @@ ln -s /usr/local/lib/docker/cli-plugins/docker-compose /usr/bin/docker-compose
 ```
 
 ## Projects
-
-[DeathRoadToBaldness/301.Server/Docker at main · qazxcdswe123/DeathRoadToBaldness · GitHub](https://github.com/qazxcdswe123/DeathRoadToBaldness/tree/main/301.Server/Docker)
+- [DeathRoadToBaldness/301.Server/Docker at main · qazxcdswe123/DeathRoadToBaldness · GitHub](https://github.com/qazxcdswe123/DeathRoadToBaldness/tree/main/301.Server/Docker)

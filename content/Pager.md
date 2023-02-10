@@ -4,7 +4,7 @@ tags: []
 date created: Feb 24th, 2022
 date modified: Aug 15th, 2022
 ---
-[3 pager](https://www.baeldung.com/linux/more-less-most-commands)
+- [3 pagers](https://www.baeldung.com/linux/more-less-most-commands)
 
 - less  
 	- 能上下和搜索  
