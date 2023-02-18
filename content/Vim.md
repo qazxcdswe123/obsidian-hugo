@@ -13,6 +13,7 @@ date modified: Oct 8th, 2022
 - `d/ciB` - delete a block surrounded by {
 - `d/cas` - delete a sentence
 - `d/cap` - delete a paragraph
+- [Visual select the text](http://vimdoc.sourceforge.net/htmldoc/visual.html#visual-use), then `U` for uppercase or `u` for lowercase. To swap all casing in a visual selection, press `~` (tilde).
 
 ## Windows
 `CTRL-W=` equal size  

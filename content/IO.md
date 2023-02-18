@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: []
+tags: [] 
 date created: Jul 10th, 2022
 date modified: Nov 17th, 2022
 ---
@@ -8,8 +8,8 @@ date modified: Nov 17th, 2022
 
 ## Files
 A file is a sequence of bytes, nothing more and nothing less. Every I/O device, including disks, keyboards, displays, and even networks, is modeled as a file.  
-[[C++ File]]  
-[[Python File]]
+- [[C++ File]]  
+- [[Python File]]
 
 ## Stream
 Every stream in [[C++]] is tied to an output stream, which can be `null`.

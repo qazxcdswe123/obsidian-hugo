@@ -1,0 +1,1 @@
+Equivalent with subqueries in `FROM`

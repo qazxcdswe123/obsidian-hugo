@@ -41,3 +41,4 @@ Note that the kernel is not a separate [[process]]. Instead, it is a collection 
 - [Von Neumann architecture - Wikipedia](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 - [[6.s081]]
 - [[Memory]]
+- [[Hardware]]

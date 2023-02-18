@@ -18,5 +18,12 @@ date modified: Aug 15th, 2022
 - [[File System Permission]]
 - [[Linux Permission]]
 - [[ebpf]]
-
+- [[ABI]]
+- [[Linux File]]
+- [[VM]]
 - [[Operating System|OS]]
+- [[GRUB]]
+
+## Mirrors
+### Ubuntu
+- `sudo sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list`

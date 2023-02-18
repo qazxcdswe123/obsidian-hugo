@@ -1,3 +1,4 @@
+# Vector
 - Definition
 	- Cross Product is a vector
 	- How to compute ![](https://s2.loli.net/2022/02/27/TP9e3iuzaUIsKO7.png)
@@ -14,3 +15,4 @@
 		-  ![Describe the plane](https://s2.loli.net/2022/02/27/ueClkjS7IND3T1Q.png)
 		- ![](https://s2.loli.net/2022/02/27/CSOIZH85oDBzfUG.png)
 		- Find normal vector (using cross product), find *P(x, y, z)* , get $\vec{PP_1}$ , then $\vec{PP_1} \cdot \vec{N}$ will return the equation.
+# Numberic

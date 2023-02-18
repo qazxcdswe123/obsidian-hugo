@@ -1,0 +1,10 @@
+## GROUP BY
+Group same values into summary rows.  
+If you’re going to do any grouping / aggregation at all, then you must only SELECT grouped / aggregated columns.
+
+- Multiple Group By: Need multiple columns to be the same.
+
+### HAVING
+Like `WHERE` but for `GROUP BY`
+
+- [sql - Using group by on multiple columns - Stack Overflow](https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns)

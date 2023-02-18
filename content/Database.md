@@ -7,6 +7,8 @@ date modified: Jan 29th, 2023
 - [[SQL]]
 - [[B-Tree]]
 
+- [[DBMS]]
+
 # Database Types
 
 ## General Types
@@ -23,3 +25,9 @@ date modified: Jan 29th, 2023
 ## Non-Relational
 - Example
 	- [[Mongo DB]]
+ 
+# DB File
+
+## Heap File
+- Implemented as [[Linked list|list]].
+- 

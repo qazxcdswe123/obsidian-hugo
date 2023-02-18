@@ -10,3 +10,4 @@ GET allows a browser to ask for a page or file in a URL, and POST allows a brows
 ### HTTP Headers
 The keys and values, like `Host: www.example.com` and `Content-Type: text/html`, are known as **HTTP headers**.
 
+[[WebSocket]]
