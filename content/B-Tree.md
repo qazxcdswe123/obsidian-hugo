@@ -4,6 +4,7 @@ tags: []
 date created: Nov 2nd, 2022
 date modified: Dec 7th, 2022
 ---
+- [[B+-Tree]]
 
 ## Introduction
 > B-trees are balanced search trees designed to work well on disk drives or other direct-access secondary storage devices. B-trees are similar to red-black trees (Chapter 13), but they are better at minimizing the number of operations that access disks. Many database systems use B-trees, or variants of B-trees, to store information. --CLRS

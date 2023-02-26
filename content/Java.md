@@ -1,7 +1,10 @@
-- [[Java Object]]
+- [[Java Class and Object]]
 - [[Java IO]]
 - [[Java OOP]]
+- [[Java Package]]
+- [[Java Collections]]
 - [[JVM]]
+- [[Java Generic]]
 
 ## Links
-- [c_to_java.pdf](https://horstmann.com/ccc/c_to_java.pdf)
+![image.png](https://img.ynchen.me/2023/02/4a8e8ff9029b603aa3530a8af10a088c.webp)

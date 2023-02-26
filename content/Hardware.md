@@ -6,3 +6,6 @@
 
 ## NVME
 > The initialism _NVM_ stands for _[non-volatile memory](https://en.wikipedia.org/wiki/Non-volatile_memory "Non-volatile memory")_, which is often NAND [flash memory](https://en.wikipedia.org/wiki/Flash_memory "Flash memory") that comes in several physical form factors, including [solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive "Solid-state drive") (SSDs), PCIe add-in cards, and [M.2](https://en.wikipedia.org/wiki/M.2 "M.2") cards, the successor to [mSATA](https://en.wikipedia.org/wiki/MSATA "MSATA") cards. NVM Express, as a logical-device interface, has been designed to capitalize on the low [latency](https://en.wikipedia.org/wiki/Hard_disk_drive_performance_characteristics#Access_time "Hard disk drive performance characteristics") and internal parallelism of solid-state storage devices.
+
+## SSD Trim
+[What is Trim? | Crucial.com](https://www.crucial.com/articles/about-ssd/what-is-trim)

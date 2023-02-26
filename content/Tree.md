@@ -5,7 +5,8 @@ date created: Jun 26th, 2022
 date modified: Nov 23rd, 2022
 ---
 #Data-structure  
-[[Graph Theory]]
+- [[Graph Theory]]
+- Fan-out, in _any_ tree, is number of pointers to child nodes in a node.
 
 ## Operation
 [Tree traversal - Wikipedia](https://en.wikipedia.org/wiki/Tree_traversal)  
@@ -48,6 +49,7 @@ Postorder traversal is used to delete the tree. Please see [the question for th
 - [[Binary Search Tree]]
 - [[Threaded Binary Tree]]
 - [[B-Tree]]
+- [[B+-Tree]]
 - [[Red Black Tree]]
 - [[AVL Tree]]
 - [[Skip List]]

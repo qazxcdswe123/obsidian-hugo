@@ -22,7 +22,7 @@ date modified: Aug 15th, 2022
 - [[Linux File]]
 - [[VM]]
 - [[Operating System|OS]]
-- [[GRUB]]
+- [[Kernel]]
 
 ## Mirrors
 ### Ubuntu

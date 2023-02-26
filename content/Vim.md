@@ -2,11 +2,13 @@
 aliases: [Neovim, nvim]
 tags: [] 
 date created: Jul 11th, 2022
-date modified: Oct 8th, 2022
+date modified: Feb 19th, 2023
 ---
 - [[02-Vim]]
 - [[ranger]]
+
 # Vim
+
 ## Text
 - `daw` delete word under cursor
 - `d/cib` - delete a block surrounded by (
@@ -26,15 +28,15 @@ date modified: Oct 8th, 2022
 Can be used only after text is changed
 
 ## Macros
-[Macros | Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Macros)
+[Macros | Vim Tips Wiki | Fandom](https://vim.fandom.com/wiki/Macros)  
 `q<letter><commands>q` where letter is `a-z`  
 `<number>@<letter>` to use
 
 ## Movements
 `JK` move 5 lines  
-`R` replace more char
+`R` replace more char  
 `HL` move to beginning or end, equivalent to `^$` 
-	
+
 ## Indent
 `<G` / `>G` to indent (`.` to repeat)
 
@@ -44,4 +46,4 @@ Can be used only after text is changed
 - Set `-` as a word
 	- `set iskeyword+=-`
 
-[[Neovim Plugins]]
+- [[Neovim Plugins]]

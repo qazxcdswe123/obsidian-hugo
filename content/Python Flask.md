@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Apr 5th, 2022
-date modified: Sep 30th, 2022
+date modified: Feb 18th, 2023
 ---
 [CS50](https://cs50.harvard.edu/college/2022/spring/notes/9/)  
 [[Decorator]]
@@ -18,15 +18,20 @@ date modified: Sep 30th, 2022
 ## layout.html
 With the `{% %}` syntax, we can include placeholder blocks, or other chunks of code. Here we’ve named our block `body` since it contains the HTML that should go in the `<body>` element.  
 Basically placeholder 
+
 # Lib
+
 ## Request
 `request.args.get("name")` catch `?name=David`
+
 ## render_template
 `return render_template("index.html", name=name)`
 
 `return render_template("greet.html", name=request.form.get("name", "world"))`
+
 ## Redirect
 use to redirect to another route
+
 # Paradigm
 ![](https://s2.loli.net/2022/04/05/Ttbm2ndFkiau7Og.png)
 

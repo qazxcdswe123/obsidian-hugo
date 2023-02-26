@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Mar 28th, 2022
-date modified: Feb 14th, 2023
+date modified: Feb 19th, 2023
 ---
 - Related: [[Relational Algebra]]
 
@@ -48,8 +48,8 @@ FROM <single table>
 	  - `INTERSECT`
 	  - `EXCEPT`
 	  - `<ALL>`: All possible value. (Allow Duplicates, Optional)
-- [[Database]]
 - [https://sqlbolt.com/](https://sqlbolt.com/)
+- [[Database]]
 - [[SQL Tricks]]
 - [[SQL View]]
 - [[SQL Common Table Expression]]

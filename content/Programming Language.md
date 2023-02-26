@@ -26,3 +26,5 @@ Languages I've learnt
 - A basic script that can be run from the CLI, parses flags/args, reads stdin
 - Send a HTTP request
 - Implement a very basic web server
+
+[[Programming paradigms]]
