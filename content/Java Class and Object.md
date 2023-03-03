@@ -2,11 +2,11 @@
 aliases: []
 tags: [] 
 date created: Feb 5th, 2023
-date modified: Feb 22nd, 2023
+date modified: Mar 1st, 2023
 ---
 
 # Java Class
-a variable of a class type holds a reference to an object of that class.
+A variable of a class type holds a reference to an object of that class.
 
 ## Interface
 An `interface` is a completely "**abstract class**" that is used to group related methods with empty bodies:
@@ -69,8 +69,8 @@ Also called a class variable (in contract to a instance variable)
 ### Why is `main` `static` in Java
 The `main` method is `static`, which means that it doesn’t operate on an object. After all, when the application first starts, there aren’t any objects yet. It is the job of the main method to construct the objects that are needed to run the program.
 
-- But why is `main` `void`
+- But why is `main` `void`  
 A program terminates all its activity and _exits_ when one of two things happens:
 - All the threads that are not daemon threads terminate.
-- Some thread invokes the `exit` method of class `Runtime` or class `System` and the exit operation is not forbidden by the security manager.
+- Some thread invokes the `exit` method of class `Runtime` or class `System` and the exit operation is not forbidden by the security manager.  
 In other words, the program may exit before or after the `main` method finishes; a return value from `main` would therefore be meaningless. If you want the program to return a status code, call one of the following methods (note that all three methods never return normally):

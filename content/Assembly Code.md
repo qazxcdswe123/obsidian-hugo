@@ -16,3 +16,4 @@ To understand:
 - [[register]]
 - [[CPU Instruction]]
 - [[Condition Code]]
+- [[MIPS]]

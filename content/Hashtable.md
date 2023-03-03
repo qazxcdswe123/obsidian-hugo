@@ -12,7 +12,7 @@ date modified: Jan 17th, 2023
 
 ## Implementation
 - [java - Why Are HashMaps Implemented Using Powers of Two? - Stack Overflow](https://stackoverflow.com/questions/53526790/why-are-hashmaps-implemented-using-powers-of-two)
-- [[Hashing Function]]
+- [[Hashing]]
 
 The size of the bucket will be power of 2, since it guarantee to be all 1 in binary. What we only need to do is a [[Binary|Bitwise]] AND operation and that's the module trick.  
 E.g. 16 is a power of 2. If you subtract 1 from it, you get 15, whose binary representation is 1111. Now, if you do a bitwise AND of any number with 1111, you're going to get the last 4 bits of the number which, in other words, is equivalent to the modulo of the number by 16 (Division operation is usually an expensive operation. Hence, bitwise operation is usually preferred over division). These last 4 bits will evaluate to any number from 0 to 15 which are the indexes of your underlying array.

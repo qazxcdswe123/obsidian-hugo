@@ -4,7 +4,7 @@ tags: []
 date created: Mar 28th, 2022
 date modified: Feb 14th, 2023
 ---
-[[Finite State Machine]]
+[[State Machine]]
 
 | Character | Explain                                                                  |
 | --------- | ------------------------------------------------------------------------ |

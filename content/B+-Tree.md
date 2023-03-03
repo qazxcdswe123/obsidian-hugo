@@ -29,10 +29,14 @@ date modified: Feb 23rd, 2023
 		 2. Redistribute the rightmost d keys to make them split evenly
 		 3. Push up middle key (Left most in index node)
 		 4. Sort
-- **Notice that the leaf key is copied but the index key is pushed**
+- **Notice that the leaf key is copied, but the index key is pushed**
 - Notice that the root was split to increase the height
 - Grow from the root not the leaves
 - All paths from root to leaves are equal lengths
+
+### Bulk Loading
+Only happens on B+-Tree creation.
+Do not insert key one by one, instead, insert node and link then through navigation node.
 
 ## Deletion
 - In practice, occupancy invariant often not enforced
@@ -44,7 +48,6 @@ date modified: Feb 23rd, 2023
 - That’s OK too
 - Guarantees still attractive: logF(max size of tree)
 
-## Bulk Loading
 
 ## Links
 [B+ Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)

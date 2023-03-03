@@ -18,6 +18,14 @@ There are 2 ways to use the command –
 
 Use mask to get the result. Maximum is `111`, the left-most bit is `read`, middle bit is `write`, right-most bit is `execute`.
 
+## Sudo
+```shell
+# Adding User to the sudo Group
+usermod -aG sudo username
+# Add ti sudoer
+echo "username  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/username
+```
+
 ## Links
 [[Linux User]]  
 [chown(1): change file owner/group - Linux man page](https://linux.die.net/man/1/chown)

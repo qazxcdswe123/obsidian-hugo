@@ -4,6 +4,7 @@ tags: []
 date created: Feb 22nd, 2023
 date modified: Feb 22nd, 2023
 ---
+A _collection_ is an object that groups multiple elements into a single unit. Collections are used to store, retrieve, manipulate, and communicate aggregate data.
 
 # `Array`
 An **array** is a dynamically-created object.  

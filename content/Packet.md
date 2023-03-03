@@ -24,3 +24,5 @@ Each packet in connectionless packet switching includes the following informatio
 - Destination address
 - Total number of packets
 - Sequence number (Seq#) for reassembly
+
+![ipv4 packet format](https://img.ynchen.me/2023/02/73004f0566a8d6217aa77143416d12aa.webp)

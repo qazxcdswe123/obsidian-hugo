@@ -1,0 +1,1 @@
+The Fourier Transform is a tool that breaks a waveform (a function or signal) into an alternate representation, characterized by the sine and cosine functions of varying frequencies. The Fourier Transform shows that any waveform can be re-written as the sum of sinusoidals.

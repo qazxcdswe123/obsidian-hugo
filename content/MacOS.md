@@ -52,10 +52,10 @@ date modified: Nov 17th, 2022
 	- ffmpeg
 	- jq
 	- bash
-	- rust
+	- [[rust]]
 	- yadm
-	- neovim
-	- [[ripgrep]]
+	- [[Vim|neovim]]
+	- ripgrep
 	- htop
 	- pipx
 	- [[python]]
@@ -63,7 +63,7 @@ date modified: Nov 17th, 2022
 	- [[NodeJS]]
 	- wget
 	- fd
-	- lazygit + [[Git]]
+	- [[lazygit]] + [[Git]]
 	- dust
 	- fzf
 	- [[ranger]]
@@ -77,7 +77,7 @@ date modified: Nov 17th, 2022
 	- pandoc
 	- flyctl
 	- wrangler
-	- java
+	- [[java]]
 		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 
 ### Manual Download

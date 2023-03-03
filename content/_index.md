@@ -59,7 +59,7 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[CSAPP]]
 - [[Docker]]
 - [[Git]]
-- [[Mac]]
+- [[MacOS]]
 - [[Manjaro]]
 - [[Linux]]
 - [[Testing]]

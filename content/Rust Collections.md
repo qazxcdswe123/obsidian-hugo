@@ -117,3 +117,14 @@ v.push(8);
 use std::collections::HashMap
 basket.entry(Fruit::Banana).or_insert(50); // Adding a Key and Value Only If a Key Isn’t Present
 ```
+
+
+## `Box`
+```rust
+pub enum List {
+    Cons(i32, Box<List>),
+    Nil,
+}
+
+List::Cons(1, Box::new(List::Nil))
+```
