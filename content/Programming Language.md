@@ -11,13 +11,20 @@ date modified: Dec 16th, 2022
 Languages I've learnt  
 - [[Python]]  
 - [[C++]]  
-- [[JavaScript]]  
 - [[Lua]]  
 - [[Golang]]  
 - [[Rust]]  
 - [[Frontend]]
 - [[CMake Notes]]
 - [[Java]]
+- [[Golang]]
+- [[Frontend]]
+	- [[ReactJS]]
+	 - [[Vuejs]]
+	- [[TypeScript]]
+	- [[JavaScript]]  
+	- [[CSS]]
+	- [[HTML]]
 
 ## What to Explore When Learning New Languages
 - Read/write to a file
@@ -27,4 +34,4 @@ Languages I've learnt
 - Send a HTTP request
 - Implement a very basic web server
 
-[[Programming paradigms]]
+- [[Programming paradigms]]

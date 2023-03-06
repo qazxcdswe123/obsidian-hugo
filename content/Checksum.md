@@ -1,4 +1,4 @@
-- [[Hashing#Overview]]
+- [[Hashing#Overview and Difference]]
 
 ## CRC
 

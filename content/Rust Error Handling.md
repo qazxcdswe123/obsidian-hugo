@@ -56,9 +56,9 @@ Under the hood, the `?` operator calls `From::from` on the error value to conver
 ```rust
 #![allow(unused)]
 fn main() {
-enum Option<T> {
-    None, // NULL Equivalent
-    Some(T),
+	enum Option<T> {
+	    None, // NULL Equivalent
+	    Some(T),
 	}
 }
 

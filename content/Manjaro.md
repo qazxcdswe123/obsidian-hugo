@@ -93,7 +93,7 @@ work out of the box
 - fzf
 	- [[Linux Command Modern Alternative]]
 	- It's kind of magic
-- ranger [[Vim]]
+- [[ranger]] [[Vim]]
 - [[Vim]]
 - [Flameshot](https://github.com/flameshot-org/flameshot)
 - [[VSCode]]
@@ -101,5 +101,5 @@ work out of the box
 - [[Command Line]]
 
 # 总结
-上了 Linux 就知道 Windows 下的字体渲染和编程体验是多么的屎  
-同时也知道 Linux 是有多折腾，Out of box experience? tan90
+上了 [[Linux]] 就知道 Windows 下的字体渲染和编程体验是多么的屎  
+同时也知道 [[Linux]] 是有多折腾，Out of the box experience? tan90

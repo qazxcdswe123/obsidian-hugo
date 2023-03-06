@@ -2,9 +2,10 @@
 aliases: [B Plus Tree]
 tags: []
 date created: Feb 22nd, 2023
-date modified: Feb 23rd, 2023
+date modified: Mar 6th, 2023
 ---
 - “+”? [[B-tree]] that stores data entries in leaves only
+- Clustered index to give performance hint.
 
 - `d`: The order of the tree
 	- d <= `#entries` <= 2d
@@ -35,7 +36,7 @@ date modified: Feb 23rd, 2023
 - All paths from root to leaves are equal lengths
 
 ### Bulk Loading
-Only happens on B+-Tree creation.
+Only happens on B+-Tree creation.  
 Do not insert key one by one, instead, insert node and link then through navigation node.
 
 ## Deletion
@@ -47,7 +48,6 @@ Do not insert key one by one, instead, insert node and link then through navigat
 - Parent may become underfull
 - That’s OK too
 - Guarantees still attractive: logF(max size of tree)
-
 
 ## Links
 [B+ Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
