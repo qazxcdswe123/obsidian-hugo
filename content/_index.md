@@ -10,6 +10,7 @@ A Blog Directly Generated From Obsidian
 - See also [[Markdown Format Testing]]
 
 ## CS Related
+- 2023-03-11: [[Fast reverse square root]]
 - 2023-01-17: [[Random Number Within a Given Range]]
 - 2022-12-05: [[我的大学(3)]]
 - 2022-10-16: [[Learn C in 1 Hour]]
