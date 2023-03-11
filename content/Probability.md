@@ -22,7 +22,6 @@ ___
 - [[Bayes Theorem]]
 - [[Series]]
 - [[Expectation]]  
-- [[Normal Distribution]]
 - [[Poisson distribution]]
 - [[参数估计]]
 - 方差：D(X) = Var(X) = $E{[X - E(x)]^{2}}$ = $E(X^{2})- E^{2}(X)$ 

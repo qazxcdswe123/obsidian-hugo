@@ -1,7 +1,15 @@
+---
+aliases: []
+tags: []
+date created: Mar 5th, 2023
+date modified: Mar 8th, 2023
+---
+
 # [[Packet]] Switching
+
 ## Overview
-Time: $\Sigma(\frac{l}{c} + \frac{b}{B} + Q(t))$
-Q is the queueing delay.
+Time: $\Sigma(\frac{l}{c} + \frac{b}{B} + Q(t))$  
+Q is the queueing delay.  
 To fight with the random delay, we use buffer to mitigate this impact.
 
 ## [[Packet]] Routing
@@ -18,3 +26,11 @@ Each [[packet]] in connectionless [[packet]] switching includes the following in
 - Sequence number (Seq#) for reassembly
 
 ![ipv4 packet format](https://img.ynchen.me/2023/02/73004f0566a8d6217aa77143416d12aa.webp)
+
+## Ethernet Switch
+1. Examine the header of each arriving frame.
+2. If the Ethernet DA is in the forwarding table, forward the frame to the correct output port(s).
+3. If the Ethernet DA is not in the table, broadcast the frame to all ports (except the one through which the frame arrived).
+4. Entries in the table are learned by examining the Ethernet SA of arriving packets.
+
+

@@ -6,7 +6,6 @@ date modified: Aug 5th, 2022
 ---
 [Binomial theorem - Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem)  
 [https://amsi.org.au/ESA_Senior_Years/SeniorTopic1/1c/1c_2content_6.html](https://amsi.org.au/ESA_Senior_Years/SeniorTopic1/1c/1c_2content_6.html)
-
 [[Binomial Coefficient]]
 
 Use [[Mathematical Induction]] to prove

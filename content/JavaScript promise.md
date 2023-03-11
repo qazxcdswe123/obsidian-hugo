@@ -5,9 +5,8 @@ date created: Aug 21st, 2022
 date modified: Sep 6th, 2022
 ---
 
-[Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
-[How to escape Promise Hell. Unlike Callback Hell, Promise Hell is… | by Ronald Chen | Medium](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513)  
-[Promise](https://javascript.info/promise-basics)
+- [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
+- [How to escape Promise Hell. Unlike Callback Hell, Promise Hell is… | by Ronald Chen | Medium](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513)  
 
 A [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is an [[JavaScript Object]] representing the eventual completion or failure of an asynchronous operation.
 

@@ -7,7 +7,7 @@ date modified: Mar 6th, 2023
 - “+”? [[B-tree]] that stores data entries in leaves only
 - Clustered index to give performance hint.
 
-- `d`: The order of the tree
+- `d`: The order of the [[tree]]
 	- d <= `#entries` <= 2d
 	- max `fan-out`: `2d + 1
 	- There are at least two children in the root.
@@ -19,7 +19,7 @@ date modified: Mar 6th, 2023
 ## Insertion
 1. Have enough space
 	1. Find the right leaf.
-	2. Sort in the leaf.
+	2. [[Sorting Algorithm|Sort]] in the leaf.
  2. Do not have enough space
 	 1. Split leaf if there is not enough room
 	 2. Redistribute entries evenly
@@ -29,14 +29,14 @@ date modified: Mar 6th, 2023
 		 1. **Recursively** split index nodes
 		 2. Redistribute the rightmost d keys to make them split evenly
 		 3. Push up middle key (Left most in index node)
-		 4. Sort
+		 4. [[Sorting Algorithm|Sort]]
 - **Notice that the leaf key is copied, but the index key is pushed**
 - Notice that the root was split to increase the height
 - Grow from the root not the leaves
 - All paths from root to leaves are equal lengths
 
 ### Bulk Loading
-Only happens on B+-Tree creation.  
+Only happens on B+-[[Tree]] creation.  
 Do not insert key one by one, instead, insert node and link then through navigation node.
 
 ## Deletion
@@ -47,7 +47,7 @@ Do not insert key one by one, instead, insert node and link then through navigat
 - If page becomes completely empty, can delete
 - Parent may become underfull
 - That’s OK too
-- Guarantees still attractive: logF(max size of tree)
+- Guarantees still attractive: logF(max size of [[tree]])
 
 ## Links
 [B+ Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)

@@ -4,10 +4,12 @@ tags: []
 date created: Feb 20th, 2023
 date modified: Feb 26th, 2023
 ---
+- [[Networking Homework 1]]
 - [[Communication System]]
 - [[ARP]]
 - [[Packet]]
 - [[Networking Error]]
+- [[Latency]]
 
 ## End-to-End Principle
 - [End-to-End principle](https://en.wikipedia.org/wiki/End-to-end_principle)

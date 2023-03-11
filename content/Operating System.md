@@ -21,6 +21,7 @@ Note that the kernel is not a separate [[process]]. Instead, it is a collection 
 
 ### Shortest Job First
 
+
 ### Shortest Time-to-Completion First
 
 ### Round Robin
