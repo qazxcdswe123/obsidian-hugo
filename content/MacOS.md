@@ -114,6 +114,9 @@ ServerAliveCountMax 999
 " >> /etc/ssh/ssh_config
 ```
 
+- Disable spotlight
+`sudo mdutil -i off`
+
 ## System Preference
 - Automatically Hide Menu-bar and Dock
 	- Smaller Size

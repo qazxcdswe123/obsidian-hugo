@@ -4,12 +4,12 @@ tags: []
 date created: Feb 20th, 2023
 date modified: Feb 26th, 2023
 ---
-- [[Networking Homework 1]]
 - [[Communication System]]
 - [[ARP]]
 - [[Packet]]
 - [[Networking Error]]
 - [[Latency]]
+- [[HTTP]]
 
 ## End-to-End Principle
 - [End-to-End principle](https://en.wikipedia.org/wiki/End-to-end_principle)
@@ -38,3 +38,7 @@ ___
 
 ## 7 Layer OSI Model
 ![image.png](https://img.ynchen.me/2023/02/b0cb7ea848e7e26ea5e44b6f44893468.webp)
+
+___
+
+- [[Networking Homework 1]]

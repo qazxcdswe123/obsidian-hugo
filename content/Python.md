@@ -14,6 +14,7 @@ date modified: Sep 4th, 2022
 	- [[Python Flask]]
 	- [[Python asyncio]]
 	- [[Python collections]]
+	- [[Python Virtualenv]]
 
 - [[Decorator]]
 - [[Python Class]]

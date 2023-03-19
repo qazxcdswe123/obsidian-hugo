@@ -16,6 +16,7 @@ date modified: Aug 15th, 2022
 - [[Randomized Algorithm]]
 - [[Bloom Filter]]
 - [[Bitmap]]
+- [[Polling]]
 
 ___
 

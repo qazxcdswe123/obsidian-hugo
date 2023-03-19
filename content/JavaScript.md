@@ -8,6 +8,8 @@ date modified: Jul 28th, 2022
 - [[Vuejs]]  
 - [[ReactJS]]
 - [[NodeJS]]  
+- [[Browser Extension]]
+- [[ESLint]]
 
 - [[JavaScript Async Await]]
 - [[JavaScript Event]]
@@ -22,7 +24,7 @@ date modified: Jul 28th, 2022
 - [[JavaScript Promise]]
 - [[JavaScript Tricks]]
 - [[JavaScript Module]]
-
+- [[JavaScript Mixin]]
 
 # Function
 [[JavaScript API for Numbers]]  

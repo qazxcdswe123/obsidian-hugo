@@ -1,6 +1,7 @@
 ## Relational Model
 - A relation's **primary key** uniquely identifies a single tuple.
 - A **foreign key** specifies that an attribute from one relation has to map to a tuple in another relation.
+- A **candidate key** is a minimal [superkey](https://en.wikipedia.org/wiki/Superkey "Superkey").
 
 ## Relational Databases
 - In SQL, we choose the types of data that each column will store.

@@ -1,3 +1,10 @@
+---
+aliases: []
+tags: []
+date created: Oct 19th, 2022
+date modified: Mar 17th, 2023
+---
+
 # Basic Css
 Anything in CSS between `/*` and `*/` is a **CSS comment**  
 Add between head include
@@ -5,7 +12,6 @@ Add between head include
 ```html
 <link href="styles/style.css" rel="stylesheet">
 ```
-
 
 CSS layout is mostly based on the _box model._ Each box taking up space on your page has properties like:
 
@@ -16,77 +22,3 @@ CSS layout is mostly based on the _box model._ Each box taking up space on your 
 ![three boxes sat inside one another. From outside to in they are labelled margin, border and padding](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/box-model.png)
 
 The [`<body>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body) is a **block** element, meaning it takes up space on the page. The margin applied to a block element will be respected by other elements on the page. In contrast, images are **inline** elements, for the auto margin trick to work on this image, we must give it block-level behavior using `display: block;`.
-
-# CS50
-## Include Styles in the Head Tag
-
-```css
-        <style>
-
-            body {
-                text-align: center;
-            }
-
-            header
-            {
-                font-size: large;
-            }
-
-            main
-            {
-                font-size: medium;
-            }
-
-            footer
-            {
-                font-size: small;
-            }
-
-        </style>
-```
-
-## Class
-
-```html
-<!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <style>
-
-            .centered
-            {
-                text-align: center;
-            }
-
-            .large
-            {
-                font-size: large;
-            }
-
-            .medium
-            {
-                font-size: medium;
-            }
-
-            .small
-            {
-                font-size: small;
-            }
-
-        </style>
-        <title>css</title>
-    </head>
-    <body>
-        <header class="centered large">
-            John Harvard
-        </header>
-        <main class="centered medium">
-            Welcome to my home page!
-        </main>
-        <footer class="centered small">
-            Copyright &#169; John Harvard
-        </footer>
-    </body>
-</html>
-```

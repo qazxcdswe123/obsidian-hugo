@@ -2,10 +2,13 @@
 aliases: []
 tags: []
 date created: Dec 21st, 2022
-date modified: Dec 21st, 2022
+date modified: Mar 15th, 2023
 ---
 
 ## Type
+
+## `null` And `undefined`
+TypeScript also has a special syntax for removing `null` and `undefined` from a type without doing any explicit checking. Writing `!` after any expression is effectively a type assertion that the value isn’t `null` or `undefined`:
 
 ### Optional Properties
 [TypeScript: Documentation - Optional Properties](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#optional-properties)  
@@ -91,8 +94,7 @@ type MaybeUser = {
 type User = Concrete<MaybeUser>;
 ```
 
-### Index Signatures 
-
+### Index Signatures
 
 ### Union Types
 You can actually use a type alias to give a name to any type at all, not just an object type. For example, a type alias can name a union type:  

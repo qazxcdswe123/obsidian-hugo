@@ -2,15 +2,22 @@
 tags: []
 aliases: [npm, yarn, pnpm]
 date created: Jul 9th, 2022
-date modified: Sep 4th, 2022
+date modified: Mar 14th, 2023
 ---
+
+[[JavaScript Build]]
 # Package Manager
+
 ## Npm
-`npm config set registry https://registry.npmmirror.com`
+```bash
+npm config set registry https://registry.npmmirror.com
+```
 
 ## Pnpm
-`pnpm setup`  
-`pnpm config set registry https://registry.npmmirror.com`
+```bash
+pnpm setup  
+pnpm config set registry https://registry.npmmirror.com
+```
 
 ## Command
 [Understanding dependencies inside your Package.json - NodeSource](https://nodesource.com/blog/understanding-dependencies-inside-your-packagejson)
@@ -26,3 +33,11 @@ The `S` option is the Save option in npm. It adds the npm package to your depend
 
 - `-D`  
 To remove a dev dependency, you need to attach the `-D` or `--save-dev` flag to the npm uninstall, and then specify the name of the package.
+
+## Tools
+
+### `depcheck`
+Find unused npm packages in package.json
+
+### `ncu`
+Update dependencies.

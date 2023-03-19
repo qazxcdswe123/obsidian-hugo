@@ -2,7 +2,7 @@
 aliases: []
 tags: []
 date created: Oct 29th, 2022
-date modified: Nov 24th, 2022
+date modified: Mar 14th, 2023
 ---
 
 ## Docker Exec
@@ -20,9 +20,6 @@ docker run -d --rm \
 - `-d` flag to run the container in detached mode. 
 - `--name` specify a name to the container
 - `--rm` to automatically delete it when it exits  
-
-## Docker Build
-- `docker build -t <name>:<tag> .`
 
 ### Multi Stage Build
 - [Multi-stage builds | Docker Documentation](https://docs.docker.com/build/building/multi-stage/)

@@ -9,6 +9,6 @@ date modified: Aug 22nd, 2022
 curl -sfLS https://install-node.vercel.app | bash -s --
 ```
 
-[[NodeJS Package Manager]]  
-[[Nodejs Module]]  
-[[NodeJS File]]
+- [[NodeJS Package Manager]]  
+- [[Nodejs Module]]  
+- [[NodeJS File]]

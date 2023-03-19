@@ -14,7 +14,8 @@
 	- `</video>`
 - `<a>` = anchor, tag
 	- `<a href="https://www.harvard.edu">Harvard</a>`
-	- href = hypertext reference
+	- `href` = hypertext reference
+	- `target`: [HTML a target Attribute](https://www.w3schools.com/tags/att_a_target.asp)
 - `<form>`
 	```html
 	<form action="https://www.google.com/search" method="get">

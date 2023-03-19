@@ -6,7 +6,6 @@ date modified: Jan 29th, 2023
 ---
 - [[SQL]]
 - [[B-Tree]]
-
 - [[DBMS]]
 
 # Database Types
@@ -25,3 +24,6 @@ date modified: Jan 29th, 2023
 ## Non-Relational
 - Example
 	- [[Mongo DB]]
+
+# Relavant
+- [[JsonLogic]]

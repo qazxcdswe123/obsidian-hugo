@@ -21,6 +21,7 @@ An _action_ is a custom application for the GitHub Actions platform that perform
 
 ### Runners
 A runner is a server that runs your workflows when they're triggered.
+[About self-hosted runners - GitHub Docs](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)
 
 ## Templates
 
