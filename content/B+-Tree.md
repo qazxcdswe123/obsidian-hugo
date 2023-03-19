@@ -18,6 +18,7 @@ date modified: Mar 19th, 2023
 - `d=2`: 20, nodes;`d=3`: 500 nodes
 - Typical order: 1600
 - Typical fill rate: 67%
+- Total capacity: $(2d)(2d + 1)^{h}$
 
 ## Insertion
 1. Have enough space
@@ -38,8 +39,9 @@ date modified: Mar 19th, 2023
 - Grow from the root not the leaves
 - All paths from root to leaves are equal lengths
 
-### Bulk Inserting
+### Bulk Loading (Inserting)
 Only happens on B+-[[Tree]] creation.  
+Indexes built from bulk loading always start off clustered because the underlying data is sorted on the key
 Do not insert key one by one, instead, insert node and link them through navigation node.
 
 ## Deletion
