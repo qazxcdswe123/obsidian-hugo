@@ -61,3 +61,4 @@ Clustered and unclustered indexes refer to how data pages are structured in a B+
 
 ## Links
 - [B+ Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
+- [[CS186]]

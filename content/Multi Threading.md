@@ -2,7 +2,7 @@
 aliases: [多进程]
 tags: [] 
 date created: Feb 24th, 2022
-date modified: Mar 6th, 2023
+date modified: Mar 20th, 2023
 ---
 
 ## Overview
@@ -18,11 +18,15 @@ date modified: Mar 6th, 2023
 ## Concurrency
 a means to increase performance, _e.g._, to overlap disk I/O requests, to reduce latency by prefetching results to expected queries, or to take advantage of multiple processors.
 
-## Spinlock
-In [software engineering](https://en.wikipedia.org/wiki/Software_engineering "Software engineering"), a **spinlock** is a [lock](https://en.wikipedia.org/wiki/Lock_(computer_science) "Lock (computer science)") that causes a [thread](https://en.wikipedia.org/wiki/Thread_(computer_science) "Thread (computer science)") trying to acquire it to simply wait in a loop ("spin") while repeatedly checking whether the lock is available. Since the thread remains active but is not performing a useful task, the use of such a lock is a kind of [busy waiting](https://en.wikipedia.org/wiki/Busy_waiting "Busy waiting").
+- CPU Bound => Multi Processing
+- I/O Bound, Fast I/O, Limited Number of Connections => Multi Threading
+- I/O Bound, Slow I/O, Many connections => Asyncio
 
 ## Links
 - [difference-between-multiprocessing-and-multithreading](https://www.guru99.com/difference-between-multiprocessing-and-multithreading.html)
 - [[Memory]]
 - [[CSAPP]]
 - [Spinlock - Wikipedia](https://en.wikipedia.org/wiki/Spinlock)
+- [[Locks]]
+- [[Semaphore]]
+- [[Event Loop]]

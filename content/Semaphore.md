@@ -1,0 +1,1 @@
+Semaphores provide two operations: wait (P) and signal (V).

@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Jul 13th, 2022
-date modified: Dec 3rd, 2022
+date modified: Mar 22nd, 2023
 ---
 - [[Git Command]]
 - [Creating a personal access token - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
@@ -35,8 +35,7 @@ date modified: Dec 3rd, 2022
 `git ls-tree --full-tree --name-only -r HEAD`  
 `git log --all --decorate --oneline --graph`
 
-### Clone Only Subdirectory
-
+### Sparse Checkout
 ```
 git clone \
   --depth 1  \

@@ -3,5 +3,5 @@
 > A thread-safe reference-counting pointer. ‘Arc’ stands for ‘Atomically Reference Counted’.
 
 ## Links
-[[Multi Thread]]
+[[Multi Threading]]
 > _Concurrent programming_, where different parts of a program execute independently, and _parallel programming_, where different parts of a program execute at the same time

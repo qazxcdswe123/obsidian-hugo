@@ -27,7 +27,7 @@ date modified: Jul 28th, 2022
 - [[JavaScript Mixin]]
 
 # Function
-[[JavaScript API for Numbers]]  
+[[JavaScript Numbers]]  
 [[JavaScript Arrow Function]]  
 [[JavaScript Class]]
 [[JavaScript Callback]]

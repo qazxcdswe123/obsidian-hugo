@@ -2,7 +2,7 @@
 aliases: [OS]
 tags: [] 
 date created: Jul 28th, 2022
-date modified: Jan 14th, 2023
+date modified: Mar 20th, 2023
 ---
 
 ## Term
@@ -21,16 +21,13 @@ Note that the kernel is not a separate [[process]]. Instead, it is a collection 
 
 ### Shortest Job First
 
-
 ### Shortest Time-to-Completion First
-
-### Round Robin
 
 ### Multi-Level Feedback Queue
 
-### proportional-share scheduling
+### Proportional-share Scheduling
 
-### completely fair scheduler
+### Completely Fair Scheduler
 
 ## Goal of OS
 - run multiple applications
@@ -43,3 +40,4 @@ Note that the kernel is not a separate [[process]]. Instead, it is a collection 
 - [[6.s081]]
 - [[Memory]]
 - [[Hardware]]
+- [[Protection Ring]]

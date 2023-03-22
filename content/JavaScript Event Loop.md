@@ -2,23 +2,21 @@
 aliases: []
 tags: []
 date created: Sep 3rd, 2022
-date modified: Sep 3rd, 2022
+date modified: Mar 20th, 2023
 ---
-[[JavaScript Async Await]]
-[[JavaScript Promise]]
-[The event loop - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- [[JavaScript Async Await]]
+- [[JavaScript Promise]]
+- [The event loop - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
 
 ## Runtime Concept
-### [[Memory|Heap]]
-Objects are allocated in a [[Memory|heap]] which is just a name to denote a large (mostly unstructured) region of [[memory]].
 
 ### [[Queue]]
 A JavaScript runtime uses a message [[queue]], which is a list of messages to be processed. Each message has an associated function that gets called to handle the message.  
 function is called with the message as an input parameter.
 
 ## Event Loop
-### Messages
 
+### Messages
 ```js
 while (queue.waitForMessage()) {
   queue.processNextMessage();

@@ -19,3 +19,7 @@ date modified: Feb 18th, 2023
 - Disk Space Management
 	- Translate page requests into physical bytes on one or more device(s)
 	- [[B+-Tree]]
+ 
+- [[External Sort]]
+- [[DBMS]]
+- [[Hashing]]

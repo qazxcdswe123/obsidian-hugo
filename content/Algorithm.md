@@ -14,8 +14,6 @@ date modified: Aug 15th, 2022
 - [[KMP Algorithm]]
 - [[Graph Algorithm]]
 - [[Randomized Algorithm]]
-- [[Bloom Filter]]
-- [[Bitmap]]
 - [[Polling]]
 
 ___
@@ -26,3 +24,7 @@ ___
 
 - [[NP and P Problem]]
 - [[RSA]]
+
+___
+
+- [[Data Structure]]

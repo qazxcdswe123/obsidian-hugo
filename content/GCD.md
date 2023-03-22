@@ -25,7 +25,7 @@ to compute $gcd(48, 180)$, we find the [[prime]] factorizations $48 = 2^4 \cd
 [I Do Maths · Prime Numbers and Prime Factorization](https://www.idomaths.com/primefactors.php)
 
 ### Method 2: Euclidean Algorithm
-The Euclidean [[algorithm]] is based on the principle that the greatest common divisor of two numbers does not change if the larger number is replaced by its difference with the smaller number.
+The Euclidean [[Algorithm]] is based on the principle that the greatest common divisor of two numbers does not change if the larger number is replaced by its difference with the smaller number.
 
 ![](https://img.ynchen.me/2022/07/d10227041ae56557de562a6ac57a315d.jpg)
 
