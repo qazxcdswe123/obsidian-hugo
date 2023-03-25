@@ -11,7 +11,7 @@ date modified: Feb 26th, 2023
 ## Stop and Wait
 - [[State Machine|FSM]]
 - At most one [[packet]] inflight at any time
-- Sender sends one packet
+- Sender sends one [[packet]]
 - Receiver sends acknowledgment [[packet]] when it receives data
 - On receiving acknowledgment, sender sends new data
 - On timeout, sender resends current data

@@ -1,6 +1,7 @@
 - 原理
 	- index 从 1 开始，`j = i - 1`
 	- 暂存第 j 个，i = j - 1, i 不停往上覆盖
+ - Invariant: Sorted in `0-1`
 ```cpp
 void insertSort(int array[], int length)
 {

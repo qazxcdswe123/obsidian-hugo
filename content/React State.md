@@ -4,13 +4,13 @@ tags: []
 date created: Oct 21st, 2022
 date modified: Nov 16th, 2022
 ---
+## Cavets
 - **Don’t call Hooks inside loops, conditions, or nested functions**
 - **Only Call Hooks from React Functions**
 - State updates are batched!
 - States are immutable
 
 To update a component with new data, two things need to happen:
-
 1. **Retain** the data between renders.
 2. **Trigger** React to render the component with new data (re-rendering).  
 

@@ -11,12 +11,12 @@ date modified: Mar 5th, 2023
 - **Stream of bytes**
 - In sequence
 - Congestion Control (BBR)
-- [[Flow Control]] [[Algorithm]] to stop the overflow at the receiver's end,
+- [[Networking Flow Control]] [[Algorithm]] to stop the overflow at the receiver's end,
 
 ## 3-way Handshake
 
 ### Setup
-1. C2S: "Synchronize", "SYN" with sequence number $S_A$ . We do this rather than assume 0 for security and reliability reason (no overlay window).
+1. C2S: "Synchronize", "SYN" with sequence number $S_A$ . We do this rather than assume 0 for [[security]] and reliability reason (no overlay window).
 2. S2C: "Synchronize and Acknowledge", "SYN/ACK". "SYN" with a sequence number $S_P$ and set the "ACK" bit to 1, ACK $S_{A} + 1$. which indicate the passive side has acknowledged that it received the "SYN"
 3. C2S: "Acknowledge", "ACK" $S_{P} + 1$. Send a 0-length $S_{A} + 1$.
 

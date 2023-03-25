@@ -4,7 +4,7 @@ tags: []
 date created: Jul 18th, 2022
 date modified: Mar 22nd, 2023
 ---
-[[CPU Instruction]] for control
+[[CPU Instruction]] for flow control
 
 # Condition Code (Implicit Setting)
 All 1-bit flags, not set directly

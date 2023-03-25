@@ -27,7 +27,7 @@ Each layer has its own error detection: the end-to-end principle
 
 Based on the size of the receiving buffer size.
 ### Go Back N
-If one failed, retransmit the entire [[Flow Control#Sliding Window Algorithm|window]].  
+If one failed, retransmit the entire [[Networking Flow Control#Sliding Window Algorithm|window]].  
 
 ### Selective Repeat
 Retransmit only the [[packet]] that is lost.

@@ -18,4 +18,4 @@ def where_is(point):
             print("Not a point")
 ```
 
--   Most literals are compared by equality, however the singletons `True`, `False` and `None` are compared by identity.
+- Most literals are compared by equality, however the singletons `True`, `False` and `None` are compared by identity.
