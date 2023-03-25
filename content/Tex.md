@@ -36,5 +36,6 @@ date modified: Sep 6th, 2022
 | `\int`                  | $\int^{\infty}_{\infty}xf(x)dx$ | [[Expectation]]                           |
 | `\subset`               | $\subset$                       | [[Subgroups]]                             |
 | `\cong`                 | $\cong$                         | [[Chinese Remainder Theorem]]             |
-| `\infty`                | $\infty$                        | [[参数估计]]                                          |
+| `\infty`                | $\infty$                        | [[参数估计]]                              |
+| `\rho`                  | $\rho$                          | [[SQL Join Algorithm]]                                          |
 

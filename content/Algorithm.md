@@ -15,6 +15,7 @@ date modified: Aug 15th, 2022
 - [[Graph Algorithm]]
 - [[Randomized Algorithm]]
 - [[Polling]]
+- [[String Algorithm]]
 
 ___
 

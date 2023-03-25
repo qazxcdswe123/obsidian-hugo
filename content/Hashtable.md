@@ -8,7 +8,7 @@ date modified: Jan 17th, 2023
 ## What
 - Associate array or dictionary
 - `std::unordered_map()` in [[C++ STL]]
-- A hash table works by taking the modulus of the hash over the number of buckets.
+- Good for looking up
 
 ## Implementation
 - [java - Why Are HashMaps Implemented Using Powers of Two? - Stack Overflow](https://stackoverflow.com/questions/53526790/why-are-hashmaps-implemented-using-powers-of-two)

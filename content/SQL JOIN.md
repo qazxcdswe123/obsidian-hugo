@@ -33,7 +33,4 @@ The full outer join which guarantees that all rows from each table will appear i
 ## Natural Join
 When the same column name match, the join the table
 
-# Join Algorithm
-
-## Grace Hash Join
-Grace hash join is a type of hash join algorithm used in database systems to join two large tables that cannot fit in memory.
+- [[SQL Join Algorithm]]

@@ -10,5 +10,5 @@ Use an auxiliary table, same length as the pattern. The value indicate the offse
 
 
 ## Links
-[KMP Algorithm for Pattern Searching - GeeksforGeeks](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
-[Fast Pattern Matching in Strings | SIAM Journal on Computing](https://doi.org/10.1137%2F0206024)
+- [KMP Algorithm for Pattern Searching - GeeksforGeeks](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
+- [Fast Pattern Matching in Strings | SIAM Journal on Computing](https://doi.org/10.1137%2F0206024)
