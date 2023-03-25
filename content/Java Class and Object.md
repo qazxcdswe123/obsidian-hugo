@@ -2,7 +2,7 @@
 aliases: []
 tags: [] 
 date created: Feb 5th, 2023
-date modified: Mar 1st, 2023
+date modified: Mar 23rd, 2023
 ---
 
 # Java Class
@@ -42,11 +42,6 @@ class Main {
 }
 ```
 
-## Method
-a method will often store its temporary state in _local variables_.
-
-[Iterator (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
-
 ___
 
 # Java Object
@@ -74,3 +69,5 @@ A program terminates all its activity and _exits_ when one of two things happe
 - All the threads that are not daemon threads terminate.
 - Some thread invokes the `exit` method of class `Runtime` or class `System` and the exit operation is not forbidden by the security manager.  
 In other words, the program may exit before or after the `main` method finishes; a return value from `main` would therefore be meaningless. If you want the program to return a status code, call one of the following methods (note that all three methods never return normally):
+
+## `equals()` And `hashCode()` Contracts

@@ -23,3 +23,4 @@ date modified: Feb 18th, 2023
 - [[External Sort]]
 - [[DBMS]]
 - [[Hashing]]
+- [[SQL JOIN]]

@@ -17,3 +17,4 @@ Split your large file up into smaller groups by hash values
 # Links
 - [[Hashing Algorithms]]
 - [[External Hashing]]
+- [[Checksum]]
