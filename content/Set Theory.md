@@ -62,4 +62,3 @@ A mapping is invertible if and only if it is both one-to-one and onto.
 - AND: Set Intersection
 - OR: Set Union
 - XOR: [Symmetric Difference](https://brilliant.org/wiki/sets-symmetric-difference/)
-

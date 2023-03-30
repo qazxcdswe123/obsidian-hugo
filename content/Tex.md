@@ -37,5 +37,6 @@ date modified: Sep 6th, 2022
 | `\subset`               | $\subset$                       | [[Subgroups]]                             |
 | `\cong`                 | $\cong$                         | [[Chinese Remainder Theorem]]             |
 | `\infty`                | $\infty$                        | [[参数估计]]                              |
-| `\rho`                  | $\rho$                          | [[SQL Join Algorithm]]                                          |
+| `\rho`                  | $\rho$                          | [[SQL Join Algorithm]]                    |
+| `\bowtie`               | $\bowtie$                       | [[Relational Algebra]]                                          |
 

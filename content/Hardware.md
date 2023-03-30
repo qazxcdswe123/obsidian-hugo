@@ -9,3 +9,8 @@
 
 ## SSD Trim
 [What is Trim? | Crucial.com](https://www.crucial.com/articles/about-ssd/what-is-trim)
+
+## RAID
+- Raid 0
+	- splits data into blocks and writes them across multiple drives in the array, offering fast read and write speeds
+	- does not provide fault tolerance or redundancy, and problems on any of the disks in the array can result in complete data loss

@@ -14,6 +14,7 @@ date modified: Mar 1st, 2023
 - [[Java Lambda]]
 - [[Java Annotation]]
 - [[Java Iterator]]
+- [[Maven]]
 
 ## Links
 ![Java Primitive Data Type](https://img.ynchen.me/2023/03/ec78300d44d8846a496e1a6fd9495959.webp)

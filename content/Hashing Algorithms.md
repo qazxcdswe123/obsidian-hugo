@@ -1,7 +1,7 @@
 - [[MD5]]
 - [[SHA]]
 
-## General Purpose Hashing Function
+## General Purpose [[Hashing]] Function
 - [[MurmurHash]]
 - [[xxHash]]
 

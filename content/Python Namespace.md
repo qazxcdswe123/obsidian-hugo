@@ -4,7 +4,6 @@ tags: []
 date created: Jul 8th, 2022
 date modified: Aug 12th, 2022
 ---
-#Programming/Python
 ## LEGB Rules
 URL: [Namespaces and Scope in Python – Real Python](https://realpython.com/python-namespaces-scope/)
 
@@ -21,7 +20,6 @@ This is the LEGB rule as it’s commonly called in Python literature (although t
 Access var defined outside function
 - Nonlocal  
 Access var defined in closure function
-
 
 ## Example
 

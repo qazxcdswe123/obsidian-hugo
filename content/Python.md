@@ -17,7 +17,7 @@ date modified: Sep 4th, 2022
 	- [[Python Virtualenv]]
 
 - [[Decorator]]
-- [[Python Class]]
+- [[Python OOP]]
 - [[Python Namespace]]
 - [[Python Error and Exceptions]]
 - [[Python User-Defined Function]]

@@ -136,4 +136,4 @@ In real world applications, the [`finally`](https://docs.python.org/3/reference
 [Src](https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions)  
 Programs may name their own exceptions by creating a new exception class (see [Classes](https://docs.python.org/3/tutorial/classes.html#tut-classes) for more about Python classes).  
 Exceptions should typically be derived from the [`Exception`](https://docs.python.org/3/library/exceptions.html#Exception "Exception") class, either directly or indirectly.  
-More on [[Python Class]]
+More on [[Python OOP]]

@@ -8,7 +8,6 @@ Use MMU, Memory Management Unit to translate the address.
 
 ## Overview
 1. MMU itself will not store page table, it will lookup page table in memory, it will use [TLB](https://en.wikipedia.org/wiki/Translation_lookaside_buffer) as a cache.
-2. 
 
 ## Page
 A typical size of page is 4kb (4096 bytes, $2^{12}$ bytes)  

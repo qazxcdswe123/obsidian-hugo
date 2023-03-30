@@ -1,4 +1,3 @@
-[[Obsidian Usage]]
 [[CSS]]
 [[Manjaro]]
 ## Monospaced Font 等宽字体

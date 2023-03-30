@@ -6,7 +6,6 @@ date modified: Dec 28th, 2022
 ---
 - [[Proof]]  
 - [[DNF and CNF]]  
-- [[MCS]]  
 - [[Group Theory]]
 - [[Algebra]]
 - [[格和布尔代数]]

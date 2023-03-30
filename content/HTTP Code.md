@@ -15,7 +15,3 @@ date modified: Aug 27th, 2022
 - `500 Internal Server Error`
     - Buggy code on a server might result in this status code, like segfaults we might have seen in C.
 - `503 Service Unavailable`  
-
-___
-
-- [[Frontend]]

@@ -7,7 +7,7 @@
 - Sorted Files
 	- Pages and records are in sorted order
 - Index Files
-	- B+ Trees, Linear Hashing, …
+	- B+ Trees, Linear [[Hashing]], …
 	- May contain records or point to records in other files
 
 ## Records

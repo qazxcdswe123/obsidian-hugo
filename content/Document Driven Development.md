@@ -17,12 +17,11 @@ The philosophy behind Documentation-Driven Development is a simple: **from the 
 - Documentation and software should both be versioned, and versions should match, so someone working with old versions of software should be able to find the proper documentation.
 
 So, the preferred order of operations for new features:
-
 - Write documentation
 - Get feedback on documentation
 - Test-driven development (where tests align with documentation)
 - Push features to staging
-- Functional testing on staging, as necessary
+- Functional [[testing]] on staging, as necessary
 - Deliver feature
 - Publish documentation
 - Increment versions

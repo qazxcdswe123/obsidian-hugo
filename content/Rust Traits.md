@@ -1,3 +1,10 @@
+---
+aliases: [trait]
+tags: []
+date created: Mar 2nd, 2023
+date modified: Mar 27th, 2023
+---
+
 ## Traits
 A trait is a collection of methods.
 

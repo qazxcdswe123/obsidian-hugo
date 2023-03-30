@@ -31,7 +31,7 @@ Use [[ranger]] `yc` copy content `yn` copy name
 7. 鼠标速度有问题
 8. 鼠标在 GTK 应用里会变大
 9. White Color scheme with white text can't see
-10. VSCode terminal font `"terminal.integrated.fontFamily": "MesloLGS NF"`
+10. VSCode terminal [[font]] `"terminal.integrated.fontFamily": "MesloLGS NF"`
 11. office kinda sucks
 12. wayland fucked up after random upgrade, uninstall nvidia driver to fix, but screenshot fucked up after using wayland.
 

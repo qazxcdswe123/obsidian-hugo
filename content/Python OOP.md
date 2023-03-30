@@ -2,10 +2,9 @@
 aliases: []
 tags: []
 date created: May 29th, 2022
-date modified: Nov 16th, 2022
+date modified: Mar 25th, 2023
 ---
-[Src](https://docs.python.org/3/tutorial/classes.html)  
-[[Python Namespace]]
+- [[Python Namespace]]
 
 ## Class Object
 `x = MyClass()`  
@@ -14,7 +13,6 @@ creates a new _instance_ of the class and assigns this object to the local var
 ### Init
 ```python
 class Dog:
-
     def __init__(self, name):
         self.name = name
         self.tricks = []    # creates a new empty list for each dog

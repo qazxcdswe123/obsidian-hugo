@@ -2,17 +2,17 @@
 aliases: []
 tags: [] 
 date created: Dec 13th, 2022
-date modified: Dec 16th, 2022
+date modified: Mar 27th, 2023
 ---
 
 ## Borrow Checker
-- Each value in Rust has an _owner_.
+- Each value in [[Rust]] has an _owner_.
 - There can only be one owner at a time.
 - When the owner goes out of scope, the value will be dropped.  
 
-Rust has a special annotation called the `Copy` trait that we can place on types that are stored on the stack, as integers are (we’ll talk more about traits in [Chapter 10](https://doc.rust-lang.org/book/ch10-02-traits.html)). If a type implements the `Copy` trait, variables that use it do not move, but rather are trivially copied, making them still valid after assignment to another variable.
+[[Rust]] has a special annotation called the `Copy` [[Rust Traits|trait]] that we can place on types that are stored on the stack, as integers are. If a type implements the `Copy` [[Rust Traits|trait]], variables that use it do not move, but rather are trivially copied, making them still valid after assignment to another variable.
 
-So what types implement the `Copy` trait? You can check the documentation for the given type to be sure, but as a general rule, any group of simple scalar values can implement `Copy`, and nothing that requires allocation or is some form of resource can implement `Copy`. Here are some of the types that implement `Copy`:
+So what types implement the `Copy` [[Rust Traits|trait]]? You can check the documentation for the given type to be sure, but as a general rule, any group of simple scalar values can implement `Copy`, and nothing that requires allocation or is some form of resource can implement `Copy`. Here are some of the types that implement `Copy`:
 
 - All the integer types, such as `u32`.
 - The Boolean type, `bool`, with values `true` and `false`.
@@ -25,6 +25,5 @@ A _data race_ is similar to a race condition and happens when these three beha
 - At least one of the pointers is being used to write to the data.
 - There’s no mechanism being used to synchronize access to the data.
 
-Note that a reference’s scope starts from where it is introduced and continues through the last time that reference is used.
-
+## Links
 - [[Rust Lifetime]]

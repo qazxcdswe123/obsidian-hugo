@@ -1,0 +1,1 @@
+Netmask defines how "large" a network is.
