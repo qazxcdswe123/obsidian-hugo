@@ -5,7 +5,7 @@ date created: Jul 13th, 2022
 date modified: Nov 16th, 2022
 ---
 - [[Testing]]  
-- [[CMake Notes]]
+- [[CMake]]
 
 ___
 

@@ -15,7 +15,7 @@ Languages I've learnt
 - [[Golang]]  
 - [[Rust]]  
 - [[Frontend]]
-- [[CMake Notes]]
+- [[CMake]]
 - [[Java]]
 - [[Golang]]
 - [[Frontend]]

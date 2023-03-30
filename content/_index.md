@@ -2,8 +2,9 @@
 aliases: []
 tags: []
 date created: Jul 13th, 2022
-date modified: Dec 3rd, 2022
+date modified: Mar 30th, 2023
 ---
+
 # Blog
 A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
@@ -41,9 +42,10 @@ A Blog Directly Generated From Obsidian
 - 2022-01-08: [[论时间]]
 - 2022-01-04: [[女生不适宜学习理工科吗？]]
 
-## [[Book Review]]
+## Review
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
 - 2022-07-11: [[Algorithm Unlock Book Review]]
+- [[Book Review]]
 
 # Notes
 
@@ -66,7 +68,17 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Testing]]
 
 ## Languages
+- [[Learn C in 1 Hour]]
 - [[C++]]
 - [[Python]]
 - [[Golang]]
 - [[JavaScript]]
+	- [[TypeScript]]
+	- [[ReactJS]]
+- [[Rust]]
+- [[CMake]]
+- [[Makefile]]
+- [[Lua]]
+- [[Java]]
+- [[CSS]]
+- [[HTML]]

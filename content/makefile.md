@@ -4,7 +4,7 @@ tags: []
 date created: Apr 22nd, 2022
 date modified: Dec 3rd, 2022
 ---
-[[CMake Notes]]
+[[CMake]]
 [Src](https://seisman.github.io/how-to-write-makefile/introduction.html)
 
 ## 关于程序的编译和链接
