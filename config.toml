@@ -1,5 +1,5 @@
 baseURL = "https://blog.ynchen.me/"
-languageCode = "zh-CN"
+languageCode = "en-us"
 googleAnalytics = ""
 relativeURLs = false
 disablePathToLower = true
