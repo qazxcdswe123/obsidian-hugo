@@ -1,8 +1,8 @@
 ---
-tags: [] 
 aliases: [heap]
+tags: [] 
 date created: Jul 17th, 2022
-date modified: Jan 11th, 2023
+date modified: Apr 3rd, 2023
 ---
 - [科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  
 - [[Stack]]

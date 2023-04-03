@@ -1,6 +1,6 @@
 ---
-tags: []
 aliases: [npm, yarn, pnpm]
+tags: []
 date created: Jul 9th, 2022
 date modified: Mar 14th, 2023
 ---
