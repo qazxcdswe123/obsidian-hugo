@@ -1,6 +1,5 @@
 ---
 aliases: [左倾红黑树]
-tags: [] 
 date created: Aug 19th, 2022
 date modified: Feb 2nd, 2023
 ---

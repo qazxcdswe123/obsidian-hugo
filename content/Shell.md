@@ -1,6 +1,5 @@
 ---
 aliases: [zsh]
-tags: [] 
 date created: Jul 8th, 2022
 date modified: Apr 1st, 2023
 ---

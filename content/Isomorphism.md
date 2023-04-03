@@ -1,6 +1,5 @@
 ---
 aliases: [同态]
-tags: []
 date created: Oct 31st, 2022
 date modified: Nov 16th, 2022
 ---

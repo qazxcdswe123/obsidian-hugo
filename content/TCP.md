@@ -1,6 +1,5 @@
 ---
 aliases: [Transmission Control Protocol]
-tags: [] 
 date created: Feb 20th, 2023
 date modified: Mar 5th, 2023
 ---

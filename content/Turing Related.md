@@ -1,6 +1,5 @@
 ---
 aliases: [图灵]
-tags: 
 date: Jul 24th, 2022
 date created: Jul 12th, 2022
 date modified: Sep 16th, 2022

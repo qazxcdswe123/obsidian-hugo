@@ -1,6 +1,5 @@
 ---
 aliases: [离散数学]
-tags: [] 
 date created: Aug 19th, 2022
 date modified: Dec 28th, 2022
 ---

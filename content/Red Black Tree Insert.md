@@ -1,6 +1,5 @@
 ---
 aliases: [红黑树插入]
-tags: []
 date created: Mar 23rd, 2022
 date modified: Feb 2nd, 2023
 ---

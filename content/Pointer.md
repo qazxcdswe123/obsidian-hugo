@@ -1,6 +1,5 @@
 ---
 aliases: [指针]
-tags: Programming/C 
 date created: Feb 13th, 2022
 date modified: Oct 14th, 2022
 ---

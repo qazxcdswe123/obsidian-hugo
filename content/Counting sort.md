@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: []
 date: Jul 25th, 2022
 ---
 - 原理

@@ -1,6 +1,5 @@
 ---
 aliases: 
-tags: 
 date: Jul 24th, 2022
 ---
 

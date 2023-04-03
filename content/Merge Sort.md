@@ -1,6 +1,5 @@
 ---
 aliases: [归并排序]
-tags: []
 date created: Jul 24th, 2022
 date modified: Aug 15th, 2022
 ---

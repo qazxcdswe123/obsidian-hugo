@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [Storage, Cache, Optimization] 
 date created: Oct 9th, 2022
 date modified: Jan 11th, 2023
 ---

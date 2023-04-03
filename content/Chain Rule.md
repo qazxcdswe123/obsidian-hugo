@@ -1,6 +1,5 @@
 ---
 aliases: [复合函数微分法]
-tags: [] 
 date created: Mar 20th, 2022
 date modified: Aug 19th, 2022
 ---

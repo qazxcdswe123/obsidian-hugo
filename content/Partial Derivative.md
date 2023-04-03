@@ -1,6 +1,5 @@
 ---
 aliases: [偏导数]
-tags: []
 date created: Mar 16th, 2022
 date modified: Aug 19th, 2022
 ---

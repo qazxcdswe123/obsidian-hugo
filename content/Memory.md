@@ -1,6 +1,5 @@
 ---
 aliases: [heap]
-tags: [] 
 date created: Jul 17th, 2022
 date modified: Apr 3rd, 2023
 ---

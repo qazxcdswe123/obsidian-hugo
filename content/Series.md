@@ -1,6 +1,5 @@
 ---
 aliases: [级数]
-tags: []
 date created: Nov 1st, 2022
 date modified: Nov 2nd, 2022
 ---

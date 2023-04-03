@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [Programming/Misc]
 date created: Jul 10th, 2022
 date modified: Mar 20th, 2023
 ---

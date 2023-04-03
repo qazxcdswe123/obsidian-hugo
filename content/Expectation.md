@@ -1,6 +1,5 @@
 ---
 aliases: [期望]
-tags: []
 date created: Nov 2nd, 2022
 date modified: Nov 2nd, 2022
 ---

@@ -1,6 +1,5 @@
 ---
 aliases: [Pipeline]
-tags: [CSAPP, ] 
 date created: Jul 31st, 2022
 date modified: Mar 24th, 2023
 ---

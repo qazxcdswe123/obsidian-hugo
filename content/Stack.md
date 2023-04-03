@@ -1,6 +1,5 @@
 ---
 aliases: 
-tags: [CSAPP, Programming/Misc]
 date: Jul 25th, 2022
 ---
 - [[Stack Data Structure]]

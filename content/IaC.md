@@ -1,6 +1,5 @@
 ---
 aliases: [Infrastructure as Code]
-tags: []
 date created: Mar 29th, 2023
 date modified: Mar 29th, 2023
 ---

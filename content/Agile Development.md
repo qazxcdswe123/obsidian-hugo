@@ -1,6 +1,5 @@
 ---
 aliases: [agile]
-tags: []
 date created: Nov 16th, 2022
 date modified: Nov 16th, 2022
 ---

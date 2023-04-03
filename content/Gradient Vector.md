@@ -1,6 +1,5 @@
 ---
 aliases: [梯度向量]
-tags: [] 
 date created: Mar 20th, 2022
 date modified: Aug 19th, 2022
 ---

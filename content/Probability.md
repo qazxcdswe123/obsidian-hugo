@@ -1,6 +1,5 @@
 ---
 aliases: [概率论]
-tags: [Probability, Statistics, Mathematical-Theory]
 date created: Sep 1st, 2022
 date modified: Jan 17th, 2023
 ---

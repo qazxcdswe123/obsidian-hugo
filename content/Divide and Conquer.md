@@ -1,6 +1,5 @@
 ---
 aliases: [分治法]
-tags: []
 date created: Mar 3rd, 2022
 date modified: Jul 31st, 2022
 ---

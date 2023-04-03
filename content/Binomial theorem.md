@@ -1,6 +1,5 @@
 ---
 aliases: [二项式定理]
-tags: [] 
 date created: Mar 1st, 2022
 date modified: Aug 5th, 2022
 ---

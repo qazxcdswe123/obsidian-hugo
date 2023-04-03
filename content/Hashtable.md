@@ -1,6 +1,5 @@
 ---
 aliases: [Hashmap]
-tags: []
 date created: Jun 26th, 2022
 date modified: Jan 17th, 2023
 ---

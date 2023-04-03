@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [] 
 date created: Sep 16th, 2022
 date modified: Sep 19th, 2022
 ---

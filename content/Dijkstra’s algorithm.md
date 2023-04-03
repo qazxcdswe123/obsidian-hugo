@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [Algorithm/Graph, ] 
 date created: Nov 24th, 2022
 date modified: Dec 26th, 2022
 ---

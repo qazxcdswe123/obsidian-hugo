@@ -1,6 +1,5 @@
 ---
 aliases: 集合论
-tags: [Books/aata] 
 date: Jul 24th, 2022
 date created: Jul 15th, 2022
 date modified: Nov 16th, 2022

@@ -1,6 +1,5 @@
 ---
 aliases: [ieee 754]
-tags: [Programming/Misc, Public] 
 date created: Jul 11th, 2022
 date modified: Aug 6th, 2022
 ---

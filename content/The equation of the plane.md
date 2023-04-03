@@ -1,6 +1,5 @@
 ---
 aliases: [平面方程]
-tags: []
 date created: Mar 16th, 2022
 date modified: Aug 15th, 2022
 ---

@@ -1,6 +1,5 @@
 ---
 aliases: [Internet Protocol]
-tags: [] 
 date created: Feb 20th, 2023
 date modified: Feb 21st, 2023
 ---

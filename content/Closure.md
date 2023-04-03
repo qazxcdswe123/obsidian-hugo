@@ -1,6 +1,5 @@
 ---
 aliases: [闭包]
-tags: [] 
 date created: Jun 22nd, 2022
 date modified: Aug 15th, 2022
 ---

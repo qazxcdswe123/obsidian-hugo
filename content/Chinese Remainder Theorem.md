@@ -1,6 +1,5 @@
 ---
 aliases: [CRT]
-tags: [] 
 date created: Nov 21st, 2022
 date modified: Nov 21st, 2022
 ---

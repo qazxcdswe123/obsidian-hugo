@@ -1,6 +1,5 @@
 ---
 aliases: [超越数]
-tags: 
 date created: Jul 15th, 2022
 date modified: Apr 3rd, 2023
 ---

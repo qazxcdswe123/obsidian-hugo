@@ -1,6 +1,5 @@
 ---
 aliases: [LRU, LFR, MRU]
-tags: []
 date created: Mar 19th, 2023
 date modified: Mar 19th, 2023
 ---

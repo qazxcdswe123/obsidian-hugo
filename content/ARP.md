@@ -1,6 +1,5 @@
 ---
 aliases: [Address Resolution Protocol]
-tags: [] 
 date created: Feb 22nd, 2023
 date modified: Feb 26th, 2023
 ---

@@ -1,6 +1,5 @@
 ---
 aliases: [伴随矩阵]
-tags: []
 date created: Feb 28th, 2022
 date modified: Aug 19th, 2022
 ---

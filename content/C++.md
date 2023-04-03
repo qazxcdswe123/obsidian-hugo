@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [Programming/C, ] 
 date created: Jul 13th, 2022
 date modified: Nov 16th, 2022
 ---

@@ -1,6 +1,5 @@
 ---
 aliases: [Archlinux]
-tags: [] 
 date created: Jul 11th, 2022
 date modified: Jan 7th, 2023
 ---

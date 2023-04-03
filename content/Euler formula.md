@@ -1,6 +1,5 @@
 ---
 aliases: [指数函数与欧拉公式]
-tags: [Math/Calculus] 
 date created: Jul 15th, 2022
 date modified: Dec 3rd, 2022
 ---

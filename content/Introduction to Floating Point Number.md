@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [Programming/Misc, CSAPP] 
 date created: Jul 24th, 2022
 date modified: Jul 28th, 2022
 ---

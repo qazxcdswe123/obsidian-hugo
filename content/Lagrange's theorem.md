@@ -1,6 +1,5 @@
 ---
 aliases: [拉格朗日定理]
-tags: []
 date created: Nov 6th, 2022
 date modified: Nov 6th, 2022
 ---

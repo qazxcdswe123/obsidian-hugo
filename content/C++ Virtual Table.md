@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: []
 fileType: HypothesisAnnotations
 creationDate: 2022-08-12 
 annotationDate: 2022-08-12

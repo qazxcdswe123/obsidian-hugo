@@ -1,6 +1,5 @@
 ---
 aliases: [Neovim, nvim]
-tags: [] 
 date created: Jul 11th, 2022
 date modified: Feb 19th, 2023
 ---

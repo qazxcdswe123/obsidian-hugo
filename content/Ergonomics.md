@@ -1,6 +1,5 @@
 ---
 aliases: []
-tags: [] 
 fileType: HypothesisAnnotations
 uri: https://www.instapaper.com/read/1528762483
 date created: Aug 12th, 2022

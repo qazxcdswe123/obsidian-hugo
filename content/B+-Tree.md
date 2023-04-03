@@ -1,6 +1,5 @@
 ---
 aliases: [B Plus Tree]
-tags: []
 date created: Feb 22nd, 2023
 date modified: Mar 19th, 2023
 ---

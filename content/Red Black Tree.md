@@ -1,6 +1,5 @@
 ---
 aliases: [红黑树, red-black tree]
-tags: [] 
 date created: Aug 5th, 2022
 date modified: Feb 2nd, 2023
 ---

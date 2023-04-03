@@ -1,6 +1,5 @@
 ---
 aliases: [DP, 动态规划]
-tags: [] 
 date created: Aug 15th, 2022
 date modified: Aug 15th, 2022
 ---
