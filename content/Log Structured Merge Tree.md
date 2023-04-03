@@ -1,7 +1,7 @@
 ---
 aliases: [LSM Tree]
 date created: Apr 2nd, 2023
-date modified: Apr 2nd, 2023
+date modified: Apr 3rd, 2023
 ---
 
 LSM trees are persisted to disk using a Sorted Strings Table (SSTable) format. It is a format for storing key-value pairs in which the keys are in sorted order.  
@@ -17,7 +17,7 @@ The data writes get stored in a [[Red Black Tree]] until the [[tree]] reaches a 
 ![image.png](https://img.ynchen.me/2023/04/e03f1b4e30365f5bd0266c8cfc310654.webp)
 
 ## Reading Data
-First check the in [[memory]] [[data structure]], then search the sorted tables on disk.
+First check the in [[memory]] [[data structure]], then search the sorted tables on disk.  
 We can use sparse index and [[Bloom Filter]] to optimize read performance on disk.
 
 ### Sparse Index
@@ -29,10 +29,9 @@ Compaction is the process of merging multiple sorted tables into a new, larger s
 ![image.png](https://img.ynchen.me/2023/04/90c8541c95d13c3ad396d6063da735e8.webp)
 
 ## Deleting Data
-In an LSM tree, data is not deleted in place from the log, as doing so would require random `I/O`s and add overhead to the system.
-Deletes actually follow the exact same path as writing data. Whenever a delete request is received, a unique marker called a _tombstone_ is written for that key. Eventually, tombstones will get compacted away so that the value no longer exists on disk.
+In an LSM tree, data is not deleted in place from the log, as doing so would require random `I/O`s and add overhead to the system.  
+Deletes actually follow the exact same path as writing data. Whenever a delete request is received, a unique marker called a _tombstone_ is written for that key. Eventually, tombstones will get compacted away so that the value no longer exists on disk.  
 ![image.png](https://img.ynchen.me/2023/04/1b4592aa5154f66ea0d5a8f5287ca89c.webp)
-
 
 ## Links
 - [Sparse Indexes — MongoDB Manual](https://www.mongodb.com/docs/manual/core/index-sparse/)
