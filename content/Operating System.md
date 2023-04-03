@@ -2,7 +2,7 @@
 aliases: [OS]
 tags: [] 
 date created: Jul 28th, 2022
-date modified: Mar 20th, 2023
+date modified: Apr 2nd, 2023
 ---
 
 ## Term
@@ -18,16 +18,11 @@ The kernel is the portion of the operating system code that is always resident i
 Note that the kernel is not a separate [[process]]. Instead, it is a collection of code and data structures that the system uses to manage all the processes.
 
 ## Scheduler
-
-### Shortest Job First
-
-### Shortest Time-to-Completion First
-
-### Multi-Level Feedback Queue
-
-### Proportional-share Scheduling
-
-### Completely Fair Scheduler
+- Shortest Job First
+- Shortest Time-to-Completion First
+- Multi-Level Feedback Queue
+- Proportional-share Scheduling
+- Completely Fair Scheduler
 
 ## Goal of OS
 - run multiple applications
@@ -41,3 +36,4 @@ Note that the kernel is not a separate [[process]]. Instead, it is a collection 
 - [[Memory]]
 - [[Hardware]]
 - [[Protection Ring]]
+- [[Linux]]

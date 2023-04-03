@@ -41,8 +41,8 @@ git clone \
   --depth 1  \
   --filter=blob:none  \
   --sparse \
-  https://github.com/cirosantilli/test-git-partial-clone \
-;
+  https://github.com/cirosantilli/test-git-partial-clone
+  
 cd test-git-partial-clone
 git sparse-checkout set path/to/dir
 ```

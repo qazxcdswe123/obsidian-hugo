@@ -2,4 +2,5 @@
 - [[Bitmap]]
 - [[Heap Data Structure]]
 - [[Stack Data Structure]]
+- [[Tree]]
 - [[CRDT]]

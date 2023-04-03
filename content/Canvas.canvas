@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"ca2c55caa043f067","x":-218,"y":-231,"width":250,"height":60,"type":"text","text":""},
-		{"id":"7457320fc14e4b11","x":-293,"y":-77,"width":400,"height":400,"type":"file","file":"Notes/JavaScript.md"}
-	],
-	"edges":[]
-}

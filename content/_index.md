@@ -20,7 +20,7 @@ A Blog Directly Generated From Obsidian
 - 2022-07-28: [[编程语言随想]]
 - 2022-07-24: [[Introduction to Floating Point Number]]
 
-## Linux Related
+## [[Linux]] Related
 - 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
 - 2022-01-05: [[GDB Crash Course]]
@@ -62,7 +62,7 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[CSAPP]]
 - [[Docker]]
 - [[Git]]
-- [[MacOS]]
+- [[Mac]]
 - [[Manjaro]]
 - [[Linux]]
 - [[Testing]]

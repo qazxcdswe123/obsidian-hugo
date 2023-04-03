@@ -2,29 +2,30 @@
 aliases: []
 tags: []
 date created: Jul 15th, 2022
-date modified: Mar 29th, 2023
+date modified: Apr 2nd, 2023
 ---
 - [[Manjaro]] 
-- [[Command Line]] 
-- [[Linux Command Modern Alternative]]
-- [[Linux User]]
-- [[Firewall]]
-- [[01-Linux and Command Line]]
-- [[symbolic link]]
-- [[rsync]]
-- [[inode]]
-- [[File System Permission]]
-- [[Linux Permission]]
-- [[ebpf]]
-- [[ABI]]
-- [[Linux File]]
-- [[Operating System|OS]]
-- [[Kernel]]
 - [[PVE]]
 
-## Configurations
-- [[Linux Networking]]
+___
+
+- [[Linux Command Modern Alternative]]
+- [[Linux User]]
+- [[Linux Network]]
+- [[Linux Kernel]]
+- [[Linux Permission]]
+- [[Linux File]]
 - [[Linux Storage]]
+- [[Protection Ring]]
+- [[rsync]]
+- [[inode]]
+- [[ebpf]]
+- [[ABI]]
+- [[Operating System|OS]]
+
+___
+
+- [[01-Linux and Command Line]]
 
 ## Mirrors
 
@@ -33,8 +34,9 @@ date modified: Mar 29th, 2023
 sudo sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list
 ```
 
-## Debian
+### Debian
 ```
 sudo sed -i 's/ftp.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 apt purge package
 ```

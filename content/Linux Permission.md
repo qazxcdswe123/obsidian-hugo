@@ -36,3 +36,4 @@ usermod -aG sudo username
 ## Links
 - [[Linux User]]  
 - [chown(1): change file owner/group - Linux man page](https://linux.die.net/man/1/chown)
+- [[Protection Ring]]

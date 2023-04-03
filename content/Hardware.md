@@ -1,3 +1,10 @@
+---
+aliases: []
+tags: []
+date created: Feb 17th, 2023
+date modified: Apr 2nd, 2023
+---
+
 # PCIE
 - [PCI Express - Wikipedia](https://en.wikipedia.org/wiki/PCI_Express)
 - **Peripheral Component Interconnect Express**

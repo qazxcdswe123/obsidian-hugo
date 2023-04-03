@@ -7,7 +7,6 @@ date modified: Nov 24th, 2022
 - [[systemd]]
 - [[Docker Volume]]  
 - [[Docker Command]]
-- [[Docker Compose]]
 - [[DockerFile]]
 - [[Kubernetes]]
 
@@ -37,9 +36,11 @@ logout to take effect.
 ## Mirror
 ```
 # /etc/docker/daemon.json
+cat << EOF > /etc/docker/daemon.json
 {
 	"registry-mirrors": ["https://b9b9x0p9.mirror.aliyuncs.com"]
 }
+EOF
 ```
 
 ## Links

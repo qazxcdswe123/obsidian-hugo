@@ -8,7 +8,6 @@ date modified: Dec 14th, 2022
 
 ## `Result` Enum
 ```rust
-#![allow(unused)]
 fn main() {
 enum Result<T, E> {
 	    Ok(T),
@@ -74,6 +73,9 @@ match maybe_name {
 // ... so it's available here!
 println!("Hello again, {}", maybe_name.unwrap_or("world".into()));
 ```
+
+- `Some()`
+- `None`
 
 ## [`&` vs `ref`](https://doc.rust-lang.org/std/keyword.ref.html#-vs-ref)
 - `&` denotes that your pattern expects a reference to an object. Hence `&` is a part of said pattern: `&Foo` matches different objects than `Foo` does.

@@ -37,7 +37,8 @@ date modified: Nov 17th, 2022
 	- syntax-highlight (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
 	- Obsidian (note taking)
-	- [[iterm2]] (terminal alternative)
+	- [[iterm2]] (terminal.app alternative)
+	 - [[Warp]]
 	- unnaturalscrollwheels
 	- google-chrome
 	- visual-studio-code (ide)
@@ -117,6 +118,9 @@ ServerAliveCountMax 999
 - Disable spotlight
 `sudo mdutil -i off`
 
+- Show SSD SMART info
+`sudo smartctl --all /dev/disk0`
+
 ## System Preference
 - Automatically Hide Menu-bar and Dock
 	- Smaller Size
@@ -128,8 +132,8 @@ ServerAliveCountMax 999
 - Uncheck `play sound on startup` && `play UI sound effect`
 
 ## Shortcut
-- `Option+Command+V`: Move
-- `Shift+F6`: DND
+- `Option+Command+V`: Move file
+- `Shift+F6`: Toggle DND
 - `Shift+CMD+5`: screenShot
 - `CMD+,`: Open Preference
 - `Command + Shift + Z`: look up word

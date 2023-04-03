@@ -45,7 +45,7 @@ Require extension: [GitHub - vscode-neovim/vscode-neovim: Vim-mode for VS Code u
 
 # VSCode Native
 - Disable Minmap by right click scroll bar.
-- `Shift+Command+D` to search current selection in [[MacOS|Dash]]
+- `Shift+Command+D` to search current selection in [[Mac|Dash]]
 - `Control+Shift+H` to open current language documentation
 - `Option+H` to search for a custom string
 

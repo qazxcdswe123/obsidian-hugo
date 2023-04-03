@@ -7,4 +7,5 @@ An Interrupt that can be disabled or ignored by the instructions of CPU are call
 An interrupt that cannot be disabled or ignored by the instructions of CPU are called as Non-Maskable Interrupt.A Non-maskable interrupt is often used when response time is critical or when an interrupt should never be disable during normal system operation. Such uses include reporting non-recoverable hardware errors, system debugging and profiling and handling of species cases like system resets.
 
 ## Links
-[Difference between Maskable and Non Maskable Interrupt - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-maskable-and-non-maskable-interrupt/?utm_source=pocket_saves)
+- [Difference between Maskable and Non Maskable Interrupt - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-maskable-and-non-maskable-interrupt/?utm_source=pocket_saves)
+- [[Page Fault]]

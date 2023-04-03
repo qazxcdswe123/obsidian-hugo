@@ -11,7 +11,7 @@ date modified: Feb 26th, 2023
 - [[Latency]]
 - [[HTTP]]
 - [[VLAN]]
-- [[Nat]]
+- [[Linux Network]]
 - [[Gateway]]
 - [[Netmask]]
 

@@ -28,4 +28,6 @@ The following metadata exists in an inode:
 ## Check the Inode Number in a Specific File
 The command `stat` displays the file statistics, including the unique inode number:
 
-[[File System]]
+## Links
+- [[File System]]
+- [[Linux File]]

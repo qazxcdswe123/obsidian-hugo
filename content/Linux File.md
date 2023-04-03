@@ -1,5 +1,4 @@
 - [[File System]]
-- [[File System Permission]]
 
 ## Special Files
 - Block file(b) 
