@@ -81,3 +81,5 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Java]]
 - [[CSS]]
 - [[HTML]]
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,ts,react,rust,c,cpp,go,python,lua,java,docker,neovim,git)](https://skillicons.dev)

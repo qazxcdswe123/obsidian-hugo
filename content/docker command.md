@@ -19,6 +19,7 @@ docker run -d --rm \
 - `-d` flag to run the container in detached mode. 
 - `--name` specify a name to the container
 - `--rm` to automatically delete it when it exits  
+- `-p 8080:80`: Map TCP port `80` in the container to port `8080` on the Docker host.
 
 ### Multi Stage Build
 - [Multi-stage builds | Docker Documentation](https://docs.docker.com/build/building/multi-stage/)

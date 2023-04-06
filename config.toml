@@ -1,6 +1,5 @@
 baseURL = "https://blog.ynchen.me/"
 languageCode = "en-us"
-googleAnalytics = ""
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
