@@ -96,4 +96,4 @@ date modified: Jul 28th, 2022
 ![](https://s2.loli.net/2022/07/10/ma4PwZKXDlbQJB6.png)
 
 - 推荐观看： [Fast Inverse Square Root — A Quake III Algorithm - YouTube](https://www.youtube.com/watch?v=p8u_k2LIZyo)
-- [[Fast reverse square root]]
+- [[Fast inverse square root]]
