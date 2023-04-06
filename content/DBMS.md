@@ -6,7 +6,7 @@ date modified: Feb 18th, 2023
 
 # DBMS
 - [[SQL]] Client
-- Parsing & [[Optimization]]
+- Parsing & [[Query Optimization]]
 - Relational Operators
 	- Purpose: Execute a dataflow by operating on records and files
 - Files and Index Management
@@ -19,7 +19,6 @@ date modified: Feb 18th, 2023
 	- [[B+-Tree]]
  
 - [[External Sort]]
-- [[DBMS]]
 - [[Hashing]]
 - [[SQL JOIN]]
 - [[Query Optimization]]

@@ -3,8 +3,8 @@
 - [[Web request]]
 - [[Web Security]]
 - [[HTML]]
-- [[DOM]]
 - [[XPath]]
+- [[AJAX]]
 
 - [[CSS]]
 

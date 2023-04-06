@@ -4,7 +4,7 @@ date created: Apr 5th, 2022
 date modified: Feb 18th, 2023
 ---
 [CS50](https://cs50.harvard.edu/college/2022/spring/notes/9/)  
-[[Decorator]]
+[[Decorator Pattern]]
 
 # Composition
 - `app.py` will have the Python code for our web server.

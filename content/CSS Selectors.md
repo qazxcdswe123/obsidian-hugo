@@ -1,8 +1,9 @@
 ---
 aliases: []
 date created: Aug 25th, 2022
-date modified: Aug 25th, 2022
+date modified: Apr 5th, 2023
 ---
+
 # CSS Selectors
 [CSS Selectors Reference](https://www.w3schools.com/cssref/css_selectors.asp)  
 [MDN Ref](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -13,6 +14,7 @@ Used in [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Documen
 A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the _subject of the selector_.
 
 Here are some of the more common types of selectors:
+
 ### Element Selector
 `p`
 
@@ -28,11 +30,9 @@ Here are some of the more common types of selectors:
 ### [Pseudo-class Selector](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#pseudo-classes_and_pseudo-elements)
 `a:hover`
 
-
-
 ## Example
-### :first-child Selector
 
+### :first-child Selector
 ```html
 <!DOCTYPE html>
 

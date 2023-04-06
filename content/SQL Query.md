@@ -47,9 +47,7 @@ FROM <single table>
 	  - `INTERSECT`
 	  - `EXCEPT`
 	  - `<ALL>`: All possible value. (Allow Duplicates, Optional)
-- [https://sqlbolt.com/](https://sqlbolt.com/)
-- [[Database]]
-- [[SQL Tricks]]
 - [[SQL View]]
 - [[SQL Common Table Expression]]
 - [[SQL Testing]]
+- [[Query Optimization]]

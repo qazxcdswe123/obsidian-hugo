@@ -15,7 +15,7 @@ date modified: Sep 4th, 2022
 	- [[Python collections]]
 	- [[Python Virtualenv]]
 
-- [[Decorator]]
+- [[Python Decorator]]
 - [[Python OOP]]
 - [[Python Namespace]]
 - [[Python Error and Exceptions]]

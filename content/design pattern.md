@@ -7,4 +7,4 @@ date modified: Aug 17th, 2022
 
 [[Return Early]]
 
-[[Decorator]]
+[[Decorator Pattern]]

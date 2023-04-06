@@ -1,11 +1,12 @@
 ---
 aliases: []
 date created: Sep 16th, 2022
-date modified: Sep 19th, 2022
+date modified: Apr 5th, 2023
 ---
-[[Google Test]]
+- [[Google Test]]
+
 # Catch2
-[GitHub - catchorg/Catch2: A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
+- [GitHub - catchorg/Catch2: A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
 
 ## Tutorial
 Like most test frameworks, Catch2 supports a class-based fixture mechanism, where individual tests are methods on class and setup/teardown can be done in constructor/destructor of the type.
@@ -52,6 +53,7 @@ For each `SECTION` the `TEST_CASE` is executed from the start. This means th
 - `CHECK`: Continue at failure
 
 # Google Test
+
 ## [Test Fixtures: Using the Same Data Configuration for Multiple Tests](https://google.github.io/googletest/primer.html#same-data-multiple-tests)
 To create a fixture:
 1. Derive a class from `::testing::Test` . Start its body with `protected:`, as we’ll want to access fixture members from sub-classes.

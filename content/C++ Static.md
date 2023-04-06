@@ -3,4 +3,4 @@ A static variable/function can be referenced without any instantiation (i.e., no
 Need to be initialized before use.
 
 [[Python]] also have static method for OOP
-[[Decorator]]
+[[Decorator Pattern]]

@@ -4,6 +4,7 @@ date created: Mar 30th, 2023
 date modified: Mar 30th, 2023
 ---
 - [[Optimization]]
+- Query Optimization is all about finding the **query plan** that minimizes the number of I/Os it takes to execute the query. A query plan is just a sequence of operations that will get us the correct result for a query. We use relational algebra to express it.
 
 ## Terms
 - selectivity estimation

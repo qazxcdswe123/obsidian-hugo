@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: May 11th, 2022
-date modified: Sep 18th, 2022
+date modified: Apr 5th, 2023
 ---
 [Src](https://en.cppreference.com/w/cpp/language/override)  
 [Stackoverflow]( https://stackoverflow.com/questions/29412412/does-final-imply-override)

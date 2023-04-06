@@ -1,12 +1,8 @@
 ---
 aliases: []
 date created: Mar 27th, 2023
-date modified: Mar 27th, 2023
+date modified: Apr 6th, 2023
 ---
-
-## CRC
-- [Cyclic redundancy check - Wikipedia](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)  
-- [What Is Cyclic Redundancy Check (CRC), and It’s Role in Checking Error? | Simplilearn](https://www.simplilearn.com/tutorials/networking-tutorial/what-is-cyclic-redundancy-check)
 
 ### Sender Side (CRC Generator and Modulo Division):
 1. The first step is to add the no. of zeroes to the data to be sent, calculated using k-1 (k - is the bits obtained through the polynomial equation.)
@@ -23,3 +19,47 @@ To check the error, perform the Modulo division again and check whether the rema
 2. If the remainder is not 0, the data received is corrupted during transmission.
 
 ![image.png](https://img.ynchen.me/2023/03/e9eef91de8e0001e4a1f68abd9e01f21.webp)
+
+## CRC32
+- CRC33?
+	- Technically, the CRC 32-bit constant `0x04C11DB7` is _really_ a 33-bit constant `0x104C11DB7` which is classified as an IEEE-802 CRC. See [RFC 3385](https://tools.ietf.org/html/rfc3385)  
+- When we XOR the data byte into the current CRC value do we start at the top or bottom bits?
+- Which direction do we shift the CRC bits?
+- How do we convert this formula into a table where we handle all 8-bits at once?
+
+- `Reflected` = Shift Right
+- The data bytes are fed into the **bottom** 8 bits of the CRC value
+- We test the _bottom-bit_ of the CRC value
+- We invert the final CRC value
+
+```c
+uint32_t crc32_formula_reflect( size_t len, const void *data, const uint32_t POLY = 0xEDB88320 )
+{
+	const unsigned char *buffer = (const unsigned char*) data;
+	uint32_t crc = -1;
+
+	while( len-- )
+	{
+		crc = crc ^ *buffer++;
+		for( int bit = 0; bit < 8; bit++ )
+		{
+			if( crc & 1 ) crc = (crc >> 1) ^ POLY;
+			else          crc = (crc >> 1);
+		}
+	}
+	return ~crc;
+}
+```
+
+| Form      | Polynomial | CRC32 checksum |
+| --------- | ---------- | -------------- |
+| Normal    | 0x04C11DB7 | 0xCBF43926     |
+| Reflected | 0xEDB88320 | 0xCBF43926     |
+
+1. 初始化 CRC 值 `0`，反转变 `-1`
+2. 遍历我们要计算的每个字节，逐位 XOR CRC 值
+3. bits 反转
+
+## Link
+- [Cyclic redundancy check - Wikipedia](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)  
+- [What Is Cyclic Redundancy Check (CRC), and It’s Role in Checking Error? | Simplilearn](https://www.simplilearn.com/tutorials/networking-tutorial/what-is-cyclic-redundancy-check)

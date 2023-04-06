@@ -23,6 +23,7 @@ Good practices for unit testing include:
 - [[JavaScript JEST]]
 - [[Python Testing]]
 - [[Go Testing]]
+- [[Junit]]
 
 ## Practices
 - [[BDD]]  
