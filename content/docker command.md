@@ -23,3 +23,4 @@ docker run -d --rm \
 
 ### Multi Stage Build
 - [Multi-stage builds | Docker Documentation](https://docs.docker.com/build/building/multi-stage/)
+- Can be used to decrease the size of image since only optimized build is contained in image while dependencies are burnt.

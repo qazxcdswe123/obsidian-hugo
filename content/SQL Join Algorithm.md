@@ -28,10 +28,12 @@ We have $B$ buffer pages to spare, give $B-2$ pages to $R$ and match $S$ against
 ![B=4](https://img.ynchen.me/2023/03/075f638f1fe558ca40d928612b34dcbc.gif)
 
 # Hash Join
+- Key Skew: many of the records have the same key. Cause some bucket much larger than others, leading to performance issues in join algorithms that rely on hash tables.
 
 ## Grace Hash Join
-Grace hash join is a type of hash join [[algorithm]] used in database systems to join two large tables that cannot fit in [[memory]].  
-Repeatedly hash $R$ and $S$ into $B-1$ buffers so that we can get partitions that are $\leq B - 2$ pages big.
+- Idea: partitioning the input relations into smaller subsets, hashing each subset, and then joining the hashed partitions.
+- Procedures: Repeatedly hash $R$ and $S$ into $B-1$ buffers so that we can get partitions that are $\leq B - 2$ pages big.
+- Notes: sensitive to key skew.
 
 # [[Sorting Algorithm|Sort]] Merge Join
 - [[IO]] Count: Cost to [[Sorting Algorithm|sort]] $R$ and $S$ $+ ([R] + [S])$

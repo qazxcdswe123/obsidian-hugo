@@ -1,9 +1,10 @@
 ---
 aliases: []
 date created: Oct 9th, 2022
-date modified: Jan 11th, 2023
+date modified: Apr 8th, 2023
 ---
 - [What is a "cache-friendly" code? - Stack Overflow](https://stackoverflow.com/questions/16699247/what-is-a-cache-friendly-code)
+
 ## Overview
 We have `t`, `s` and `b`
 - A cache is a set of `2^s` cache sets
@@ -11,7 +12,7 @@ We have `t`, `s` and `b`
 	- `E` is called associativity
 	- If `E=1`, it is called “direct-mapped"
 - Each cache line stores a block
-- We need to add tags to the cache, which supply the rest of the address bits to let us distinguish between different memory locations that map to the same cache block.
+- We need to add tags to the cache, which supply the rest of the address bits to let us distinguish between different [[memory]] locations that map to the same cache block.
 
 ## Efficiency
 - Cache hit: $h = N_{c} / (N_{c} + N_{m})$
@@ -54,4 +55,4 @@ Single cache line pre set (n x 1 column matrix)
 
 ## Set-Associative
 - The cache is divided into groups of blocks, called sets.
-- Each memory address maps to exactly one set in the cache, but data may be placed in any block within that set.
+- Each [[memory]] address maps to exactly one set in the cache, but data may be placed in any block within that set.

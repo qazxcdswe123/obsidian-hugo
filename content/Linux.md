@@ -13,12 +13,11 @@ ___
 - [[Linux Network]]
 - [[Linux Kernel]]
 - [[Linux Permission]]
-- [[Linux File]]
 - [[Linux Storage]]
 - [[Protection Ring]]
 - [[rsync]]
 - [[inode]]
-- [[ebpf]]
+- [[eBPF]]
 - [[ABI]]
 - [[Operating System|OS]]
 

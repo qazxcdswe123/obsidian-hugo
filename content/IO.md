@@ -8,8 +8,8 @@ date modified: Apr 4th, 2023
 
 ### Measuring
 - iostat, sar, node exporter or anything else that takes figures from /proc come from level 5.
-- bcc ([[ebpf]]) tools biosnoop, biolatency, biotop comes from level 5.
-- bcc ([[ebpf]]) tools xfsdist and xfsslower come from from level 3.
+- bcc ([[eBPF]]) tools biosnoop, biolatency, biotop comes from level 5.
+- bcc ([[eBPF]]) tools xfsdist and xfsslower come from from level 3.
 - perf trace, strace come from level 3.
 - application figures come from level 1.
 

@@ -15,3 +15,4 @@ Can be used in perf/latency measurement.
 | 5 | Kernelspace | Architecture Dependent Code, device drivers                           |
 | - | ---         | ---                                                                   |
 | 6 | Hardware    | Physical devices                                                      |
+
