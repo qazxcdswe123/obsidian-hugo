@@ -8,8 +8,6 @@ date modified: Oct 23rd, 2022
 - [[Assembly Code]]
 - [[CPU Instruction]]
 - [[Cache]]
-- [[Storage]]
-- [[Endian]]
 - [[Virtual Memory]]
 
 - [Amdahl's law - Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)

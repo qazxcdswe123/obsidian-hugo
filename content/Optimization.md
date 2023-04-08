@@ -1,11 +1,11 @@
 ---
 aliases: [Pipeline]
 date created: Jul 31st, 2022
-date modified: Mar 24th, 2023
+date modified: Apr 8th, 2023
 ---
 - [[False Sharing]]
 
-# Life in the Real World: Performance Improvement Techniques
+## Performance Improvement Techniques
 - High-level design  
 High-level design, Choose appropriate algorithms and data structures for the problem at hand. Be especially vigilant to avoid algorithms or coding techniques that yield asymptotically poor performance.
 

@@ -3,4 +3,7 @@
 - [[Heap Data Structure]]
 - [[Stack Data Structure]]
 - [[Tree]]
+	- [[B-Tree]]
+	- [[B+-Tree]]
+	- [[Log Structured Merge Tree|LSM Tree]]
 - [[CRDT]]

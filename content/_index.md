@@ -56,6 +56,7 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 
 ## CS
 - [[Algorithm]]
+- [[Data Structure]]
 - [[Cache]]
 - [[CSAPP]]
 - [[Docker]]
@@ -64,22 +65,26 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Manjaro]]
 - [[Linux]]
 - [[Testing]]
+- [[PVE]]
+- [[DBMS]]
+- [[Operating System]]
+- [[Optimization]]
 
-## Languages
+### Languages
 - [[Learn C in 1 Hour]]
 - [[C++]]
 - [[Python]]
 - [[Golang]]
-- [[JavaScript]]
-	- [[TypeScript]]
-	- [[ReactJS]]
 - [[Rust]]
 - [[CMake]]
 - [[Makefile]]
 - [[Lua]]
 - [[Java]]
-- [[CSS]]
-- [[HTML]]
+- [[Frontend]]
+	- [[JavaScript]]
+	- [[TypeScript]]
+	- [[ReactJS]]
+	- [[CSS]]
 
 [![Language](https://skillicons.dev/icons?i=js,html,css,ts,react,rust,c,cpp,go,python,lua,java,bash)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=docker,ansible,cloudflare,git,github,linux)](https://skillicons.dev)

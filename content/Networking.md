@@ -7,7 +7,6 @@ date modified: Apr 4th, 2023
 - [[ARP]]
 - [[Packet]]
 - [[Networking Error]]
-- [[Latency]]
 - [[HTTP]]
 - [[VLAN]]
 - [[Linux Network]]
