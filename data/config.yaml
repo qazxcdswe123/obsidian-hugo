@@ -10,10 +10,13 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: false
-GitHubLink: https://github.com/qazxcdswe123/obsidian-hugo/tree/hugo/content
+GitHubLink: https://github.com/qazxcdswe123/obsidian-hugo
+search:
+  enableSemanticSearch: false
+  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Notes of Obsidian
 page_title:
   "Fish Touching🐟🎣"
 links:
