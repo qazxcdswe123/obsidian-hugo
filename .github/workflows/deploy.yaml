@@ -16,13 +16,6 @@ jobs:
       - name: Parse
         run: mv parse.sh content; cd content; bash parse.sh
 
-      - name: Purge Cache
-        run: |
-          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE }}/purge_cache" \
-            -H "Authorization: Bearer ${{ secrets.CF_PURGE_TOKEN }}" \
-            -H "Content-Type:application/json" \
-            --data '{"purge_everything":true}'
-      
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.20
         with:
@@ -47,9 +40,9 @@ jobs:
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           apiToken: ${{ secrets.CF_API_TOKEN }}
 
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
-      #     publish_branch: master  # deploying branch
+      - name: Purge Cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE }}/purge_cache" \
+            -H "Authorization: Bearer ${{ secrets.CF_PURGE_TOKEN }}" \
+            -H "Content-Type:application/json" \
+            --data '{"purge_everything":true}'

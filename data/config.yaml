@@ -12,11 +12,11 @@ enableRecentNotes: false
 enableGitHubEdit: false
 GitHubLink: https://github.com/qazxcdswe123/obsidian-hugo
 search:
-  enableSemanticSearch: true
-  operandApiKey: "gk862r4qkxocu2f1uodnueqt2ow6uvod"
-  operandIndexId: "3onjuahjai992vs4"
+  enableSemanticSearch: false
+  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Notes of Obsidian
+  Notes About My Study
 page_title:
   "Fish Touching🐟🎣"
 links:
