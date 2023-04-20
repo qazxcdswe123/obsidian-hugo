@@ -1,20 +1,17 @@
 ---
 aliases: []
 date created: Apr 9th, 2022
-date modified: Dec 24th, 2022
+date modified: Apr 9th, 2023
 ---
-[[IDEA IDE]]
+- [[IDEA IDE]]
 
-# VSCode Neovim
-Require extension: [GitHub - vscode-neovim/vscode-neovim: Vim-mode for VS Code using embedded Neovim](https://github.com/vscode-neovim/vscode-neovim)
-## [[Vim|Neovim]] Keymap
-- `C-w s` Split editor horizontally.
-- `C-w v` Split editor vertically.
-- `C-w =` Align all editors to have the same width.
-- `gl` goto link
-- `[f` goto search
-- `<<` indent
-- `>>` outdent
+# VSCode Native
+- Disable minmap by right click scroll bar.
+- `Shift+Command+D` to search current selection in [[Mac|Dash]]
+- `Control+Shift+H` to open current language documentation
+- `Option+H` to search for a custom string
+- `CMD+KL` to toggle fold
+- `CMD+B` to toggle sidebar visibility
 
 ## VSCode Settings
 ```json
@@ -42,11 +39,10 @@ Require extension: [GitHub - vscode-neovim/vscode-neovim: Vim-mode for VS Code u
 ]
 ```
 
-# VSCode Native
-- Disable Minmap by right click scroll bar.
-- `Shift+Command+D` to search current selection in [[Mac|Dash]]
-- `Control+Shift+H` to open current language documentation
-- `Option+H` to search for a custom string
+# Extensions
+
+## Dev Container
+- [Get started with development Containers in Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/tutorial)
 
 # Language Specific
 

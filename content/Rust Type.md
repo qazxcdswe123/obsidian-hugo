@@ -28,6 +28,11 @@ date modified: Apr 4th, 2023
 	- [Impl trait](https://doc.rust-lang.org/reference/types/impl-trait.html)
 - [[Rust String]]
 - `usize`: sizeof pointer
+- Owned Types
+	- variables that contain the actual values they represent
+	- move types
+- Borrowed Types
+	- addresses of the values they represent
 
 ## Links
 [Types - The Rust Reference](https://doc.rust-lang.org/reference/types.html)

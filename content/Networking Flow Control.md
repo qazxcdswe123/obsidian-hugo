@@ -17,6 +17,7 @@ date modified: Feb 26th, 2023
 - Have trouble when `ACK Delay`, need to use 1-bit counter to detect duplicates
 
 ## Sliding Window [[Algorithm]]
+- [TCP flow control and the sliding window - IBM Documentation](https://www.ibm.com/docs/en/spectrum-protect/8.1.8?topic=tuning-tcp-flow-control)
 - Used in [[TCP]]
 - Maintain 3 variables
 	- Send window size (SWS)
@@ -25,3 +26,5 @@ date modified: Feb 26th, 2023
  - Invariant: (LSS -LAR) $\leq$ SWS
  - Receive Window Size(RWS) $\leq$ SWS
 	 - If RWS = 1, 
+
+[[CDMA]]

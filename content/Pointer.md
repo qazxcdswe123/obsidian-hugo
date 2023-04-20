@@ -85,7 +85,7 @@ URL: [How do function pointers in C work? - Stack Overflow](https://stackoverflo
 - Use Case
 
 ```c
-int (*functionPtr)(int,int);
+int (*functionPtr)(int, int);
 functionPtr = &addInt;
 
 int add2to3(int (*functionPtr)(int, int)) {

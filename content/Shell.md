@@ -23,7 +23,8 @@ date modified: Apr 1st, 2023
 ## Scripting
 - To assign a variable, use = **without** space
 - To use a variable, simply add $ before it
-- **`set -x`** Show what's executed
+- `set -x` Show what's executed
+- `set -e` If the return code of one command is not 0 and the caller does not check it, the shell script will exit. This feature make shell script robust.
 
 - `$0` - Name of the script
 - `$1` to `$9` - Arguments to the script. `$1` is the first argument and so on.
@@ -40,4 +41,3 @@ date modified: Apr 1st, 2023
 - [[SSH]]
 - [[IO]]
 - [[iTerm2]]
-- [[Warp]]

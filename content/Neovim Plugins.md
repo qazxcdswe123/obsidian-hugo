@@ -16,6 +16,9 @@ Use [Bob](https://github.com/MordechaiHadad/bob) as a neovim version manager.
 	- `dsf`
 	- `csfnew_name`
 
+## CMP
+[GitHub - hrsh7th/nvim-cmp: A completion plugin for neovim coded in Lua.](https://github.com/hrsh7th/nvim-cmp)
+
 ## LSP
 [GitHub - VonHeikemen/lsp-zero.nvim: A starting point to setup some lsp related features in neovim.](https://github.com/VonHeikemen/lsp-zero.nvim)
 
@@ -30,5 +33,10 @@ Use [Bob](https://github.com/MordechaiHadad/bob) as a neovim version manager.
 [GitHub - nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
 
 ## Which key
+
+## Utils
+- [GitHub - monaqa/dial.nvim: enhanced increment/decrement plugin for Neovim.](https://github.com/monaqa/dial.nvim)
+- [GitHub - nacro90/numb.nvim: Peek lines just when you intend](https://github.com/nacro90/numb.nvim)
+___
 
 ![image.png](https://img.ynchen.me/2022/12/d718dfc9f19b09bddeea4fea02033e7f.webp)

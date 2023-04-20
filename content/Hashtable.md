@@ -6,7 +6,7 @@ date modified: Jan 17th, 2023
 
 ## What
 - Associate array or dictionary
-- `std::unordered_map()` in [[C++ STL]]
+- `std::unordered_map` in [[C++ STL]]
 - Good for looking up
 
 ## Implementation
@@ -22,10 +22,10 @@ The number of keys in bucket.
 ### Collision Resolution
 Use **Separate Chaining** or [[Open Addressing]] to deal with it.
 
-## Why Use a Prime Number as a Mod in a Hashing Function
+## Why Use a [[Prime]] Number as a Mod in a [[Hashing]] Function
+We can not control the output of the hash function, so if it is a biased hash function that are likely to return multiple of `n`, and after we mod `n` it all goes to the same bucket which is not good.
 - [language agnostic - Why should hash functions use a prime number modulus? - Stack Overflow](https://stackoverflow.com/questions/1145217/why-should-hash-functions-use-a-prime-number-modulus)
 - [data structures - Why is it best to use a prime number as a mod in a hashing function? - Computer Science Stack Exchange](https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-prime-number-as-a-mod-in-a-hashing-function/64191)
-We can not control the output of the hash function, so if it is a biased hash function that are likely to return multiple of `n`, and after we mod `n` it all goes to the same bucket which is not good.
 
 ## Links
 - [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)  

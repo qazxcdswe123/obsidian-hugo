@@ -18,7 +18,7 @@ This is the LEGB rule as it’s commonly called in Python literature (although t
 - Global  
 Access var defined outside function
 - Nonlocal  
-Access var defined in closure function
+Access var defined in [[closure]] function
 
 ## Example
 

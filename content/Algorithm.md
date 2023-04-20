@@ -7,7 +7,6 @@ date modified: Aug 15th, 2022
 - [[DFS]]
 - [[Amortized analysis]]
 - [[Dynamic Programming]]
-- [[Complexity]]
 - [[Huffman Tree]]
 - [[Compression]]
 - [[KMP Algorithm]]
@@ -15,6 +14,7 @@ date modified: Aug 15th, 2022
 - [[Randomized Algorithm]]
 - [[Polling]]
 - [[String Algorithm]]
+- [[Raft]]
 
 ___
 

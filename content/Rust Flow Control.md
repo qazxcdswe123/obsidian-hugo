@@ -5,6 +5,13 @@ date modified: Dec 14th, 2022
 ---
 
 ## Match
+```rust
+match VALUE {
+    PATTERN => EXPRESSION,
+    PATTERN => EXPRESSION,
+    PATTERN => EXPRESSION,
+}
+```
 
 ## If Let
 ```rust

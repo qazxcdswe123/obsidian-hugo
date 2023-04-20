@@ -1,5 +1,4 @@
-We must annotate lifetimes when the lifetimes of references could be related in a few different ways. Rust requires us to annotate the relationships using generic lifetime parameters to ensure the actual references used at runtime will definitely be valid.
-*Lifetimes* ensure that references are valid as long as we need them to be. Every reference in Rust has a _lifetime_, which is the scope for which that reference is valid.
+Lifetime annotations don’t change how long any of the references live. Rather, they describe the relationships of the lifetimes of multiple references to each other without affecting the lifetimes.
 
 ```rust
 fn main() {
@@ -31,6 +30,25 @@ fn main() {
     println!("{} by {}", book.title, book.author);
 }
 ```
+
+## Struct Lifetime
+```rust
+struct ImportantExcerpt<'a> {
+    part: &'a str,
+}
+
+fn main() {
+    let novel = String::from("Call me Ishmael. Some years ago...");
+    let first_sentence = novel.split('.').next().expect("Could not find a '.'");
+    let i = ImportantExcerpt {
+        part: first_sentence,
+    };
+}
+```
+This annotation means an instance of `ImportantExcerpt` can’t outlive the reference it holds in its `part` field.
+
+## `static` Lifetime
+
 
 ## Links
 - [Validating References with Lifetimes - The Rust Programming Language](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)

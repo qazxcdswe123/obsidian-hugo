@@ -4,6 +4,7 @@ date created: Jul 8th, 2022
 date modified: Sep 30th, 2022
 ---
 - [[Merge Sort]]
+- [[Radix Sort]]
 - [[Counting sort]]
 - [[Insertion sort]]
 - [[Quicksort]]

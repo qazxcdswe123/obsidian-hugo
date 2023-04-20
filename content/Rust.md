@@ -12,4 +12,5 @@
 - [[Rust Iterator]]
 - [[Rust Traits]]
 - [[Rust Thread]]
+- [[Rust Closure]]
 - [[Rust OOP]]

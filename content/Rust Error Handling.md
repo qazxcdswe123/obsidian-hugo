@@ -1,17 +1,17 @@
 ---
 aliases: []
 date created: Nov 12th, 2022
-date modified: Dec 14th, 2022
+date modified: Apr 11th, 2023
 ---
-[[Rust Type]]
+- [[Rust Type]]
 
 ## `Result` Enum
+Recoverable errors with `Result`
+
 ```rust
-fn main() {
 enum Result<T, E> {
-	    Ok(T),
-	    Err(E),
-	}
+	Ok(T),
+	Err(E),
 }
 
 pub fn generate_nametag_text(name: String) -> Result<String, String> {
@@ -32,21 +32,20 @@ pub fn generate_nametag_text(name: String) -> Result<String, String> {
 
 ### `?` Operator
 ```rust
-use std::fs::File;
-use std::io;
-use std::io::Read;
-
-fn read_username_from_file() -> Result<String, io::Error> {
-    let mut username = String::new();
-    File::open("hello.txt")?.read_to_string(&mut username)?;
-    Ok(username)
+fn try_to_parse() -> Result<i32, ParseIntError> {
+    let x: i32 = "123".parse()?; // x = 123
+    let y: i32 = "24a".parse()?; // returns an Err() immediately
+    Ok(x + y)                    // Doesn't run.
 }
+
+let res = try_to_parse();
+println!("{:?}", res);
 ```
 
-The `?` operator can only be used in functions whose return type is compatible with the value the `?` is used on. This is because the `?` operator is defined to perform an early return of a value out of the function, in the same manner as the `match` expression we defined in Listing 9-6. In Listing 9-6, the `match` was using a `Result` value, and the early return arm returned an `Err(e)` value. The return type of the function has to be a `Result` so that it’s compatible with this `return`.
+Works with `Option` and `Result`
 
-- **Catch-all error**
-Under the hood, the `?` operator calls `From::from` on the error value to convert it to a boxed trait object, a `Box<dyn error::Error>`. This boxed trait object is polymorphic, and since all errors implement the `error:Error` trait, we can capture lots of different errors in one "Box" object.
+- **Catch-all error**  
+Under the hood, the `?` operator calls `From::from` on the error value to convert it to a boxed [[Rust Traits|trait]] object, a `Box<dyn error::Error>`. This boxed trait object is polymorphic, and since all errors implement the `error:Error` trait, we can capture lots of different errors in one "Box" object.
 
 ## `Option` Enum
 ```rust

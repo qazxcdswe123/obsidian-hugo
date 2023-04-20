@@ -1,5 +1,5 @@
 ---
-aliases: [FS]
+aliases: []
 date created: Jan 1st, 2023
 date modified: Jan 2nd, 2023
 ---

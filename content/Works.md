@@ -1,0 +1,1 @@
+[[Search Obsidian In Google]]

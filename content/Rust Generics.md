@@ -15,7 +15,8 @@ impl<T> Wrapper<T> {
         Wrapper { value }
     }
 }
-
 ```
 
-[[Rust Traits]]
+By declaring `T` as a generic type after `impl`, Rust can identify that the type in the angle brackets in `Point` is a generic type rather than a concrete type.
+
+- [[Rust Traits]]

@@ -4,12 +4,14 @@ date created: Jul 13th, 2022
 date modified: Mar 30th, 2023
 ---
 
+$$o_wo$$
 # Blog
 A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
 - See also [[Markdown Format Testing]]
 
 ## CS Related
+- 2023-04-19: [[Works]]
 - 2023-03-11: [[Fast inverse square root]]
 - 2023-01-17: [[Random Number Within a Given Range]]
 - 2022-12-05: [[我的大学(3)]]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: Mar 25th, 2023
-date modified: Apr 5th, 2023
+date modified: Apr 13th, 2023
 ---
 
 - Notations:
@@ -19,7 +19,7 @@ date modified: Apr 5th, 2023
 - [[IO]] Count: $[R] + [R][S]$
 	- $S$ should be the smaller table to minimize the [[IO]] cost.
 - Read in every single page in $S$ for every single page of $R$  
-- A special case of *block nested loop join* with $B = 3$
+- A special case of *block nested loop join* with $B = 3$  
 ![](https://img.ynchen.me/2023/03/48c72e2d32f3b9e0a280149d29c198b3.gif)
 
 ## Block Nested Loop Join
@@ -35,9 +35,10 @@ We have $B$ buffer pages to spare, give $B-2$ pages to $R$ and match $S$ against
 - Procedures: Repeatedly hash $R$ and $S$ into $B-1$ buffers so that we can get partitions that are $\leq B - 2$ pages big.
 - Notes: sensitive to key skew.
 
-# [[Sorting Algorithm|Sort]] Merge Join
+# Sort Merge Join
 - [[IO]] Count: Cost to [[Sorting Algorithm|sort]] $R$ and $S$ $+ ([R] + [S])$
 - [[External Sort]]
+	- [[Merge Sort]]
 - If first input is smaller than second input, advance
 - advance second input till end
 - advance first input till end  

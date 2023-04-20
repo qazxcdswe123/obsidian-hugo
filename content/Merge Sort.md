@@ -65,3 +65,5 @@ void mergeSort(int *ar, int l, int r)
     }
 }
 ```
+
+[[SQL Join Algorithm]]

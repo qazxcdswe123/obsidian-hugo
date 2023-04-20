@@ -3,7 +3,7 @@ aliases: []
 date created: Sep 28th, 2022
 date modified: Sep 28th, 2022
 ---
-## Function Closure
+## Function [[Closure]]
 
 ```go
 package main

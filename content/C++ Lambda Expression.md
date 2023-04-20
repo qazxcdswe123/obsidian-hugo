@@ -1,6 +1,6 @@
 [[C++]]
 ## C++ Lambda
-In C++11 and later, a lambda expression—often called a lambda—is a convenient way of defining an anonymous function object (a closure) right at the location where it's invoked or passed as an argument to a function.  
+In C++11 and later, a lambda expression—often called a lambda—is a convenient way of defining an anonymous function object (a [[closure]]) right at the location where it's invoked or passed as an argument to a function.  
 
 [MSDN](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170)  
 `[capture](parameters) -> return_type { function_body }`  

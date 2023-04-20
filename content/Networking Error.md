@@ -12,7 +12,7 @@ Each layer has its own error detection: the end-to-end principle
 - [[IP]], [[UDP]], [[TCP]] use one's complement [[checksum]]
 
 ## CRC (Cyclic Redundancy Code)
-- [[Ethernet]] append a CRC
+- [[Ethernet]] append a [[CRC]]
 - Good for detection, catch any 2 bits error, odd number of bit error or any burst $\leq$ `c` bits long.
 
 ## MAC (Message Authentication Code)

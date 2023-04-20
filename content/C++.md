@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cpp]
 date created: Jul 13th, 2022
 date modified: Nov 16th, 2022
 ---
@@ -27,7 +27,7 @@ ___
 - [[C++ error handling]]
 - [[C++ Template]]
 - [[C++ Time]]
-- [[C++ Rules]]
+- [[C++ Rules and Idiom]]
 
 ___
 

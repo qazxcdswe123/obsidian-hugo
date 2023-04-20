@@ -10,6 +10,9 @@ To understand:
 - The conventions used for passing values as arguments to functions and for returning them as results.
 - The conventions for how registers are preserved during function calls —for example, with some registers designated as caller saved, and others as callee saved
 
+## Memory Access
+Used by [[CPU Instruction]] like `move` or `add`  
+![](https://img.ynchen.me/2022/07/98f1002e2a47f479253df114d3870376.png)
 
 ## Details
 - [[register]]
