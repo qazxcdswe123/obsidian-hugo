@@ -3,27 +3,29 @@ aliases: []
 date created: Aug 15th, 2022
 date modified: Aug 15th, 2022
 ---
-## Fd
+## `fd`
 `fd --extension txt`
 `fd -x `
 
-## Fzf
+## `fzf`
 Add `fzf` to [[Shell|zsh]] plugins  
 `M-c` = cd  
 `C-r` = search history(same as before)  
 `C-t` = list current directory 
 
-## Zsh
+## `zsh`
 [[Shell]]
 
-## Bat
+## `bat`
 [[Pager]]
 
-## Ripgrep
+## `ripgrep`
 
-## Zoxide
+## `zoxide`
 [GitHub](https://github.com/ajeetdsouza/zoxide)
 
-## Dust
+## `dust`
 du alternative  
 `du -d 1 -h | sort -h`
+
+## `navi`

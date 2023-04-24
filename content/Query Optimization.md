@@ -1,10 +1,9 @@
 ---
 aliases: []
 date created: Mar 30th, 2023
-date modified: Apr 6th, 2023
+date modified: Apr 20th, 2023
 ---
-- General [[Optimization]]
-- Idea: Query Optimization is all about finding the **query plan** that minimizes the number of I/Os it takes to execute the query. A query plan is just a sequence of operations that will get us the correct result for a query. We use relational algebra to express it.
+- Idea: Query [[Optimization]] is all about finding the **query plan** that minimizes the number of I/Os it takes to execute the query. A query plan is just a sequence of operations that will get us the correct result for a query. We use [[relational algebra]] to express it.
 
 ## Terms
 - Selectivity Estimation
@@ -26,11 +25,16 @@ ___
 - These plans can be fully pipelined, meaning that we can pass the pages up one at a time to the next join operator – we don’t actually have to write the result of a join to disk.
 
 ## First Pass of System R
+(pass i involves finding the best plans for sets of i tables, so pass 1 involves finding the best plans for sets of 1 table).(pass i involves finding the best plans for sets of i tables, so pass 1 involves finding the best plans for sets of 1 table).
 
-- Only one of these joins **produces** a sorted output - sort merge join (SMJ)
+- Only one of these joins **produces** a sorted output - [[Sorting Algorithm|sort]] merge join (SMJ)
 - Both simple nested loop join (SNLJ) and index nested loop join (INLJ) can **preserve** a sorted ordering of the left relation.
 - Grace Hash Join (GHJ), Page Nested Loop Join (PNLJ), and Block Nested Loop Join (BNLJ) **never** produce an interesting ordering.
 - We can’t change the join order, because we are only considering left deep plans, so the base tables must be on the right.
+
+### Volcano model
+![image.png](https://img.ynchen.me/2023/04/6c7b45747aaf6bf1694a040ed1773c10.webp)  
+The operators are layered atop one another, and each operator requests tuples from the input operator(s) as it needs to generate its next output tuple. Note that each operator only fetches tuples from its input operator(s) as needed, rather than all at once! the operators are layered atop one another, and each operator requests tuples from the input operator(s) as it needs to generate its next output tuple. Note that each operator only fetches tuples from its input operator(s) as needed, rather than all at once!
 
 ## Notes
 - [Query Optimization | Database Systems](https://cs186berkeley.net/notes/note10/)

@@ -131,3 +131,12 @@ JavaScript supports a `typeof` operator which can give very basic information 
 - `"function"`
 
 `instanceof` is also a type guard, and TypeScript narrows in branches guarded by `instanceof`s.
+
+### Type Predicate
+```ts
+function isFish(pet: Fish | Bird): pet is Fish {
+	return (pet as Fish).swim !== undefined;
+}
+```
+A predicate takes the form `x is String`, where `x` must be the name of a parameter from the current function signature.
+The return type of the function is annotated as **`x is string`**, which **asserts** that **`x`** is of type **`string`** if the function returns **`true`**.

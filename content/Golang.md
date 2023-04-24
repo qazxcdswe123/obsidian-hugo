@@ -1,3 +1,4 @@
+- [[Go String]]
 - [[Go Struct]]
 - [[Go Command]]
 - [[Go Data and Variable]]

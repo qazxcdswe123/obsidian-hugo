@@ -17,7 +17,7 @@ date modified: Apr 20th, 2023
 - [CIDR Conversion Table | HPE Edgeline Docs](https://techlibrary.hpe.com/docs/otlink-wo/CIDR-Conversion-Table.html)
 - [[Netmask]]
 
-## Class
+## Classed IP
 
 ### Class A
 - Public IP Range: 1.0.0.0 to 127.0.0.0
@@ -63,3 +63,5 @@ date modified: Apr 20th, 2023
 	- At your home, your Internet modem or router likely provides this functionality. In your work place, a _Microsoft Windows Server_, a network firewall, or some other specialized network device likely provides this functionality for the computer at your work environment.
 - Class B Private Range: 172.16.0.0 to 172.31.255.255
 - Class C Private Range: 192.168.0.0 to 192.168.255.255
+
+[Ethernet Numbers](https://www.iana.org/assignments/ethernet-numbers/ethernet-numbers.xhtml)

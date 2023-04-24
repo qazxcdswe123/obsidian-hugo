@@ -38,7 +38,7 @@ By default, sends and receives block until the other side is ready. This allows 
 - Unbuffered channels block the sender until the receiver receives the data, and vice versa.
 - Buffered channels, on the other hand, are non-blocking for the sender as long as there is still room in the buffer.
 
-Un-buffered channels are only writable when there's someone blocking to read from it, which means you shall have some coroutines to work with -- instead of this single one.
+Un-buffered channels are only writable when there's someone blocking to read from it, which means you shall have some [[Coroutine]] to work with -- instead of this single one.
 ### Select
 The `select` statement lets a goroutine wait on multiple communication operations.  
 A `select` blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready.  
