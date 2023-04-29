@@ -7,9 +7,9 @@ date modified: Sep 6th, 2022
 - [Promise - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
 - [How to escape Promise Hell. Unlike Callback Hell, Promise Hell is… | by Ronald Chen | Medium](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513)  
 
-A [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is an [[JavaScript Object]] representing the eventual completion or failure of an asynchronous operation.
+A [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is an [[JavaScript Object]] representing the eventual completion or failure of an [[asynchronous]] operation.
 
-Promises are about making asynchronous code retain most of the lost properties of synchronous code such as flat indentation and one exception channel.
+Promises are about making [[asynchronous]] code retain most of the lost properties of synchronous code such as flat indentation and one exception channel.
 
 A promise is commonly defined as **a proxy for a value that will eventually become available**.  
 ![](https://img.ynchen.me/2022/09/45a744c38cf26022564ee5527535a188.png)
@@ -180,5 +180,5 @@ return getCurrentUser()
 
 ### Promise.allSettled()
 The **`Promise.allSettled()`** method returns a promise that fulfills after all of the given promises have either fulfilled or rejected, with an array of objects that each describes the outcome of each promise.  
-It is typically used when you have multiple asynchronous tasks that are not dependent on one another to complete successfully, or you'd always like to know the result of each promise.  
+It is typically used when you have multiple [[asynchronous]] tasks that are not dependent on one another to complete successfully, or you'd always like to know the result of each promise.  
 In comparison, the Promise returned by [`Promise.all()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) may be more appropriate if the tasks are dependent on each other / if you'd like to immediately reject upon any of them rejecting.

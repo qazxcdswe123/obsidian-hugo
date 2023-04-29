@@ -1,10 +1,19 @@
-[[Python Built-in Functions]]
+---
+aliases: []
+date created: May 16th, 2022
+date modified: Apr 27th, 2023
+---
+
 # parameters
-[Src](https://docs.python.org/3/tutorial/controlflow.html#special-parameters)
+- [Src](https://docs.python.org/3/tutorial/controlflow.html#special-parameters)
+- [1. \*args and \*\*kwargs — Python Tips 0.1 documentation](https://book.pythontips.com/en/latest/args_and_kwargs.html)
+- [[Python argparse]]
 - `\` Positional-Only Parameters
 	- Positional-only parameters are placed before a `/` (forward-slash). The `/` is used to logically separate the positional-only parameters from the rest of the parameters.
 - `*` Keyword-Only Arguments
 	- To mark parameters as _keyword-only_, indicating the parameters must be passed by keyword argument, place an `*` in the arguments list just before the first _keyword-only_ parameter.
+-  `**kwargs`
+	- special syntax used in function definitions to pass a keyworded, variable-length argument list.
 
 ```python
 >>> def pos_only_arg(arg, /):
@@ -30,8 +39,9 @@
 ```
 
 ## Function Annotations
-[Src](https://docs.python.org/3/tutorial/controlflow.html#function-annotations)
+- [docs](https://docs.python.org/3/tutorial/controlflow.html#function-annotations)  
 [Annotations](https://docs.python.org/3/glossary.html#term-function-annotation) are stored in the `__annotations__` attribute of the function as a dictionary and have no effect on any other part of the function. Parameter annotations are defined by a colon after the parameter name, followed by an expression evaluating to the value of the annotation. Return annotations are defined by a literal `->`, followed by an expression, between the parameter list and the colon denoting the end of the [`def`](https://docs.python.org/3/reference/compound_stmts.html#def) statement. The following example has a required argument, an optional argument, and the return value annotated:
+
 ```python
 >>> def f(ham: str, eggs: str = 'eggs') -> str:
 ...     print("Annotations:", f.__annotations__)
@@ -44,7 +54,4 @@ Arguments: spam eggs
 'spam and eggs'
 ```
 
-
-
-### TDD
-[Test-driven development - Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
+[[Python Built-in Functions]]

@@ -9,7 +9,7 @@ date modified: Nov 18th, 2022
 
 Bound to variable but not identifier, no parentheses or `return` keyword
 
-Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous functions.
+Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or [[asynchronous]] functions.
 
 # Example
 

@@ -24,6 +24,7 @@ date modified: Jul 28th, 2022
 - [[JavaScript Tricks]]
 - [[JavaScript Module]]
 - [[JavaScript Mixin]]
+- [[JavaScript Cache]]
 
 # Function
 [[JavaScript Numbers]]  

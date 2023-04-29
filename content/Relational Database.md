@@ -2,6 +2,7 @@
 - A relation's **primary key** uniquely identifies a single tuple.
 - A **foreign key** specifies that an attribute from one relation has to map to a tuple in another relation.
 - A **candidate key** is a minimal [superkey](https://en.wikipedia.org/wiki/Superkey "Superkey").
+- A **super key** is a set of one or more attributes (columns) that can uniquely identify a row in a table
 
 ## Relational Databases
 - In SQL, we choose the types of data that each column will store.
@@ -19,3 +20,6 @@
 - Example
 	- [[Mysql]]
 	- [[Sqlite]]
+
+## Links
+- [[Functional Dependency]]

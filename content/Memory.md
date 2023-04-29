@@ -24,9 +24,10 @@ date modified: Apr 10th, 2023
 Use [[linked list]], when we need to allocate memory we simply move the head to next and use the head, when we free the memory we insert it back to head.
 
 ## Links
-- [科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  
 - [[Stack]]
 - [[Virtual Memory]]
 - [[Memory Timing]]
 - [[Page Table]]
-[Edge AI Just Got Faster](https://justine.lol/mmap/)
+- [[Memory Mapped File]]
+- [Edge AI Just Got Faster](https://justine.lol/mmap/)
+- [科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  

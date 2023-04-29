@@ -10,4 +10,4 @@ In other words, a coroutine is a function that can be paused and resumed at spec
 Coroutines are similar to threads, but they are not the same thing. Threads are managed by the [[operating system]] and can run in parallel on multiple processors, while coroutines are managed by the program and run on a single [[thread]]
 
 ## Links
-- [[Python]]: [Coroutines and Tasks — Python 3.11.3 documentation](https://docs.python.org/3/library/asyncio-task.html#coroutine)
+- [[Python asyncio]]: [Coroutines and Tasks — Python 3.11.3 documentation](https://docs.python.org/3/library/asyncio-task.html#coroutine)

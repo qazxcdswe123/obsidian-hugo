@@ -1,0 +1,3 @@
+An **iterable** object is an object that implements `__iter__`, which is expected to return an **iterator** object.
+An **iterator** object implements `__next__`, which is expected to return the next element of the iterable object that returned it, and to raise a `StopIteration` exception when no more elements are available.
+You can use iterables in for loops, to construct lists with list comprehensions, or as input arguments for the list function.

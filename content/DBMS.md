@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [database management system]
 date created: Feb 18th, 2023
 date modified: Feb 18th, 2023
 ---

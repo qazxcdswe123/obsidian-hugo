@@ -7,7 +7,7 @@ date modified: Apr 9th, 2023
 
 # VSCode Native
 - Disable minmap by right click scroll bar.
-- `Shift+Command+D` to search current selection in [[Mac|Dash]]
+- `Shift+Command+D` to search current selection in [[MacOS|Dash]]
 - `Control+Shift+H` to open current language documentation
 - `Option+H` to search for a custom string
 - `CMD+KL` to toggle fold

@@ -5,7 +5,7 @@ date modified: Aug 13th, 2022
 ---
 # iTerm2
 ## Configuration
-- [[Mac]]
+- [[MacOS]]
 - [iTerm2 + Oh My Zsh + Solarized color scheme + Source Code Pro Powerline + Font Awesome + Powerlevel10k - (macOS) · GitHub](https://gist.github.com/kevin-smets/8568070)
 
 - configure HotKey Window

@@ -3,8 +3,8 @@ aliases: []
 date created: Sep 4th, 2022
 date modified: Oct 5th, 2022
 ---
-[argparse — Parser for command-line options, arguments and sub-commands — Python 3.10.6 documentation](https://docs.python.org/3/library/argparse.html)  
-[Argparse Tutorial — Python 3.10.7 documentation](https://docs.python.org/3/howto/argparse.html)
+- [argparse — Parser for command-line options, arguments and sub-commands — Python 3.10.6 documentation](https://docs.python.org/3/library/argparse.html)  
+- [Argparse Tutorial — Python 3.10.7 documentation](https://docs.python.org/3/howto/argparse.html)
 
 ## Argparse
 
