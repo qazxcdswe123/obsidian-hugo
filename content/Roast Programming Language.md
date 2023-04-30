@@ -63,7 +63,7 @@ OOP by design，工业届宠儿，说实话用来写工业代码真的很不错�
 为了 [[Vim|Neovim]] 学的语言，整体非常简单，可能是最简单的语言，但是坑也挺多，主要是 type 和 index starts at 1  
 感觉大型项目写不起来，整体比较散  
 同样，没学很深（但是感觉基本学完了，内容真的很少）  
-学习途径：官方文档 + LearnX in Y minitues + nvim
+学习途径：官方文档 + Learn X in Y minitues + nvim
 
 9. [[Golang]]  
 手感和 [[Python]] 类似，simple by design！写起来很顺。  
@@ -79,11 +79,11 @@ error handling 有点丑，但是我觉得是好事，explict error handling is 
 闭括号要闭一堆括号真的晃眼  
 整体来说不喜欢  
 还有一个槽点是它（前端）的 build tools 太多了好复杂 (webpack, parcel, rollup, vite, turbo, esbuild just to name a few)，还有一万个 config file 真的难顶  
-还有就是 node 好重，感觉 deno 挺小清新的但是没有非常方便的支持 npm 就是不爽 (yes i know it support npm now but not as native as node)  
+还有就是 node 好重，感觉 deno 挺小清新的但是没有非常方便的支持 npm 就是不爽 (yes i know it supports npm now but not as native as node)  
 学习途径：modern js tutorial + 各种乱七八糟想逃都逃不掉的地方，到处都有 js 真无语。。
 
 11. [[TypeScript]]
-既然 JS 横行已经是定局，打不过就加入，加入就加 TS 准没错，explicit typing 我最喜欢了，终于没 baNaNa 了
+既然 JS 横行已经是定局，打不过就加入，加入就加 TS 准没错，explicit typing 我最喜欢了，终于没 baNaNa 了 (anyscript warning)
 除了不喜欢 Nodejs 和前端那一套和又多加了一个 `tsconfig` 之外，我非常喜欢这门语言，几乎没有槽点
 学习途径：官方 handbook + 逃不过就加入的各种 JS/TS 项目
 
