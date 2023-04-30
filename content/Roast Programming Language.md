@@ -70,6 +70,7 @@ OOP by design，工业届宠儿，说实话用来写工业代码真的很不错�
 第一印象不行（在第一次学 Go Tour 的时候，感觉好丑，选择看起来感觉还行吧）  
 error handling 有点丑，但是我觉得是好事，explict error handling is a virtue  
 整个工具链非常成熟，一个 `go` 把所有管完  
+挺喜欢 `channel` 和 `waitGroup` 的设计的
 还是感觉挺丑的。。。  
 学习途径：Go Tour + 官方 doc + Go by example + The Go PL
 
@@ -89,23 +90,25 @@ error handling 有点丑，但是我觉得是好事，explict error handling is 
 
 12. [[Frontend]]: [[CSS]] + HTML + JSX/TSX  
 感觉把整个前端拉出来聊聊没问题
+
 - CSS 我是又爱又恨，恨是因为 CSS 真不好写，感觉很吃经验和积累，爱是因为好用也真好用，而且 Tailwind CSS 真不错。
 - HTML，正经人谁还写 HTML，不都 JSX 一把梭了。
 - JSX，想出这玩意的真是个人才，加上 [[ReactJS]]/[[Vuejs]] 手感意外非常不错  
+
 前端的槽点，基本就是 js 的槽点吧  
 希望这辈子能给 V8/NodeJS 贡献些代码减少碳排放（晕）  
 学习途径：野路子 + 读写项目
 
-1. Haskell + Perl  
+13. Haskell + Perl  
 这两个只接触过一些，没写过，但是好丑好丑好丑好丑
 
-2. [[Shell]] Script  
+14. [[Shell]] Script  
 用来解决燃眉之急很不错，一次性语言，到处拉屎（晕）  
 坑非常非常非常多，语法非常诡异，每次都是查语法，写起来云里雾里。  
 如果加上 ShellCheck 限制就非常多，不加写起来非常容易出错  
 学习途径：天下 Shell Script 一大抄（笑
 
-3. [[CMake]] + [[Makefile]]  
+15. [[CMake]] + [[Makefile]]  
 严格来说是 Domain Specific Language 吧，不算编程语言，放进来凑个 15  
 写起来好难受，可能是写起来不太习惯，但是写好了放那不管也挺方便的。  
 学习途径：CMake 是官方教程，Makefile 是上网冲浪
