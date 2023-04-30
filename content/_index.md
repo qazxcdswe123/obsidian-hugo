@@ -11,6 +11,7 @@ A Blog Directly Generated From Obsidian
 - See also [[Markdown Format Testing]]
 
 ## CS Related
+- 2023-04-30: [[Roast Programming Language]]
 - 2023-04-19: [[Works]]
 - 2023-03-11: [[Fast inverse square root]]
 - 2023-01-17: [[Random Number Within a Given Range]]

@@ -44,3 +44,4 @@ A WaitGroup must not be copied after first use.
 
 ## Links
 - [[Goroutine]]
+- [[Asynchronous]]
