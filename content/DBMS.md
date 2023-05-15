@@ -1,5 +1,5 @@
 ---
-aliases: [database management system]
+aliases: [database management system, databse]
 date created: Feb 18th, 2023
 date modified: Feb 18th, 2023
 ---
@@ -22,3 +22,4 @@ date modified: Feb 18th, 2023
 - [[Hashing]]
 - [[SQL JOIN]]
 - [[Query Optimization]]
+- [[Consistency]]

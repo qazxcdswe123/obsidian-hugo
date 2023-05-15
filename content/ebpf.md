@@ -27,6 +27,7 @@ date modified: Apr 8th, 2023
 - Programs may not use any **uninitialized variables or access memory out of bounds.**
 - Programs must fit within the **size requirements** of the system. It is not possible to load arbitrarily large eBPF programs.
 - Program must have a **finite complexity**. The verifier will evaluate **all possible execution paths** and must be capable of completing the analysis within the limits of the configured upper complexity limit.
+- [eBPF verifier — The Linux Kernel documentation](https://docs.kernel.org/bpf/verifier.html)
 
 ## Hooks
 If a predefined hook does not exist for a particular need, it is possible to create a kernel probe (`kprobe`) or user probe (`uprobe`) to attach eBPF programs almost anywhere in kernel or user applications.

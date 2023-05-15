@@ -12,6 +12,8 @@ date modified: Mar 1st, 2023
 - [[Java Lambda]]
 - [[Java Annotation]]
 - [[Java Iterator]]
+- [[Java Boxing]]
+- [[Java Idiom]]
 - [[Maven]]
 - [[JVM]]
 

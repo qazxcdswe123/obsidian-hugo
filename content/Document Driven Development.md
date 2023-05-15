@@ -3,7 +3,6 @@ aliases: []
 date created: Mar 24th, 2023
 date modified: Mar 24th, 2023
 ---
-
 ### Documentation-Driven Development
 The philosophy behind Documentation-Driven Development is a simple: **from the perspective of a user, if a feature is not documented, then it doesn't exist, and if a feature is documented incorrectly, then it's broken.**
 

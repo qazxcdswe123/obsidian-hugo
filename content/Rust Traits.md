@@ -1,8 +1,9 @@
 ---
 aliases: [trait]
 date created: Mar 2nd, 2023
-date modified: Mar 27th, 2023
+date modified: May 15th, 2023
 ---
+Note: Traits are similar to a feature often called _interfaces_ in other languages, although with some differences.
 
 ## Traits
 A _trait_ defines functionality a particular type has and can share with other types. We can use traits to define shared behavior in an abstract way.
@@ -41,5 +42,17 @@ fn returns_summarizable() -> impl Summary {
     }
 }
 ```
+
+## `Clone`
+
+
+## `ToOwned`
+- [ToOwned in alloc::borrow - Rust](https://doc.rust-lang.org/alloc/borrow/trait.ToOwned.html)
+`Clone` works only for going from `&T` to `T`. The `ToOwned` trait generalizes `Clone` to construct owned data from any borrow of a given type.
+
+## `Debug`
+- [Debug in std::fmt - Rust](https://doc.rust-lang.org/std/fmt/trait.Debug.html)
+Used in `{:?}`
+
 ## Links
 - [Traits: Defining Shared Behavior - The Rust Programming Language](https://doc.rust-lang.org/book/ch10-02-traits.html#specifying-multiple-trait-bounds-with-the--syntax)

@@ -32,4 +32,4 @@ Languages I've learnt
 - Send a [[HTTP]] request
 - Implement a very basic web server
 
-- [[Programming paradigms]]
+- [[Programming paradigm]]

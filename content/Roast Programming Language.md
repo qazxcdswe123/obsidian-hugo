@@ -79,6 +79,7 @@ error handling 有点丑，但是我觉得是好事，explict error handling is 
 可以说是这个世界不可替代的一部份了，NodeJS + npm = All in one  
 闭括号要闭一堆括号真的晃眼  
 整体来说不喜欢  
+感觉已经和英语一样变成程序员的“世界语”了，不会就无法交流  
 还有一个槽点是它（前端）的 build tools 太多了好复杂 (webpack, parcel, rollup, vite, turbo, esbuild just to name a few)，还有一万个 config file 真的难顶  
 还有就是 node 好重，感觉 deno 挺小清新的但是没有非常方便的支持 npm 就是不爽 (yes i know it supports npm now but not as native as node)  
 学习途径：modern js tutorial + 各种乱七八糟想逃都逃不掉的地方，到处都有 js 真无语。。

@@ -1,7 +1,7 @@
 ---
 aliases: [Goroutines]
 date created: Apr 9th, 2023
-date modified: Apr 10th, 2023
+date modified: May 12th, 2023
 ---
 
 ## Channels
@@ -35,10 +35,12 @@ By default, sends and receives block until the other side is ready. This allows 
 - **Note:** Channels aren't like files; you don't usually need to close them. Closing is only necessary when the receiver must be told there are no more values coming, such as to terminate a `range` loop.
 
 ### Buffered vs Unbuffered
+- Unbuffered channels combine communication—the exchange of a value—with synchronization—guaranteeing that two calculations (goroutines) are in a known state.
 - Unbuffered channels block the sender until the receiver receives the data, and vice versa.
 - Buffered channels, on the other hand, are non-blocking for the sender as long as there is still room in the buffer.
 
 Un-buffered channels are only writable when there's someone blocking to read from it, which means you shall have some [[Coroutine]] to work with -- instead of this single one.
+
 ### Select
 The `select` statement lets a goroutine wait on multiple communication operations.  
 A `select` blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready.  
@@ -78,6 +80,17 @@ default:
 }
 ```
 
+### Channel VS Mutex
+- Channel: 
+	- passing ownership of data
+	- distributing units of work
+	- communicating async results
+ - Mutex
+	- caches
+	- state
+
 ## Links
 - [sync package - sync - Go Packages](http://golang.org/pkg/sync/#WaitGroup)
 - [[Go Async]]
+- [golang atomic maps](https://go.dev/doc/faq#atomic_maps)
+- [GitHub - orcaman/concurrent-map: a thread-safe concurrent map for go](https://github.com/orcaman/concurrent-map)

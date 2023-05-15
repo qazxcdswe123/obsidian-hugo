@@ -14,7 +14,8 @@ Multi-core
 Concurrency is having two tasks run in parallel on separate threads. However, **asynchronous methods run in parallel but on the same 1 [[thread]]**.
 
 ## Links
-- [golang atomic maps](https://go.dev/doc/faq#atomic_maps)
-- [GitHub - orcaman/concurrent-map: a thread-safe concurrent map for go](https://github.com/orcaman/concurrent-map)
 - [象牙山刘能 on Twitter](https://twitter.com/disksing/status/1582017780294946817)
 - [[Coroutine]]
+- [[Rust Concurrency]]
+- [[Go Async]]
+- [[Goroutine]]

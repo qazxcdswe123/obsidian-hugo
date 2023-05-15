@@ -1,10 +1,11 @@
 ---
 aliases: []
 date created: Sep 29th, 2022
-date modified: Jan 20th, 2023
+date modified: May 12th, 2023
 ---
 
 # Slice
+The slice type is an abstraction built on top of Go’s array type
 
 ## Slices Are Like References to Arrays
 A slice does not store any data, it just describes a section of an underlying array.  
@@ -70,4 +71,14 @@ Under the hood, interface values can be thought of as a tuple of a value and a c
 
 ```
 (value, type)
+```
+
+### Empty Interface
+Empty interfaces are used by code that handles values of unknown type. For example, `fmt.Print` takes any number of arguments of type `interface{}`.
+
+### Type Assertion
+In Go, a type assertion is used to extract the underlying concrete value of an interface value.
+
+```go
+value.(typeName)
 ```

@@ -130,8 +130,9 @@ ServerAliveCountMax 999
 - [macos - Using Caps Lock as Esc in Mac OS X - Stack Overflow](https://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x)
 - Uncheck `play sound on startup` && `play UI sound effect`
 
-## Shortcut
+## Keyboard Shortcut
 - `Option+Command+V`: Move file
+- `“Command” + “Shift” + “.” (period)`: show hidden file
 - `Shift+F6`: Toggle DND
 - `Shift+CMD+5`: screenShot
 - `CMD+,`: Open Preference
@@ -149,5 +150,6 @@ ServerAliveCountMax 999
 - ![](https://img.ynchen.me/2022/07/1ee4ed251c07ded5b5da043191d02497.png)
 
 ### Terminal
-[[Shell]]  
-Preferences > Profiles > Keys > Load Presets not Preferences > Keys > Load Preferences > Natural
+- [[Shell]]  
+- Iterm2
+	- Preferences > Profiles > Keys > Load Presets not Preferences > Keys > Load Preferences > Natural

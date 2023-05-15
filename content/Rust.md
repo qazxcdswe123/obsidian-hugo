@@ -14,3 +14,5 @@
 - [[Rust Thread]]
 - [[Rust Closure]]
 - [[Rust OOP]]
+- [[Rust Attributes]]
+- [[Rust Concurrency]]

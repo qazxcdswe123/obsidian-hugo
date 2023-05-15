@@ -1,10 +1,11 @@
 ---
 aliases: []
 date created: Jul 13th, 2022
-date modified: Mar 30th, 2023
+date modified: May 15th, 2023
 ---
 
 $$o_wo$$
+
 # Blog
 A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
@@ -12,7 +13,6 @@ A Blog Directly Generated From Obsidian
 
 ## CS Related
 - 2023-04-30: [[Roast Programming Language]]
-- 2023-04-19: [[Works]]
 - 2023-03-11: [[Fast inverse square root]]
 - 2023-01-17: [[Random Number Within a Given Range]]
 - 2022-12-05: [[我的大学(3)]]
@@ -89,5 +89,5 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 	- [[ReactJS]]
 	- [[CSS]]
 
-[![Language](https://skillicons.dev/icons?i=js,html,css,ts,react,rust,c,cpp,go,python,lua,java,bash)](https://skillicons.dev)
+[![Language](https://skillicons.dev/icons?i=js,html,css,ts,react,rust,c,cpp,go,python,lua,java,bash)](https://skillicons.dev)  
 [![My Skills](https://skillicons.dev/icons?i=docker,ansible,cloudflare,git,github,linux)](https://skillicons.dev)

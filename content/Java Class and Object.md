@@ -41,6 +41,9 @@ class Main {
 }
 ```
 
+- Interface vs abstract class
+	- An interface _cannot_ have state, whereas the abstract class can have state with instance variables.
+
 ## Nested Class
 - Non-static nested classes (inner classes) are members of their enclosing class and have access to other members of the enclosing class, while static nested classes are not members of their enclosing class and do not have access to the instance variables and methods of the enclosing class.
 - Non-static nested classes can access non-static members of the enclosing class directly, while nested static classes cannot and need to create an instance of the enclosing class to access them
@@ -72,26 +75,3 @@ A program terminates all its activity and _exits_ when one of two things happe
 - All the threads that are not daemon threads terminate.
 - Some [[thread]] invokes the `exit` method of class `Runtime` or class `System` and the exit operation is not forbidden by the security manager.  
 In other words, the program may exit before or after the `main` method finishes; a return value from `main` would therefore be meaningless. If you want the program to return a status code, call one of the following methods (note that all three methods never return normally):
-
-## `equals()` And `hashCode()` Contracts
-- If two objects are equal according to the `equals()` method, then their hash codes must be equal as well.
-- If two objects have the same hash code, they may or may not be equal according to the `equals()` method.
-
-## Boxing and Unboxing
-Boxing in Java refers to the process of converting a primitive data type into its corresponding wrapper class (e.g., `int` to `Integer`, `double` to `Double`, etc.). Unboxing is the reverse process, converting a wrapper class object back into its corresponding primitive data type (e.g., `Integer` to `int`, `Double` to `double`, etc.)
-
-```java
-// boxing
-List<Integer> li = new ArrayList<>();
-for (int i = 1; i < 50; i += 2)
-    li.add(i);
-
-// unboxing
-public static int sumEven(List<Integer> li) {
-    int sum = 0;
-    for (Integer i: li)
-        if (i % 2 == 0)
-            sum += i;
-        return sum;
-}
-```
