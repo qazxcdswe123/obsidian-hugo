@@ -16,3 +16,9 @@ Programming in a functional style often includes using functions as values by pa
 ## Properties
 - _Closures_, a function-like construct you can store in a variable
 - _Iterators_, a way of processing a series of elements
+
+# Rust
+- [[Rust Iterator]]
+- `.reduce()`
+- `.fold()`
+- `.product()`

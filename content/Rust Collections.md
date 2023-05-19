@@ -46,7 +46,8 @@ fn unit_structs() {
 }
 ```
 
-### Creating Instances From Other Instances With Struct Update Syntax
+### Struct Update Syntax
+like [[JavaScript]]'s fill
 Make sure you put the `..` at the end of the struct.
 
 ```rust

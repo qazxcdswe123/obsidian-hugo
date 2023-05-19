@@ -1,5 +1,11 @@
+---
+aliases: [Rust Thread]
+date created: May 15th, 2023
+date modified: May 19th, 2023
+---
+
 ## Thread
-`use std::thread;`
+`use std::thread;`  
 By default, when the main thread of a Rust program completes, all spawned threads are shut down, whether or not they have finished running.
 
 ### Waiting for All Threads to Finish Using `join` Handles
@@ -25,6 +31,9 @@ fn main() {
     handle.join().unwrap();
 }
 ```
+
+### `move`
+`move`, to indicate that the closure is going to take ownership of the values it’s capturing.
 
 ## Links
 - [Fearless Concurrency - The Rust Programming Language](https://doc.rust-lang.org/book/ch16-00-concurrency.html)

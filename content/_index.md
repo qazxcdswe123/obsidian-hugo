@@ -89,5 +89,8 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 	- [[ReactJS]]
 	- [[CSS]]
 
+___
+
+- Nerd Stack
 [![Language](https://skillicons.dev/icons?i=js,html,css,ts,react,rust,c,cpp,go,python,lua,java,bash)](https://skillicons.dev)  
 [![My Skills](https://skillicons.dev/icons?i=docker,ansible,cloudflare,git,github,linux)](https://skillicons.dev)

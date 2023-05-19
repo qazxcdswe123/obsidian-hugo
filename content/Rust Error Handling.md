@@ -43,13 +43,14 @@ println!("{:?}", res);
 ```
 
 Works with `Option` and `Result`
+`unwrap` or `return Err(From::from(err))`
 
 - **Catch-all error**  
 Under the hood, the `?` operator calls `From::from` on the error value to convert it to a boxed [[Rust Traits|trait]] object, a `Box<dyn error::Error>`. This boxed trait object is polymorphic, and since all errors implement the `error:Error` trait, we can capture lots of different errors in one "Box" object.
 
+
 ## `Option` Enum
 ```rust
-#![allow(unused)]
 fn main() {
 	enum Option<T> {
 	    None, // NULL Equivalent
@@ -73,9 +74,5 @@ println!("Hello again, {}", maybe_name.unwrap_or("world".into()));
 - `Some()`
 - `None`
 
-## [`&` vs `ref`](https://doc.rust-lang.org/std/keyword.ref.html#-vs-ref)
-- `&` denotes that your pattern expects a reference to an object. Hence `&` is a part of said pattern: `&Foo` matches different objects than `Foo` does.
-- `ref` indicates that you want a reference to an unpacked value. It is not matched against: `Foo(ref foo)` matches the same objects as `Foo(foo)`.
-
 ## Links
-[ref - Rust](https://doc.rust-lang.org/std/keyword.ref.html)
+- [[Rust ref Pattern]]

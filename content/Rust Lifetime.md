@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: Feb 7th, 2023
-date modified: May 15th, 2023
+date modified: May 17th, 2023
 ---
 Lifetime annotations don’t change how long any of the references live. Rather, they **describe** the relationships of the lifetimes of multiple references to each other without affecting the lifetimes.
 
@@ -54,7 +54,12 @@ fn main() {
 This annotation means an instance of `ImportantExcerpt` can’t outlive the reference it holds in its `part` field.
 
 ## `static` Lifetime
-Rust has a few reserved lifetime names. One of those is `'static`.
+The ​`'static`​ lifetime​​ is the longest​​ possible lifetime​​, and it lasts​​ for the entire​​ duration of the​​ running program.
+The text of the string is stored directly in the program’s binary, which is always available.
+
+There are two ways to make a variable with a `'static` lifetime, and both are stored in the read-only memory of the binary:
+1. Make a constant with the `static` declaration.
+2. Make a string literal which has type `&'static str`.
 
 ```rust
 // A reference with 'static lifetime:

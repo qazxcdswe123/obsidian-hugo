@@ -1,7 +1,7 @@
 ---
 aliases: [trait]
 date created: Mar 2nd, 2023
-date modified: May 15th, 2023
+date modified: May 18th, 2023
 ---
 Note: Traits are similar to a feature often called _interfaces_ in other languages, although with some differences.
 
@@ -27,6 +27,7 @@ fn compare_license_types<T: Licensed, U: Licensed>(software: T, software_two: U)
 fn compare_license_types(software: impl Licensed, software_two: impl Licensed) -> bool
 // Multiple trait bound using +
 fn some_func(item: impl SomeTrait + OtherTrait) -> bool 
+// or use where T: SomeTrait + OtherTrait
 ```
 
 ### [Returning Types that Implement Traits](https://doc.rust-lang.org/book/ch10-02-traits.html#returning-types-that-implement-traits)
@@ -44,14 +45,25 @@ fn returns_summarizable() -> impl Summary {
 ```
 
 ## `Clone`
+- [Clone in std::clone - Rust](https://doc.rust-lang.org/std/clone/trait.Clone.html)  
+The `Clone` trait is a trait in Rust that allows you to create a copy of an object.
 
+## `Error`
+- [Error in std::error - Rust](https://doc.rust-lang.org/std/error/trait.Error.html)  
+The `Error` trait is a trait in Rust that represents the basic expectations for error values, i.e., values of type `E` in `Result<T, E>`.  
+Errors must describe themselves through the `Display` and `Debug` traits
+
+## `PartialEq`
+- [PartialEq in std::cmp - Rust](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html)
+- `x.eq(y)` can also be written `x == y`, and `x.ne(y)` can be written `x != y`.
+- `a != b` if and only if `!(a == b)`.
 
 ## `ToOwned`
-- [ToOwned in alloc::borrow - Rust](https://doc.rust-lang.org/alloc/borrow/trait.ToOwned.html)
+- [ToOwned in alloc::borrow - Rust](https://doc.rust-lang.org/alloc/borrow/trait.ToOwned.html)  
 `Clone` works only for going from `&T` to `T`. The `ToOwned` trait generalizes `Clone` to construct owned data from any borrow of a given type.
 
 ## `Debug`
-- [Debug in std::fmt - Rust](https://doc.rust-lang.org/std/fmt/trait.Debug.html)
+- [Debug in std::fmt - Rust](https://doc.rust-lang.org/std/fmt/trait.Debug.html)  
 Used in `{:?}`
 
 ## Links

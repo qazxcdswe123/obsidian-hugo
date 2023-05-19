@@ -16,3 +16,4 @@
 - [[Rust OOP]]
 - [[Rust Attributes]]
 - [[Rust Concurrency]]
+- [[Rust Box]]

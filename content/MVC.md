@@ -1,0 +1,1 @@
+The model component manages data and business logic, the view component handles layout and display, and the controller component routes commands to the model and view parts

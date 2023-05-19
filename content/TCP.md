@@ -3,8 +3,6 @@ aliases: [Transmission Control Protocol]
 date created: Feb 20th, 2023
 date modified: Mar 5th, 2023
 ---
-- [[UDP]]
-- [[ICMP]]
 
 ## Overview
 - **Stream of bytes**
@@ -25,7 +23,7 @@ date modified: Mar 5th, 2023
 3. `B -> A`: FIN, seq $S_B$, ACK $S_{A} + 1$
 4. `A - > B`: ACK $S_{B} + 1$
 
-- Problems with closed socket
+- Problems with closed [[socket]]
 	- What if final ack is lost in the network?
 	- What if the same port pair is immediately reused for a new connection? 
 - Solution:“active” closer goes into TIME WAIT 
@@ -42,3 +40,9 @@ date modified: Mar 5th, 2023
 
 ## Header
 ![image.png](https://img.ynchen.me/2023/02/ba7176008713663b7783020ea64c8454.webp)
+
+
+## Links
+- [[UDP]]
+- [[ICMP]]
+- [[Socket]]

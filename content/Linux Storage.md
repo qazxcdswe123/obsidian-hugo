@@ -15,7 +15,7 @@ A configuration table designed to ease the burden of mounting and unmounting fil
 - Character device file(c) 
 - Named pipe file or just a pipe file(p) 
 - Symbolic link file(l) 
-- Socket file(s)
+- [[Socket]] file(s)
 
 ## Block Devices
 - Block layer provides an interface between the [[file system]] and the physical storage device, allowing the file system to read and write data to the device

@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: Feb 7th, 2023
-date modified: Mar 2nd, 2023
+date modified: May 19th, 2023
 ---
 - [[C++ Iterator]]
 
@@ -45,3 +45,10 @@ let mut iter = a.iter().filter(|x| x.is_positive());
 let a = [0, 1, 2];
 let mut iter = a.iter().filter(|&x| *x > 1); // both & and *
 ```
+
+## `iter()` vs `into_iter()`
+- [rust - What is the difference between iter and into\_iter? - Stack Overflow](https://stackoverflow.com/questions/34733811/what-is-the-difference-between-iter-and-into-iter)
+- The iterator returned by `into_iter` may yield any of `T`, `&T` or `&mut T`, depending on the context.
+- The iterator returned by `iter` will yield `&T`, by convention.
+- The iterator returned by `iter_mut` will yield `&mut T`, by convention.
+`iter()` returns an iterator over references to the elements of the collection, while `into_iter()` returns an iterator that takes ownership of the collection and returns its elements

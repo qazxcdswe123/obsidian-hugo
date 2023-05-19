@@ -19,6 +19,7 @@ date modified: Apr 4th, 2023
 - [[Broadcast]]
 - [[Manchester Coding]]
 - [[CDMA]]
+- [[IGMP]]
 
 ## End-to-End Principle
 - [End-to-End principle](https://en.wikipedia.org/wiki/End-to-end_principle)

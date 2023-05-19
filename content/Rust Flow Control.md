@@ -23,4 +23,6 @@ fn main() {
 }
 ```
 
-Give the RHS value to the left if there is a value in `Some`. [[Rust Error Handling]]
+Test the RHS is `Some` and give the value to the LHS
+A shorthand for a `match` statement that matches a single pattern.
+- [[Rust Error Handling]]
