@@ -34,19 +34,6 @@ By default, sends and receives block until the other side is ready. This allows 
 - **Note:** Only the sender should close a channel, never the receiver. Sending on a closed channel will cause a panic.
 - **Note:** Channels aren't like files; you don't usually need to close them. Closing is only necessary when the receiver must be told there are no more values coming, such as to terminate a `range` loop.
 
-### Worker Pools
-- [Go by Example: Worker Pools](https://gobyexample.com/worker-pools)
-
-```go
-func worker(id int, jobs <-chan int, results chan<- int) {
-    for j := range jobs {
-        fmt.Println("worker", id, "started  job", j)
-        time.Sleep(time.Second)
-        fmt.Println("worker", id, "finished job", j)
-        results <- j * 2
-    }
-}
-```
 
 ### Buffered vs Unbuffered
 - Unbuffered channels combine communication—the exchange of a value—with synchronization—guaranteeing that two calculations (goroutines) are in a known state.
@@ -106,5 +93,6 @@ default:
 ## Links
 - [sync package - sync - Go Packages](http://golang.org/pkg/sync/#WaitGroup)
 - [[Go Async]]
+- [[Go Thread Pool]]
 - [golang atomic maps](https://go.dev/doc/faq#atomic_maps)
 - [GitHub - orcaman/concurrent-map: a thread-safe concurrent map for go](https://github.com/orcaman/concurrent-map)

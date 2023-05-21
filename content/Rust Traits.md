@@ -66,5 +66,19 @@ Errors must describe themselves through the `Display` and `Debug` traits
 - [Debug in std::fmt - Rust](https://doc.rust-lang.org/std/fmt/trait.Debug.html)  
 Used in `{:?}`
 
+## `From`
+- [From in std::convert - Rust](https://doc.rust-lang.org/std/convert/trait.From.html)
+value to value conversion
+
+## `TryFrom/TryInto`
+- [TryFrom in std::convert - Rust](https://doc.rust-lang.org/std/convert/trait.TryFrom.html)
+this should return a `Result` type instead of the target type itself.
+
+## `AsRef/AsMut`
+- [AsRef in std::convert - Rust](https://doc.rust-lang.org/std/convert/trait.AsRef.html)
+- [AsMut in std::convert - Rust](https://doc.rust-lang.org/std/convert/trait.AsMut.html)
+AsRef and AsMut allow for cheap reference-to-reference conversions.
+
+
 ## Links
 - [Traits: Defining Shared Behavior - The Rust Programming Language](https://doc.rust-lang.org/book/ch10-02-traits.html#specifying-multiple-trait-bounds-with-the--syntax)

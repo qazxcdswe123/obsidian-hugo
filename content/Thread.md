@@ -19,6 +19,9 @@ thread-safe code ensures that when a thread is modifying or reading shared data,
 	- [Why is goroutine being called a “lightweight” thread? | by Jessie Kuo | Medium](https://medium.com/@jessie_kuo/why-is-goroutine-being-called-a-lightweight-thread-46d70d198ad6)
 - [[Java]] virtual thread.
 
+## Thread Pool
+
+
 ## Links
 - [[Operating System]]
 - [[Asynchronous]]

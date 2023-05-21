@@ -23,3 +23,4 @@ date modified: Feb 18th, 2023
 - [[SQL JOIN]]
 - [[Query Optimization]]
 - [[Consistency]]
+- [[Relational Database]]

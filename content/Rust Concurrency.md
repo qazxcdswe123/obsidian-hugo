@@ -35,7 +35,12 @@ fn main() {
 ### `move`
 `move`, to indicate that the closure is going to take ownership of the values it’s capturing.
 
+## Channel
+- `mpsc`: multiple producer, single consumer
+- [Channels - Rust By Example](https://doc.rust-lang.org/rust-by-example/std_misc/channels.html)
+
 ## Links
 - [Fearless Concurrency - The Rust Programming Language](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
 - [[Concurrency]]
 - [[Thread]]
+- [[Rust Arc]]
