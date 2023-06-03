@@ -49,6 +49,7 @@ date modified: Apr 20th, 2023
 	- First octet value range from 224 to 239
 - Number of Networks: N/A
 - Number of Hosts per Network: Multicasting
+- [[IGMP]]
 
 ### Class E
 - Range: 240.0.0.0 to 255.255.255.255

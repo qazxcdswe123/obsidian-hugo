@@ -34,5 +34,17 @@ date modified: Apr 4th, 2023
 - Borrowed Types
 	- addresses of the values they represent
 
+## Type alias
+Replace empty `struct` with type alias
+
+```rust
+type Kilometers = i32;
+
+let x: i32 = 5;
+let y: Kilometers = 5;
+
+println!("x + y = {}", x + y);
+```
+
 ## Links
 [Types - The Rust Reference](https://doc.rust-lang.org/reference/types.html)

@@ -18,5 +18,6 @@ Concurrency is having two tasks run in parallel on separate threads. However, *
 - [[Coroutine]]
 - [[Rust Concurrency]]
 - [[Go Async]]
-- [[Goroutine]]
+- [[Go Channel]]
 - [Dining Philosophers](https://doc.rust-lang.org/1.4.0/book/dining-philosophers.html)
+- [[CAS]]

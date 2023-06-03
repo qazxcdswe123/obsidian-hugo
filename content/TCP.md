@@ -8,7 +8,10 @@ date modified: Mar 5th, 2023
 - **Stream of bytes**
 - In sequence
 - Congestion Control (BBR)
-- [[Networking Flow Control]] [[Algorithm]] to stop the overflow at the receiver's end,
+- [[Networking Flow Control]] [[Algorithm]] to stop the overflow at the receiver's end
+
+> [[IP]] is a connectionless protocol, which means that each unit of data is individually addressed and routed from the source device to the target device, and the target does not send an acknowledgement back to the source.
+> That’s where protocols such as TCP come in. TCP is used in conjunction with IP in order to maintain a connection between the sender and the target and to ensure [[packet]] order.
 
 ## 3-way Handshake
 
@@ -45,4 +48,3 @@ date modified: Mar 5th, 2023
 ## Links
 - [[UDP]]
 - [[ICMP]]
-- [[Socket]]

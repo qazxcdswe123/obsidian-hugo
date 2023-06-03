@@ -10,7 +10,9 @@
 - [[Go Function]]
 - [[Go Error Handling]]
 - [[Go Generic]]
-- [[Goroutine]]
+- [[Go Context]]
+- [[Go Re]]
+- [[Go Channel]]
 
 ___
 

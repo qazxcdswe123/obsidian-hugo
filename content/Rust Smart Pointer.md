@@ -13,4 +13,5 @@ smart pointers implement the `Deref` and `Drop` traits.
 	- `Rc<T>`, a reference counting type that enables multiple ownership
 		- [[Rust Rc]]
 	- `Ref<T>` and `RefMut<T>`, accessed through `RefCell<T>`, a type that enforces the borrowing rules at runtime instead of compile time
- 
+
+ - [[Rust RefCell]]

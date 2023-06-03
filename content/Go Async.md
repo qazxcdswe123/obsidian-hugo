@@ -37,11 +37,11 @@ Good for resources cleanup.
 
 ## `sync.WaitGroup`
 - [Go by Example: WaitGroups](https://gobyexample.com/waitgroups)  
-To wait for multiple [[Goroutine|goroutines]] to finish, we can use a _wait group_.  
+To wait for multiple [[Go Channel|goroutines]] to finish, we can use a _wait group_.  
 A WaitGroup must not be copied after first use.
 
 **_Share [[memory]] by communicating, don't communicate by sharing memory_**
 
 ## Links
-- [[Goroutine]]
+- [[Go Channel]]
 - [[Asynchronous]]

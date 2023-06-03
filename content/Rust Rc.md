@@ -1,7 +1,11 @@
+---
+aliases: []
+date created: May 20th, 2023
+date modified: May 22nd, 2023
+---
 abbreviation for _reference counting_
 
-- Cloning an `Rc<T>` Increases the Reference Count
-
+Cloning an `Rc<T>` Increases the Reference Count  
 Example 
 
 ```rust
@@ -21,3 +25,9 @@ fn main() {
     let c = Cons(4, Rc::clone(&a));
 }
 ```
+
+The implementation of `Rc::clone` doesn’t make a deep copy of all the data like most types’ implementations of `clone` do. The call to `Rc::clone` only increments the reference count, which doesn’t take much time.
+
+## Links
+- [[Rust RefCell]]
+- [[Rust Smart Pointer]]

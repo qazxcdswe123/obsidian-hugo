@@ -5,6 +5,7 @@ date modified: Jul 28th, 2022
 ---
 - [[TypeScript]]
 - [[Vuejs]]  
+- [[NextJS]]
 - [[ReactJS]]
 - [[NodeJS]]  
 - [[Browser Extension]]

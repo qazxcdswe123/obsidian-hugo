@@ -17,10 +17,14 @@ date modified: Feb 18th, 2023
 - Disk Space Management
 	- Translate page requests into physical bytes on one or more device(s)
 	- [[B+-Tree]]
- 
+
+## Links
 - [[External Sort]]
 - [[Hashing]]
 - [[SQL JOIN]]
 - [[Query Optimization]]
 - [[Consistency]]
+- [[ACID]]
 - [[Relational Database]]
+- [[Document Database]]
+- [The Different Types of Databases - Overview with Examples](https://www.prisma.io/dataguide/intro/comparing-database-types)

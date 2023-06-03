@@ -7,6 +7,7 @@ date modified: Apr 3rd, 2023
 LSM trees are persisted to disk using a Sorted Strings Table (SSTable) format. It is a format for storing key-value pairs in which the keys are in sorted order.  
 The main reason why LSM provides high write throughput is that every write request is actually performed only “**in-memory**” in contrast to traditional [[B-Tree]] based implementation where the updates are done to disk which can trigger an update to an index making it very expensive.
 
+
 ## Writing Data
 An SSTable will consist of multiple sorted files called segments. These segments are **immutable** once they are written to disk.
 

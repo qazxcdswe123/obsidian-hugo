@@ -79,6 +79,9 @@ this should return a `Result` type instead of the target type itself.
 - [AsMut in std::convert - Rust](https://doc.rust-lang.org/std/convert/trait.AsMut.html)
 AsRef and AsMut allow for cheap reference-to-reference conversions.
 
+## `Drop`
+- [Running Code on Cleanup with the Drop Trait - The Rust Programming Language](https://doc.rust-lang.org/book/ch15-03-drop.html)
+- 
 
 ## Links
 - [Traits: Defining Shared Behavior - The Rust Programming Language](https://doc.rust-lang.org/book/ch10-02-traits.html#specifying-multiple-trait-bounds-with-the--syntax)

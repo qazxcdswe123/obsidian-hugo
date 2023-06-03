@@ -35,6 +35,10 @@ fn main() {
 ### `move`
 `move`, to indicate that the closure is going to take ownership of the values it’s capturing.
 
+### Thread Pool
+- [[Go Thread Pool]] 
+
+
 ## Channel
 - `mpsc`: multiple producer, single consumer
 - [Channels - Rust By Example](https://doc.rust-lang.org/rust-by-example/std_misc/channels.html)

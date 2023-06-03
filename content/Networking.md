@@ -18,7 +18,6 @@ date modified: Apr 4th, 2023
 - [[Ethernet]]
 - [[Broadcast]]
 - [[Manchester Coding]]
-- [[CDMA]]
 - [[IGMP]]
 
 ## End-to-End Principle
