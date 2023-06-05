@@ -5,7 +5,7 @@
 	- Bi-directional reliable byte stream between two applications, using application-specific semantics (e.g. http, bit-torrent).
 - Transport Layer
 	- [[TCP]] and [[UDP]]
-	- Guarantees correct, in-order delivery of data end-to-end. Controls congestion.
+	- Guarantees correct, in-order delivery of data end-to-end. [[Congestion Control]]
 - Network Layer
 	- No need to concern how [[Packet|packets]] are sent via link layer
 	- Delivers datagrams end-to-end. Best-effort delivery -no guarantees. Must use the Internet Protocol ([[IP]]).

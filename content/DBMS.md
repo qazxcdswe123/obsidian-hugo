@@ -1,10 +1,10 @@
 ---
-aliases: [database management system, databse]
+aliases: [Databse]
 date created: Feb 18th, 2023
-date modified: Feb 18th, 2023
+date modified: Jun 4th, 2023
 ---
 
-# DBMS
+## DBMS
 - [[SQL]] Client
 - Parsing & [[Query Optimization]]
 - Relational Operators
@@ -18,12 +18,12 @@ date modified: Feb 18th, 2023
 	- Translate page requests into physical bytes on one or more device(s)
 	- [[B+-Tree]]
 
-## Links
+### Links
 - [[External Sort]]
 - [[Hashing]]
 - [[SQL JOIN]]
 - [[Query Optimization]]
-- [[Consistency]]
+- [[Database Consistency]]
 - [[ACID]]
 - [[Relational Database]]
 - [[Document Database]]

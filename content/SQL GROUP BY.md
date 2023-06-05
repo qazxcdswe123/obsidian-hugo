@@ -1,5 +1,6 @@
 ## GROUP BY
-Group same values into summary rows.  
+Used in collaboration with aggregate functions like `COUNT()`, `SUM()`, `AVG()`, `MAX()`, or `MIN()`. It arranges the result set into groups based on the values of specified columns.
+
 If you’re going to do any grouping / aggregation at all, then you must only SELECT grouped / aggregated columns.
 
 - Multiple Group By: Need multiple columns to be the same.

@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: Jan 29th, 2023
-date modified: May 21st, 2023
+date modified: Jun 4th, 2023
 ---
 
 ## Relational Model
@@ -18,7 +18,8 @@ date modified: May 21st, 2023
 - Primary key：若 R(U , F) 有多个候选码，则可以从中选定一个作为 R 的主码
 
 ## Relational Databases
-- In SQL, we choose the types of data that each column will store.
+- [[SQL Query]]
+- In [[SQL]], we choose the types of data that each column will store.
 - check the schema, or design, of our new table with `.schema`
 - SQL supports many functions that we can use to count and summarize data:
 	- `AVG`
@@ -30,16 +31,19 @@ date modified: May 21st, 2023
 	- `UPPER`
 - Since each show may have more than one genre, we can have more than one row per show in our genres table, known as a **one-to-many** relationship.
 
-- Example
-	- [[Mysql]]
-	- [[Sqlite]]
+## Database Consistency Constraints:
+- primary-key constraints
+- [[Functional Dependency|functional dependencies]]
+- check constraints
+- assertions
+- triggers
 
-- database consistency constraints:
-	- primary-key constraints
-	- functional dependencies
-	- check constraints
-	- assertions
-	- triggers
+## Datatype
+- INTERGER
+- TEXT NOT NULL
 
 ## Links
 - [[Functional Dependency]]
+- [[Database Design]]
+- [[Mysql]]
+- [[Sqlite]]

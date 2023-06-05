@@ -3,7 +3,6 @@ aliases: [队列]
 date created: Jul 8th, 2022
 date modified: Aug 19th, 2022
 ---
-#Data-structure 
 # Queue
 Similar with [[Stack Data Structure]]  
 FIFO
