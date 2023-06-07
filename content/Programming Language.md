@@ -17,6 +17,7 @@ Languages I've learnt
 - [[CMake]]
 - [[Java]]
 - [[Golang]]
+- [[OCaml]]
 - [[Frontend]]
 	- [[ReactJS]]
 	 - [[Vuejs]]

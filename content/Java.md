@@ -4,6 +4,7 @@ date created: Feb 5th, 2023
 date modified: Mar 1st, 2023
 ---
 - [[Java Class and Object]]
+- [[Java Interface]]
 - [[Java IO]]
 - [[Java OOP]]
 - [[Java Package]]
@@ -14,6 +15,7 @@ date modified: Mar 1st, 2023
 - [[Java Iterator]]
 - [[Java Boxing]]
 - [[Java Idiom]]
+- [[Java Serialization]]
 - [[Maven]]
 - [[JVM]]
 

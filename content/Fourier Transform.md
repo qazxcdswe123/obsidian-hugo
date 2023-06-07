@@ -23,3 +23,4 @@ $$F(w) = ∫_{-∞}^{∞} f(t) e^{-iwt} dt$$
 
 ## Links
 - [Fourier Transforms - MATLAB & Simulink](https://www.mathworks.com/help/matlab/math/fourier-transforms.html)
+- [[Fourier Series]]

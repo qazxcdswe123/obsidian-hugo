@@ -39,3 +39,12 @@ TCP 中的拥塞控制算法，防止发送超过网络能处理的数据量。
 1. 当发送方收到三个重复确认（ACK）并重新发送丢失的数据包后，它会进入快恢复阶段。在这个阶段，发送方会将阈值（ssthresh）设置为当前拥塞窗口大小的一半，然后将拥塞窗口大小（cwnd）设置为新的阈值加上三个最大段大小（MSS）。
 2. 在快恢复阶段，每收到一个重复确认（ACK），发送方都会将拥塞窗口大小增加一个最大段大小（MSS）。这意味着在快恢复阶段，拥塞窗口的大小会线性增长。
 3. 当发送方收到一个新的确认（ACK），表示丢失的数据包已经被成功接收，那么发送方就会退出快恢复阶段，将拥塞窗口大小设置为阈值（ssthresh），然后开始拥塞避免算法。
+
+## Traffic Shaping
+
+### Leaky Bucket Algorithm
+Data always pass in the smae rate
+
+### Token Bucket Algorithm
+When a packet (data) needs to be sent, it grabs a token. If there are no tokens, it has to wait. This allows for bursty data, as you could save up tokens when traffic is low and spend them when a burst of data arrives.
+Like PV [[Semaphore]]
