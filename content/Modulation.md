@@ -16,5 +16,6 @@ Demodulation is the process of extracting the original signal from a modulated c
 It is the original, unmodulated form of a signal, which can be either analog or digital  
 In the Fourier domain, a baseband signal is a signal that occupies the frequency range from 0 Hz up to a certain cutoff
 
+
 ## Links
 - [[Convolution]]

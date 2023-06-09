@@ -23,8 +23,9 @@ date modified: Jun 4th, 2023
 - [[Hashing]]
 - [[SQL JOIN]]
 - [[Query Optimization]]
-- [[Database Consistency]]
 - [[ACID]]
 - [[Relational Database]]
 - [[Document Database]]
+- [[ORM]]
+- [[Database Scheduling]]
 - [The Different Types of Databases - Overview with Examples](https://www.prisma.io/dataguide/intro/comparing-database-types)
