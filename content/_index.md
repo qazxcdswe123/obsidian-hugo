@@ -28,6 +28,8 @@ A Blog Directly Generated From Obsidian
 - 2022-01-05: [[GDB Crash Course]]
 
 ## MISC
+- Planned: [[论女权主义]]
+- Planned: [[为什么爱瘦不爱胖]]
 - [[Moment]]
 - [[Quote]]
 - 2022-08-12: [[Ergonomics]]

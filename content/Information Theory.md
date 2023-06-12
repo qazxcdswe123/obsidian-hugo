@@ -25,5 +25,10 @@ $$
 - $P_{signal}$ is the power of the signal,
 - $P_{noise}$ is the power of the noise,
 
+### Threshold Effect
+as long as the SNR is above this threshold, the receiver can effectively suppress noise and the error rate remains low. However, once the SNR falls below this threshold, the noise begins to significantly affect the demodulated signal, causing a rapid increase in the error rate.
+
 ## Baud
 $$R_{b}= R_{B} \cdot \log_{2} M$$
+
+$M$ is the radix of the data.
