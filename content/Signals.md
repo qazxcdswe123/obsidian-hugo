@@ -15,12 +15,15 @@ $$v = f \cdot \lambda$$
 - $\lambda$: wavelength
 
 ### Energy Signal (能量信号)
+- Energy of a signal: area under the squared magnitude of the signal
 - Finite energy (non-zero)
+- Finite duration
 - Zero average power
-- Total energy: area under the squared magnitude of the signal
 
 ### Power Signal (功率信号)
+- Power of a signal: average of the squared magnitude in the time domain
 - Non-zero average power
+- Periodic and continue indefinitely in time
 
 ## Signal to Noise
 

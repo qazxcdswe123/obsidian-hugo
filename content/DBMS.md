@@ -28,4 +28,5 @@ date modified: Jun 4th, 2023
 - [[Document Database]]
 - [[ORM]]
 - [[Database Scheduling]]
+- [[ER Model]]
 - [The Different Types of Databases - Overview with Examples](https://www.prisma.io/dataguide/intro/comparing-database-types)

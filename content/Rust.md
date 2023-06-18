@@ -1,5 +1,5 @@
 - [[Rust Ownership]]
-- [[Rust Macro]]
+- [[Rust Macros]]
 - [[Rust Module]]
 - [[Rust String]]
 - [[Rust Type]]

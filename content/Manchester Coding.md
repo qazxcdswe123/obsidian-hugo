@@ -4,3 +4,4 @@
 ## Links
 - [Manchester code - Wikipedia](https://en.wikipedia.org/wiki/Manchester_code)
 - [Differential Manchester encoding - Wikipedia](https://en.wikipedia.org/wiki/Differential_Manchester_encoding)
+- [[Ethernet]]

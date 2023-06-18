@@ -1,4 +1,10 @@
-# Words and Phrases
+---
+aliases: []
+date created: Mar 1st, 2023
+date modified: Jun 14th, 2023
+---
+
+## Words and Phrases
 - [[Calendar]]
 
 - 问题
@@ -7,3 +13,5 @@
 
 - [[Metaphysics]]
 - [[Epistemology]]
+- [[Marxism]]
+- [[Dialectics]]

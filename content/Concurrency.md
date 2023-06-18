@@ -1,4 +1,4 @@
-> 有两类程序员几乎不出[[Multi Threading|多线程]]bug：一类是啥也不懂，只要涉及到多[[Thread|线程]]就直接上锁；另一类熟读内存模型、体系结构、缓存一致性协议、内存屏障、竞态条件、指令重排……然后决定只要涉及到多线程就直接上锁。
+> 有两类程序员几乎不出[[Multi Threading|多线程]]bug：一类是啥也不懂，只要涉及到多[[Thread|线程]]就直接上锁；另一类熟读内存模型、体系结构、缓存一致性协议、内存屏障、竞态条件、指令重排……然后决定只要涉及到[[Multi Threading|多线程]]就直接上锁。
 
 ## Concurrency
 a means to increase performance, _e.g._, to overlap disk I/O requests, to reduce latency by prefetching results to expected queries, or to take advantage of multiple processors.

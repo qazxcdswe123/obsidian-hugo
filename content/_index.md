@@ -30,8 +30,6 @@ A Blog Directly Generated From Obsidian
 ## MISC
 - Planned: [[论女权主义]]
 - Planned: [[为什么爱瘦不爱胖]]
-- [[Moment]]
-- [[Quote]]
 - 2022-08-12: [[Ergonomics]]
 - 2022-07-12: [[论闲书]]
 - 2022-07-11: [[论审核]]
@@ -68,14 +66,17 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Git]]
 - [[MacOS]]
 - [[Manjaro]]
+- [[Memory]]
 - [[Linux]]
 - [[Testing]]
 - [[PVE]]
 - [[DBMS]]
 - [[Operating System]]
 - [[Optimization]]
+- [[Communication System]]
 
 ### Languages
+- [[Programming Language]]
 - [[Learn C in 1 Hour]]
 - [[C++]]
 - [[Python]]
@@ -90,6 +91,11 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 	- [[TypeScript]]
 	- [[ReactJS]]
 	- [[CSS]]
+
+## Life
+- [[Moment]]
+- [[Quote]]
+- [[Philosophy]]
 
 ___
 

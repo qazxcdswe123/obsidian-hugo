@@ -16,7 +16,7 @@ date modified: Apr 4th, 2023
 - [[Netmask]]
 - [[MTU]]
 - [[Ethernet]]
-- [[Broadcast]]
+- [[Broadcasting]]
 - [[Manchester Coding]]
 - [[IGMP]]
 
@@ -31,7 +31,3 @@ date modified: Apr 4th, 2023
 ___
 
 - [[Network Model]]
-
-___
-
-- [[Networking Homework 1]]

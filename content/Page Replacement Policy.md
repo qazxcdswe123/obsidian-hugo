@@ -12,7 +12,7 @@ Use a ref bit (recently referenced) in the metadata table and a clock hand varia
 If there is a ref bit, clear it. If not, evict it.
 
 ## MRU
-measured by when the page’s pin count was last decremented.
+measured by when the [[page]]’s pin count was last decremented.
 
 ## OPT
 chooses the one that won't be used for the longest time in the future.

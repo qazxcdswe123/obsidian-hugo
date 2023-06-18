@@ -3,6 +3,10 @@ aliases: []
 date created: Jun 4th, 2023
 date modified: Jun 4th, 2023
 ---
+## Schema
+- Pitfalls
+	- Redundancy: Ideally, information should appear in exactly one place.
+	- Incompleteness: A bad design may make certain aspects of the enterprise difficult or impossible to model.
 
 ## Anomaly
 1. **Insert Anomaly**: This occurs when certain attributes cannot be inserted into the database without the presence of other attributes. For example, in a table that stores both customer information and their orders, you wouldn't be able to insert a new customer until they have an order, and vice versa.

@@ -39,6 +39,10 @@ class Main {
 ## Interface vs Abstract Class
 - An interface _cannot_ have state, whereas the abstract class can have state with instance variables.
 
+## Abstract Class
+An abstract class in Java is a class that cannot be instantiated, but can be subclassed. 
+It can have both abstract and non-abstract methods. A normal (non-abstract) class cannot have abstract methods.
+
 ## `Comparable`
 Used with `compareTo`
 ```java

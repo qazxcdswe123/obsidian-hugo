@@ -14,7 +14,7 @@ The table tracks 4 pieces of information:
 3. Dirty Bit for verifying whether or not a page has been modified
 4. Pin Count for tracking the number of requestors currently using a page
 
-- [[Replacement Policy]]
+- [[Page Replacement Policy]]
 
 # Recovery Module
 

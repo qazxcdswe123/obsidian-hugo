@@ -1,7 +1,7 @@
 ---
 aliases: [heap]
 date created: Jul 17th, 2022
-date modified: Apr 10th, 2023
+date modified: Jun 17th, 2023
 ---
 
 ## Segmentations
@@ -16,12 +16,10 @@ date modified: Apr 10th, 2023
 - [Copy-on-write - Wikipedia](https://en.wikipedia.org/wiki/Copy-on-write)
 - [[File System]]
 
-## Memory Management Methods
-- Used in [[Operating System|OS]]
-
-### Free List
-- [Free list - Wikipedia](https://en.wikipedia.org/wiki/Free_list)  
-Use [[linked list]], when we need to allocate memory we simply move the head to next and use the head, when we free the memory we insert it back to head.
+## RAM
+The term random-access memory, or RAM, implies that you can access any part of RAM just as quickly as another. 
+While it is generally good to think of RAM in this way, because of hardware/[[Operating System|OS]] features such as the TLB, accessing a particular page of memory may be costly, particularly if that page isn’t currently mapped by your TLB. 
+Thus, it is always good to remember the implementation tip: RAM isn’t always RAM. Sometimes randomly accessing your address space, particularly if the number of pages accessed exceeds the TLB coverage, can lead to severe performance penalties.
 
 ## Links
 - [[Stack]]
@@ -29,5 +27,7 @@ Use [[linked list]], when we need to allocate memory we simply move the head to 
 - [[Memory Timing]]
 - [[Page Table]]
 - [[Memory Mapped File]]
+- [[Memory Management]]
+- [[TLB]]
 - [Edge AI Just Got Faster](https://justine.lol/mmap/)
 - [科普 那些放在不同位置的字符串 - 0xFFFF](https://0xffff.one/d/399-ke-pu-nei-xie-fang-zai-bu-tong-wei-zhi-de-zi-fu-chuan)  

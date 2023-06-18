@@ -6,4 +6,4 @@ In [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_
 ___
 
 - [[Python Decorator]]
-- [[Rust Macro]]
+- [[Rust Macros]]

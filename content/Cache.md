@@ -14,6 +14,12 @@ We have `t`, `s` and `b`
 - Each cache line stores a block
 - We need to add tags to the cache, which supply the rest of the address bits to let us distinguish between different [[memory]] locations that map to the same cache block.
 
+## Locality
+- With temporal locality, the idea is that an instruction or data item that has been recently accessed will likely be re-accessed soon in the future.
+- With spatial locality, the idea is that if a program accesses memory at address x, it will likely soon access memory near x.
+
+___
+
 ## Efficiency
 - Cache hit: $h = N_{c} / (N_{c} + N_{m})$
 	- Nc 表示 Cache 完成存取访问的总次数  
