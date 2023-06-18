@@ -1,10 +1,11 @@
 ---
 aliases: []
 date created: Jul 15th, 2022
-date modified: Sep 6th, 2022
+date modified: Jun 18th, 2023
 ---
 #Math  
-[Support Table · KaTeX](https://katex.org/docs/support_table.html)
+- [Support Table · KaTeX](https://katex.org/docs/support_table.html)  
+
 | Tex                     | 显示                            | In                                        |
 | ----------------------- | ------------------------------- |:----------------------------------------- |
 | `\And`                  | $\And$                          | [[Cinta-HW 1]]                            |
@@ -38,4 +39,3 @@ date modified: Sep 6th, 2022
 | `\infty`                | $\infty$                        | [[参数估计]]                              |
 | `\rho`                  | $\rho$                          | [[SQL Join Algorithm]]                    |
 | `\bowtie`               | $\bowtie$                       | [[Relational Algebra]]                                          |
-

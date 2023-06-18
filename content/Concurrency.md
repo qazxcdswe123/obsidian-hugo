@@ -10,14 +10,15 @@ a means to increase performance, _e.g._, to overlap disk I/O requests, to reduc
 ## Parallelism
 Multi-core 
 
-## [[Asynchronous]]
-Concurrency is having two tasks run in parallel on separate threads. However, **asynchronous methods run in parallel but on the same 1 [[thread]]**.
+## Asynchronous
+Concurrency is having two tasks run in parallel on separate threads. However, **[[asynchronous]] methods run in parallel but on the same 1 [[thread]]**.
+
 
 ## Links
-- [象牙山刘能 on Twitter](https://twitter.com/disksing/status/1582017780294946817)
 - [[Coroutine]]
 - [[Rust Concurrency]]
 - [[Go Async]]
 - [[Go Channel]]
-- [Dining Philosophers](https://doc.rust-lang.org/1.4.0/book/dining-philosophers.html)
+- [[Event Based Concurrency]]
 - [[CAS]]
+- [Dining Philosophers](https://doc.rust-lang.org/1.4.0/book/dining-philosophers.html)
