@@ -1,11 +1,11 @@
-This page have been migrated to: [Memos](https://memos.ynchen.me/)
+This page have since been migrated to: [Memos](https://memos.ynchen.me/)
 
 2022-12-14
 > 中国教育真的是害人不浅，都已经大学了，还在考高中那一套编口诀背代码，就是不好好讲课。
 > 教育最失败的地方就是让学生不在爱上学习，但它明明是一件很快乐的事。[[论学习]]，[[论学习(2)]]
 
 2022-12-14
-> 快考试的烦心事挺多，垃圾课程和垃圾学校是最主要的
+> 快考试的烦心事挺多，垃圾课程是最主要的
 
 2022-12-12
 > 发现了世界上最好的碗托。拖把布
