@@ -9,13 +9,12 @@ Redundant Array of Independent Disks
 A data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for the purposes of data redundancy, performance improvement, or both.
 
 ## How
-- Hardware RAID
-- Software RAID
+When a [[file system]] issues a logical [[IO|I/O]] request to the RAID, the RAID internally must calculate which disk (or disks) to access in order to complete the request, and then issue one or more physical I/Os to do so.
 
 ## RAID Levels
 - RAID 0 (Striping): 
 	- Split data into blocks and written to multiple disks
-	- Better IO.
+	- Better [[IO]].
 	- No fault tolerance. A disk fails means data loss.
 - RAID 1 (Mirroring): 
 	- Written identically on two disks
@@ -47,5 +46,8 @@ A data storage virtualization technology that combines multiple physical disk dr
  - RAID 50 (5+0):
 	 - striping data across multiple RAID 5 arrays
 	 - improved perf and fault tolerance
+  
+![image.png](https://img.ynchen.me/2023/06/31e959bfecb0143235c3b6ce886bd5f1.webp)
+
   
 ## Links

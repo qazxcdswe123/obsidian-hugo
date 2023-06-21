@@ -1,6 +1,4 @@
 
-[GFG](https://www.geeksforgeeks.org/file-handling-c-classes/)
-
 > • istream (input stream) type, which provides input operations
 > • ostream (output stream) type, which provides output operations
 > • cin, an istream object that reads the standard input

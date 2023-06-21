@@ -3,6 +3,8 @@ aliases: []
 date created: Jul 29th, 2022
 date modified: Jul 29th, 2022
 ---
+- [[Instruction Level Parallelism]]
+
 ## Data Manipulation
 - `mov`
 	- From [[memory]] to [[register]], vice versa; Immediate to register or memory, register to register.

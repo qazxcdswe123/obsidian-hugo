@@ -1,21 +1,27 @@
 ---
 aliases: []
 date created: Jan 1st, 2023
-date modified: Jan 2nd, 2023
+date modified: Jun 19th, 2023
 ---
-## File System
+
+## Mental Model
 A file system relies on data structures _about_ the files, as opposed to the contents of that file. The former are called _[metadata](https://en.wikipedia.org/wiki/Metadata "Metadata")_—data that describes data. Each file is associated with an _[[inode]]_, which is identified by an integer, often referred to as an _i-number_ or _[[inode]] number_.
 
-### Journaling file system
-A journaling file system allows for quick file system recovery after a crash occurs by logging the metadata of files.  
-By enabling file system logging, the system records every change in the metadata of the file into a reserved area of the file system. The actual write operations are performed after the logging of changes to the metadata has been completed.
+- What on-disk structures store the file system’s data and metadata? 
+- What happens when a [[process]] opens a file? 
+- Which on-disk structures are accessed during a read or write?
 
-# Ext4
+## How
 
-## `HTree`
-- [HTree - Wikipedia](https://en.wikipedia.org/wiki/HTree)
-Use [[B-Tree]] for directory indexing.
-It is constant depth of either one or two levels, have a high fanout factor, use a [hash](https://en.wikipedia.org/wiki/Hash_table "Hash table") of the [filename](https://en.wikipedia.org/wiki/Filename "Filename"), and do not require [balancing](https://en.wikipedia.org/wiki/Balanced_tree "Balanced tree").
+### Bitmap
+When mounting a file system, the [[operating system]] will read the superblock first, to initialize various parameters, and then attach the volume to the file-system tree. When files within the volume are accessed, the system will thus know exactly where to look for the needed on-disk structures.
+
+### Directory
+Often, file systems treat directories as a special type of file. Thus, a directory has an inode, somewhere in the inode table (with the type field of the inode marked as “directory” instead of “regular file”). The directory has data blocks pointed to by the inode (and perhaps, indirect blocks); these data blocks live in the data block region of our simple file system. Our on-disk structure thus remains unchanged.
+
+### Cache
+Some applications (such as databases) don’t enjoy this trade-off. Thus, to avoid unexpected data loss due to write buffering, they simply force writes to disk, by calling **`fsync()`**, by using **direct I/O interfaces** that work around the cache, or by using the **raw disk interface** and avoiding the file system altogether.
 
 ## Links
-- [[inode]]
+- [[Ext4]]
+- [[Journaling file system]]

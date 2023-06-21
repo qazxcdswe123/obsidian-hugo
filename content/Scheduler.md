@@ -1,4 +1,4 @@
-## Scheduler
+## Process Scheduler
 - First Come First Serve (FCFS)
 	- automatically executes queued requests and processes in order of their arrival
 - Shortest Job First (SJF)
@@ -6,7 +6,7 @@
 - Multi-Level Feedback [[Queue]]
 	- Idea
 		- If a [[process]] uses too much CPU time, it will be moved to a lower-priority queue.
-		- If a process is I/O-bound or an interactive process, it will be moved to a higher-priority queue.
+		- If a process is [[IO|I/O]]-bound or an interactive process, it will be moved to a higher-priority queue.
 		- If a process is waiting too long in a low-priority queue and [starving](https://en.wikipedia.org/wiki/Starvation_(computer_science) "Starvation (computer science)"), it will be [aged](https://en.wikipedia.org/wiki/Aging_(scheduling) "Aging (scheduling)") to a higher-priority queue.
 	- Rules
 		- Rule 1: If Priority(A) > Priority(B), A runs (B doesn’t).
@@ -18,3 +18,5 @@
 - Completely Fair Scheduler (CFS)
 	- CFS basically models an “ideal, precise multi-tasking CPU” on real [[hardware]].
 
+## Disk Scheduler
+- [[RAID]]

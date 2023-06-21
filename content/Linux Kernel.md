@@ -6,7 +6,7 @@ date modified: Jun 17th, 2023
 - [[eBPF]]
 
 ## Terminology
-- *high memory*: refers to a portion of the system memory that is not directly accessible by the kernel. It is used to store data buffers that are not frequently accessed by the kernel, such as those used for block I/O operations.
+- *high [[memory]]*: refers to a portion of the system memory that is not directly accessible by the kernel. It is used to store data buffers that are not frequently accessed by the kernel, such as those used for block [[IO|I/O]] operations.
 
 ## Header File
 A header file is a file containing C declarations and macro definitions to be shared between several source files. You request the use of a header file in your program by including it, with the C preprocessing directive `#include`.

@@ -1,18 +1,17 @@
 ---
 aliases: []
 date created: Nov 24th, 2022
-date modified: Mar 29th, 2023
+date modified: Jun 19th, 2023
 ---
 
-# File Permission
-[File-system permissions - Wikipedia](https://en.wikipedia.org/wiki/File-system_permissions)  
-Two types of permissions are widely available: traditional Unix file system permissions and **[access-control lists](https://en.wikipedia.org/wiki/Access-control_list "Access-control list") (ACLs)** which are capable of more specific control.
+## File Permission
+The permissions consist of three groupings: what the **owner** of the file can do to it, what someone in a **group** can do to the file, and finally, what anyone (sometimes referred to as **other**) can do.
 
-## `chown`
+### `chown`
 Change the owner of file.  
 `user:group`
 
-## `chmod`
+### `chmod`
 Change file permission  
 `chmod permissions filename`  
 There are 2 ways to use the command –
@@ -21,18 +20,17 @@ There are 2 ways to use the command –
 
 Use mask to get the result. Maximum is `111`, the left-most bit is `read`, middle bit is `write`, right-most bit is `execute`.
 
-## Sudo
+- The read bit adds 4 to its total (in binary 100),
+- The write bit adds 2 to its total (in binary 010), and
+- The execute bit adds 1 to its total (in binary 001).
+
+### Sudo Group
 ```shell
 # Adding User to the sudo Group
 usermod -aG sudo username
 ```
 
-## Traditional Unix Permissions
-- The read bit adds 4 to its total (in binary 100),
-- The write bit adds 2 to its total (in binary 010), and
-- The execute bit adds 1 to its total (in binary 001).
-
-## Links
+### Links
 - [[Linux User]]  
 - [chown(1): change file owner/group - Linux man page](https://linux.die.net/man/1/chown)
 - [[Protection Ring]]

@@ -17,3 +17,4 @@ Thrashing occurs when a system spends more time servicing page faults than execu
 ## Links
 - [[Page Replacement Policy]]
 - [[Page Table]]
+- [[Dirty Page]]
