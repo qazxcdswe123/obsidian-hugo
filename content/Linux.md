@@ -10,7 +10,7 @@ ___
 
 - [[Linux Command Modern Alternative]]
 - [[Linux User]]
-- [[Linux Network]]
+- [[Linux Network Command]]
 - [[Linux Kernel]]
 - [[Linux Permission]]
 - [[Linux Storage]]

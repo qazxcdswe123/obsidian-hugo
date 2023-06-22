@@ -10,3 +10,5 @@ date modified: Jun 14th, 2023
 - [[Epistemology]]
 - [[Marxism]]
 - [[Dialectics]]
+- [[Materialism]]
+- [[Idealism]]

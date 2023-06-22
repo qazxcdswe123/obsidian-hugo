@@ -47,3 +47,4 @@ date modified: Jun 4th, 2023
 - [[Database Design]]
 - [[Mysql]]
 - [[Sqlite]]
+- [[Redis]]

@@ -1,4 +1,8 @@
-# Network Model
+---
+aliases: []
+date created: Apr 4th, 2023
+date modified: Jun 22nd, 2023
+---
 
 ## 4 Layer Internet Model
 - Application Layer

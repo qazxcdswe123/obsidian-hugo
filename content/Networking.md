@@ -3,7 +3,7 @@ aliases: []
 date created: Feb 20th, 2023
 date modified: Apr 4th, 2023
 ---
-- [[计算机网络]]
+- [[Network Topology]]
 - [[Communication System]]
 - [[ARP]]
 - [[Packet]]
@@ -11,12 +11,12 @@ date modified: Apr 4th, 2023
 - [[NAT]]
 - [[HTTP]]
 - [[VLAN]]
-- [[Linux Network]]
+- [[Linux Network Command]]
 - [[Gateway]]
 - [[Netmask]]
 - [[MTU]]
 - [[Ethernet]]
-- [[Broadcasting]]
+- [[Broadcast]]
 - [[Manchester Coding]]
 - [[IGMP]]
 
@@ -30,4 +30,4 @@ date modified: Apr 4th, 2023
 
 ___
 
-- [[Network Model]]
+- [[Network Layer]]

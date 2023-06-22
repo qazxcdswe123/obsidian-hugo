@@ -31,7 +31,4 @@ If one failed, retransmit the entire [[Networking Flow Control#Sliding Window Al
 ### Selective Repeat
 Retransmit only the [[packet]] that is lost.
 
-### Exponential backoff
-- [Exponential backoff  |  Memorystore for Redis  |  Google Cloud](https://cloud.google.com/memorystore/docs/redis/exponential-backoff)
-- [Exponential backoff - Wikipedia](https://en.wikipedia.org/wiki/Exponential_backoff)
-- [Timeouts, retries and backoff with jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/)
+- [[Exponential backoff]]

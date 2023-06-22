@@ -6,9 +6,6 @@ date modified: Nov 17th, 2022
 
 ## Softwere
 
-### Todo
-[GitHub - objective-see/LuLu: LuLu is the free macOS firewall](https://github.com/objective-see/LuLu)
-
 ### Microsoft
 - Onedrive
 - Word
@@ -36,26 +33,24 @@ date modified: Nov 17th, 2022
 	- syntax-highlight (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
 	- Obsidian (note taking)
-	- [[iterm2]] (terminal.app alternative)
-	 - [[Warp]]
+	- [[iterm2]] (now using kitty)
 	- unnaturalscrollwheels
 	- google-chrome
-	- visual-studio-code (ide)
+	- visual-studio-code ([[VSCode]])
 	- discord
 	- calibre (e-book manager)
 	- raycast (launcher)
 	- dash (document viewer)
-	- Maccy (Clipboard Manager)
 	- Alt-Tab (Tab management)
 
 - Formula
 	- ffmpeg
 	- jq
 	- bash
-	- [[rust]]
+	- [[rust]] (now via rustup)
 	- yadm
 	- [[Vim|neovim]]
-	- ripgrep
+	- ripgrep (`rg`)
 	- htop
 	- pipx
 	- [[python]]
@@ -73,10 +68,10 @@ date modified: Nov 17th, 2022
 	- go
 	- firacode ([[Font]])
 	- [[rclone]]
-	 - minimal-racket ([[SICP]])
+	- minimal-racket ([[SICP]])
 	- pandoc
 	- flyctl
-	- wrangler
+	- wrangler ([[Cloud Native]])
 	- [[java]]
 		- `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc`
 
