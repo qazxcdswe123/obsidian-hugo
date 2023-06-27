@@ -1,5 +1,5 @@
 ---
-aliases: [Internet Protocol]
+aliases: [Internet Protocol, IPv4, IPv6]
 date created: Feb 20th, 2023
 date modified: Jun 8th, 2023
 ---
@@ -21,4 +21,3 @@ date modified: Jun 8th, 2023
 ### Compression
 1. **Zero Compression**: If an IPv6 address contains continuous zeros, they are replaced with a double colon "::". `ef82:0000:0000:0000:0000:1a12:1234:1b12` -> `ef82::1a12:1234:1b12`
 2. **Leading Zero Compression**: `1234:0fd2:5621:0001:0089:0000:0000:4500` -> `1234:fd2:5621:1:89:0:0:4500`
-3. **Discontinuous Zero Compression**: 

@@ -19,6 +19,10 @@ date modified: Apr 4th, 2023
 - [[Broadcast]]
 - [[Manchester Coding]]
 - [[IGMP]]
+- [[Network Layer]]
+- [[Network Bridge]]
+
+___
 
 ## End-to-End Principle
 - [End-to-End principle](https://en.wikipedia.org/wiki/End-to-end_principle)
@@ -27,7 +31,3 @@ date modified: Apr 4th, 2023
 	- File transfer
 	- Bittorrent
 	- Link reliability (Wireless vs Wired).
-
-___
-
-- [[Network Layer]]

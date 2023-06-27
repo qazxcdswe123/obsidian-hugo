@@ -11,8 +11,8 @@ A transaction is a sequence of operations performed as a single logical unit of 
 - Consistency: Transactions only make changes to tables in predefined, predictable ways. Transactional consistency ensures that corruption or errors in your data **do not create unintended consequences for the integrity** of your table.
 	- Use constraints, triggers, and cascades.
 - Isolation: When multiple users are reading and writing from the same table all at once, isolation of their transactions ensures that the **concurrent transactions don't interfere with or affect one another.** Each request can occur as though they were occurring one by one, even though they're actually occurring simultaneously.
-	- Record level locking
-	- Table level locking
+	- Record level [[Locks|locking]]
+	- Table level [[Locks|locking]]
 - Durability: Ensures that changes to your data made by successfully executed transactions will be saved, even in the event of system failure.
 	- [[Write Ahead Log]]
 	 - [[Database Failure]]

@@ -5,9 +5,15 @@ date modified: Apr 6th, 2023
 ---
 
 ### Sender Side (CRC Generator and Modulo Division):
-1. The first step is to add the no. of zeroes to the data to be sent, calculated using k-1 (k - is the bits obtained through the polynomial equation.)
+1. The first step is to add the number of `0` to the data to be sent, calculated using `k-1` (`k` is the bits obtained through the polynomial equation.)
 2. Applying the Modulo [[Binary]] Division to the data bit by applying the XOR and obtaining the remainder from the division
 3. The last step is to append the remainder to the end of the data bit and share it with the receiver.  
+
+- Example -  The data bit to be sent is `[100100]`, and the polynomial equation is `[x3+x2+1]`.
+- Data bit - 100100
+- Divisor (k) - 1101 (Using the given polynomial)
+- Appending Zeros - (k-1) > (4-1) > 3
+- Dividend - 100100000
 ![image.png](https://img.ynchen.me/2023/03/56fec7bda24ba579708086a9e87f5b88.webp)
 
 

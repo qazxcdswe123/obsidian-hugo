@@ -6,13 +6,13 @@ date modified: Jun 22nd, 2023
 
 ## 4 Layer Internet Model
 - Application Layer
-	- Bi-directional reliable byte stream between two applications, using application-specific semantics (e.g. http, bit-torrent).
+	- Bi-directional reliable byte stream between two applications, using application-specific semantics (e.g. [[http]], [[bittorrent]]).
 - Transport Layer
 	- [[TCP]] and [[UDP]]
 	- Guarantees correct, in-order delivery of data end-to-end. [[Congestion Control]]
 - Network Layer
 	- No need to concern how [[Packet|packets]] are sent via link layer
-	- Delivers datagrams end-to-end. Best-effort delivery -no guarantees. Must use the Internet Protocol ([[IP]]).
+	- Delivers datagrams end-to-end. Best-effort delivery, no guarantees. Must be used with the [[IP|Internet Protocol]].
 - Link Layer
 	- Delivers data over a single link between an end host and router, or between routers  
 

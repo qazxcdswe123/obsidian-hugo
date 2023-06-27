@@ -15,8 +15,10 @@ Locally administered addresses are distinguished from universally administered a
 
 ## Unicast and Multicast (I/G bit)
 The least significant bit of an address's first octet is referred to as the _I/G_, or _Individual/Group_, bit.
-When this bit is 0, the [frame](https://en.wikipedia.org/wiki/Frame_(networking) "Frame (networking)") is meant to reach only one receiving NIC ([[Unicast]]).
+- When this bit is 0, the [frame](https://en.wikipedia.org/wiki/Frame_(networking) "Frame (networking)") is meant to reach only one receiving NIC ([[Unicast]]).
+- When this bit is 1, it's a [[Multicast]] address.
 
 
 ## Links
 - [MAC address - Wikipedia](https://en.wikipedia.org/wiki/MAC_address)
+- [[Ethernet]]

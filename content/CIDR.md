@@ -17,11 +17,11 @@ date modified: Apr 20th, 2023
 - [CIDR Conversion Table | HPE Edgeline Docs](https://techlibrary.hpe.com/docs/otlink-wo/CIDR-Conversion-Table.html)
 - [[Netmask]]
 
-## Classed IP
+## Classful IP
 
 ### Class A
-- Public IP Range: 1.0.0.0 to 127.0.0.0
-	- First octet value range from 1 to 127
+- Public IP Range: 0.0.0.0 to 127.255.255.255
+	- First octet value range from 0 to 127
 - Private IP Range: 10.0.0.0 to 10.255.255.255 (See [Private IP Addresses](https://www.meridianoutpost.com/resources/articles/IP-classes.php#private) below for more information)
 - Subnet Mask: 255.0.0.0 (8 bits)
 - Number of Networks: 126
@@ -48,7 +48,7 @@ date modified: Apr 20th, 2023
 - Range: 224.0.0.0 to 239.255.255.255
 	- First octet value range from 224 to 239
 - Number of Networks: N/A
-- Number of Hosts per Network: Multicasting
+- Number of Hosts per Network: [[Multicast|Multicasting]]
 - [[IGMP]]
 
 ### Class E
@@ -56,6 +56,33 @@ date modified: Apr 20th, 2023
 	- First octet value range from 240 to 255
 - Number of Networks: N/A
 - Number of Hosts per Network: Research/Reserved/Experimental
+
+```
+Class A
+  0.  0.  0.  0 = 00000000.00000000.00000000.00000000
+127.255.255.255 = 01111111.11111111.11111111.11111111
+                  0nnnnnnn.HHHHHHHH.HHHHHHHH.HHHHHHHH
+
+Class B
+128.  0.  0.  0 = 10000000.00000000.00000000.00000000
+191.255.255.255 = 10111111.11111111.11111111.11111111
+                  10nnnnnn.nnnnnnnn.HHHHHHHH.HHHHHHHH
+
+Class C
+192.  0.  0.  0 = 11000000.00000000.00000000.00000000
+223.255.255.255 = 11011111.11111111.11111111.11111111
+                  110nnnnn.nnnnnnnn.nnnnnnnn.HHHHHHHH
+
+Class D
+224.  0.  0.  0 = 11100000.00000000.00000000.00000000
+239.255.255.255 = 11101111.11111111.11111111.11111111
+                  1110XXXX.XXXXXXXX.XXXXXXXX.XXXXXXXX
+
+Class E
+240.  0.  0.  0 = 11110000.00000000.00000000.00000000
+255.255.255.255 = 11111111.11111111.11111111.11111111
+                  1111XXXX.XXXXXXXX.XXXXXXXX.XXXXXXXX
+```
 
 ### Private IP Addresses
 - Class A Private Range: 10.0.0.0 to 10.255.255.255
@@ -65,4 +92,5 @@ date modified: Apr 20th, 2023
 - Class B Private Range: 172.16.0.0 to 172.31.255.255
 - Class C Private Range: 192.168.0.0 to 192.168.255.255
 
-[Ethernet Numbers](https://www.iana.org/assignments/ethernet-numbers/ethernet-numbers.xhtml)
+- [Ethernet Numbers](https://www.iana.org/assignments/ethernet-numbers/ethernet-numbers.xhtml)
+- 

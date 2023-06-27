@@ -32,3 +32,6 @@ as long as the SNR is above this threshold, the receiver can effectively suppres
 $$R_{b}= R_{B} \cdot \log_{2} M$$
 
 $M$ is the radix of the data.
+
+## Shannon–Hartley theorem
+![cd8e56f09c4da5480c1ddfd15855f2cc803938f4](https://wikimedia.org/api/rest_v1/media/math/render/svg/cd8e56f09c4da5480c1ddfd15855f2cc803938f4)
