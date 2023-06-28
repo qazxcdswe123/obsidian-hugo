@@ -5,7 +5,7 @@ Based on [[Set Theory]]
 - `SELECT * FROM R WHERE a_id = 'a2'`
 
 ## Projection
-- $\uppi$ : retains only desired columns (vertical)
+- $\Pi$ : retains only desired columns (vertical)
 Projection takes in a relation and outputs a relation with tuples that contain only specified attributes.
 - `SELECT b_id-100, a_id FROM R WHERE a_id = 'a2'`
 

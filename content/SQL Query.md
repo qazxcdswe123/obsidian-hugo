@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: Mar 28th, 2022
-date modified: Jun 4th, 2023
+date modified: Jun 27th, 2023
 ---
 - Related: [[Relational Algebra]]
 
@@ -27,7 +27,6 @@ FROM <single table>
 - `AVG()`
 - `COUNT()`
 - `SUM()`
-
 
 ## Misc
 - `.schema`
