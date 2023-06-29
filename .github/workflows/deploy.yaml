@@ -36,7 +36,7 @@ jobs:
       - name: Deploy_To_CF_Pages
         uses: cloudflare/wrangler-action@2.0.0
         with:
-          command: pages publish ./public --project-name=hugo-obsidian
+          command: pages deploy ./public --project-name=hugo-obsidian
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           apiToken: ${{ secrets.CF_API_TOKEN }}
 
