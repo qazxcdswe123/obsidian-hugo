@@ -126,6 +126,7 @@ ServerAliveCountMax 999
 - Uncheck `play sound on startup` && `play UI sound effect`
 
 ## Keyboard Shortcut
+- [[yabai]]
 - `Option+Command+V`: Move file
 - `“Command” + “Shift” + “.” (period)`: show hidden file
 - `Shift+F6`: Toggle DND
