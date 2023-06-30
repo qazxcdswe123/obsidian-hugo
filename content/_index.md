@@ -29,7 +29,7 @@ A Blog Directly Generated From Obsidian
 
 ## MISC
 - Planned: [[论女权主义]]
-- Planned: [[为什么女性是美的]]
+- 2023-06-30: [[为什么女性是美的]]
 - 2022-08-12: [[Ergonomics]]
 - 2022-07-12: [[论闲书]]
 - 2022-07-11: [[论审核]]
