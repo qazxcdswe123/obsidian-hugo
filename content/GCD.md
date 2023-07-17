@@ -1,23 +1,26 @@
 ---
 aliases: [LCF]
 date created: Jul 14th, 2022
-date modified: Dec 29th, 2022
+date modified: Jul 17th, 2023
 ---
 
-# Divisor
+## Divisor
 A divisor of *n*, also called a factor of *n*, is an integer *m* that can be multiplied by some integer to produce *n*.  
 and *n* is a multiple of *m*.  
 $n = km$ then $m | n$ 
 
-# GCD
+## GCD
 Greatest common divisor. It is also termed as the highest common factor (HCF) or the greatest common factor (GCF).  
 [Euclidean algorithm - Wikipedia](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 
-## Properties
+### Properties
 - $gcd(a, b) = ar + bs$ [[Bezout's Identity]]
 - If $gcd(a, n) = 1$ and $gcd(a, m) = 1$ then $gcd(a, mn) = 1$
-
-## Calculate GCD
+- Lamé’s Theorem: 
+	- If Euclid’s Algorithm requires `k` steps to compute the `gcd` of some pair, then the smaller number in the pair must be greater than or equal to the `kth` Fibonacci number.
+	- $n \geq Fib(k) ≈ \frac{\phi^k}{\sqrt{5}}$, order of growth is $\Theta(\log n)$
+		- `n` is the smaller of the two inputs to the procedure
+		- `k` is the number of steps taken by the process
 
 ### Method 1: Prime Factorizations
 to compute $gcd(48, 180)$, we find the [[prime]] factorizations $48 = 2^4 \cdot 3^1$ and $180 = 2^2 \cdot 3^2 \cdot 5^1$; the GCD is then $2^{min(4,2)} · 3^{min(1,2)} · 5^{min(0,1)} = 2^2 · 3^1 · 5^0 = 12$  
@@ -28,7 +31,8 @@ The Euclidean [[Algorithm]] is based on the principle that the greatest common d
 
 ![](https://img.ynchen.me/2022/07/d10227041ae56557de562a6ac57a315d.jpg)
 
-## Code for GCD
+### Code for GCD
+
 ```c
 int gcd(int a, int b)
 {
@@ -44,4 +48,5 @@ int gcd(int a, int b)
 3. gcd(_2u_, _v_) = gcd(_u_, _v_), if _v_ is odd (2 is not a common divisor). Similarly, gcd(_u_, _2v_) = gcd(_u_, _v_) if _u_ is odd.
 4. gcd(_u_, _v_) = gcd(|_u_ − _v_|, min(_u_, _v_)), if _u_ and _v_ are both odd.  
 
-[[Bezout's Identity]]
+## Links
+- [[Bezout's Identity]]

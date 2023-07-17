@@ -1,15 +1,24 @@
+---
+aliases: []
+date created: Jun 26th, 2022
+date modified: Jul 1st, 2023
+---
 [[Python Datatypes and Storage]]
-# List Basis
+
+## List Basis
 `*args`
+
 ```python
 scores = [72, 73, 33]
 
 average = sum(scores) / len(scores)
 print(f"Average: {average}")
 ```
+
 The `f` before the double quotes indicates that this is a **format string**, which will allow us to use curly braces, `{}`, to include variables that should be substituted, or interpolated. [[Python f-string]]
 ___
 It is possible to nest lists (create lists containing other lists), for example:
+
 ```python
 >>> a = ['a', 'b', 'c']
 >>> n = [1, 2, 3]
@@ -21,25 +30,10 @@ It is possible to nest lists (create lists containing other lists), for example:
 >>> x[0][1]
 'b'
 ```
+
 ___
-- List comprehension
-`newlist = [x for x in fruits if x != "apple"]`
 
-## List Comprehension
-[Src](https://www.programiz.com/python-programming/list-comprehension)
-[Python Docs](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
-```python
-h_letters = [ letter for letter in 'human' ]
-print( h_letters)
-number_list = [ x for x in range(20) if x % 2 == 0]
-print(number_list)
-
-squares = [x**2 for x in range(10)]
->>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
-[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
-```
-
-# More on Lists
+## More on Lists
 [More On Lists]( https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 - `list.append(x)` 
 	- Add an item to the end of the list. Equivalent to `a[len(a):] = [x]`.

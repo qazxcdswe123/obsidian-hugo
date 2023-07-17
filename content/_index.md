@@ -22,13 +22,12 @@ A Blog Directly Generated From Obsidian
 - 2022-07-28: [[编程语言随想]]
 - 2022-07-24: [[Introduction to Floating Point Number]]
 
-## [[Linux]] Related
+## Linux Related
 - 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
 - 2022-01-05: [[GDB Crash Course]]
 
 ## MISC
-- Planned: [[论女权主义]]
 - 2023-06-30: [[为什么女性是美的]]
 - 2022-08-12: [[Ergonomics]]
 - 2022-07-12: [[论闲书]]
@@ -45,6 +44,7 @@ A Blog Directly Generated From Obsidian
 
 ## Review
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
+- 2023-07-17: [[SICP Review]]
 - 2022-07-11: [[Algorithm Unlock Book Review]]
 - [[Book Review]]
 

@@ -7,7 +7,7 @@ date modified: Apr 5th, 2023
 
 ## What is AJAX
 - AJAX is a technique for accessing web servers from a web page.
-- AJAX stands for [[Asynchronous]] [[JavaScript]] And XML.
+- AJAX stands for [[Asynchronous]] [[JavaScript]] And [[XML]].
 
 - It can
 	- Read data from a web server - after a web page has loaded

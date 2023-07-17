@@ -6,6 +6,6 @@ date modified: Dec 28th, 2022
 - [[Proof]]  
 - [[DNF and CNF]]  
 - [[Group Theory]]
-- [[Algebra]]
+- [[Discrete Math Algebra]]
 - [[格和布尔代数]]
 - [[Graph Theory]]

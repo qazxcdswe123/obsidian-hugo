@@ -27,7 +27,7 @@ Cayley 定理: 任何有限群 G 都同构于 G 的一个置换群。
 ## [[Graph Theory|Graph]]
 - 同构图：看度数列
 
-## [[Algebra]]
+## [[Discrete Math Algebra]]
 - 同态：
 	- 设 V1 = ⟨A,◦⟩和 V2 = ⟨B,∗⟩是同类型的代数系统， f : A → B，并且∀x,y ∈ A,f(x◦y) = f(x)∗f(y), 称 f 是 V1 到 V2 的同态映射
 	- **即用函数 f 从一个集合 A 中两个数变成的一个数映射到另一个集合 B 的两个数，和群同态相同**

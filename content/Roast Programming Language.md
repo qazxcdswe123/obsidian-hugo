@@ -50,7 +50,7 @@ OOP by design，工业届宠儿，说实话用来写工业代码真的很不错�
 学习途径：吃老本 + Oracle Tutorial + 写项目（CS186 DB Project）
 
 6. Scheme/Lisp/Elisp  
-学 [[SICP]] 时候的语言，括号看的难受，但是真写起来这些 functional 的东西真的挺带感的，写起来骂娘，但不写一段时间又会想起来。。。  
+学 [[SICP Review]] 时候的语言，括号看的难受，但是真写起来这些 functional 的东西真的挺带感的，写起来骂娘，但不写一段时间又会想起来。。。  
 没学很深，但是真挺带感的  
 学习途径：折腾 Emacs （已转 [[Vim|Neovim]]）+ SICP
 

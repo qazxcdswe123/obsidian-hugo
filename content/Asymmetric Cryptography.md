@@ -1,7 +1,7 @@
 ---
 aliases: []
 date created: Dec 3rd, 2022
-date modified: Dec 3rd, 2022
+date modified: Jul 2nd, 2023
 ---
 
 ## Usage
@@ -17,4 +17,4 @@ date modified: Dec 3rd, 2022
 - Mainly use for decryption and sign a message
 
 ## Links
-[Signing a Message and Encryption. There are different kinds of data… | by Alick Wong | ITNEXT](https://itnext.io/signing-a-message-e303c2954499)
+- [Signing a Message and Encryption. There are different kinds of data… | by Alick Wong | ITNEXT](https://itnext.io/signing-a-message-e303c2954499)

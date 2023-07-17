@@ -68,7 +68,7 @@ date modified: Nov 17th, 2022
 	- go
 	- firacode ([[Font]])
 	- [[rclone]]
-	- minimal-racket ([[SICP]])
+	- minimal-racket ([[SICP Review]])
 	- pandoc
 	- flyctl
 	- wrangler ([[Cloud Native]])

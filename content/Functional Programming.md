@@ -6,7 +6,7 @@ date modified: May 15th, 2023
 - [[OOP]]
 
 # Functional
-- [[SICP]]
+- [[Scheme]]
 - [[Rust]]
 - [[C++]]
 - [[ReactJS]]

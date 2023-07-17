@@ -1,5 +1,5 @@
 ---
-aliases: [Fermat's Little Theorem]
+aliases: [费马小定理]
 date created: Oct 24th, 2022
 date modified: Nov 16th, 2022
 ---

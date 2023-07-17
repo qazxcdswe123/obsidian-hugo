@@ -16,6 +16,7 @@ date modified: Sep 4th, 2022
 	- [[Python Virtualenv]]
 	- [[Python sys]]
 
+- [[Python Lambda]]
 - [[Python GIL]]
 - [[Python Magic Method]]
 - [[Python Decorator]]

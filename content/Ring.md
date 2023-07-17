@@ -6,7 +6,7 @@ date modified: Dec 27th, 2022
 
 # Ring
 
-## [[Algebra]]
+## [[Discrete Math Algebra]]
 - 加法：Abel，单位元 0，负元 -x  
 - 乘法：结合律，单位元 (If Any) 1，逆元 $x^{-1}$，
 - 加法乘法间满足分配律
