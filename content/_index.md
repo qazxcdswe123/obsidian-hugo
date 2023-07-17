@@ -4,8 +4,6 @@ date created: Jul 13th, 2022
 date modified: May 15th, 2023
 ---
 
-$$o_wo$$
-
 # Blog
 A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
@@ -42,7 +40,7 @@ A Blog Directly Generated From Obsidian
 - 2022-01-08: [[论时间]]
 - 2022-01-04: [[女生不适宜学习理工科吗？]]
 
-## Review
+## Book Review
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
 - 2023-07-17: [[SICP Review]]
 - 2022-07-11: [[Algorithm Unlock Book Review]]
