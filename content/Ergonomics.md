@@ -35,3 +35,6 @@ date modified: Jul 17th, 2023
   - **Eye Rolls**: Roll your eyes clockwise then counterclockwise briefly.  
   - **Palm Eyes**: Without touching your eyes, cup hands lightly over eyes for 30 seconds to rest them from light.  
   - **Look Away**: Exercise your eyes by periodically looking away from your computer to focus on distant objects.
+  
+## Links
+- [[Exercises]]

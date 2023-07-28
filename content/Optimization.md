@@ -1,32 +1,10 @@
 ---
-aliases: [Pipeline]
+aliases: []
 date created: Jul 31st, 2022
 date modified: Apr 8th, 2023
 ---
 - [[False Sharing]]
-
-## Performance Improvement Techniques
-- High-level design  
-High-level design, Choose appropriate algorithms and data structures for the problem at hand. Be especially vigilant to avoid algorithms or coding techniques that yield asymptotically poor performance.
-
-- Eliminate excessive function calls  
-Eliminate excessive function calls, Move computations out of loops when possible. Consider selective compromises of program modularity to gain greater efficiency.
-
-- Eliminate unnecessary memory references  
-Eliminate unnecessary memory references, Introduce temporary variables to hold intermediate results. Store a result in an array or global variable only when the final value has been computed.
-
-- Low-level optimizations  
-Low-level optimizations, Structure code to take advantage of the hardware capabilities.  
-Unroll loops to reduce overhead and to enable further optimizations.  
-Find ways to increase instruction-level parallelism by techniques such as multiple accumulators and reassociation.  
-Rewrite conditional operations in a functional style to enable compilation via conditional data transfers.
-
-## Memory Aliasing
-The case where two pointers may designate the same [[memory]] location is known as [[memory]] aliasing.  
-Two variable point to the same chunk of [[memory]].
-
-### Eliminating Unneeded Memory References
-Use temporary variable in loop so there's no heavy [[memory]] [[IO]].
+- [[Memory Aliasing]]
 
 ## Speculative Execution
 With speculative execution, the operations are evaluated, but the final results are not stored in the program registers or data [[memory]] until the processor can be certain that these instructions should actually have been executed.

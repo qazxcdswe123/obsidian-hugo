@@ -37,7 +37,7 @@ date modified: Apr 1st, 2023
 
 ## Links
 - [missing.csail.mit.edu](https://missing.csail.mit.edu/2020/shell-tools/)  
-- [[Linux Command Modern Alternative]]
+- [[Modern Linux Command]]
 - [[SSH]]
 - [[IO]]
 - [[iTerm2]]

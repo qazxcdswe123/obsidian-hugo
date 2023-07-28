@@ -24,6 +24,18 @@ Languages I've learnt
 	- [[TypeScript]]
 	- [[JavaScript]]  
 	- [[CSS]]
+ 
+## What to Learn
+- Syntax:
+	- keywords 
+	- restrictions
+	- format
+ - Semantics:
+	 - dynamic semantics: run-time behavior
+	 - static semantics: type checking
+ - Idioms:
+ - Libraries:
+ - Tools:
 
 ## What to Explore When Learning New Languages
 - Read/write to a file
@@ -32,6 +44,7 @@ Languages I've learnt
 - A basic script that can be run from the CLI, parses flags/args, reads `stdin`
 - Send a [[HTTP]] request
 - Implement a very basic web server
+
 
 ## Links
 - [[Programming paradigm]]

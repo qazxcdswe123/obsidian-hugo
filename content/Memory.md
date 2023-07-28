@@ -4,11 +4,7 @@ date created: Jul 17th, 2022
 date modified: Jun 17th, 2023
 ---
 
-## Segmentations
-- [Memory segmentation - Wikipedia](https://en.wikipedia.org/wiki/Memory_segmentation)  
-- [Data segment - Wikipedia](https://en.wikipedia.org/wiki/Data_segment)  
-- [Code segment - Wikipedia](https://en.wikipedia.org/wiki/Code_segment)  
-- [.bss - Wikipedia](https://en.wikipedia.org/wiki/.bss)
+- [[Memory Segmentation]]
 
 ## Copy on Write
 >  If a resource is duplicated but not modified, it is not necessary to create a new resource; the resource can be shared between the copy and the original. Modifications must still create a copy, hence the technique: the copy operation is deferred until the first write. By sharing resources in this way, it is possible to significantly reduce the resource consumption of unmodified copies, while adding a small overhead to resource-modifying operations. —Wikipedia

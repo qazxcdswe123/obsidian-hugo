@@ -1,6 +1,6 @@
 A reference created with `ref` is exactly the same as reference taken with `&`.
 The difference is where they're allowed in the syntax. `ref` on the left side of an assignment is like adding `&` on the right side.
-This redundancy exists because in pattern matching `&` is used to require that a reference exists already, rather than to make a new one:
+This redundancy exists because in [[pattern matching]] `&` is used to require that a reference exists already, rather than to make a new one:
 
 ```rust
 let foo = 1;

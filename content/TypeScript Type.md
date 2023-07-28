@@ -4,8 +4,6 @@ date created: Dec 21st, 2022
 date modified: Mar 15th, 2023
 ---
 
-## Type
-
 ## `null` And `undefined`
 TypeScript also has a special syntax for removing `null` and `undefined` from a type without doing any explicit checking. Writing `!` after any expression is effectively a type assertion that the value isn’t `null` or `undefined`:
 
@@ -35,6 +33,18 @@ function printName(obj: { first: string; last?: string }) {
   console.log(obj.last?.toUpperCase());
 }
 ```
+
+### Non-null Assertion Operator (Postfix`!`)
+a special syntax for removing `null` and `undefined` from a type without doing any explicit checking. Writing `!` after any expression is effectively a type assertion that the value isn’t `null` or `undefined`:
+
+```ts
+function liveDangerously(x?: number | null) {
+  // No error
+  console.log(x!.toFixed());
+}
+
+```
+
 
 ### `readonly` Properties
 A property marked as `readonly` can’t be written to during type-checking.  

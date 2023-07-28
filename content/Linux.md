@@ -3,13 +3,17 @@ aliases: []
 date created: Jul 15th, 2022
 date modified: Apr 2nd, 2023
 ---
+## Distros
 - [[Manjaro]] 
 - [[PVE]]
+- [[NixOS]]
 
 ___
 
-- [[Linux Command Modern Alternative]]
+## Knowledge
+- [[Modern Linux Command]]
 - [[Linux User]]
+- [[Linux Group]]
 - [[Linux Network Command]]
 - [[Linux Kernel]]
 - [[Linux Permission]]
@@ -23,18 +27,10 @@ ___
 
 ___
 
+## Writing
 - [[01-Linux and Command Line]]
 
-## Mirrors
+___
 
-### Ubuntu
-```
-sudo sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list
-```
-
-### Debian
-```
-sudo sed -i 's/ftp.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
-sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
-apt purge package
-```
+## Misc
+- [[Cheat Sheet]]

@@ -54,7 +54,7 @@ OOP by design，工业届宠儿，说实话用来写工业代码真的很不错�
 没学很深，但是真挺带感的  
 学习途径：折腾 Emacs （已转 [[Vim|Neovim]]）+ SICP
 
-7. Ocaml  
+7. [[Ocaml]]  
 写过一些，没有过多接触，槽点主要是 explicit `rec`，但没写很深，总体感觉挺有意思的  
 还有编译之后是 shebang `#!/usr/bin/env ocamlscript` + compiled bytecode 作为纯文本存，真的难顶，笑死我了。  
 学习途径：官方教程

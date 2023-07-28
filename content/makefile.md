@@ -35,7 +35,7 @@ main.o : main.c defs.h
     cc -c main.c
 kbd.o : kbd.c defs.h command.h
     cc -c kbd.c
-command.o : command.c defs.h command.h
+
     cc -c command.c
 display.o : display.c defs.h buffer.h
     cc -c display.c

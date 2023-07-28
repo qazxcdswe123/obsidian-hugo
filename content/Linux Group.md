@@ -1,0 +1,2 @@
+In [[Linux]], groups are collections of users. Creating and managing groups is one of the simplest ways to deal with multiple users simultaneously, especially when dealing with permissions. 
+The `/etc/group` file stores group information and is the default configuration file.

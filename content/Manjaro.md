@@ -90,7 +90,7 @@ work out of the box
 		- `~/.pam_environment` 
 		- `WINEPREFIX=~/.deepinwine/Deepin-WeChat deepin-wine6-stable winecfg`
 - fzf
-	- [[Linux Command Modern Alternative]]
+	- [[Modern Linux Command]]
 	- It's kind of magic
 - [[ranger]] [[Vim]]
 - [[Vim]]

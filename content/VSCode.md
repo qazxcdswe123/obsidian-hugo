@@ -1,55 +1,21 @@
 ---
 aliases: []
 date created: Apr 9th, 2022
-date modified: Apr 9th, 2023
+date modified: Jul 27th, 2023
 ---
 - [[IDEA IDE]]
+- [[VSCode Extension]]
 
-# VSCode Native
-- Disable minmap by right click scroll bar.
-- `Shift+Command+D` to search current selection in [[MacOS|Dash]]
-- `Control+Shift+H` to open current language documentation
-- `Option+H` to search for a custom string
-- `CMD+KL` to toggle fold
-- `CMD+B` to toggle sidebar visibility
 
-## VSCode Settings
-```json
-[
-    {
-        "key": "tab",
-        "command": "acceptSelectedSuggestion",
-        "when": "suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "shift+tab",
-        "command": "acceptSelectedSuggestion",
-        "when": "suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "tab",
-        "command": "selectNextSuggestion",
-        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
-    },
-        {
-        "key": "shift+tab",
-        "command": "selectPrevSuggestion",
-        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
-    }
-]
-```
-
-# Extensions
-
-## Dev Container
+### Dev Container
 - [Get started with development Containers in Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/tutorial)
 
-# Language Specific
+## Language Specific
 
-## C++
+### C++
 [C++ build before debug](https://stackoverflow.com/questions/57891050/how-run-build-task-automatically-before-debugging-in-visual-studio-code)
 
-### C/C++ Debug in Integrated Terminal
+#### C/C++ Debug in Integrated Terminal
 Use `task.json` to build and use `launch.json` to launch and debug.  
 Require extension: [CodeLLDB - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 

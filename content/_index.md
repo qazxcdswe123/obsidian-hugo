@@ -72,6 +72,7 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Operating System]]
 - [[Optimization]]
 - [[Communication System]]
+- [[Machine Learning]]
 
 ### Languages
 - [[Programming Language]]

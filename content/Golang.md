@@ -11,7 +11,6 @@
 - [[Go Error Handling]]
 - [[Go Generic]]
 - [[Go Context]]
-- [[Go Re]]
 - [[Go Channel]]
 
 ___

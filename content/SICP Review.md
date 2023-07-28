@@ -58,6 +58,7 @@ What's more, sometimes I feel a sense of emptiness when reading the book, maybe 
 
 ### Excerpts
 > higher-order procedures permit us to manipulate these general methods to create further abstractions.  
+
 > As programmers, we should be alert to opportunities to identify the underlying abstractions in our programs and to build upon them and generalize them to create more powerful abstractions. This is not to say that one should always write programs in the most abstract way possible; expert programmers know how to choose the level of abstraction appropriate to their task. But it is important to be able to think in terms of these abstractions, so that we can be ready to apply them in new contexts. The significance of higher-order procedures is that they enable us to represent these abstractions explicitly as elements in our [[programming language]], so that they can be handled just like other computational elements.
 
 > Encapsulating, or “hiding,” parts of the state of a large system within local variables
