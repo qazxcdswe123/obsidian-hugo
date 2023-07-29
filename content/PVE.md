@@ -3,7 +3,7 @@ aliases: [proxmox, homelab]
 date created: Mar 28th, 2023
 date modified: Mar 31st, 2023
 ---
-- 换源： // Use lancache local mirror
+- 换源：
 	- [Proxmox 源使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/proxmox.html)
 - 修改 [[IP]] 地址
 	- [Proxmox Virtual Environment（PVE）完美的更改IP地址 - 知乎](https://zhuanlan.zhihu.com/p/354038479)

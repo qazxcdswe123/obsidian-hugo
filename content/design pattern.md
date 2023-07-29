@@ -9,3 +9,5 @@ date modified: Aug 17th, 2022
 - [[MVC]]
 - [[Singleton Pattern]]
 - [[Logging]]
+- [[SOLID Design Principle]]
+- [[Dependency Injection]]

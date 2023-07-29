@@ -11,3 +11,7 @@
 - For accessing web resources, the [Fetch](https://developer.mozilla.org/docs/Web/API/Fetch_API) API must be used. Accessed resources need to support [Cross-Origin Resource Sharing](https://developer.mozilla.org/docs/Web/HTTP/CORS) (CORS)
 - Creating child processes or running executables is not possible. However, web workers can be created through the [Worker](https://developer.mozilla.org/en-US/docs/Web/API/Worker) API. This is used for running language servers as described in the [Language Server Protocol in web extensions](https://code.visualstudio.com/api/extension-guides/web-extensions#language-server-protocol-in-web-extensions) section.
 - As with regular extensions, the extension's `activate/deactivate` functions need to be exported via the pattern `exports.activate = ...`.
+
+
+## Project
+- [[VSCode WhichKey]]

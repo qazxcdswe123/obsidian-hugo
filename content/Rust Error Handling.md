@@ -73,6 +73,5 @@ println!("Hello again, {}", maybe_name.unwrap_or("world".into()));
 
 - `Some()`
 - `None`
-
 ## Links
 - [[Rust ref Pattern]]

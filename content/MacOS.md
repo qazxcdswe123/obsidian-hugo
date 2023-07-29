@@ -33,7 +33,7 @@ date modified: Nov 17th, 2022
 	- syntax-highlight (For Quick Preview via `Space`)
 	- Motrix (Aria2 GUI)
 	- Obsidian (note taking)
-	- [[iterm2]] (now using kitty)
+	- [[iterm2]] (now using [[kitty]])
 	- unnaturalscrollwheels
 	- google-chrome
 	- visual-studio-code ([[VSCode]])

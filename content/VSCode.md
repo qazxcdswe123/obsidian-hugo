@@ -1,13 +1,17 @@
 ---
 aliases: []
 date created: Apr 9th, 2022
-date modified: Jul 27th, 2023
+date modified: Jul 28th, 2023
 ---
 - [[IDEA IDE]]
 - [[VSCode Extension]]
 
+## VSCode Vim
+- `gq` - on a visual selection reflow and wordwrap blocks of text, preserving commenting style. Great for formatting documentation comments.
+- `gb` - adds another cursor on the next word it finds which is the same as the word under the cursor.
+- `gh` - equivalent to hovering your mouse over wherever the cursor is. Handy for seeing types and error messages without reaching for the mouse!
 
-### Dev Container
+## Dev Container
 - [Get started with development Containers in Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/tutorial)
 
 ## Language Specific

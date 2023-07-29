@@ -1,15 +1,15 @@
 ---
+link: []
 aliases: []
 date created: Jul 13th, 2022
-date modified: May 15th, 2023
+date modified: Jul 29th, 2023
 ---
 
-# Blog
+## Blog
 A Blog Directly Generated From Obsidian
 - How to? [[hugo]] + [[GitHub Actions]] + [[01-Linux and Command Line]] + [[Shell]] + [🪴 Quartz 3.2](https://quartz.jzhao.xyz/)
-- See also [[Markdown Format Testing]]
 
-## CS Related
+### CS Related
 - 2023-04-30: [[Roast Programming Language]]
 - 2023-03-11: [[Fast inverse square root]]
 - 2023-01-17: [[Random Number Within a Given Range]]
@@ -20,12 +20,12 @@ A Blog Directly Generated From Obsidian
 - 2022-07-28: [[编程语言随想]]
 - 2022-07-24: [[Introduction to Floating Point Number]]
 
-## Linux Related
+### Linux Related
 - 2022-02-28: [[01-Linux and Command Line]]
 - 2022-03-05: [[02-Vim]]
 - 2022-01-05: [[GDB Crash Course]]
 
-## MISC
+### MISC
 - 2023-06-30: [[为什么女性是美的]]
 - 2022-08-12: [[Ergonomics]]
 - 2022-07-12: [[论闲书]]
@@ -40,22 +40,23 @@ A Blog Directly Generated From Obsidian
 - 2022-01-08: [[论时间]]
 - 2022-01-04: [[女生不适宜学习理工科吗？]]
 
-## Book Review
+### Book Review
 To be honest, I seldom read or finish books, let alone to write down some book reviews. Maybe put this at the index page can motivate me to, at the very least, read more.
 - 2023-07-17: [[SICP Review]]
 - 2022-07-11: [[Algorithm Unlock Book Review]]
-- [[Book Review]]
+- [[论闲书]]
+- [[论学习(2)]]
 
-# Notes
+## Notes
 
-## Math
+### Math
 - [[Euler formula]]
 - [[Graph Theory]]
 - [[Discrete Math]]
 - [[Abstract Algebra]]
 - [[Calculus]]
 
-## CS
+### CS
 - [[Algorithm]]
 - [[Data Structure]]
 - [[Cache]]
@@ -74,7 +75,7 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 - [[Communication System]]
 - [[Machine Learning]]
 
-### Languages
+#### Languages
 - [[Programming Language]]
 - [[Learn C in 1 Hour]]
 - [[C++]]
@@ -91,13 +92,12 @@ To be honest, I seldom read or finish books, let alone to write down some book r
 	- [[ReactJS]]
 	- [[CSS]]
 
-## Life
-- [[Moment]]
+### Life
 - [[Quote]]
 - [[Philosophy]]
 
 ___
 
-- Nerd Stack
+- Nerd Stack  
 [![Language](https://skillicons.dev/icons?i=js,html,css,ts,react,rust,c,cpp,go,python,lua,java,bash)](https://skillicons.dev)  
 [![My Skills](https://skillicons.dev/icons?i=docker,ansible,cloudflare,git,github,linux)](https://skillicons.dev)

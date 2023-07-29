@@ -19,3 +19,4 @@ date modified: Apr 10th, 2023
 - [[Interpreter]]
 - [[Compilation]]
 - [[ELF]]
+- [[Finite Automata]]

@@ -56,12 +56,6 @@ ___
 - [程序员的心理疾病](https://www.yinwang.org/blog-cn/2014/02/09/programmer-mental)
 
 ___
->  21 世纪的新生代们，则出生在互联网制造的“地球村”里，他们是网络原住民，是从小就会打开手机寻找动画片、解锁 iPad 玩游戏的一级“冲浪手”。  
-> 电子阅读淹没印刷书籍、网络通讯替代现场交流，也变得司空见惯。他们把网络作为“常态化”生活方式，也不会乐意接受来自电视时代的“规训”。
-- [少数派 - 高效工作，品质生活](https://sspai.com/post/74716)  
-好耶
-
-___
 > 对爱情的渴望，对知识的追求，对人类苦难不可遏制的同情心，这三种纯洁而无比强烈的激情支配着我的一生。  
 > Three passions，simple but overwhelmingly strong，have governed my life：the longing for love，the search for knowledge，and unbearable pity for the suffering of mankind.
 - 《我为什么而活着》罗素 （哲学家 数学家 思想家）

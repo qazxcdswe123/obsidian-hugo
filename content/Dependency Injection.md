@@ -1,0 +1,1 @@
+This helps you to follow [[SOLID Design Principle|SOLID]]’s dependency inversion and single responsibility principles.

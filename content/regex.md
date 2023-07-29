@@ -16,12 +16,3 @@ date modified: Feb 14th, 2023
 | `\w`      | matches any single letter, number or underscore (same as `[a-zA-Z0-9_]`) |
 | `\s`      | white space                                                              |
 | `()`      | _back-references_ (or _capturing groups_), stored in variable                                                                         |
-
-## Regex in [[SQL]]
-- [[SQL Query]]
-
-### Old School
-- `WHERE S.sname LIKE 'B_%'`
-
-### Standard Regex
-- `WHERE S.sname ~ '^B.*'`

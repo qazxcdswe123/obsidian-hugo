@@ -1,7 +1,7 @@
 ---
 aliases: [Databse]
 date created: Feb 18th, 2023
-date modified: Jun 4th, 2023
+date modified: Jul 29th, 2023
 ---
 
 ## DBMS
