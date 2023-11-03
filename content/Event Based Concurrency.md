@@ -5,7 +5,7 @@ date modified: Jun 18th, 2023
 ---
 
 ## What
-CONCURRENT SERVERS WITHOUT THREADS
+CONCURRENT SERVERS WITHOUT [[Thread|THREADS]]
 
 ## How
 - `select()`
@@ -13,7 +13,7 @@ CONCURRENT SERVERS WITHOUT THREADS
 - `epoll()`
 
 ## Why
-- Pros: No [[locks]] needed.
+- Pros: No [[Lock]] needed.
 - Cons: 
 	- Blocking System Calls because only one thread is running. Unlike thread based [[concurrency]] which can have another thread running while doing [[IO]].
 

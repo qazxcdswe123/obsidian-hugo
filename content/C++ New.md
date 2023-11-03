@@ -3,9 +3,7 @@ aliases: []
 date created: Apr 7th, 2022
 date modified: Sep 7th, 2022
 ---
-[StackOverflow](https://stackoverflow.com/questions/620137/do-the-parentheses-after-the-type-name-make-a-difference-with-new)
-
-For
+- [StackOverflow](https://stackoverflow.com/questions/620137/do-the-parentheses-after-the-type-name-make-a-difference-with-new)
 
 ```cpp
 struct A { int m; }; // POD
@@ -13,7 +11,7 @@ struct B { ~B(); int m; }; // non-POD, compiler generated default ctor
 struct C { C() : m() {}; ~C(); int m; }; // non-POD, default-initialising m
 ```
 
-In a C++03 conformant compiler, things should work like so:
+In a [[C++]]03 conformant [[compiler]], things should work like so:
 - `new A` - indeterminate value
 - `new A()` - value-initialize A, which is zero-initialization since it's a POD.
 - `new B` - default-initializes (leaves B::m uninitialized)

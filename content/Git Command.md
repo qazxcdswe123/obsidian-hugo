@@ -1,7 +1,8 @@
 ---
+link: []
 aliases: []
 date created: Dec 3rd, 2022
-date modified: Apr 14th, 2023
+date modified: Jul 29th, 2023
 ---
 
 ## Git Argument
@@ -49,7 +50,6 @@ To get particular config value, use `--get`
 - `git config --global credential.helper store`
 
 - `git config --global init.defaultBranch main`
-
 
 ## `reset`
 - [version control - What's the difference between git reset --mixed, --soft, and --hard? - Stack Overflow](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard)

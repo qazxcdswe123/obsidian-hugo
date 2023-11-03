@@ -6,6 +6,7 @@ date modified: Apr 8th, 2023
 
 ## What
 A space-efficient [[Probability|probabilistic]] data structure to test whether an element is a member of a set.
+Only false positive, no false negative.
 
 ## Implementation
 Use $n$ bits array and $m$ hashing functions. Apply all $m$ functions to the input and $\mod n$, then we can set all $m$ results bits to 1.

@@ -4,7 +4,6 @@ date created: Jun 23rd, 2023
 date modified: Jun 23rd, 2023
 ---
 
-## Fast Retransmit
 用于更快地恢复丢失的数据包
 
 思想：当接收方连续收到三个重复的确认（ACK）时，就认为一个数据包已经丢失，然后发送方会立即重新发送这个数据包，而不是等待超时 Timer。

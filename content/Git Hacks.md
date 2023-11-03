@@ -1,7 +1,8 @@
 ---
+link: []
 aliases: []
 date created: Apr 8th, 2023
-date modified: Apr 19th, 2023
+date modified: JulA2pr 19th, 2023
 ---
 
 ## Clear Git History
@@ -22,6 +23,10 @@ date modified: Apr 19th, 2023
 - [git - How do I squash my last N commits together? - Stack Overflow](https://stackoverflow.com/questions/5189560/how-do-i-squash-my-last-n-commits-together)  
 commit message was set after operation.
 
+### Merge VS Rebase
+- Merge the incoming changes into the current branch: select this option to perform [merge](http://schacon.github.io/git/git-merge.html) during the update. This is equivalent to running `git fetch` and then `git merge`, or `git pull --no-rebase`.
+- Rebase the current branch on top of the incoming changes: select this option to perform [rebase](http://schacon.github.io/git/git-rebase.html) during the update. This is equivalent to running `git fetch` and then `git rebase`, or `git pull --rebase` (all local commits will be put on top of the updated upstream head).
+
 ## Pretty Print
 `git ls-tree --full-tree --name-only -r HEAD`  
 `git log --all --decorate --oneline --graph`
@@ -40,9 +45,11 @@ git clone \
 git sparse-checkout set --cone
 git sparse-checkout set path/to/dir
 ```
+
 - [Bring your monorepo down to size with sparse-checkout | The GitHub Blog](https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/)
 
 ## Global `.gitignore`
+
 ```
 git config --global core.excludesfile ~/.gitignore
 ```

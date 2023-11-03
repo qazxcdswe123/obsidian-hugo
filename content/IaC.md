@@ -13,6 +13,10 @@ date modified: Mar 29th, 2023
 This provider exposes two resources: [proxmox_vm_qemu](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/vm_qemu) and [proxmox_lxc](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/lxc).
 
 ## Ansible
+- [[SSH]]
+```
+host_key_checking = False
+```
 
 ## Terms
 - [**Provisioning**](https://www.redhat.com/en/topics/automation/what-is-provisioning) is the process of creating and deploying [IT infrastructure](https://www.redhat.com/en/topics/cloud-computing/what-is-it-infrastructure) for applications and services.

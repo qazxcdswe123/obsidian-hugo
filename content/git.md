@@ -6,6 +6,7 @@ date modified: Apr 8th, 2023
 - [[Git Command]]
 - [[Git Hacks]]
 - [[Git Tag]]
+- [[Git Branch]]
 
 ## Git Object
 At its core, Git is a “content-addressed filesystem”. That means that unlike regular filesystems, where the name of a file is arbitrary and unrelated to that file’s contents, **the names of files as stored by Git are mathematically derived from their contents**. 
@@ -18,3 +19,4 @@ This can significantly reduce network traffic during transfer, but it requires t
 ___
 
 - [[Lazygit]]
+- [[GitOps]]

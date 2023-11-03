@@ -1,7 +1,9 @@
 ---
-aliases: [Databse]
+link: []
+aliases:
+  - Databse
 date created: Feb 18th, 2023
-date modified: Jul 29th, 2023
+date modified: SepJu3rdl 29th, 2023
 ---
 
 ## DBMS
@@ -18,7 +20,7 @@ date modified: Jul 29th, 2023
 	- Translate page requests into physical bytes on one or more device(s)
 	- [[B+-Tree]]
 
-### Links
+## Links
 - [[External Sort]]
 - [[Hashing]]
 - [[SQL JOIN]]
@@ -30,4 +32,7 @@ date modified: Jul 29th, 2023
 - [[Database Scheduling]]
 - [[ER Model]]
 - [[Database Architecture]]
+- [[Postgresql]]
+- [[Window Function]]
+- [[Database Transation]]
 - [The Different Types of Databases - Overview with Examples](https://www.prisma.io/dataguide/intro/comparing-database-types)

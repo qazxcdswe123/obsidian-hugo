@@ -2,3 +2,5 @@
 - [[Web request]]
 - [[HTTP Persistent Connection]]
 - [[HTTP Headers]]
+- [[HTTP Version]]
+- [[TLS]]

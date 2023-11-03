@@ -30,9 +30,9 @@ cmake_minimum_required(VERSION 3.14.0 FATAL_ERROR)
 ## Target
 ```
 add_executable(myExecutable main.cpp) 
-add_library(libA sourceA.cpp ) 
-add_library(libB sourceB.cpp sourceB_impl.cpp ) 
-add_library(libC sourceC.cpp ) 
+add_library(libA sourceA.cpp) 
+add_library(libB sourceB.cpp sourceB_impl.cpp) 
+add_library(libC sourceC.cpp) 
 target_link_libraries(myExecutable libA) 
 target_link_libraries(libA libB) target_link_libraries(libB libC)
 ```
@@ -67,7 +67,6 @@ endif()
 ```
 
 1. Change the library name `target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})`.
-2. 
 
 ### Linking
 ```
@@ -85,19 +84,7 @@ find_library(TEST_LIBRARY test_library lib) target_link_libraries(cmake_testapp 
 
 ## Variable
 - [`PROJECT_BINARY_DIR`](https://cmake.org/cmake/help/latest/variable/PROJECT_BINARY_DIR.html) : Full path to build directory for project.
-- 
 
 ## Links
-[Quick CMake tutorial | CLion Documentation](https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html#profiles)  
-[CMake: Public VS Private VS Interface - Lei Mao's Log Book](https://leimao.github.io/blog/CMake-Public-Private-Interface/)
-
-# VCPKG
-[GitHub - microsoft/vcpkg: C++ Library Manager for Windows, Linux, and MacOS](https://github.com/microsoft/vcpkg)
-
-```
-find_package(GTest CONFIG REQUIRED)
-target_link_libraries(main PRIVATE GTest::gmock GTest::gtest GTest::gmock_main GTest::gtest_main)
-
-find_package(Catch2 CONFIG REQUIRED)
-target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
-```
+- [Quick CMake tutorial | CLion Documentation](https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html#profiles)  
+- [CMake: Public VS Private VS Interface - Lei Mao's Log Book](https://leimao.github.io/blog/CMake-Public-Private-Interface/)

@@ -6,10 +6,12 @@ date modified: Jul 28th, 2022
 - [[TypeScript]]
 - [[Vuejs]]  
 - [[NextJS]]
+- [[Svelte]]
 - [[ReactJS]]
 - [[NodeJS]]  
 - [[Browser Extension]]
 - [[ESLint]]
+- [[sourcemap]]
 
 - [[JavaScript Async Await]]
 - [[JavaScript Event]]
@@ -28,7 +30,7 @@ date modified: Jul 28th, 2022
 - [[JavaScript Cache]]
 
 # Function
-[[JavaScript Numbers]]  
-[[JavaScript Arrow Function]]  
-[[JavaScript Class]]
-[[JavaScript Callback]]
+- [[JavaScript Numbers]]  
+- [[JavaScript Arrow Function]]  
+- [[JavaScript Class]]
+- [[JavaScript Callback]]

@@ -1,13 +1,14 @@
 ---
+link: []
 aliases: []
 date created: Dec 24th, 2022
-date modified: Dec 24th, 2022
+date modified: AugD1sec 24t3h, 2022
 ---
 
 ## What
-> It was designed to move objects, whose lifetime expires, instead of copying them. The data is transferred from one object to another. In most cases, the data transfer does not move this data physically in memory. It helps to avoid expensive copying.
+> It was designed to move objects, whose lifetime **expires**, instead of copying them. The data is transferred from one object to another.
 
-When the argument is a temporary value stored in [[Memory|heap]], it will be automatically `delete` after it goes out of the scope. By using `std::move`, Instead of deeply copying the heap data, we have just copied the pointer and then set the original pointer to null (to prevent `delete[]` from source object's destructor from releasing our *just stolen data*).
+`rvalues` such as return value or calculated value (string +) can now be moved instead of copy.
 
 ## How
 To implement it, [rvalue references](https://pvs-studio.com/en/blog/terms/6517/), move constructors, and the move assignment operator were added. Also, some functions were added to the STL to support move semantics. For example, _[std::move](https://pvs-studio.com/en/blog/terms/6518/)_ and _[std::forward](https://pvs-studio.com/en/blog/terms/6515/)_.
@@ -25,7 +26,7 @@ void Swap(T &lhs, T &rhs) noexcept
 
 ## Why
 - Turning expensive copies into cheap moves.
-- Implementing safe "move-only" types; that is, types for which copying does not make sense, but moving does. Examples include locks, file handles, and smart pointers with unique ownership semantics.
+- Implementing safe "move-only" types; that is, types for which copying does not make sense, but moving does. Examples include [[Lock|locks]], file handles, and smart pointers with unique ownership semantics.
 
 ```c++
 std::vector<int> arrA(1'000'000, 0);

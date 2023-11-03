@@ -20,7 +20,7 @@ A file is a sequence of bytes, nothing more and nothing less. Every I/O device, 
 - [[Python File]]
 
 ### `fsync()`
-When a process calls `fsync()` for a particular file descriptor, the file system responds by forcing all dirty (i.e., not yet written) data to disk, for the file referred to by the specified file descriptor. The `fsync()` routine returns once all of these writes are complete.
+When a [[process]] calls `fsync()` for a particular file descriptor, the [[file system]] responds by forcing all dirty (i.e., not yet written) data to disk, for the file referred to by the specified file descriptor. The `fsync()` routine returns once all of these writes are complete.
 
 ## STDIOE
 - [[Shell]]  

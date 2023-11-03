@@ -12,6 +12,8 @@ ___
 - [[Variable Scope]]
 - [[C Typedef]]
 - [[C Macros]]
+- [[C++ move]]
+- [[C++ Class]]
 - [[C++ Smart Pointer]]
 - [[C++ Const]]
 - [[C++ Cast]]
@@ -20,7 +22,7 @@ ___
 - [[C++ Header File]]
 - [[C++ library]] 
 - [[C++ File]]
-- [[C++ New]]
+- [[C++ new]]
 - [[C++ Shallow copy Deep copy]]
 - [[C++ STL]]
 - [[C++ Time Measuring]]
@@ -28,6 +30,7 @@ ___
 - [[C++ Template]]
 - [[C++ Time]]
 - [[C++ Rules and Idiom]]
+- [[C++ string]]
 
 ___
 

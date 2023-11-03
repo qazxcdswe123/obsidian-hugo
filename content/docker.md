@@ -8,11 +8,16 @@ date modified: Nov 24th, 2022
 - [[Docker Command]]
 - [[DockerFile]]
 - [[Kubernetes]]
+- [[Docker Projects]]
 
 - Install Docker
 
 ```
-curl -fsSL https://get.docker.com | sh
+export DOWNLOAD_URL="https://mirrors.tuna.tsinghua.edu.cn/docker-ce"
+# 如您使用 curl
+curl -fsSL https://get.docker.com/ | sudo -E sh
+# 如您使用 wget
+wget -O- https://get.docker.com/ | sudo -E sh
 ```
 
 ## Trouble Shooting

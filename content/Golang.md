@@ -1,3 +1,4 @@
+- [[Go doc]]
 - [[Go String]]
 - [[Go Struct]]
 - [[Go Command]]
@@ -6,7 +7,7 @@
 - [[Go Testing]]
 - [[Go Module]]
 - [[Go Package]]
-- [[Go Async]]
+- [[Go sync]]
 - [[Go Function]]
 - [[Go Error Handling]]
 - [[Go Generic]]

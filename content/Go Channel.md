@@ -1,8 +1,12 @@
 ---
-aliases: [Goroutines, Goroutine]
+link:
+  - "[[Go sync]]"
+  - "[[Lock|Lock]]"
+aliases: []
 date created: Apr 9th, 2023
-date modified: May 25th, 2023
+date modified: Aug 12th, 2023
 ---
+A channel in Go provides a connection between two goroutines, allowing them to communicate.
 
 ```go
 ch := make(chan int)
@@ -29,21 +33,22 @@ func main() {
 }
 ```
 
-By default, sends and receives block until the other side is ready. This allows goroutines to synchronize without explicit [[locks]] or condition variables.
+By default (unbuffered), sends and receives **block** until the other side is ready. This allows goroutines to synchronize without explicit [[Lock]] or condition variables. ([[Go sync]])
 - **Note:** Only the sender should close a channel, never the receiver. Sending on a closed channel will cause a panic.
 - **Note:** Channels aren't like files; you don't usually need to close them. Closing is only necessary when the receiver must be told there are no more values coming, such as to terminate a `range` loop.
 
 ## Buffered vs Unbuffered
-- Unbuffered channels combine communication—the exchange of a value—with synchronization—guaranteeing that two calculations (goroutines) are in a known state.
-- Unbuffered channels block the sender until the receiver receives the data, and vice versa.
+- Unbuffered channels block the sender until the receiver receives the data, and vice versa. So you need another [[Goroutine]] to cooperate with.
 - Buffered channels, on the other hand, are non-blocking for the sender as long as there is still room in the buffer.
 
-Un-buffered channels are only writable when there's someone blocking to read from it, which means you shall have some [[Coroutine]] to work with -- instead of this single one.
-
 ## Select
-The `select` statement lets a goroutine wait on multiple communication operations.  
+The `select` statement lets a [[goroutine]] wait on multiple communication operations (handle multiple channels).
+
 A `select` blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready.  
+
 The `default` case in a `select` is run if no other case is ready.
+
+Set timeout by `time.After`
 
 ```go
 func fibonacci(c, quit chan int) {
@@ -87,18 +92,11 @@ default:
  - Mutex
 	- caches
 	- state
- 
-
-## Links
-- [sync package - sync - Go Packages](http://golang.org/pkg/sync/#WaitGroup)
-- [[Go Async]]
-- [[Go Thread Pool]]
-- [golang atomic maps](https://go.dev/doc/faq#atomic_maps)
-- [GitHub - orcaman/concurrent-map: a thread-safe concurrent map for go](https://github.com/orcaman/concurrent-map)
 
 ## Examples
 
 ### Merge Channel
+
 ```go
 package main
 
@@ -165,3 +163,9 @@ func main() {
 	fmt.Println("You're both boring. I'm leaving")
 }
 ```
+
+## Links
+- [[Go Thread Pool]]
+- [sync package - sync - Go Packages](http://golang.org/pkg/sync/#WaitGroup)
+- [golang atomic maps](https://go.dev/doc/faq#atomic_maps)
+- [GitHub - orcaman/concurrent-map: a thread-safe concurrent map for go](https://github.com/orcaman/concurrent-map)
